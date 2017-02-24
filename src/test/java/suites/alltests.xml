@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Support section" parallel="tests" thread-count="1">
+    <test name="HomePage checking" verbose="1" parallel="true">
+        <classes>
+            <class name="tests.HomePageTests"/>
+        </classes>
+    </test>
+
+    <test name="Support page checking" verbose="1" parallel="true">
+        <classes>
+            <class name="tests.SupportPageTests"/>
+        </classes>
+    </test>
+    <test name="RequestDemoPage page checking" verbose="1" parallel="true">
+        <classes>
+            <class name="tests.RequestDemoTests"/>
+        </classes>
+    </test>
+
+
+</suite>

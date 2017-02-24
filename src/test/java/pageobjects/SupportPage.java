@@ -52,4 +52,10 @@ public class SupportPage extends BaseObjectPage {
 
         return isElementDisplayed(getDriver().findElement(By.xpath("//header[@class='page-header']")));
     }
+
+    public boolean getBrowseKnowledgeBaselink(){
+
+        return isElementDisplayed(getDriver().findElement(By.xpath("//a[@title='Home']")));
+    }
+
 }

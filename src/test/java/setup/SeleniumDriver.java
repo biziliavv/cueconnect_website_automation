@@ -4,6 +4,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeMethod;
 
 import java.awt.*;
 import java.awt.Dimension;
@@ -16,6 +17,7 @@ import java.awt.Dimension;
 public class SeleniumDriver {
 
 	public static WebDriver driver;
+
 
 	public static WebDriver getDriver() {
 		if (driver == null) {

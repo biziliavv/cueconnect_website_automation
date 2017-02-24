@@ -55,6 +55,7 @@ public abstract class BaseObjectPage {
         }
     }
 
+
     // Custom wait method for waiting until element is visible
     public WebElement fluentWaitforElement(WebElement element, int timoutSec, int pollingSec) {
 

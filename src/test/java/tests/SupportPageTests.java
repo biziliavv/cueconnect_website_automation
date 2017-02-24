@@ -11,6 +11,27 @@ import setup.SeleniumBaseTest;
  */
 public class SupportPageTests extends SeleniumBaseTest {
 
+
+    @Test(groups = {"good"})
+    public void searchWithValidValue()throws InterruptedException{
+        HomePageObject homePage = new HomePageObject();
+
+        SupportPage supportPage = homePage.goToSupportPage();
+        supportPage.searchOnPage("test");
+
+        Assert.assertTrue(supportPage.getSearchHeader());
+
+    }
+    @Test(groups = {"bad"})
+    public void searchWithTooLongValue()throws InterruptedException{
+        HomePageObject homePage = new HomePageObject();
+
+        SupportPage supportPage = homePage.goToSupportPage();
+        supportPage.searchOnPage("ffnrjkernfkjekljrfnkejnferf");
+        Assert.assertTrue(supportPage.getSearchHeader());
+        Assert.assertTrue(supportPage.getBrowseKnowledgeBaselink());
+
+    }
     @Test
     public void submitRequestPageUploading() throws InterruptedException {
 
@@ -25,14 +46,5 @@ public class SupportPageTests extends SeleniumBaseTest {
         Assert.assertTrue(supportPage.getFilePresent());
 
     }
-    @Test
-    public void searchWithValidValue()throws InterruptedException{
-        HomePageObject homePage = new HomePageObject();
 
-        SupportPage supportPage = homePage.goToSupportPage();
-        supportPage.searchOnPage("test");
-
-        Assert.assertTrue(supportPage.getSearchHeader());
-
-    }
 }
