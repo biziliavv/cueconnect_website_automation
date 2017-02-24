@@ -46,7 +46,7 @@ public class HomePageObject extends BaseObjectPage {
 
     public void selectingReportingSuite(){
 
-       WebElement reportingSuite = getDriver().findElement(By.xpath("//span[text()='Reporting Suite']"));
+       WebElement reportingSuite = getDriver().findElement(By.xpath("//a/span[text()='Reporting Suite']"));
         fluentWaitforElement(reportingSuite, 10, 3);
 
         reportingSuite.click();
