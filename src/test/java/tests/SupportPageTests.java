@@ -24,7 +24,15 @@ public class SupportPageTests extends SeleniumBaseTest {
         supportPage.openUploadDialog(filePath);
         Assert.assertTrue(supportPage.getFilePresent());
 
+    }
+    @Test
+    public void searchWithValidValue()throws InterruptedException{
+        HomePageObject homePage = new HomePageObject();
 
+        SupportPage supportPage = homePage.goToSupportPage();
+        supportPage.searchOnPage("test");
+
+        Assert.assertTrue(supportPage.getSearchHeader());
 
     }
 }

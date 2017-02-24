@@ -31,17 +31,25 @@ public class SupportPage extends BaseObjectPage {
                 .sendKeys(
                         filePath);
         getDriver().manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        WebElement result = getDriver().findElement(By.xpath("//a[@class='upload-link']"));
-        fluentWaitforElement(result, 10, 5);
+
     }
 
+
+    public void searchOnPage(String searchValue){
+
+       WebElement searchInput =  getDriver().findElement(By.xpath("//input[@type='search']"));
+        searchInput.sendKeys(searchValue);
+        WebElement searchButton = getDriver().findElement(By.xpath("//button[@type='submit']"));
+        searchButton.click();
+    }
     public boolean getFilePresent(){
 
         return getDriver().findElement(By.xpath("//a[@class='upload-link']")).isDisplayed();
+
     }
 
-    public String getTitle(){
+    public boolean getSearchHeader(){
 
-        return getDriver().findElement(By.xpath("//h1[@class='page-title']")).getText();
+        return isElementDisplayed(getDriver().findElement(By.xpath("//header[@class='page-header']")));
     }
 }

@@ -106,27 +106,7 @@ public abstract class BaseObjectPage {
         builder.moveToElement(el).build().perform();
     }
 
-    public void attachFile() throws InterruptedException {
 
-        this.scrollDown();
-        Thread.sleep(3000);
-        WebElement el = getDriver().findElement(By.xpath("//input[@id='request-attachments']"));
-        fluentWaitforElement(el, 10, 3);
-        String filePath = System.getProperty("user.dir") + "/src/example.jpg";
-
-        el.sendKeys(filePath);
-
-
-    }
-    public void attachFileNew() throws InterruptedException {
-        Thread.sleep(3000);
-
-        WebElement El = getDriver().findElement(By.xpath("//input[@type='file'"));
-
-        El.sendKeys("/Users/vitaliybizilia/Desktop/example.jpg");
-
-
-    }
 
     public void scrollDown(){
 
