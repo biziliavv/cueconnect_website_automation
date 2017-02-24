@@ -2,60 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4edb149-1dbd-42b8-8c2c-4745795d3ab7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_firefox_driver_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_server_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cglib-nodep-3.2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/classworlds-1.1-alpha-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-codec-1.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-codec-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-exec-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-io-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-io-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-lang3-3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cssparser-0.9.20.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/gson-2.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/guava-19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/guice-4.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/htmlunit-2.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/htmlunit-core-js-2.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/htmlunit-driver-2.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpclient-4.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpcore-4.4.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpmime-4.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.inject-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jcip-annotations-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jcommander-1.48.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jetty-io-9.2.15.v20160210.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jetty-repacked-9.2.13.v20160825.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jetty-util-9.2.15.v20160210.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jna-4.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jna-platform-4.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/junit-3.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/junit-4.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/neko-htmlunit-2.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/netty-3.5.7.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plexus-compiler-api-1.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plexus-compiler-javac-1.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plexus-compiler-manager-1.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plexus-container-default-1.0-alpha-8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/plexus-utils-1.0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sac-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/serializer-2.7.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/snakeyaml-1.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/wagon-provider-api-1.0-alpha-5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/websocket-api-9.2.15.v20160210.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/websocket-client-9.2.15.v20160210.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/websocket-common-9.2.15.v20160210.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xalan-2.7.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xercesImpl-2.11.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xml-apis-1.4.01.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cueconnect_website_automation.iml" afterPath="$PROJECT_DIR$/cueconnect_website_automation.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" afterPath="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" />
     </list>
     <ignored path="cueconnect_website_automation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,6 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-312">
+              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PageLoadHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/setup/PageLoadHelper.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,7 +51,7 @@
       <file leaf-file-name="SeleniumBaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="165">
               <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="e#392#393#0" expanded="true" />
@@ -102,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeleniumDriver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SeleniumDriver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="126">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,20 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepagetests.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/suites/homepagetests.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePageTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomePageTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="255">
               <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -149,8 +98,8 @@
       <file leaf-file-name="SupportPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/SupportPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+            <state relative-caret-position="273">
+              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,21 +110,9 @@
       <file leaf-file-name="HomePageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="555">
               <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestDemoTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -183,8 +120,8 @@
       <file leaf-file-name="SupportPageTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="615">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,18 +153,19 @@
         <option value="$PROJECT_DIR$/src/test/java/setup/PageLoadHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/SupportPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/suites/supportpage.xml" />
         <option value="$PROJECT_DIR$/src/test/java/suites/requestdemopage.xml" />
         <option value="$PROJECT_DIR$/src/test/java/suites/homepagetests.xml" />
         <option value="$PROJECT_DIR$/src/test/java/suites/alltests" />
-        <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" />
+        <option value="$PROJECT_DIR$/phantomjsdriver.log" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/SupportPage.java" />
       </list>
     </option>
   </component>
@@ -268,8 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -401,6 +337,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pageobjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -418,7 +358,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,39 +380,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml">
-    <configuration default="false" name="SupportPageTests.searchWithEmptyValue" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="cueconnect_website_automation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SupportPageTests" />
-      <option name="METHOD_NAME" value="searchWithEmptyValue" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="false" name="SupportPageTests.searchWithTooLongValue" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -576,6 +485,39 @@
       <option name="METHOD_NAME" value="movingToMenu" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="HomePageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cueconnect_website_automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomePageTests" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -867,19 +809,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.SupportPageTests.searchWithEmptyValue" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.SupportPageTests.searchWithTooLongValue" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/homepagetests.xml" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.HomePageTests.movingToMenu" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.SupportPageTests.searchWithTooLongValue" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/homepagetests.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.HomePageTests.movingToMenu" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.HomePageTests" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.HomePageTests.movingToMenu" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/homepagetests.xml" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.SupportPageTests.searchWithTooLongValue" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.SupportPageTests.searchWithEmptyValue" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.HomePageTests" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.HomePageTests.movingToMenu" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/homepagetests.xml" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.SupportPageTests.searchWithTooLongValue" />
       </list>
     </recent_temporary>
   </component>
@@ -897,23 +839,11 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="HomePageTests - 2017.02.24 at 22h 01m 04s.xml">
+      <configuration name="HomePageTests" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="HomePageTests_movingToMenu - 2017.02.24 at 21h 54m 01s.xml">
       <configuration name="HomePageTests.movingToMenu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 18h 02m 07s.xml">
-      <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 18h 04m 48s.xml">
-      <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 18h 11m 20s.xml">
-      <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 18h 12m 42s.xml">
-      <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 18h 14m 18s.xml">
-      <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 18h 16m 09s.xml">
       <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
@@ -924,13 +854,25 @@
     <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 21h 49m 20s.xml">
       <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 21h 54m 51s.xml">
+      <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 22h 03m 19s.xml">
+      <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 22h 04m 57s.xml">
+      <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.02.24 at 22h 33m 17s.xml">
+      <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="_Users_vitaliybizilia_Documents_cueconnect_website_automation_src_test_java_suites_homepagetests_xml - 2017.02.24 at 18h 14m 48s.xml">
       <configuration name="/Users/vitaliybizilia/Documents/cueconnect_website_automation/src/test/java/suites/homepagetests.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="687" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -939,9 +881,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -980,16 +922,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1032,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,9 +1001,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,9 +1083,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,9 +1172,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1301,15 +1226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1341,18 +1257,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests" />
     <entry file="file://$PROJECT_DIR$/src/test/java/suites/homepagetests.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phantomjsdriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1365,54 +1331,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/SupportPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-312">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,18 +1349,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/SupportPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
-          <folding />
+        <state relative-caret-position="273">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="126">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
