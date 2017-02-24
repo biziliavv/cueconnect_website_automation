@@ -26,6 +26,20 @@ public class HomePageObject extends BaseObjectPage {
 
     }
 
+    @FindBy(xpath = "//span[text()='Request a Demo']")
+    WebElement requestDemo;
+
+
+    public RequestDemoPage goToRequestDemoPage() {
+        getDriver().findElement(By.xpath("//span[text()='Request a Demo']")).click();
+        return new RequestDemoPage();
+    }
+
+    public SupportPage goToSupportPage() throws InterruptedException {
+        getDriver().findElement(By.xpath("//span[text()='Support']")).click();
+        Thread.sleep(3000);
+        return new SupportPage();
+    }
 
 
 

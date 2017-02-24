@@ -2,6 +2,9 @@ package pageobjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+
+
+import org.openqa.selenium.remote.LocalFileDetector;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -88,12 +91,13 @@ public abstract class BaseObjectPage {
         try {
             WebDriverWait wait = new WebDriverWait(driver, 5, 200);
             wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("loader")));
-            wait.until(ExpectedConditions.elementToBeClickable(el)).click();}
-    catch(WebDriverException wde){
-                scrollToElement(el);
-                el.click();
-            }
+            wait.until(ExpectedConditions.elementToBeClickable(el)).click();
+        } catch (WebDriverException wde) {
+            scrollToElement(el);
+            el.click();
         }
+    }
+
     public void movingToMenuElement(WebElement el) {
 
         Actions builder = new Actions(getDriver());
@@ -101,5 +105,33 @@ public abstract class BaseObjectPage {
         fluentWaitforElement(el, 10, 3);
         builder.moveToElement(el).build().perform();
     }
+
+    public void attachFile() throws InterruptedException {
+
+        this.scrollDown();
+        Thread.sleep(3000);
+        WebElement el = getDriver().findElement(By.xpath("//input[@id='request-attachments']"));
+        fluentWaitforElement(el, 10, 3);
+        String filePath = System.getProperty("user.dir") + "/src/example.jpg";
+
+        el.sendKeys(filePath);
+
+
     }
+    public void attachFileNew() throws InterruptedException {
+        Thread.sleep(3000);
+
+        WebElement El = getDriver().findElement(By.xpath("//input[@type='file'"));
+
+        El.sendKeys("/Users/vitaliybizilia/Desktop/example.jpg");
+
+
+    }
+
+    public void scrollDown(){
+
+        JavascriptExecutor jse = (JavascriptExecutor)getDriver();
+        jse.executeScript("window.scrollBy(0,450)", "");
+    }
+}
 
