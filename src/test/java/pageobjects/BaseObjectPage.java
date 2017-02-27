@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
+import static setup.SeleniumDriver.driver;
 import static setup.SeleniumDriver.getDriver;
 
 /**
@@ -99,13 +100,6 @@ public abstract class BaseObjectPage {
         }
     }
 
-    public void movingToMenuElement(WebElement el) {
-
-        Actions builder = new Actions(getDriver());
-
-        fluentWaitforElement(el, 10, 3);
-        builder.moveToElement(el).build().perform();
-    }
 
 
 
@@ -113,6 +107,15 @@ public abstract class BaseObjectPage {
 
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
         jse.executeScript("window.scrollBy(0,450)", "");
+    }
+
+    public String getTitle(){
+
+        return getDriver().findElement(By.xpath("//h1[@class='page-title']")).getText();
+    }
+    public String getSectionTitle(){
+
+        return getDriver().findElement(By.xpath("//div/h3[@class='section-title']")).getText();
     }
 }
 

@@ -15,8 +15,5 @@ public class RequestDemoPage extends BaseObjectPage {
 
     }
 
-    public String getTitle(){
 
-        return getDriver().findElement(By.xpath("//h1[@class='page-title']")).getText();
-    }
 }

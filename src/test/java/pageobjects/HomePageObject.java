@@ -1,14 +1,14 @@
 package pageobjects;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.internal.Locatable;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import java.util.concurrent.TimeUnit;
 
 import static setup.SeleniumDriver.driver;
 import static setup.SeleniumDriver.getDriver;
@@ -26,9 +26,6 @@ public class HomePageObject extends BaseObjectPage {
 
     }
 
-    @FindBy(xpath = "//span[text()='Request a Demo']")
-    WebElement requestDemo;
-
 
     public RequestDemoPage goToRequestDemoPage() {
         getDriver().findElement(By.xpath("//span[text()='Request a Demo']")).click();
@@ -44,16 +41,105 @@ public class HomePageObject extends BaseObjectPage {
 
 
 
-    public void selectingReportingSuite(){
+    public void movingToMenuElement(String menuElement, String submenuElement) throws InterruptedException {
 
-       WebElement reportingSuite = getDriver().findElement(By.xpath("//a/span[text()='Reporting Suite']"));
-        fluentWaitforElement(reportingSuite, 10, 3);
+        Actions builder = new Actions(getDriver());
+        WebElement el = getDriver().findElement(By.xpath("//span[text()='"+menuElement+"']"));
 
-        reportingSuite.click();
+        fluentWaitforElement(el, 10, 3);
+        builder.moveToElement(el).build().perform();
+        WebElement submenuButton = getDriver().findElement(By.xpath("//span[text()='"+submenuElement+"']"));
+        fluentWaitforElement(submenuButton, 15, 4);
+
+        submenuButton.click();
+
+        Thread.sleep(7000);
+
     }
 
 
+    public void typingEmailAndclickOnRequestDemoButton(String emailValue) throws InterruptedException {
+
+        WebElement emailField = getDriver().findElement(By.id("merchant_email"));
+        emailField.sendKeys(emailValue);
+        WebElement requestDemoButton = getDriver().findElement(By.xpath("//input[@type='submit']"));
+        requestDemoButton.click();
+        Thread.sleep(2000);
+    }
 
 
+    public void sendMeUpdatesVerifying(String emailValue) throws InterruptedException {
 
+        WebElement emailForSendUpdateField = getDriver().findElement(By.xpath("//input[@name='email']"));
+        waitAndClick(emailForSendUpdateField);
+        fluentWaitforElement(emailForSendUpdateField, 10, 3);
+        emailForSendUpdateField.sendKeys(emailValue);
+        WebElement sendButton = getDriver().findElement(By.xpath("//input[@value='Send me Updates']"));
+        fluentWaitforElement(sendButton, 10, 3);
+        sendButton.click();
+        Thread.sleep(5000);
+    }
+
+    public String getValidEmailMessage() {
+
+        return getDriver().findElement(By.xpath("//div[@class='submitted-message']")).getText();
+    }
+
+    public String getEmptyEmailMessage() {
+
+        return getDriver().findElement(By.xpath("//label[@class='visible']")).getText();
+    }
+
+    public void clickOnBottomMenuElement(String el, String title) throws InterruptedException {
+
+        WebElement bottomElement = getDriver().findElement(By.xpath("//a[@class='cue-main-footer-link white'][text()='"+el+"']"));
+        bottomElement.click();
+        Assert.assertEquals(this.getTitle(), title);
+        Thread.sleep(2000);
+        getDriver().navigate().back();
+        Thread.sleep(2000);
+
+    }
+
+    public void getStartedFree() throws InterruptedException {
+
+        WebElement getStartedFree = getDriver().findElement(By.xpath("//a[text()='Get Started Free']"));
+        getStartedFree.click();
+        Thread.sleep(3000);
+    }
+
+    public String storeInformationPageTitle(){
+        return getDriver().findElement(By.xpath("//div[@class='cue-ro-title']")).getText();
+    }
+
+    public void singleClickOnTopMenuItem(String buttonName) throws InterruptedException {
+
+        WebElement topMenuButton = getDriver().findElement(By.xpath("//span[@class='item-title'][text()='"+buttonName+"']"));
+        topMenuButton.click();
+        Thread.sleep(3000);
+
+    }
+
+    public void singleClickOnLoginButton() throws InterruptedException {
+        Thread.sleep(3000);
+        String link = "#cue-merchant-login";
+        WebElement loginButton = getDriver().findElement(By.xpath("//a[@href='"+link+"']/span[@class='item-title']"));
+        loginButton.click();
+        Thread.sleep(5000);
+
+        getDriver().switchTo().frame("cue-app");
+
+    }
+
+    public String getLoginTitle() {
+        return getDriver().findElement(By.xpath("//a[@class='blue-link']")).getText();
+    }
 }
+
+
+
+
+
+
+
+
