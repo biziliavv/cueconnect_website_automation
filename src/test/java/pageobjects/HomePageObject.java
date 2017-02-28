@@ -18,13 +18,13 @@ import static setup.SeleniumDriver.getDriver;
  */
 public class HomePageObject extends BaseObjectPage {
 
-    private static final String url = "https://cueconnect.com/";
+    private static final String url = "https://cueconnect:d5ertf5@cueconnect.net/";
 
-    public HomePageObject() {
+    public HomePageObject(){
         super(getDriver());
         getDriver().get(url);
 
-    }
+        }
 
 
     public RequestDemoPage goToRequestDemoPage() {
@@ -134,6 +134,11 @@ public class HomePageObject extends BaseObjectPage {
 
     public String getLoginTitle() {
         return getDriver().findElement(By.xpath("//a[@class='blue-link']")).getText();
+    }
+
+    public String getSupportPageTitle() {
+
+        return getDriver().findElement(By.xpath("//h1[@class='search-title']")).getText();
     }
 }
 
