@@ -49,7 +49,7 @@ public class HomePageObject extends BaseObjectPage {
         fluentWaitforElement(el, 10, 3);
         builder.moveToElement(el).build().perform();
         WebElement submenuButton = getDriver().findElement(By.xpath("//span[text()='"+submenuElement+"']"));
-        fluentWaitforElement(submenuButton, 15, 4);
+        Thread.sleep(5000);
 
         submenuButton.click();
 
@@ -72,10 +72,11 @@ public class HomePageObject extends BaseObjectPage {
 
         WebElement emailForSendUpdateField = getDriver().findElement(By.xpath("//input[@name='email']"));
         waitAndClick(emailForSendUpdateField);
-        fluentWaitforElement(emailForSendUpdateField, 10, 3);
+        Thread.sleep(5000);
         emailForSendUpdateField.sendKeys(emailValue);
-        WebElement sendButton = getDriver().findElement(By.xpath("//input[@value='Send me Updates']"));
-        fluentWaitforElement(sendButton, 10, 3);
+
+        scrollDown();
+        WebElement sendButton = getDriver().findElement(By.xpath("//input[@value='Send me Updates'][@type='submit']"));
         sendButton.click();
         Thread.sleep(5000);
     }
