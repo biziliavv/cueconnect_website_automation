@@ -18,7 +18,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/java/suites/homepagetests.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/java/suites/alltests.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

@@ -37,7 +37,10 @@ public class HomePageObject extends BaseObjectPage {
         Thread.sleep(3000);
         return new SupportPage();
     }
-
+    public FeaturesPage goToFeaturesPage() {
+        getDriver().findElement(By.xpath("//span[text()='Features']")).click();
+        return new FeaturesPage();
+    }
 
 
 

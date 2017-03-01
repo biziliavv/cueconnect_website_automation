@@ -1,14 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Support section">
+<suite name="All tests">
     <test name="HomePage checking">
         <classes>
             <class name="tests.HomePageTests"/>
         </classes>
     </test>
 
-    <test name="Support page checking">
+    <test name="Features page checking">
         <classes>
-            <class name="tests.SupportPageTests"/>
+            <class name="tests.FeaturesPageTests"/>
         </classes>
     </test>
     <test name="RequestDemoPage page checking">

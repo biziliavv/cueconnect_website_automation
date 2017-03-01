@@ -16,7 +16,7 @@ import static setup.SeleniumDriver.getDriver;
  * Created by vitaliybizilia on 2/23/17.
  */
 public class SeleniumBaseTest {
-    @AfterTest
+    @AfterSuite
     public static void tearDown() {
         getDriver().close();
     }

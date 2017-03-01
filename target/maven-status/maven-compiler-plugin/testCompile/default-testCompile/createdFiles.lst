@@ -4,7 +4,9 @@ pageobjects/BaseObjectPage.class
 tests/SupportPageTests.class
 setup/PageLoadHelper.class
 tests/RequestDemoTests.class
+pageobjects/FeaturesPage.class
 setup/SeleniumBaseTest.class
+tests/FeaturesPageTests.class
 pageobjects/RequestDemoPage.class
 setup/SeleniumDriver.class
 pageobjects/HomePageObject.class

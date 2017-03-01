@@ -87,18 +87,32 @@ public abstract class BaseObjectPage {
         }
     }
 
-// Custom wait for element after scrolling
+// Custom wait for clicking element after scrolling
 
     public void waitAndClick(WebElement el) {
         try {
             WebDriverWait wait = new WebDriverWait(driver, 5, 200);
             wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("loader")));
             wait.until(ExpectedConditions.elementToBeClickable(el)).click();
+
         } catch (WebDriverException wde) {
             scrollToElement(el);
             el.click();
         }
     }
+
+ //Custom wait to scrolling to needed element
+ public void waitForElementAfterScroll(WebElement el, String text) {
+     try {
+         WebDriverWait wait = new WebDriverWait(driver, 5, 200);
+         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("loader")));
+         wait.until(ExpectedConditions.elementToBeSelected(el));
+
+     } catch (WebDriverException wde) {
+         scrollToElement(el);
+
+     }
+ }
 
 
 

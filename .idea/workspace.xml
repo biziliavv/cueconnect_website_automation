@@ -2,12 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4edb149-1dbd-42b8-8c2c-4745795d3ab7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/FeaturesPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Support page tests/Negative testing .html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Support page tests/Negative testing .xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Support page tests/Positive testing .html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Support page tests/Positive testing .xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Support page tests/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/Negative testing .properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/Positive testing .properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Support page tests/toc.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/BaseObjectPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/BaseObjectPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePageObject.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePageObject.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="$PROJECT_DIR$/phantomjsdriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/suites/alltests.xml" afterPath="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.HomePageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.HomePageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
     </list>
     <ignored path="cueconnect_website_automation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -42,7 +74,7 @@
       <file leaf-file-name="HomePageTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="92">
               <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,21 +95,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestDemoTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
+      <file leaf-file-name="FeaturesPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/FeaturesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-208">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="167">
+              <caret line="27" column="134" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="134" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeaturesPageTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="887">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alltests.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepagetests.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/suites/homepagetests.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="255">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -86,29 +142,11 @@
       <file leaf-file-name="RequestDemoPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alltests.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="12" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SupportPageTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="16" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,9 +154,21 @@
       <file leaf-file-name="BaseObjectPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="1320">
+              <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#738#739#0" expanded="false" />
+                <element signature="e#788#789#0" expanded="false" />
+                <element signature="e#842#843#0" expanded="false" />
+                <element signature="e#891#892#0" expanded="false" />
+                <element signature="e#946#947#0" expanded="false" />
+                <element signature="e#982#983#0" expanded="false" />
+                <element signature="e#1019#1020#0" expanded="false" />
+                <element signature="e#1056#1057#0" expanded="false" />
+                <element signature="e#1101#1102#0" expanded="false" />
+                <element signature="e#1132#1133#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +176,8 @@
       <file leaf-file-name="HomePageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="65" />
+            <state relative-caret-position="15">
+              <caret line="40" column="79" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -158,22 +208,24 @@
         <option value="$PROJECT_DIR$/src/test/java/suites/requestdemopage.xml" />
         <option value="$PROJECT_DIR$/src/test/java/suites/alltests" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
         <option value="$PROJECT_DIR$/phantomjsdriver.log" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/SupportPage.java" />
         <option value="$PROJECT_DIR$/lib/selenium-support-3.0.1.jar!/org/openqa/selenium/support/ui/FluentWait.class" />
         <option value="$PROJECT_DIR$/lib/selenium-support-3.0.1.jar!/org/openqa/selenium/support/ui/Duration.class" />
         <option value="$PROJECT_DIR$/lib/selenium-support-3.0.1.jar!/org/openqa/selenium/support/ui/WebDriverWait.class" />
         <option value="$PROJECT_DIR$/lib/selenium-support-3.0.1.jar!/org/openqa/selenium/support/ui/SystemClock.class" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/suites/homepagetests.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/FeaturesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" />
       </list>
     </option>
   </component>
@@ -214,7 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -353,7 +405,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -374,8 +426,8 @@
       <recent name="$PROJECT_DIR$/src/test/java/setup" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RequestDemoTests">
-    <configuration default="false" name="RequestDemoTests.requestDemoOpening" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml">
+    <configuration default="false" name="FeaturesPageTests.scrollingToEachSection" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -387,8 +439,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RequestDemoTests" />
-      <option name="METHOD_NAME" value="requestDemoOpening" />
+      <option name="MAIN_CLASS_NAME" value="tests.FeaturesPageTests" />
+      <option name="METHOD_NAME" value="scrollingToEachSection" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -408,7 +460,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="RequestDemoTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FeaturesPageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -420,7 +472,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RequestDemoTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FeaturesPageTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -441,7 +493,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="RequestDemoTests.phoneNumberFieldValidations" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FeaturesPageTests.openingSecondRequestDemoButton" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -453,8 +505,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RequestDemoTests" />
-      <option name="METHOD_NAME" value="phoneNumberFieldValidations" />
+      <option name="MAIN_CLASS_NAME" value="tests.FeaturesPageTests" />
+      <option name="METHOD_NAME" value="openingSecondRequestDemoButton" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -474,7 +526,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="HomePageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FeaturesPageTests.openingThirdRequestDemoButton" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -486,43 +538,38 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomePageTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FeaturesPageTests" />
+      <option name="METHOD_NAME" value="openingThirdRequestDemoButton" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="cueconnect_website_automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="RequestDemoTests.emailFieldValidations" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="cueconnect_website_automation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RequestDemoTests" />
-      <option name="METHOD_NAME" value="emailFieldValidations" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -814,19 +861,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.RequestDemoTests.requestDemoOpening" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.RequestDemoTests" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.RequestDemoTests.phoneNumberFieldValidations" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.HomePageTests" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.RequestDemoTests.emailFieldValidations" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.FeaturesPageTests.scrollingToEachSection" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.FeaturesPageTests" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.FeaturesPageTests.openingSecondRequestDemoButton" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.FeaturesPageTests.openingThirdRequestDemoButton" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.RequestDemoTests" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.RequestDemoTests.emailFieldValidations" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.HomePageTests" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.RequestDemoTests.phoneNumberFieldValidations" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.RequestDemoTests.requestDemoOpening" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.FeaturesPageTests" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.FeaturesPageTests.openingThirdRequestDemoButton" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.FeaturesPageTests.openingSecondRequestDemoButton" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.FeaturesPageTests.scrollingToEachSection" />
       </list>
     </recent_temporary>
   </component>
@@ -844,35 +891,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageTests - 2017.02.28 at 19h 38m 09s.xml">
-      <configuration name="HomePageTests" configurationId="TestNG" />
+    <history-entry file="FeaturesPageTests - 2017.03.01 at 11h 29m 10s.xml">
+      <configuration name="FeaturesPageTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RequestDemoTests - 2017.02.28 at 19h 05m 21s.xml">
-      <configuration name="RequestDemoTests" configurationId="TestNG" />
+    <history-entry file="FeaturesPageTests - 2017.03.01 at 13h 02m 49s.xml">
+      <configuration name="FeaturesPageTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RequestDemoTests - 2017.02.28 at 19h 16m 01s.xml">
-      <configuration name="RequestDemoTests" configurationId="TestNG" />
+    <history-entry file="FeaturesPageTests_openingSecondRequestDemoButton - 2017.03.01 at 12h 32m 40s.xml">
+      <configuration name="FeaturesPageTests.openingSecondRequestDemoButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RequestDemoTests - 2017.02.28 at 19h 58m 43s.xml">
-      <configuration name="RequestDemoTests" configurationId="TestNG" />
+    <history-entry file="FeaturesPageTests_openingSecondRequestDemoButton - 2017.03.01 at 12h 33m 49s.xml">
+      <configuration name="FeaturesPageTests.openingSecondRequestDemoButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RequestDemoTests - 2017.02.28 at 20h 11m 15s.xml">
-      <configuration name="RequestDemoTests" configurationId="TestNG" />
+    <history-entry file="FeaturesPageTests_openingSecondRequestDemoButton - 2017.03.01 at 12h 37m 00s.xml">
+      <configuration name="FeaturesPageTests.openingSecondRequestDemoButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RequestDemoTests_emailFieldValidations - 2017.02.28 at 20h 07m 58s.xml">
-      <configuration name="RequestDemoTests.emailFieldValidations" configurationId="TestNG" />
+    <history-entry file="FeaturesPageTests_openingThirdRequestDemoButton - 2017.03.01 at 12h 39m 07s.xml">
+      <configuration name="FeaturesPageTests.openingThirdRequestDemoButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RequestDemoTests_phoneNumberFieldValidations - 2017.02.28 at 19h 12m 56s.xml">
-      <configuration name="RequestDemoTests.phoneNumberFieldValidations" configurationId="TestNG" />
+    <history-entry file="FeaturesPageTests_openingThirdRequestDemoButton - 2017.03.01 at 12h 40m 03s.xml">
+      <configuration name="FeaturesPageTests.openingThirdRequestDemoButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RequestDemoTests_phoneNumberFieldValidations - 2017.02.28 at 19h 13m 58s.xml">
-      <configuration name="RequestDemoTests.phoneNumberFieldValidations" configurationId="TestNG" />
+    <history-entry file="FeaturesPageTests_scrollingToEachSection - 2017.03.01 at 11h 26m 17s.xml">
+      <configuration name="FeaturesPageTests.scrollingToEachSection" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RequestDemoTests_requestDemoOpening - 2017.02.28 at 18h 51m 53s.xml">
-      <configuration name="RequestDemoTests.requestDemoOpening" configurationId="TestNG" />
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.03.01 at 13h 05m 49s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RequestDemoTests_requestDemoOpening - 2017.02.28 at 18h 53m 09s.xml">
-      <configuration name="RequestDemoTests.requestDemoOpening" configurationId="TestNG" />
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.03.01 at 13h 11m 39s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -927,29 +974,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="102" column="5" selection-start-line="102" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,7 +1006,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,22 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="12" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/suites/homepagetests.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1231,11 +1248,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="615">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#788#789#0" expanded="false" />
+            <element signature="e#842#843#0" expanded="false" />
+            <element signature="e#891#892#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1019#1020#0" expanded="false" />
+            <element signature="e#1056#1057#0" expanded="false" />
+            <element signature="e#1101#1102#0" expanded="false" />
+            <element signature="e#1132#1133#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="40" column="79" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1249,53 +1342,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/FeaturesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+        <state relative-caret-position="167">
+          <caret line="27" column="134" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="134" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="887">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
