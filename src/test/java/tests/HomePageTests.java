@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.sikuli.script.FindFailed;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.HomePageObject;
@@ -22,7 +23,7 @@ import static setup.SeleniumDriver.getDriver;
 public class HomePageTests extends SeleniumBaseTest {
 
     @Test(groups = "positive")
-    public void movingToFeaturesFirstHalfMenu() throws InterruptedException {
+    public void movingToFeaturesFirstHalfMenu() throws InterruptedException, FindFailed {
 
         HomePageObject homePage = new HomePageObject();
 
@@ -32,7 +33,7 @@ public class HomePageTests extends SeleniumBaseTest {
         Assert.assertEquals("https://cueconnect.net/features/#share-tools", getDriver().getCurrentUrl());
     }
     @Test(groups = "positive")
-    public void movingToFeaturesSecondHalfMenu() throws InterruptedException {
+    public void movingToFeaturesSecondHalfMenu() throws InterruptedException, FindFailed {
 
         HomePageObject homePage = new HomePageObject();
         homePage.movingToMenuElement("Features", "My List");
@@ -43,7 +44,7 @@ public class HomePageTests extends SeleniumBaseTest {
 
     }
     @Test(groups = "positive")
-    public void movingToAboutMenu() throws InterruptedException {
+    public void movingToAboutMenu() throws InterruptedException, FindFailed {
 
         HomePageObject homePage = new HomePageObject();
 
@@ -62,7 +63,7 @@ public class HomePageTests extends SeleniumBaseTest {
 
     }
     @Test(groups = "positive")
-    public void movingToBlogMenu() throws InterruptedException {
+    public void movingToBlogMenu() throws InterruptedException, FindFailed {
 
         HomePageObject homePage = new HomePageObject();
 
@@ -76,13 +77,13 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "positive")
-    public void singleClickOnLoginTopMenuItems() throws InterruptedException {
+    public void singleClickOnLoginTopMenuItems() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         homePage.singleClickOnLoginButton();
         Assert.assertEquals("Get Started for Free »", homePage.getLoginTitle());
     }
     @Test(groups = "positive")
-    public void singleClickOnTopMenuItems() throws InterruptedException {
+    public void singleClickOnTopMenuItems() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         homePage.singleClickOnTopMenuItem("Features");
         Assert.assertEquals("Build Customer Relationships That Last Forever", homePage.getTitle());
@@ -107,7 +108,7 @@ public class HomePageTests extends SeleniumBaseTest {
 
 
     @Test
-    public void scrollingToTransformTraffic() {
+    public void scrollingToTransformTraffic() throws FindFailed {
         String link = "/benefits/#transform-traffic";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
@@ -117,7 +118,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void scrollingToRetargetShoppers() {
+    public void scrollingToRetargetShoppers() throws FindFailed {
         String link = "/benefits/#retarget-shoppers";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
@@ -127,7 +128,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void scrollingToDriveEcommerce() {
+    public void scrollingToDriveEcommerce() throws FindFailed {
         String link = "/benefits/#drive-ecommerce";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
@@ -137,7 +138,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "positive")
-    public void scrollingToCueConnectBlog() {
+    public void scrollingToCueConnectBlog() throws FindFailed {
         String link = "/blog";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "'][text()='Learn More']"));
@@ -148,7 +149,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "positive")
-    public void scrollingToResources() {
+    public void scrollingToResources() throws FindFailed {
         String link = "https://cueconnect.net/resources/";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "'][text()='Learn More ']"));
@@ -160,7 +161,7 @@ public class HomePageTests extends SeleniumBaseTest {
 
 
     @Test(groups = "positive")
-    public void typingValidEmailAndClickRequestDemo() throws InterruptedException {
+    public void typingValidEmailAndClickRequestDemo() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         homePage.typingEmailAndclickOnRequestDemoButton("test@test.com");
         Assert.assertEquals("Learn How Cue Can Help You Grow Your Business", homePage.getTitle());
@@ -169,7 +170,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "negative")
-    public void emptyEmailAndClickRequestDemo() throws InterruptedException {
+    public void emptyEmailAndClickRequestDemo() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         homePage.typingEmailAndclickOnRequestDemoButton("");
         Assert.assertEquals("Learn How Cue Can Help You Grow Your Business", homePage.getTitle());
@@ -178,14 +179,14 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "negative")
-    public void notEmailFormatAndClickRequestDemo() throws InterruptedException {
+    public void notEmailFormatAndClickRequestDemo() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         homePage.typingEmailAndclickOnRequestDemoButton("test");
         Assert.assertEquals("https://cueconnect:d5ertf5@cueconnect.net/", getDriver().getCurrentUrl());
     }
 
     @Test(groups = "positive")
-    public void sendingUpdatesToValidEmail() throws InterruptedException {
+    public void sendingUpdatesToValidEmail() throws InterruptedException, FindFailed {
 
         HomePageObject homePage = new HomePageObject();
         homePage.sendMeUpdatesVerifying("test@test.com");
@@ -195,7 +196,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "negative")
-    public void sendingUpdatesEmptyEmail() throws InterruptedException {
+    public void sendingUpdatesEmptyEmail() throws InterruptedException, FindFailed {
 
         HomePageObject homePage = new HomePageObject();
         homePage.sendMeUpdatesVerifying("");
@@ -204,7 +205,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "negative")
-    public void sendingUpdatesIncorrectEmail() throws InterruptedException {
+    public void sendingUpdatesIncorrectEmail() throws InterruptedException, FindFailed {
 
         HomePageObject homePage = new HomePageObject();
         homePage.sendMeUpdatesVerifying("test");
@@ -212,7 +213,7 @@ public class HomePageTests extends SeleniumBaseTest {
 
     }
     @Test(groups = "negative")
-    public void sendingUpdatesIncorrectEmailWithAt() throws InterruptedException {
+    public void sendingUpdatesIncorrectEmailWithAt() throws InterruptedException, FindFailed {
 
         HomePageObject homePage = new HomePageObject();
         homePage.sendMeUpdatesVerifying("test@test");
@@ -221,7 +222,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "positive")
-    public void bottomMenuVerifying() throws InterruptedException {
+    public void bottomMenuVerifying() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         homePage.clickOnBottomMenuElement("Features", "Build Customer Relationships That Last Forever");
         homePage.clickOnBottomMenuElement("Resources", "Marketing Guides");
@@ -233,7 +234,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "positive")
-    public void getStartedFreeChecking() throws InterruptedException {
+    public void getStartedFreeChecking() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         homePage.getStartedFree();
         Assert.assertEquals("Store Information", homePage.storeInformationPageTitle());

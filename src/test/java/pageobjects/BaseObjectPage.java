@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import static setup.SeleniumDriver.driver;
@@ -54,6 +55,10 @@ public abstract class BaseObjectPage {
         } catch (NoSuchElementException e) {
             return false;
         }
+    }
+    public static void wait(int milliSeconds) throws InterruptedException
+    {
+        Thread.sleep(milliSeconds);
     }
 
 
@@ -102,7 +107,7 @@ public abstract class BaseObjectPage {
     }
 
  //Custom wait to scrolling to needed element
- public void waitForElementAfterScroll(WebElement el, String text) {
+ public void waitForElementAfterScroll(WebElement el) {
      try {
          WebDriverWait wait = new WebDriverWait(driver, 5, 200);
          wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("loader")));
@@ -113,6 +118,21 @@ public abstract class BaseObjectPage {
 
      }
  }
+    public void movingToMenuElement(String menuElement, String submenuElement) throws InterruptedException {
+
+        Actions builder = new Actions(getDriver());
+        WebElement el = getDriver().findElement(By.xpath("//span[text()='"+menuElement+"']"));
+
+        fluentWaitforElement(el, 10, 3);
+        builder.moveToElement(el).build().perform();
+        WebElement submenuButton = getDriver().findElement(By.xpath("//span[text()='"+submenuElement+"']"));
+        Thread.sleep(5000);
+
+        submenuButton.click();
+
+        Thread.sleep(7000);
+
+    }
 
 
 
@@ -130,6 +150,22 @@ public abstract class BaseObjectPage {
     public String getSectionTitle(){
 
         return getDriver().findElement(By.xpath("//div/h3[@class='section-title']")).getText();
+    }
+    public void clickOnFirstRequestDemo(){
+
+        WebElement requestDemoButton = getDriver().findElement(By.xpath("//a[text()='Request a demo']"));
+        requestDemoButton.click();
+
+    }
+    public Boolean getPageImage(String width, String height) {
+
+        return getDriver().findElement(By.xpath("//img[@width="+width+"][@height="+height+"]")).isDisplayed();
+    }
+
+    public void switchingBetweenTabs(){
+        ArrayList tabs = new ArrayList (getDriver().getWindowHandles());
+        System.out.println(tabs.size());
+        getDriver().switchTo().window((String) tabs.get(0));
     }
 }
 

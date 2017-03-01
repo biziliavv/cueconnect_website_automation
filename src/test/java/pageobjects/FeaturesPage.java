@@ -20,22 +20,14 @@ public class FeaturesPage extends BaseObjectPage {
 
     }
 
-    public void clickOnFirstRequestDemo(){
 
-        WebElement requestDemoButton = getDriver().findElement(By.xpath("//a[text()='Request a demo']"));
-        requestDemoButton.click();
-
-    }
     public void clickOnSecondRequestDemo() throws InterruptedException {
         Thread.sleep(3000);
         WebElement requestDemoButton = getDriver().findElement(By.xpath("//div[@data-vc-full-width='true']//a[text()='Request a demo']"));
         requestDemoButton.click();
     }
 
-    public Boolean getPageImage(String width, String height) {
 
-        return getDriver().findElement(By.xpath("//img[@width="+width+"][@height="+height+"]")).isDisplayed();
-    }
 
     public void sikuliClick() throws FindFailed, InterruptedException {
         Screen screen = new Screen();

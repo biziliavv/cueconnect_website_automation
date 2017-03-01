@@ -1,6 +1,7 @@
 package tests;
 
 
+import org.sikuli.script.FindFailed;
 import org.testng.annotations.Test;
 import pageobjects.HomePageObject;
 import pageobjects.RequestDemoPage;
@@ -13,7 +14,7 @@ import org.testng.Assert;
 public class RequestDemoTests extends SeleniumBaseTest {
 
     @Test(groups = "negative")
-    public void requestDemoEmptyRequiredFieldsOpening() throws InterruptedException {
+    public void requestDemoEmptyRequiredFieldsOpening() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         requestDemoPage.scrollDown();
@@ -24,7 +25,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "negative")
-    public void emailFieldValidations() throws InterruptedException {
+    public void emailFieldValidations() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking of simple word without @
@@ -35,7 +36,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "negative")
-    public void phoneNumberFieldValidations() throws InterruptedException {
+    public void phoneNumberFieldValidations() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking phone number with alphabetical values
@@ -46,7 +47,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
 
     }
     @Test(groups = "positive")
-    public void sendingFormWithValidData() throws InterruptedException {
+    public void sendingFormWithValidData() throws InterruptedException, FindFailed {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         requestDemoPage.requiredFieldFillingIn("request-name", "test");

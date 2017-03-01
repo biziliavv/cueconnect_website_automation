@@ -6,6 +6,9 @@ import org.openqa.selenium.internal.Locatable;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
 import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
@@ -22,45 +25,43 @@ public class HomePageObject extends BaseObjectPage {
 
     private static final String qa_env = "https://cueconnect:d5ertf5@cueconnect.net/";
 
-    public HomePageObject(){
+    public HomePageObject() {
         super(getDriver());
         getDriver().get(qa_env);
+    }
 
-        }
 
-
-    public RequestDemoPage goToRequestDemoPage() {
+    public RequestDemoPage goToRequestDemoPage() throws InterruptedException {
+        Thread.sleep(3000);
         getDriver().findElement(By.xpath("//span[text()='Request a Demo']")).click();
         return new RequestDemoPage();
     }
 
     public SupportPage goToSupportPage() throws InterruptedException {
+
         getDriver().findElement(By.xpath("//span[text()='Support']")).click();
-        Thread.sleep(3000);
+        getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         return new SupportPage();
     }
-    public FeaturesPage goToFeaturesPage() {
-        getDriver().findElement(By.xpath("//span[text()='Features']")).click();
+    public FeaturesPage goToFeaturesPage() throws InterruptedException {
+
+
+        WebElement featuresButton = getDriver().findElement(By.xpath("//span[text()='Features']"));
+        featuresButton.click();
         return new FeaturesPage();
     }
 
+    public AboutPage goToAboutPage() throws InterruptedException {
 
 
-    public void movingToMenuElement(String menuElement, String submenuElement) throws InterruptedException {
-
-        Actions builder = new Actions(getDriver());
-        WebElement el = getDriver().findElement(By.xpath("//span[text()='"+menuElement+"']"));
-
-        fluentWaitforElement(el, 10, 3);
-        builder.moveToElement(el).build().perform();
-        WebElement submenuButton = getDriver().findElement(By.xpath("//span[text()='"+submenuElement+"']"));
-        Thread.sleep(5000);
-
-        submenuButton.click();
-
-        Thread.sleep(7000);
-
+        WebElement aboutButton = getDriver().findElement(By.xpath("//span[text()='About']"));
+        aboutButton.click();
+        return new AboutPage();
     }
+
+
+
+
 
 
     public void typingEmailAndclickOnRequestDemoButton(String emailValue) throws InterruptedException {
@@ -145,6 +146,7 @@ public class HomePageObject extends BaseObjectPage {
 
         return getDriver().findElement(By.xpath("//h1[@class='search-title']")).getText();
     }
+
 }
 
 
