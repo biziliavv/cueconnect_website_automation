@@ -107,7 +107,7 @@ public class HomePageTests extends SeleniumBaseTest {
 
 
     @Test
-    public void scrollingToFirstLinkOfDiscoverMoreShoppersSection() {
+    public void scrollingToTransformTraffic() {
         String link = "/benefits/#transform-traffic";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
@@ -117,7 +117,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void scrollingToSecondLinkOfDiscoverMoreShoppersSection() {
+    public void scrollingToRetargetShoppers() {
         String link = "/benefits/#retarget-shoppers";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
@@ -127,7 +127,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void scrollingToThirdLinkOfDiscoverMoreShoppersSection() {
+    public void scrollingToDriveEcommerce() {
         String link = "/benefits/#drive-ecommerce";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
@@ -137,7 +137,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "positive")
-    public void scrollingToFirstItemOfTakeAdvantagesSection() {
+    public void scrollingToCueConnectBlog() {
         String link = "/blog";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "'][text()='Learn More']"));
@@ -148,7 +148,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "positive")
-    public void scrollingToSecondItemOfTakeAdvantagesSection() {
+    public void scrollingToResources() {
         String link = "https://cueconnect.net/resources/";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "'][text()='Learn More ']"));

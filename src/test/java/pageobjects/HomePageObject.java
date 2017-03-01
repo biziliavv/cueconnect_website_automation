@@ -18,11 +18,13 @@ import static setup.SeleniumDriver.getDriver;
  */
 public class HomePageObject extends BaseObjectPage {
 
-    private static final String url = "https://cueconnect:d5ertf5@cueconnect.net/";
+    private static final String prod_env = "https://cueconnect.com";
+
+    private static final String qa_env = "https://cueconnect:d5ertf5@cueconnect.net/";
 
     public HomePageObject(){
         super(getDriver());
-        getDriver().get(url);
+        getDriver().get(qa_env);
 
         }
 

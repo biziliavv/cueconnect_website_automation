@@ -13,5 +13,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.testng:testng:6.10" level="project" />
     <orderEntry type="library" name="org.seleniumhq.selenium:selenium-java:3.0.1" level="project" />
+    <orderEntry type="library" name="com.sikulix:sikulixapi:1.1.0" level="project" />
   </component>
 </module>

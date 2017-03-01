@@ -2,6 +2,7 @@ package tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.sikuli.script.FindFailed;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.FeaturesPage;
@@ -64,6 +65,17 @@ public class FeaturesPageTests extends SeleniumBaseTest {
         featuresPage.waitForElementAfterScroll(fourthSection, "Create Proximity-Based Engagement");
         Assert.assertTrue(featuresPage.getPageImage("551", "396"));
         Thread.sleep(3000);
+
+    }
+
+    @Test
+    public void sikuliTry() throws InterruptedException, FindFailed {
+        HomePageObject homePage = new HomePageObject();
+        FeaturesPage featuresPage = homePage.goToFeaturesPage();
+        featuresPage.sikuliClick();
+        Thread.sleep(5000);
+
+
 
     }
 }
