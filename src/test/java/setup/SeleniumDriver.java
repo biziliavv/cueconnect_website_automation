@@ -6,10 +6,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import java.awt.*;
 import java.awt.Dimension;
+import java.util.HashMap;
 
 /**
  * Selenium driver wrapper
@@ -24,13 +26,21 @@ public class SeleniumDriver {
 	public static WebDriver getDriver() {
 		if (driver == null) {
 			System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+
+			HashMap<String, Object> chromePref = new HashMap();
+
+			chromePref.put("download.default_directory", "download");
+
+			options.setExperimentalOption("prefs", chromePref);
+			driver = new ChromeDriver(options);
 			Toolkit toolkit = Toolkit.getDefaultToolkit();
 			org.openqa.selenium.Dimension screenResolution = new org.openqa.selenium.Dimension((int)
 					toolkit.getScreenSize().getWidth(), (int)
 					toolkit.getScreenSize().getHeight());
 
 			driver.manage().window().setSize(screenResolution);
+
 
 		}
 		return driver;

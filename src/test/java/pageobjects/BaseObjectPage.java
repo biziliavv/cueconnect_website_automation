@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -117,10 +118,12 @@ public abstract class BaseObjectPage {
  }
     public void movingToMenuElement(String menuElement, String submenuElement) throws InterruptedException {
 
+
+
         Actions builder = new Actions(getDriver());
         WebElement el = getDriver().findElement(By.xpath("//span[text()='"+menuElement+"']"));
 
-        fluentWaitforElement(el, 10, 3);
+        fluentWaitforElement(el, 10, 5);
         builder.moveToElement(el).build().perform();
         WebElement submenuButton = getDriver().findElement(By.xpath("//span[text()='"+submenuElement+"']"));
         Thread.sleep(5000);
@@ -159,10 +162,69 @@ public abstract class BaseObjectPage {
         return getDriver().findElement(By.xpath("//img[@width="+width+"][@height="+height+"]")).isDisplayed();
     }
 
-    public void switchingBetweenTabs(){
+    public void switchingBetweenTabs(Integer count){
         ArrayList tabs = new ArrayList (getDriver().getWindowHandles());
         System.out.println(tabs.size());
-        getDriver().switchTo().window((String) tabs.get(0));
+        getDriver().switchTo().window((String) tabs.get(count));
+
+
+
+
+    }
+    public void removeAllTabsExceptThefirst() {
+        for(int i = getDriver().getWindowHandles().size() -1 ; i > 0 ; i--){
+
+            String winHandle = getDriver().getWindowHandles().toArray()[i].toString();
+
+            getDriver().switchTo().window(winHandle);
+
+
+
+        }
+    }
+    public boolean isFileDownloaded(String downloadPath, String fileName) {
+        File dir = new File(downloadPath);
+        File[] dirContents = dir.listFiles();
+
+        for (int i = 0; i < dirContents.length; i++) {
+            if (dirContents[i].getName().equals(fileName)) {
+                // File has been found, it can now be deleted:
+                dirContents[i].delete();
+                return true;
+            }
+        }
+        return false;
+    }
+    public String getCurrentLink(){
+        return getDriver().getCurrentUrl();
+
+    }
+
+    public void moveToEmployeeAndWaitQuote(){
+
+        Actions builder = new Actions(getDriver());
+        WebElement employee = getDriver().findElement(By.xpath("//div[@class='cue-employee']"));
+        fluentWaitforElement(employee, 10, 5);
+        builder.moveToElement(employee).build().perform();
+
+    }
+
+    public String getEmployeesQuote() {
+        WebElement quote = getDriver().findElement(By.xpath("//div[@class='cue-person-quote']/p"));
+        return quote.getText();
+    }
+
+    public String getBigTitle() {
+        return getDriver().findElement(By.xpath("//h1[@class='page-title big-title']")).getText();
+    }
+    public String getJoinOurTeamLink(){
+
+        return getDriver().findElement(By.xpath("//a[text()='Join our team']")).getAttribute("href");
+    }
+    public String getMessageOfEmptyFields(String fieldName) throws InterruptedException {
+        Thread.sleep(4000);
+
+        return getDriver().findElement(By.xpath("//span[@class='wpcf7-form-control-wrap "+fieldName+"']/span[@role='alert']")).getText();
     }
 }
 

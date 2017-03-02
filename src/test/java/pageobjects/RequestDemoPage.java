@@ -36,11 +36,7 @@ public class RequestDemoPage extends BaseObjectPage {
 
 
     }
-    public String getMessageOfEmptyFields(String fieldName) throws InterruptedException {
-        Thread.sleep(4000);
 
-        return getDriver().findElement(By.xpath("//span[@class='wpcf7-form-control-wrap "+fieldName+"']/span[@role='alert']")).getText();
-    }
     public String getValidMessageAfterSendingForm() throws InterruptedException {
         Thread.sleep(4000);
         WebElement messageAfterSending = getDriver().findElement(By.xpath("//div[@role='alert']"));

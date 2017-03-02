@@ -2,7 +2,7 @@
 <suite name="Support page tests" parallel="classes" thread-count="1">
     <test name="File Uploading">
         <classes>
-            <class name="tests.SupportPageTests"/>
+            <class name="tests.AboutPageTests"/>
         </classes>
     </test>
 </suite>

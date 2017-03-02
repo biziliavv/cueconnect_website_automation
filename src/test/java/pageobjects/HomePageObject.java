@@ -2,6 +2,8 @@ package pageobjects;
 
 import org.openqa.selenium.*;
 import org.testng.Assert;
+import pageobjects.About.Careers;
+import pageobjects.About.Contact;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -50,13 +52,21 @@ public class HomePageObject extends BaseObjectPage {
         return new FeaturesPage();
     }
 
-    public AboutPage goToAboutPage() throws InterruptedException {
+    public Careers goToCareers() throws InterruptedException {
+        Thread.sleep(3000);
 
-
-        WebElement aboutButton = getDriver().findElement(By.xpath("//span[text()='About']"));
-        aboutButton.click();
-        return new AboutPage();
+        movingToMenuElement("About", "Careers");
+        return new Careers();
     }
+
+    public Contact goToContact() throws InterruptedException {
+        Thread.sleep(3000);
+
+        movingToMenuElement("About", "Contact");
+        return new Contact();
+    }
+
+
 
 
 

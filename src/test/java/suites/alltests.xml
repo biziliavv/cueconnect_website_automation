@@ -1,5 +1,26 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All tests">
+
+    <test name="Press Page page checking">
+        <classes>
+            <class name="tests.About.PressTests"/>
+        </classes>
+    </test>
+    <test name="Contact Us page checking">
+        <classes>
+            <class name="tests.About.ContactUsPageTests"/>
+        </classes>
+    </test>
+    <test name="Our Story page checking">
+        <classes>
+            <class name="tests.About.OurStory"/>
+        </classes>
+    </test>
+    <test name="Team page checking">
+        <classes>
+            <class name="tests.About.TeamTests"/>
+        </classes>
+    </test>
     <test name="HomePage checking">
         <classes>
             <class name="tests.HomePageTests"/>
@@ -16,6 +37,7 @@
             <class name="tests.RequestDemoTests"/>
         </classes>
     </test>
+
 
 
 </suite>
