@@ -17,10 +17,10 @@ public class AboutPage extends BaseObjectPage {
     }
 
     public String getJoinOurTeamLink() throws InterruptedException {
-        wait(3000);
+        Thread.sleep(3000);
         WebElement joiOurTeam = getDriver().findElement(By.xpath("//a[@text()='Join Our Team']"));
         waitForElementAfterScroll(joiOurTeam);
-        wait(5000);
+        Thread.sleep(5000);
 
 
         return joiOurTeam.getAttribute("href");

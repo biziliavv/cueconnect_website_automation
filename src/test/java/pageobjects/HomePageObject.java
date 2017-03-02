@@ -1,19 +1,14 @@
 package pageobjects;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.internal.Locatable;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
 import org.testng.Assert;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import static setup.SeleniumDriver.driver;
 import static setup.SeleniumDriver.getDriver;
 
 /**
@@ -21,12 +16,16 @@ import static setup.SeleniumDriver.getDriver;
  */
 public class HomePageObject extends BaseObjectPage {
 
-    private static final String prod_env = "https://cueconnect.com";
 
-    private static final String qa_env = "https://cueconnect:d5ertf5@cueconnect.net/";
 
-    public HomePageObject() {
+    public HomePageObject() throws IOException {
         super(getDriver());
+        FileInputStream inStream;
+        inStream = new FileInputStream(new File("properties/BaseProperties.properties"));
+        Properties prop = new Properties();
+        prop.load(inStream);
+        String qa_env=prop.getProperty("qa_env");
+
         getDriver().get(qa_env);
     }
 

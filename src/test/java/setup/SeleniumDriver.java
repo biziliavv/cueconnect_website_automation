@@ -23,6 +23,7 @@ public class SeleniumDriver {
 
 	public static WebDriver getDriver() {
 		if (driver == null) {
+			System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 			driver = new ChromeDriver();
 			Toolkit toolkit = Toolkit.getDefaultToolkit();
 			org.openqa.selenium.Dimension screenResolution = new org.openqa.selenium.Dimension((int)

@@ -7,6 +7,8 @@ import pageobjects.HomePageObject;
 import pageobjects.SupportPage;
 import setup.SeleniumBaseTest;
 
+import java.io.IOException;
+
 /**
  * Created by vitaliybizilia on 2/24/17.
  */
@@ -14,7 +16,7 @@ public class SupportPageTests extends SeleniumBaseTest {
 
 
     @Test(groups = {"good"})
-    public void searchWithValidValue() throws InterruptedException, FindFailed {
+    public void searchWithValidValue() throws InterruptedException, FindFailed, IOException {
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
@@ -24,7 +26,7 @@ public class SupportPageTests extends SeleniumBaseTest {
 
     }
     @Test(groups = {"bad"})
-    public void searchWithTooLongValue() throws InterruptedException, FindFailed {
+    public void searchWithTooLongValue() throws InterruptedException, FindFailed, IOException {
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
@@ -34,7 +36,7 @@ public class SupportPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void submitRequestPageUploading() throws InterruptedException, FindFailed {
+    public void submitRequestPageUploading() throws InterruptedException, FindFailed, IOException {
 
         HomePageObject homePage = new HomePageObject();
 

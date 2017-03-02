@@ -56,10 +56,7 @@ public abstract class BaseObjectPage {
             return false;
         }
     }
-    public static void wait(int milliSeconds) throws InterruptedException
-    {
-        Thread.sleep(milliSeconds);
-    }
+
 
 
     // Custom wait method for waiting until element is visible

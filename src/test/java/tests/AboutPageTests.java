@@ -7,6 +7,9 @@ import org.testng.annotations.Test;
 import pageobjects.AboutPage;
 import pageobjects.HomePageObject;
 import setup.SeleniumBaseTest;
+
+import java.io.IOException;
+
 import static setup.SeleniumDriver.getDriver;
 
 /**
@@ -15,7 +18,7 @@ import static setup.SeleniumDriver.getDriver;
 public class AboutPageTests extends SeleniumBaseTest {
 
     @Test
-    public void checkingOurStoryPageAppears() throws InterruptedException {
+    public void checkingOurStoryPageAppears() throws InterruptedException, IOException {
 
         HomePageObject homePage = new HomePageObject();
         homePage.movingToMenuElement("About", "Our Story");
@@ -23,7 +26,7 @@ public class AboutPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void checkingOurStoryThatElementsArePresent() throws InterruptedException {
+    public void checkingOurStoryThatElementsArePresent() throws InterruptedException, IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.movingToMenuElement("About", "Our Story");
         Assert.assertTrue(homePage.getPageImage("489", "412"));
@@ -55,14 +58,14 @@ public class AboutPageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void downloadLinkChecking() throws InterruptedException {
+    public void downloadLinkChecking() throws InterruptedException, IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.movingToMenuElement("About", "Press");
-        wait(3000);
+        Thread.sleep(3000);
         WebElement downloadCueLogoEps = getDriver().findElement(By.xpath("//div[@class='brand-download']/span/a[text()='.eps']"));
         downloadCueLogoEps.click();
         homePage.switchingBetweenTabs();
-        wait(5000);
+        Thread.sleep(5000);
 
     }
 

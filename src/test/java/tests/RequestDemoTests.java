@@ -8,13 +8,15 @@ import pageobjects.RequestDemoPage;
 import setup.SeleniumBaseTest;
 import org.testng.Assert;
 
+import java.io.IOException;
+
 /**
  * Created by vitaliybizilia on 2/23/17.
  */
 public class RequestDemoTests extends SeleniumBaseTest {
 
     @Test(groups = "negative")
-    public void requestDemoEmptyRequiredFieldsOpening() throws InterruptedException, FindFailed {
+    public void requestDemoEmptyRequiredFieldsOpening() throws InterruptedException, FindFailed, IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         requestDemoPage.scrollDown();
@@ -25,7 +27,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "negative")
-    public void emailFieldValidations() throws InterruptedException, FindFailed {
+    public void emailFieldValidations() throws InterruptedException, FindFailed, IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking of simple word without @
@@ -36,7 +38,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "negative")
-    public void phoneNumberFieldValidations() throws InterruptedException, FindFailed {
+    public void phoneNumberFieldValidations() throws InterruptedException, FindFailed, IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking phone number with alphabetical values
@@ -47,7 +49,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
 
     }
     @Test(groups = "positive")
-    public void sendingFormWithValidData() throws InterruptedException, FindFailed {
+    public void sendingFormWithValidData() throws InterruptedException, FindFailed, IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         requestDemoPage.requiredFieldFillingIn("request-name", "test");
