@@ -1,5 +1,7 @@
 package tests;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.BlogPage;
@@ -107,6 +109,52 @@ public class BlogMainPageTests extends SeleniumBaseTest {
 
     }
 
+    @Test
+    public void openingPostByClickOnReadThisPostBtn() throws InterruptedException, IOException {
+
+        HomePageObject homePage = new HomePageObject();
+        BlogPage blogPage = homePage.goToBlogPage();
+        String postTitle = blogPage.getPostTitleOnMainBlog();
+        blogPage.openPostByClickOnReadThisPost();
+        Thread.sleep(3000);
+        Assert.assertEquals(postTitle, blogPage.getPostTitleOnBlogPage());
+
+    }
+
+    @Test
+    public void goingToCommentsSectionByClickOnClickHereLink() throws InterruptedException, IOException {
+
+        HomePageObject homePage = new HomePageObject();
+        BlogPage blogPage = homePage.goToBlogPage();
+        blogPage.clickOnClickHereLink();
+        Thread.sleep(3000);
+        WebElement newFrame = getDriver().findElement(By.id("dsq-app1"));
+        getDriver().switchTo().frame(newFrame);
+        Assert.assertEquals("Powered by Disqus", blogPage.getTitleOfDisqus());
+
+    }
+    @Test
+    public void clickingOnTagChecking() throws IOException, InterruptedException {
+        HomePageObject homePage = new HomePageObject();
+        BlogPage blogPage = homePage.goToBlogPage();
+        Thread.sleep(3000);
+        String tagName = "E-Commerce";
+        blogPage.clickingOnTag(tagName);
+        Thread.sleep(3000);
+        Assert.assertEquals("Tag: "+tagName+"", blogPage.getTitle());
+
+    }
+    @Test
+    public void clickingOnAuthorChecking() throws IOException, InterruptedException {
+        HomePageObject homePage = new HomePageObject();
+        BlogPage blogPage = homePage.goToBlogPage();
+        Thread.sleep(3000);
+        String authorName = "Evan Duarte";
+        blogPage.clickingOnAuthor(authorName);
+        Thread.sleep(3000);
+        Assert.assertEquals("Author: "+authorName+"", blogPage.getTitle());
+
+    }
 
 
 }
