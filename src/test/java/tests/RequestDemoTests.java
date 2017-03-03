@@ -1,7 +1,6 @@
 package tests;
 
 
-import org.sikuli.script.FindFailed;
 import org.testng.annotations.Test;
 import pageobjects.HomePageObject;
 import pageobjects.RequestDemoPage;
@@ -16,7 +15,7 @@ import java.io.IOException;
 public class RequestDemoTests extends SeleniumBaseTest {
 
     @Test(groups = "negative")
-    public void requestDemoEmptyRequiredFieldsOpening() throws InterruptedException, FindFailed, IOException {
+    public void requestDemoEmptyRequiredFieldsOpening() throws InterruptedException,  IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         requestDemoPage.scrollDown();
@@ -27,7 +26,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "negative")
-    public void emailFieldValidations() throws InterruptedException, FindFailed, IOException {
+    public void emailFieldValidations() throws InterruptedException,  IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking of simple word without @
@@ -38,7 +37,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "negative")
-    public void phoneNumberFieldValidations() throws InterruptedException, FindFailed, IOException {
+    public void phoneNumberFieldValidations() throws InterruptedException,  IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking phone number with alphabetical values
@@ -49,7 +48,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
 
     }
     @Test(groups = "positive")
-    public void sendingFormWithValidData() throws InterruptedException, FindFailed, IOException {
+    public void sendingFormWithValidData() throws InterruptedException,  IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         requestDemoPage.requiredFieldFillingIn("request-name", "test");

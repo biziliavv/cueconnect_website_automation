@@ -32,9 +32,7 @@ public class RequestDemoPage extends BaseObjectPage {
 
     public void sendingData() throws InterruptedException {
         getDriver().findElement(By.xpath("//input[@type='submit']")).click();
-
-
-
+        Thread.sleep(3000);
     }
 
     public String getValidMessageAfterSendingForm() throws InterruptedException {

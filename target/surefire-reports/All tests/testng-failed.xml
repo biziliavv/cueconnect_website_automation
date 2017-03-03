@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All tests]">
+  <test name="RequestDemoPage page checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="requestDemoEmptyRequiredFieldsOpening"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+    </classes>
+  </test> <!-- RequestDemoPage page checking(failed) -->
+</suite> <!-- Failed suite [All tests] -->

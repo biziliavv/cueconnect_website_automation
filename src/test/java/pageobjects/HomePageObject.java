@@ -37,6 +37,12 @@ public class HomePageObject extends BaseObjectPage {
         getDriver().findElement(By.xpath("//span[text()='Request a Demo']")).click();
         return new RequestDemoPage();
     }
+    public BlogPage goToBlogPage() throws InterruptedException {
+        Thread.sleep(3000);
+        getDriver().findElement(By.xpath("//span[text()='Blog']")).click();
+        Thread.sleep(3000);
+        return new BlogPage();
+    }
 
     public SupportPage goToSupportPage() throws InterruptedException {
 
@@ -96,10 +102,7 @@ public class HomePageObject extends BaseObjectPage {
         Thread.sleep(5000);
     }
 
-    public String getValidEmailMessage() {
 
-        return getDriver().findElement(By.xpath("//div[@class='submitted-message']")).getText();
-    }
 
     public String getEmptyEmailMessage() {
 

@@ -162,25 +162,12 @@ public abstract class BaseObjectPage {
         return getDriver().findElement(By.xpath("//img[@width="+width+"][@height="+height+"]")).isDisplayed();
     }
 
-    public void switchingBetweenTabs(Integer count){
-        ArrayList tabs = new ArrayList (getDriver().getWindowHandles());
+    public void switchingBetweenTabs(Integer count) {
+        ArrayList tabs = new ArrayList(getDriver().getWindowHandles());
         System.out.println(tabs.size());
         getDriver().switchTo().window((String) tabs.get(count));
 
 
-
-
-    }
-    public void removeAllTabsExceptThefirst() {
-        for(int i = getDriver().getWindowHandles().size() -1 ; i > 0 ; i--){
-
-            String winHandle = getDriver().getWindowHandles().toArray()[i].toString();
-
-            getDriver().switchTo().window(winHandle);
-
-
-
-        }
     }
     public boolean isFileDownloaded(String downloadPath, String fileName) {
         File dir = new File(downloadPath);
@@ -225,6 +212,10 @@ public abstract class BaseObjectPage {
         Thread.sleep(4000);
 
         return getDriver().findElement(By.xpath("//span[@class='wpcf7-form-control-wrap "+fieldName+"']/span[@role='alert']")).getText();
+    }
+    public String getValidEmailMessage() {
+
+        return getDriver().findElement(By.xpath("//div[@class='submitted-message']")).getText();
     }
 }
 

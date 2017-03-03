@@ -2,7 +2,6 @@ package tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.sikuli.script.FindFailed;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.FeaturesPage;
@@ -19,7 +18,7 @@ import static setup.SeleniumDriver.getDriver;
 public class FeaturesPageTests extends SeleniumBaseTest {
 
     @Test
-    public void openingFeaturesPageAndClickOnRequestDemo() throws FindFailed, InterruptedException, IOException {
+    public void openingFeaturesPageAndClickOnRequestDemo() throws  InterruptedException, IOException {
 
         HomePageObject homePage = new HomePageObject();
         FeaturesPage featuresPage = homePage.goToFeaturesPage();

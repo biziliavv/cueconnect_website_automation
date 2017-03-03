@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,855.833" tests="41" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/vitaliybizilia/Desktop/cueconnect_website_automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/vitaliybizilia/Desktop/cueconnect_website_automation"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/vitaliybizilia/Documents/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/vitaliybizilia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/vitaliybizilia"/>
+    <property name="user.timezone" value="Europe/Uzhgorod"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="vitaliybizilia"/>
+    <property name="java.class.path" value="/Users/vitaliybizilia/Documents/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="/Users/vitaliybizilia/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/vitaliybizilia/Documents/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="checkinReadMoreLink" classname="tests.About.PressTests" time="41.385"/>
+  <testcase name="chekingStyleGuide" classname="tests.About.PressTests" time="40.752"/>
+  <testcase name="downloadLinkCheckingIconBlack" classname="tests.About.PressTests" time="40.967"/>
+  <testcase name="downloadLinkCheckingLogo" classname="tests.About.PressTests" time="42.97"/>
+  <testcase name="downloadLinkCheckingLogoBlack" classname="tests.About.PressTests" time="41.202"/>
+  <testcase name="downloadLinkCheckingLogoVertical" classname="tests.About.PressTests" time="42.848"/>
+  <testcase name="checkElementsArePresent" classname="tests.About.CareersTests" time="43.45"/>
+  <testcase name="openingVacancyAndSendingEmptyForm" classname="tests.About.CareersTests" time="43.399"/>
+  <testcase name="badEmailChecking" classname="tests.About.ContactUsPageTests" time="44.304"/>
+  <testcase name="emptyDataChecking" classname="tests.About.ContactUsPageTests" time="49.797"/>
+  <testcase name="checkingOurStoryPageAppears" classname="tests.About.OurStory" time="35.868"/>
+  <testcase name="checkingOurStoryThatElementsArePresent" classname="tests.About.OurStory" time="92.215"/>
+  <testcase name="checkingOfEmployeeQuote" classname="tests.About.TeamTests" time="36.537"/>
+  <testcase name="bottomMenuVerifying" classname="tests.HomePageTests" time="161.664"/>
+  <testcase name="emptyEmailAndClickRequestDemo" classname="tests.HomePageTests" time="22.811"/>
+  <testcase name="getStartedFreeChecking" classname="tests.HomePageTests" time="11.795"/>
+  <testcase name="movingToAboutMenu" classname="tests.HomePageTests" time="109.184"/>
+  <testcase name="movingToBlogMenu" classname="tests.HomePageTests" time="74.969"/>
+  <testcase name="movingToFeaturesFirstHalfMenu" classname="tests.HomePageTests" time="58.91"/>
+  <testcase name="movingToFeaturesSecondHalfMenu" classname="tests.HomePageTests" time="62.563"/>
+  <testcase name="notEmailFormatAndClickRequestDemo" classname="tests.HomePageTests" time="13.266"/>
+  <testcase name="scrollingToCueConnectBlog" classname="tests.HomePageTests" time="34.208"/>
+  <testcase name="scrollingToDriveEcommerce" classname="tests.HomePageTests" time="26.465"/>
+  <testcase name="scrollingToResources" classname="tests.HomePageTests" time="25.105"/>
+  <testcase name="scrollingToRetargetShoppers" classname="tests.HomePageTests" time="27.717"/>
+  <testcase name="scrollingToTransformTraffic" classname="tests.HomePageTests" time="27.071"/>
+  <testcase name="sendingUpdatesEmptyEmail" classname="tests.HomePageTests" time="29.43"/>
+  <testcase name="sendingUpdatesIncorrectEmail" classname="tests.HomePageTests" time="29.764"/>
+  <testcase name="sendingUpdatesIncorrectEmailWithAt" classname="tests.HomePageTests" time="29.975"/>
+  <testcase name="sendingUpdatesToValidEmail" classname="tests.HomePageTests" time="30.484"/>
+  <testcase name="singleClickOnLoginTopMenuItems" classname="tests.HomePageTests" time="30.638"/>
+  <testcase name="singleClickOnTopMenuItems" classname="tests.HomePageTests" time="81.651"/>
+  <testcase name="typingValidEmailAndClickRequestDemo" classname="tests.HomePageTests" time="20.693"/>
+  <testcase name="openingFeaturesPageAndClickOnRequestDemo" classname="tests.FeaturesPageTests" time="26.509"/>
+  <testcase name="openingSecondRequestDemoButton" classname="tests.FeaturesPageTests" time="36.368"/>
+  <testcase name="openingThirdRequestDemoButton" classname="tests.FeaturesPageTests" time="35.807"/>
+  <testcase name="scrollingToEachSection" classname="tests.FeaturesPageTests" time="86.781"/>
+  <testcase name="emailFieldValidations" classname="tests.RequestDemoTests" time="33.841"/>
+  <testcase name="phoneNumberFieldValidations" classname="tests.RequestDemoTests" time="35.518"/>
+  <testcase name="requestDemoEmptyRequiredFieldsOpening" classname="tests.RequestDemoTests" time="40.312">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;wpcf7-form-control-wrap request-email&apos;]/span[@role=&apos;alert&apos;]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.04 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;103.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.4MlA8O}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 95e796723297815f1fb37e35987fb7ec&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;wpcf7-form-control-wrap request-email&apos;]/span[@role=&apos;alert&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wpcf7-form-control-wrap request-email']/span[@role='alert']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '103.lan0.mk.uz.ua', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.4MlA8O}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 95e796723297815f1fb37e35987fb7ec
+*** Element info: {Using=xpath, value=//span[@class='wpcf7-form-control-wrap request-email']/span[@role='alert']}
+	at tests.RequestDemoTests.requestDemoEmptyRequiredFieldsOpening(RequestDemoTests.java:24)
+</failure>
+  </testcase>
+  <testcase name="sendingFormWithValidData" classname="tests.RequestDemoTests" time="55.863"/>
+</testsuite>

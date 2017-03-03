@@ -1,6 +1,5 @@
 package tests;
 
-import org.sikuli.script.FindFailed;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.HomePageObject;
@@ -16,7 +15,7 @@ public class SupportPageTests extends SeleniumBaseTest {
 
 
     @Test(groups = {"good"})
-    public void searchWithValidValue() throws InterruptedException, FindFailed, IOException {
+    public void searchWithValidValue() throws InterruptedException,  IOException {
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
@@ -26,7 +25,7 @@ public class SupportPageTests extends SeleniumBaseTest {
 
     }
     @Test(groups = {"bad"})
-    public void searchWithTooLongValue() throws InterruptedException, FindFailed, IOException {
+    public void searchWithTooLongValue() throws InterruptedException,  IOException {
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
@@ -36,7 +35,7 @@ public class SupportPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void submitRequestPageUploading() throws InterruptedException, FindFailed, IOException {
+    public void submitRequestPageUploading() throws InterruptedException,  IOException {
 
         HomePageObject homePage = new HomePageObject();
 

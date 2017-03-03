@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="41" passed="40">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All tests" duration-ms="1855143" started-at="2017-03-03T10:29:52Z" finished-at="2017-03-03T11:00:47Z">
+    <groups>
+      <group name="negative">
+        <method signature="HomePageTests.emptyEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@4157f54e]" name="emptyEmailAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.notEmailFormatAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@4157f54e]" name="notEmailFormatAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.sendingUpdatesEmptyEmail()[pri:0, instance:tests.HomePageTests@4157f54e]" name="sendingUpdatesEmptyEmail" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.sendingUpdatesIncorrectEmail()[pri:0, instance:tests.HomePageTests@4157f54e]" name="sendingUpdatesIncorrectEmail" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.sendingUpdatesIncorrectEmailWithAt()[pri:0, instance:tests.HomePageTests@4157f54e]" name="sendingUpdatesIncorrectEmailWithAt" class="tests.HomePageTests"/>
+        <method signature="RequestDemoTests.emailFieldValidations()[pri:0, instance:tests.RequestDemoTests@366e2eef]" name="emailFieldValidations" class="tests.RequestDemoTests"/>
+        <method signature="RequestDemoTests.phoneNumberFieldValidations()[pri:0, instance:tests.RequestDemoTests@366e2eef]" name="phoneNumberFieldValidations" class="tests.RequestDemoTests"/>
+        <method signature="RequestDemoTests.requestDemoEmptyRequiredFieldsOpening()[pri:0, instance:tests.RequestDemoTests@366e2eef]" name="requestDemoEmptyRequiredFieldsOpening" class="tests.RequestDemoTests"/>
+      </group> <!-- negative -->
+      <group name="positive">
+        <method signature="HomePageTests.bottomMenuVerifying()[pri:0, instance:tests.HomePageTests@4157f54e]" name="bottomMenuVerifying" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.getStartedFreeChecking()[pri:0, instance:tests.HomePageTests@4157f54e]" name="getStartedFreeChecking" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.movingToAboutMenu()[pri:0, instance:tests.HomePageTests@4157f54e]" name="movingToAboutMenu" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.movingToBlogMenu()[pri:0, instance:tests.HomePageTests@4157f54e]" name="movingToBlogMenu" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.movingToFeaturesFirstHalfMenu()[pri:0, instance:tests.HomePageTests@4157f54e]" name="movingToFeaturesFirstHalfMenu" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.movingToFeaturesSecondHalfMenu()[pri:0, instance:tests.HomePageTests@4157f54e]" name="movingToFeaturesSecondHalfMenu" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToCueConnectBlog()[pri:0, instance:tests.HomePageTests@4157f54e]" name="scrollingToCueConnectBlog" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToResources()[pri:0, instance:tests.HomePageTests@4157f54e]" name="scrollingToResources" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.sendingUpdatesToValidEmail()[pri:0, instance:tests.HomePageTests@4157f54e]" name="sendingUpdatesToValidEmail" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.singleClickOnLoginTopMenuItems()[pri:0, instance:tests.HomePageTests@4157f54e]" name="singleClickOnLoginTopMenuItems" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.singleClickOnTopMenuItems()[pri:0, instance:tests.HomePageTests@4157f54e]" name="singleClickOnTopMenuItems" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.typingValidEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@4157f54e]" name="typingValidEmailAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="RequestDemoTests.sendingFormWithValidData()[pri:0, instance:tests.RequestDemoTests@366e2eef]" name="sendingFormWithValidData" class="tests.RequestDemoTests"/>
+      </group> <!-- positive -->
+    </groups>
+    <test name="Press page checking" duration-ms="250152" started-at="2017-03-03T10:29:52Z" finished-at="2017-03-03T10:34:02Z">
+      <class name="tests.About.PressTests">
+        <test-method status="PASS" signature="checkinReadMoreLink()[pri:0, instance:tests.About.PressTests@566776ad]" name="checkinReadMoreLink" duration-ms="41383" started-at="2017-03-03T12:29:52Z" finished-at="2017-03-03T12:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkinReadMoreLink -->
+        <test-method status="PASS" signature="chekingStyleGuide()[pri:0, instance:tests.About.PressTests@566776ad]" name="chekingStyleGuide" duration-ms="40754" started-at="2017-03-03T12:30:33Z" finished-at="2017-03-03T12:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingStyleGuide -->
+        <test-method status="PASS" signature="downloadLinkCheckingIconBlack()[pri:0, instance:tests.About.PressTests@566776ad]" name="downloadLinkCheckingIconBlack" duration-ms="40966" started-at="2017-03-03T12:31:14Z" finished-at="2017-03-03T12:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadLinkCheckingIconBlack -->
+        <test-method status="PASS" signature="downloadLinkCheckingLogo()[pri:0, instance:tests.About.PressTests@566776ad]" name="downloadLinkCheckingLogo" duration-ms="42970" started-at="2017-03-03T12:31:55Z" finished-at="2017-03-03T12:32:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadLinkCheckingLogo -->
+        <test-method status="PASS" signature="downloadLinkCheckingLogoBlack()[pri:0, instance:tests.About.PressTests@566776ad]" name="downloadLinkCheckingLogoBlack" duration-ms="41202" started-at="2017-03-03T12:32:38Z" finished-at="2017-03-03T12:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadLinkCheckingLogoBlack -->
+        <test-method status="PASS" signature="downloadLinkCheckingLogoVertical()[pri:0, instance:tests.About.PressTests@566776ad]" name="downloadLinkCheckingLogoVertical" duration-ms="42848" started-at="2017-03-03T12:33:19Z" finished-at="2017-03-03T12:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadLinkCheckingLogoVertical -->
+      </class> <!-- tests.About.PressTests -->
+    </test> <!-- Press page checking -->
+    <test name="Careers page checking" duration-ms="86850" started-at="2017-03-03T10:34:02Z" finished-at="2017-03-03T10:35:29Z">
+      <class name="tests.About.CareersTests">
+        <test-method status="PASS" signature="checkElementsArePresent()[pri:0, instance:tests.About.CareersTests@5f2050f6]" name="checkElementsArePresent" duration-ms="43451" started-at="2017-03-03T12:34:02Z" finished-at="2017-03-03T12:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkElementsArePresent -->
+        <test-method status="PASS" signature="openingVacancyAndSendingEmptyForm()[pri:0, instance:tests.About.CareersTests@5f2050f6]" name="openingVacancyAndSendingEmptyForm" duration-ms="43399" started-at="2017-03-03T12:34:45Z" finished-at="2017-03-03T12:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingVacancyAndSendingEmptyForm -->
+      </class> <!-- tests.About.CareersTests -->
+    </test> <!-- Careers page checking -->
+    <test name="Contact Us page checking" duration-ms="94102" started-at="2017-03-03T10:35:29Z" finished-at="2017-03-03T10:37:03Z">
+      <class name="tests.About.ContactUsPageTests">
+        <test-method status="PASS" signature="badEmailChecking()[pri:0, instance:tests.About.ContactUsPageTests@735f7ae5]" name="badEmailChecking" duration-ms="44305" started-at="2017-03-03T12:35:29Z" finished-at="2017-03-03T12:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- badEmailChecking -->
+        <test-method status="PASS" signature="emptyDataChecking()[pri:0, instance:tests.About.ContactUsPageTests@735f7ae5]" name="emptyDataChecking" duration-ms="49796" started-at="2017-03-03T12:36:13Z" finished-at="2017-03-03T12:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyDataChecking -->
+      </class> <!-- tests.About.ContactUsPageTests -->
+    </test> <!-- Contact Us page checking -->
+    <test name="Our Story page checking" duration-ms="128084" started-at="2017-03-03T10:37:03Z" finished-at="2017-03-03T10:39:11Z">
+      <class name="tests.About.OurStory">
+        <test-method status="PASS" signature="checkingOurStoryPageAppears()[pri:0, instance:tests.About.OurStory@2ef9b8bc]" name="checkingOurStoryPageAppears" duration-ms="35868" started-at="2017-03-03T12:37:03Z" finished-at="2017-03-03T12:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOurStoryPageAppears -->
+        <test-method status="PASS" signature="checkingOurStoryThatElementsArePresent()[pri:0, instance:tests.About.OurStory@2ef9b8bc]" name="checkingOurStoryThatElementsArePresent" duration-ms="92215" started-at="2017-03-03T12:37:39Z" finished-at="2017-03-03T12:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOurStoryThatElementsArePresent -->
+      </class> <!-- tests.About.OurStory -->
+    </test> <!-- Our Story page checking -->
+    <test name="Team page checking" duration-ms="36537" started-at="2017-03-03T10:39:11Z" finished-at="2017-03-03T10:39:47Z">
+      <class name="tests.About.TeamTests">
+        <test-method status="PASS" signature="checkingOfEmployeeQuote()[pri:0, instance:tests.About.TeamTests@614c5515]" name="checkingOfEmployeeQuote" duration-ms="36537" started-at="2017-03-03T12:39:11Z" finished-at="2017-03-03T12:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOfEmployeeQuote -->
+      </class> <!-- tests.About.TeamTests -->
+    </test> <!-- Team page checking -->
+    <test name="HomePage checking" duration-ms="908368" started-at="2017-03-03T10:39:47Z" finished-at="2017-03-03T10:54:56Z">
+      <class name="tests.HomePageTests">
+        <test-method status="PASS" signature="bottomMenuVerifying()[pri:0, instance:tests.HomePageTests@4157f54e]" name="bottomMenuVerifying" duration-ms="161664" started-at="2017-03-03T12:39:47Z" finished-at="2017-03-03T12:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottomMenuVerifying -->
+        <test-method status="PASS" signature="emptyEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@4157f54e]" name="emptyEmailAndClickRequestDemo" duration-ms="22811" started-at="2017-03-03T12:42:29Z" finished-at="2017-03-03T12:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailAndClickRequestDemo -->
+        <test-method status="PASS" signature="getStartedFreeChecking()[pri:0, instance:tests.HomePageTests@4157f54e]" name="getStartedFreeChecking" duration-ms="11795" started-at="2017-03-03T12:42:52Z" finished-at="2017-03-03T12:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedFreeChecking -->
+        <test-method status="PASS" signature="movingToAboutMenu()[pri:0, instance:tests.HomePageTests@4157f54e]" name="movingToAboutMenu" duration-ms="109184" started-at="2017-03-03T12:43:04Z" finished-at="2017-03-03T12:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movingToAboutMenu -->
+        <test-method status="PASS" signature="movingToBlogMenu()[pri:0, instance:tests.HomePageTests@4157f54e]" name="movingToBlogMenu" duration-ms="74969" started-at="2017-03-03T12:44:53Z" finished-at="2017-03-03T12:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movingToBlogMenu -->
+        <test-method status="PASS" signature="movingToFeaturesFirstHalfMenu()[pri:0, instance:tests.HomePageTests@4157f54e]" name="movingToFeaturesFirstHalfMenu" duration-ms="58910" started-at="2017-03-03T12:46:08Z" finished-at="2017-03-03T12:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movingToFeaturesFirstHalfMenu -->
+        <test-method status="PASS" signature="movingToFeaturesSecondHalfMenu()[pri:0, instance:tests.HomePageTests@4157f54e]" name="movingToFeaturesSecondHalfMenu" duration-ms="62563" started-at="2017-03-03T12:47:07Z" finished-at="2017-03-03T12:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movingToFeaturesSecondHalfMenu -->
+        <test-method status="PASS" signature="notEmailFormatAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@4157f54e]" name="notEmailFormatAndClickRequestDemo" duration-ms="13265" started-at="2017-03-03T12:48:09Z" finished-at="2017-03-03T12:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notEmailFormatAndClickRequestDemo -->
+        <test-method status="PASS" signature="scrollingToCueConnectBlog()[pri:0, instance:tests.HomePageTests@4157f54e]" name="scrollingToCueConnectBlog" duration-ms="34208" started-at="2017-03-03T12:48:23Z" finished-at="2017-03-03T12:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToCueConnectBlog -->
+        <test-method status="PASS" signature="scrollingToDriveEcommerce()[pri:0, instance:tests.HomePageTests@4157f54e]" name="scrollingToDriveEcommerce" duration-ms="26465" started-at="2017-03-03T12:48:57Z" finished-at="2017-03-03T12:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToDriveEcommerce -->
+        <test-method status="PASS" signature="scrollingToResources()[pri:0, instance:tests.HomePageTests@4157f54e]" name="scrollingToResources" duration-ms="25105" started-at="2017-03-03T12:49:23Z" finished-at="2017-03-03T12:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToResources -->
+        <test-method status="PASS" signature="scrollingToRetargetShoppers()[pri:0, instance:tests.HomePageTests@4157f54e]" name="scrollingToRetargetShoppers" duration-ms="27717" started-at="2017-03-03T12:49:48Z" finished-at="2017-03-03T12:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToRetargetShoppers -->
+        <test-method status="PASS" signature="scrollingToTransformTraffic()[pri:0, instance:tests.HomePageTests@4157f54e]" name="scrollingToTransformTraffic" duration-ms="27070" started-at="2017-03-03T12:50:16Z" finished-at="2017-03-03T12:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToTransformTraffic -->
+        <test-method status="PASS" signature="sendingUpdatesEmptyEmail()[pri:0, instance:tests.HomePageTests@4157f54e]" name="sendingUpdatesEmptyEmail" duration-ms="29430" started-at="2017-03-03T12:50:43Z" finished-at="2017-03-03T12:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesEmptyEmail -->
+        <test-method status="PASS" signature="sendingUpdatesIncorrectEmail()[pri:0, instance:tests.HomePageTests@4157f54e]" name="sendingUpdatesIncorrectEmail" duration-ms="29763" started-at="2017-03-03T12:51:13Z" finished-at="2017-03-03T12:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesIncorrectEmail -->
+        <test-method status="PASS" signature="sendingUpdatesIncorrectEmailWithAt()[pri:0, instance:tests.HomePageTests@4157f54e]" name="sendingUpdatesIncorrectEmailWithAt" duration-ms="29975" started-at="2017-03-03T12:51:42Z" finished-at="2017-03-03T12:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesIncorrectEmailWithAt -->
+        <test-method status="PASS" signature="sendingUpdatesToValidEmail()[pri:0, instance:tests.HomePageTests@4157f54e]" name="sendingUpdatesToValidEmail" duration-ms="30484" started-at="2017-03-03T12:52:12Z" finished-at="2017-03-03T12:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesToValidEmail -->
+        <test-method status="PASS" signature="singleClickOnLoginTopMenuItems()[pri:0, instance:tests.HomePageTests@4157f54e]" name="singleClickOnLoginTopMenuItems" duration-ms="30638" started-at="2017-03-03T12:52:43Z" finished-at="2017-03-03T12:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleClickOnLoginTopMenuItems -->
+        <test-method status="PASS" signature="singleClickOnTopMenuItems()[pri:0, instance:tests.HomePageTests@4157f54e]" name="singleClickOnTopMenuItems" duration-ms="81650" started-at="2017-03-03T12:53:13Z" finished-at="2017-03-03T12:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleClickOnTopMenuItems -->
+        <test-method status="PASS" signature="typingValidEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@4157f54e]" name="typingValidEmailAndClickRequestDemo" duration-ms="20693" started-at="2017-03-03T12:54:35Z" finished-at="2017-03-03T12:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typingValidEmailAndClickRequestDemo -->
+      </class> <!-- tests.HomePageTests -->
+    </test> <!-- HomePage checking -->
+    <test name="Features page checking" duration-ms="185466" started-at="2017-03-03T10:54:56Z" finished-at="2017-03-03T10:58:01Z">
+      <class name="tests.FeaturesPageTests">
+        <test-method status="PASS" signature="openingFeaturesPageAndClickOnRequestDemo()[pri:0, instance:tests.FeaturesPageTests@4909b8da]" name="openingFeaturesPageAndClickOnRequestDemo" duration-ms="26508" started-at="2017-03-03T12:54:56Z" finished-at="2017-03-03T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingFeaturesPageAndClickOnRequestDemo -->
+        <test-method status="PASS" signature="openingSecondRequestDemoButton()[pri:0, instance:tests.FeaturesPageTests@4909b8da]" name="openingSecondRequestDemoButton" duration-ms="36367" started-at="2017-03-03T12:55:22Z" finished-at="2017-03-03T12:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingSecondRequestDemoButton -->
+        <test-method status="PASS" signature="openingThirdRequestDemoButton()[pri:0, instance:tests.FeaturesPageTests@4909b8da]" name="openingThirdRequestDemoButton" duration-ms="35807" started-at="2017-03-03T12:55:59Z" finished-at="2017-03-03T12:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingThirdRequestDemoButton -->
+        <test-method status="PASS" signature="scrollingToEachSection()[pri:0, instance:tests.FeaturesPageTests@4909b8da]" name="scrollingToEachSection" duration-ms="86781" started-at="2017-03-03T12:56:35Z" finished-at="2017-03-03T12:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToEachSection -->
+      </class> <!-- tests.FeaturesPageTests -->
+    </test> <!-- Features page checking -->
+    <test name="RequestDemoPage page checking" duration-ms="165534" started-at="2017-03-03T10:58:01Z" finished-at="2017-03-03T11:00:47Z">
+      <class name="tests.RequestDemoTests">
+        <test-method status="PASS" signature="emailFieldValidations()[pri:0, instance:tests.RequestDemoTests@366e2eef]" name="emailFieldValidations" duration-ms="33841" started-at="2017-03-03T12:58:01Z" finished-at="2017-03-03T12:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFieldValidations -->
+        <test-method status="PASS" signature="phoneNumberFieldValidations()[pri:0, instance:tests.RequestDemoTests@366e2eef]" name="phoneNumberFieldValidations" duration-ms="35518" started-at="2017-03-03T12:58:35Z" finished-at="2017-03-03T12:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneNumberFieldValidations -->
+        <test-method status="FAIL" signature="requestDemoEmptyRequiredFieldsOpening()[pri:0, instance:tests.RequestDemoTests@366e2eef]" name="requestDemoEmptyRequiredFieldsOpening" duration-ms="40295" started-at="2017-03-03T12:59:11Z" finished-at="2017-03-03T12:59:51Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wpcf7-form-control-wrap request-email']/span[@role='alert']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '103.lan0.mk.uz.ua', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.4MlA8O}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 95e796723297815f1fb37e35987fb7ec
+*** Element info: {Using=xpath, value=//span[@class='wpcf7-form-control-wrap request-email']/span[@role='alert']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wpcf7-form-control-wrap request-email']/span[@role='alert']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '103.lan0.mk.uz.ua', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.4MlA8O}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 95e796723297815f1fb37e35987fb7ec
+*** Element info: {Using=xpath, value=//span[@class='wpcf7-form-control-wrap request-email']/span[@role='alert']}
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at pageobjects.BaseObjectPage.getMessageOfEmptyFields(BaseObjectPage.java:227)
+	at tests.RequestDemoTests.requestDemoEmptyRequiredFieldsOpening(RequestDemoTests.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestDemoEmptyRequiredFieldsOpening -->
+        <test-method status="PASS" signature="sendingFormWithValidData()[pri:0, instance:tests.RequestDemoTests@366e2eef]" name="sendingFormWithValidData" duration-ms="55864" started-at="2017-03-03T12:59:51Z" finished-at="2017-03-03T13:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingFormWithValidData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.RequestDemoTests@366e2eef]" name="tearDown" is-config="true" duration-ms="136" started-at="2017-03-03T13:00:47Z" finished-at="2017-03-03T13:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RequestDemoTests -->
+    </test> <!-- RequestDemoPage page checking -->
+  </suite> <!-- All tests -->
+</testng-results>

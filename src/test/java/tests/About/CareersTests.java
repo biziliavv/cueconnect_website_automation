@@ -2,6 +2,7 @@ package tests.About;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.About.Careers;
@@ -24,14 +25,32 @@ public class CareersTests extends SeleniumBaseTest {
         Assert.assertEquals("Join & Build Something Great", careersPage.getBigTitle());
         Assert.assertTrue(careersPage.getPageImage("1064", "412"));
         Assert.assertEquals("mailto:jobs@cueconnect.com?Subject=Join%20cue", careersPage.getJoinOurTeamLink());
-        Thread.sleep(3000);
         careersPage.scrollDown();
-        Thread.sleep(15000);
-        getDriver().findElement(By.xpath("//a[@data-mapped='true']")).click();
-       // careersPage.waitForElementAfterScroll(getDriver().findElement(By.xpath("//h2[@id='21522']")));
+        WebElement currentFrame = getDriver().findElement(By.id("grnhse_iframe"));
+        getDriver().switchTo().frame(currentFrame);
+        Thread.sleep(2000);
+        Assert.assertEquals("Current Job Openings at Cue Connect", careersPage.getCurrentJobsTitle());
         Assert.assertEquals("Administrative", careersPage.getCategoryTitle(21522));
         Assert.assertEquals("Sales & Operations", careersPage.getCategoryTitle(21518));
         Assert.assertEquals("Technology", careersPage.getCategoryTitle(21520));
+
+       // careersPage.waitForElementAfterScroll(getDriver().findElement(By.xpath("//h2[@id='21522']")));
+
+
+
+    }
+
+    @Test
+    public void openingVacancyAndSendingEmptyForm() throws IOException, InterruptedException {
+        HomePageObject homePage = new HomePageObject();
+        Careers careersPage = homePage.goToCareers();
+        WebElement currentFrame = getDriver().findElement(By.id("grnhse_iframe"));
+        getDriver().switchTo().frame(currentFrame);
+        String vacancyTitle = careersPage.getVacancyTitle();
+        careersPage.openingVacancy();
+        WebElement newFrame = getDriver().findElement(By.id("grnhse_iframe"));
+        getDriver().switchTo().frame(newFrame);
+        Assert.assertEquals(vacancyTitle, careersPage.getOpenedVacancyTitle());
 
 
     }

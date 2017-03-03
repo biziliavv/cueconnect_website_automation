@@ -1,9 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All tests">
 
-    <test name="Press Page page checking">
+    <test name="Press page checking">
         <classes>
             <class name="tests.About.PressTests"/>
+        </classes>
+    </test>
+    <test name="Careers page checking">
+        <classes>
+            <class name="tests.About.CareersTests"/>
         </classes>
     </test>
     <test name="Contact Us page checking">
