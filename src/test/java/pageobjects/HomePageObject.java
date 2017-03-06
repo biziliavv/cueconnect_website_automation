@@ -60,6 +60,13 @@ public class HomePageObject extends BaseObjectPage {
         featuresButton.click();
         return new FeaturesPage();
     }
+    public BenefitsPage goToBenefitsPage() throws InterruptedException {
+
+
+        WebElement benefitsButton = getDriver().findElement(By.xpath("//span[text()='Benefits']"));
+        benefitsButton.click();
+        return new BenefitsPage();
+    }
 
     public Careers goToCareers() throws InterruptedException {
         Thread.sleep(3000);
