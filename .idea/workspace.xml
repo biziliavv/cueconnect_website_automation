@@ -2,12 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4edb149-1dbd-42b8-8c2c-4745795d3ab7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/tests/BlogSinglePageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/BlogPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/BlogPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/BlogMainPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/BlogMainPageTests.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Blog/CueAcademyPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/tests/Blog/CueAcademyPageTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/download/cue-connect-logo-black (1).eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/download/cue-logo-black (1).eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/download/cue-logo-black (2).eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/download/e-icon-black (1).eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/BlogPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/tests/BlogMainPageTests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/tests/BlogSinglePageTests.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BlogPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Blog/BlogPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/tests/BlogMainPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/tests/BlogSinglePageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/Blog/BlogSinglePageTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/BaseObjectPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/BaseObjectPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePageObject.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePageObject.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BlogPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BlogPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/BlogMainPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/BlogMainPageTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/suites/alltests.xml" afterPath="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.CareersTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.CareersTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.ContactUsPageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.ContactUsPageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.OurStory.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.OurStory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.PressTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.PressTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.TeamTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.TeamTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.FeaturesPageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.FeaturesPageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.HomePageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.HomePageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.RequestDemoTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.RequestDemoTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Careers page checking.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Careers page checking.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Contact Us page checking.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Contact Us page checking.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Features page checking.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Features page checking.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/HomePage checking.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/HomePage checking.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Our Story page checking.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Our Story page checking.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Press page checking.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Press page checking.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/RequestDemoPage page checking.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/RequestDemoPage page checking.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Team page checking.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Team page checking.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/classes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/groups.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/groups.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/testng.xml.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/testng.xml.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
     </list>
     <ignored path="cueconnect_website_automation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,62 +94,94 @@
       <file leaf-file-name="BaseObjectPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2370">
-              <caret line="183" column="5" selection-start-line="175" selection-start-column="8" selection-end-line="183" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeaturesPageTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java">
+      <file leaf-file-name="PressTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/PressTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="-124">
+              <caret line="100" column="43" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestDemoTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
+      <file leaf-file-name="BlogPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Blog/BlogPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="55">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestDemoPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BlogPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BlogMainPageTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BlogMainPageTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="103" selection-end-column="52" />
+            <state relative-caret-position="115">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourcesPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="62" column="82" selection-start-line="62" selection-start-column="82" selection-end-line="62" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourcesPageTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CueAcademyPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Blog/CueAcademyPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CueAcademyPageTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/CueAcademyPageTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,10 +190,10 @@
         </entry>
       </file>
       <file leaf-file-name="BlogSinglePageTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BlogSinglePageTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogSinglePageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,31 +201,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alltests.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseProperties.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/properties/BaseProperties.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HomePageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            <state relative-caret-position="287">
+              <caret line="83" column="48" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -190,13 +264,20 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BlogMainPageTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BlogSinglePageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/BlogPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Blog/BlogSinglePageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/Blog/BlogPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Blog/CueAcademyPageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/Blog/CueAcademyPage.java" />
       </list>
     </option>
   </component>
@@ -237,9 +318,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,6 +373,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cueconnect_website_automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cueconnect_website_automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cueconnect_website_automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cueconnect_website_automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="About" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,8 +514,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cueconnect_website_automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cueconnect_website_automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pageobjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,11 +572,11 @@
       <recent name="$PROJECT_DIR$/src/test/java/setup" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BlogSinglePageTests.socialSharingIconsChecking">
-    <configuration default="false" name="BlogMainPageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CueAcademyPageTests.openingItemFromListByClickingOnReadMore">
+    <configuration default="false" name="ResourcesPageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.Blog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,8 +584,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BlogMainPageTests" />
+      <option name="PACKAGE_NAME" value="tests.Blog" />
+      <option name="MAIN_CLASS_NAME" value="tests.Blog.ResourcesPageTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -435,10 +606,10 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="BlogMainPageTests.clickingOnAuthorChecking" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ResourcesPageTests.downloadTemplateAndSubscribeForUpdates" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.Blog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,9 +617,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BlogMainPageTests" />
-      <option name="METHOD_NAME" value="clickingOnAuthorChecking" />
+      <option name="PACKAGE_NAME" value="tests.Blog" />
+      <option name="MAIN_CLASS_NAME" value="tests.Blog.ResourcesPageTests" />
+      <option name="METHOD_NAME" value="downloadTemplateAndSubscribeForUpdates" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -468,10 +639,10 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="BlogSinglePageTests.recentPostChecking" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CueAcademyPageTests.openingItemFromList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.Blog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -479,9 +650,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BlogSinglePageTests" />
-      <option name="METHOD_NAME" value="recentPostChecking" />
+      <option name="PACKAGE_NAME" value="tests.Blog" />
+      <option name="MAIN_CLASS_NAME" value="tests.Blog.CueAcademyPageTests" />
+      <option name="METHOD_NAME" value="openingItemFromList" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -501,10 +672,10 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="BlogSinglePageTests.findMeOnChecking" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CueAcademyPageTests.openingItemFromListByClickingOnPicture" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.Blog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -512,9 +683,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BlogSinglePageTests" />
-      <option name="METHOD_NAME" value="findMeOnChecking" />
+      <option name="PACKAGE_NAME" value="tests.Blog" />
+      <option name="MAIN_CLASS_NAME" value="tests.Blog.CueAcademyPageTests" />
+      <option name="METHOD_NAME" value="openingItemFromListByClickingOnPicture" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -534,10 +705,10 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="BlogSinglePageTests.socialSharingIconsChecking" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CueAcademyPageTests.openingItemFromListByClickingOnReadMore" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.Blog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -545,9 +716,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BlogSinglePageTests" />
-      <option name="METHOD_NAME" value="socialSharingIconsChecking" />
+      <option name="PACKAGE_NAME" value="tests.Blog" />
+      <option name="MAIN_CLASS_NAME" value="tests.Blog.CueAcademyPageTests" />
+      <option name="METHOD_NAME" value="openingItemFromListByClickingOnReadMore" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -841,19 +1012,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.BlogMainPageTests" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.BlogMainPageTests.clickingOnAuthorChecking" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.BlogSinglePageTests.recentPostChecking" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.BlogSinglePageTests.findMeOnChecking" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.BlogSinglePageTests.socialSharingIconsChecking" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.ResourcesPageTests" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ResourcesPageTests.downloadTemplateAndSubscribeForUpdates" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.CueAcademyPageTests.openingItemFromList" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CueAcademyPageTests.openingItemFromListByClickingOnPicture" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CueAcademyPageTests.openingItemFromListByClickingOnReadMore" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.BlogSinglePageTests.socialSharingIconsChecking" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.BlogSinglePageTests.findMeOnChecking" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.BlogSinglePageTests.recentPostChecking" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.BlogMainPageTests" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.BlogMainPageTests.clickingOnAuthorChecking" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CueAcademyPageTests.openingItemFromListByClickingOnReadMore" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CueAcademyPageTests.openingItemFromListByClickingOnPicture" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.CueAcademyPageTests.openingItemFromList" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ResourcesPageTests.downloadTemplateAndSubscribeForUpdates" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ResourcesPageTests" />
       </list>
     </recent_temporary>
   </component>
@@ -871,35 +1042,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BlogSinglePageTests_socialSharingIconsChecking - 2017.03.03 at 19h 54m 34s.xml">
-      <configuration name="BlogSinglePageTests.socialSharingIconsChecking" configurationId="TestNG" />
+    <history-entry file="CueAcademyPageTests_openingItemFromList - 2017.03.06 at 14h 52m 47s.xml">
+      <configuration name="CueAcademyPageTests.openingItemFromList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BlogSinglePageTests_socialSharingIconsChecking - 2017.03.03 at 20h 14m 46s.xml">
-      <configuration name="BlogSinglePageTests.socialSharingIconsChecking" configurationId="TestNG" />
+    <history-entry file="CueAcademyPageTests_openingItemFromList - 2017.03.06 at 14h 54m 40s.xml">
+      <configuration name="CueAcademyPageTests.openingItemFromList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BlogSinglePageTests_socialSharingIconsChecking - 2017.03.03 at 20h 18m 00s.xml">
-      <configuration name="BlogSinglePageTests.socialSharingIconsChecking" configurationId="TestNG" />
+    <history-entry file="CueAcademyPageTests_openingItemFromList - 2017.03.06 at 14h 56m 06s.xml">
+      <configuration name="CueAcademyPageTests.openingItemFromList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BlogSinglePageTests_socialSharingIconsChecking - 2017.03.03 at 20h 21m 52s.xml">
-      <configuration name="BlogSinglePageTests.socialSharingIconsChecking" configurationId="TestNG" />
+    <history-entry file="CueAcademyPageTests_openingItemFromListByClickingOnPicture - 2017.03.06 at 15h 02m 58s.xml">
+      <configuration name="CueAcademyPageTests.openingItemFromListByClickingOnPicture" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BlogSinglePageTests_socialSharingIconsChecking - 2017.03.03 at 20h 26m 00s.xml">
-      <configuration name="BlogSinglePageTests.socialSharingIconsChecking" configurationId="TestNG" />
+    <history-entry file="CueAcademyPageTests_openingItemFromListByClickingOnReadMore - 2017.03.06 at 15h 07m 20s.xml">
+      <configuration name="CueAcademyPageTests.openingItemFromListByClickingOnReadMore" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BlogSinglePageTests_socialSharingIconsChecking - 2017.03.03 at 20h 27m 22s.xml">
-      <configuration name="BlogSinglePageTests.socialSharingIconsChecking" configurationId="TestNG" />
+    <history-entry file="CueAcademyPageTests_openingItemFromListByClickingOnReadMore - 2017.03.06 at 15h 08m 21s.xml">
+      <configuration name="CueAcademyPageTests.openingItemFromListByClickingOnReadMore" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BlogSinglePageTests_socialSharingIconsChecking - 2017.03.03 at 20h 29m 40s.xml">
-      <configuration name="BlogSinglePageTests.socialSharingIconsChecking" configurationId="TestNG" />
+    <history-entry file="CueAcademyPageTests_openingItemFromListByClickingOnReadMore - 2017.03.06 at 15h 09m 40s.xml">
+      <configuration name="CueAcademyPageTests.openingItemFromListByClickingOnReadMore" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BlogSinglePageTests_socialSharingIconsChecking - 2017.03.03 at 20h 32m 30s.xml">
-      <configuration name="BlogSinglePageTests.socialSharingIconsChecking" configurationId="TestNG" />
+    <history-entry file="ResourcesPageTests - 2017.03.06 at 14h 36m 02s.xml">
+      <configuration name="ResourcesPageTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BlogSinglePageTests_socialSharingIconsChecking - 2017.03.03 at 20h 33m 50s.xml">
-      <configuration name="BlogSinglePageTests.socialSharingIconsChecking" configurationId="TestNG" />
+    <history-entry file="ResourcesPageTests - 2017.03.06 at 14h 40m 08s.xml">
+      <configuration name="ResourcesPageTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BlogSinglePageTests_socialSharingIconsChecking - 2017.03.03 at 20h 35m 42s.xml">
-      <configuration name="BlogSinglePageTests.socialSharingIconsChecking" configurationId="TestNG" />
+    <history-entry file="ResourcesPageTests_downloadTemplateAndSubscribeForUpdates - 2017.03.06 at 14h 41m 24s.xml">
+      <configuration name="ResourcesPageTests.downloadTemplateAndSubscribeForUpdates" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -913,8 +1084,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26386556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -954,41 +1125,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="260" column="0" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="622" column="0" selection-start-line="622" selection-start-column="0" selection-end-line="622" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/SessionId.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/Command.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/guava-19.0.jar!/com/google/common/collect/SingletonImmutableBiMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/guava-19.0.jar!/com/google/common/collect/CollectPreconditions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1158,13 +1294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/PressTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/CareersTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1227,18 +1356,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="810">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
+    <entry file="jar://$PROJECT_DIR$/lib/selenium-api-3.0.1.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        <state relative-caret-position="136">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1251,18 +1380,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="77">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/PressTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="100" column="43" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BlogMainPageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogSinglePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="103" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Blog/BlogPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="83" column="48" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="62" column="82" selection-start-line="62" selection-start-column="82" selection-end-line="62" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/CueAcademyPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1271,28 +1472,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2370">
-          <caret line="183" column="5" selection-start-line="175" selection-start-column="8" selection-end-line="183" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BlogSinglePageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Blog/CueAcademyPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="182">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BlogPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
           </folding>
         </state>
       </provider>

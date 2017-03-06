@@ -1,8 +1,8 @@
-package tests;
+package tests.Blog;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageobjects.BlogPage;
+import pageobjects.Blog.BlogPage;
 import pageobjects.HomePageObject;
 import setup.SeleniumBaseTest;
 

@@ -6,6 +6,16 @@
             <class name="tests.About.PressTests"/>
         </classes>
     </test>
+    <test name="Blog main page checking">
+        <classes>
+            <class name="tests.Blog.BlogMainPageTests"/>
+        </classes>
+    </test>
+    <test name="Blog single page checking">
+        <classes>
+            <class name="tests.Blog.BlogMainPageTests"/>
+        </classes>
+    </test>
     <test name="Careers page checking">
         <classes>
             <class name="tests.About.CareersTests"/>
@@ -42,9 +52,6 @@
             <class name="tests.RequestDemoTests"/>
         </classes>
     </test>
-
-
-
 </suite>
 
 

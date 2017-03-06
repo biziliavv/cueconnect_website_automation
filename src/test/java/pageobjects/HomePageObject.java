@@ -4,6 +4,9 @@ import org.openqa.selenium.*;
 import org.testng.Assert;
 import pageobjects.About.Careers;
 import pageobjects.About.Contact;
+import pageobjects.Blog.BlogPage;
+import pageobjects.Blog.CueAcademyPage;
+import pageobjects.Blog.ResourcesPage;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -67,11 +70,20 @@ public class HomePageObject extends BaseObjectPage {
 
     public Contact goToContact() throws InterruptedException {
         Thread.sleep(3000);
-
         movingToMenuElement("About", "Contact");
         return new Contact();
     }
+    public ResourcesPage goToResources() throws InterruptedException {
+        Thread.sleep(4000);
+        movingToMenuElement("Blog", "Resources");
+        return new ResourcesPage();
+    }
 
+    public CueAcademyPage goToCueAcademy() throws InterruptedException {
+        Thread.sleep(4000);
+        movingToMenuElement("Blog", "Cue Academy");
+        return new CueAcademyPage();
+    }
 
 
 

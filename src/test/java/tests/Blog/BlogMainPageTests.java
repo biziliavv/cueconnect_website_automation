@@ -1,10 +1,10 @@
-package tests;
+package tests.Blog;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageobjects.BlogPage;
+import pageobjects.Blog.BlogPage;
 import pageobjects.HomePageObject;
 import setup.SeleniumBaseTest;
 import static setup.SeleniumDriver.getDriver;
@@ -62,39 +62,8 @@ public class BlogMainPageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
 
-        blogPage.clickOnSocialNetworkButton("facebook");
-        blogPage.switchingBetweenTabs(1);
-        Assert.assertTrue(blogPage.getPartOfLink("Facebook"));
-        getDriver().close();
-        blogPage.switchingBetweenTabs(0);
-        Thread.sleep(3000);
-        blogPage.clickOnSocialNetworkButton("twitter");
-        blogPage.switchingBetweenTabs(1);
-        Thread.sleep(3000);
-        Assert.assertTrue(blogPage.getPartOfLink("Twitter"));
-        getDriver().close();
-        blogPage.switchingBetweenTabs(0);
-        Thread.sleep(3000);
-        blogPage.clickOnSocialNetworkButton("plusone");
-        blogPage.switchingBetweenTabs(1);
-        Thread.sleep(3000);
-        Assert.assertTrue(blogPage.getPartOfLink("Google+"));
-        getDriver().close();
-        blogPage.switchingBetweenTabs(0);
-        Thread.sleep(3000);
-        blogPage.clickOnSocialNetworkButton("linkedin");
-        blogPage.switchingBetweenTabs(1);
-        Thread.sleep(3000);
-        Assert.assertTrue(blogPage.getPartOfLink("linkedin"));
-        getDriver().close();
-        blogPage.switchingBetweenTabs(0);
-        Thread.sleep(3000);
-        blogPage.clickOnSocialNetworkButton("pinterest");
-        blogPage.switchingBetweenTabs(1);
-        Thread.sleep(3000);
-        Assert.assertTrue(blogPage.getPartOfLink("Pinterest"));
-        getDriver().close();
-        blogPage.switchingBetweenTabs(0);
+        blogPage.clickOnSocialNetworkButton();
+
     }
 
     @Test

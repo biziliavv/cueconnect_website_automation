@@ -1,4 +1,6 @@
+tests/BlogMainPageTests.class
 pageobjects/About/OurStory.class
+tests/BlogSinglePageTests.class
 pageobjects/About/Contact.class
 tests/RequestDemoTests.class
 pageobjects/About/Careers.class

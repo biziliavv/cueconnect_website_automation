@@ -217,5 +217,14 @@ public abstract class BaseObjectPage {
 
         return getDriver().findElement(By.xpath("//div[@class='submitted-message']")).getText();
     }
+    public void fillingInEmailForUpdates(String emailValue) throws InterruptedException {
+        WebElement emailField = getDriver().findElement(By.xpath("//input[@name='email']"));
+        emailField.clear();
+        emailField.sendKeys(emailValue);
+        Thread.sleep(3000);
+        WebElement sendUpdatesButton = getDriver().findElement(By.xpath("//input[@type='submit']"));
+        sendUpdatesButton.click();
+        Thread.sleep(5000);
+    }
 }
 
