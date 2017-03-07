@@ -40,6 +40,15 @@ public class ResourcesPage extends BaseObjectPage {
         platform.selectByIndex(selectorValue);
 
     }
+    public void cleaningForm(){
+        WebElement firstNameField = getDriver().findElement(By.xpath("//input[@name='firstname']"));
+        firstNameField.clear();
+        WebElement lastNameField = getDriver().findElement(By.xpath("//input[@name='lastname']"));
+        lastNameField.clear();
+        WebElement emailField = getDriver().findElement(By.xpath("//input[@name='email']"));
+        emailField.clear();
+
+    }
 
     public void donwloadButtonClicking() throws InterruptedException {
         Thread.sleep(2000);
@@ -55,8 +64,11 @@ public class ResourcesPage extends BaseObjectPage {
         WebElement downloadBtn = getDriver().findElement(By.xpath("//a[@class='cta_button']"));
         downloadBtn.click();
         }
-    public String getValidationMessage(String fieldName){
-        return getDriver().findElement(By.xpath("//div[@class='hs_"+fieldName+" field hs-form-field']//li/label")).getText();
+    public String getValidationMessage(String fieldName) throws InterruptedException {
+        Thread.sleep(3000);
+        WebElement firstName = getDriver().findElement(By.xpath("//div[@class='hs_"+fieldName+" field hs-form-field']//li/label"));
+        fluentWaitforElement(firstName, 10, 5);
+        return firstName.getText();
     }
     public String getSubscribeForUpdatesMessage() throws InterruptedException {
         Thread.sleep(2000);

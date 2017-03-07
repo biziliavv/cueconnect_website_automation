@@ -51,6 +51,8 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         Thread.sleep(3000);
         resourcesPage.templateOpening();
         Thread.sleep(2000);
+        resourcesPage.cleaningForm();
+        Thread.sleep(2000);
         resourcesPage.fillingInForm("", "", "", 0);
         resourcesPage.donwloadButtonClicking();
         Thread.sleep(2000);
@@ -67,6 +69,8 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         Thread.sleep(3000);
         resourcesPage.templateOpening();
         Thread.sleep(2000);
+        resourcesPage.cleaningForm();
+        Thread.sleep(2000);
         resourcesPage.fillingInForm("Test", "Test", "test", 1);
         resourcesPage.donwloadButtonClicking();
         Thread.sleep(2000);
@@ -80,6 +84,8 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         Thread.sleep(3000);
         resourcesPage.templateOpening();
         Thread.sleep(2000);
+        resourcesPage.cleaningForm();
+        Thread.sleep(2000);
         resourcesPage.fillingInForm("Test", "Test", "test@test", 1);
         resourcesPage.donwloadButtonClicking();
         Thread.sleep(2000);
@@ -92,6 +98,8 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         ResourcesPage resourcesPage = homePage.goToResources();
         Thread.sleep(3000);
         resourcesPage.templateOpening();
+        Thread.sleep(2000);
+        resourcesPage.cleaningForm();
         Thread.sleep(2000);
         resourcesPage.fillingInForm("Test", "Test", "test@test.com", 1);
         resourcesPage.donwloadButtonClicking();
@@ -107,6 +115,8 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         Thread.sleep(3000);
         resourcesPage.templateOpening();
         Thread.sleep(2000);
+        resourcesPage.cleaningForm();
+        Thread.sleep(2000);
         resourcesPage.fillingInForm("Test", "Test", "test@test.com", 1);
         resourcesPage.donwloadButtonClicking();
         Thread.sleep(2000);
@@ -120,6 +130,8 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         ResourcesPage resourcesPage = homePage.goToResources();
         Thread.sleep(3000);
         resourcesPage.templateOpening();
+        Thread.sleep(2000);
+        resourcesPage.cleaningForm();
         Thread.sleep(2000);
         resourcesPage.fillingInForm("Test", "Test", "test@test.com", 1);
         resourcesPage.donwloadButtonClicking();
