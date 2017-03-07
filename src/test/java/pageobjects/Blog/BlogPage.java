@@ -57,7 +57,7 @@ public class BlogPage extends BaseObjectPage {
     }
 
     public void openPostByClickOnTitle() throws InterruptedException {
-        WebElement postTitle= getDriver().findElement(By.xpath("//h2[@class='post-title']"));
+        WebElement postTitle= getDriver().findElement(By.xpath("//h2[@class='post-title']/a"));
         postTitle.click();
         Thread.sleep(4000);
     }

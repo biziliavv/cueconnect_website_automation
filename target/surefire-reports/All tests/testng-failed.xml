@@ -5,7 +5,6 @@
     <classes>
       <class name="tests.Blog.BlogMainPageTests">
         <methods>
-          <include name="openingPostByClickOnTitle"/>
           <include name="subscribeToEmptyEmail"/>
         </methods>
       </class> <!-- tests.Blog.BlogMainPageTests -->
@@ -20,8 +19,6 @@
     <classes>
       <class name="tests.Blog.BlogMainPageTests">
         <methods>
-          <include name="subscribeToWrongEmailWithAt"/>
-          <include name="openingPostByClickOnTitle"/>
           <include name="subscribeToEmptyEmail"/>
         </methods>
       </class> <!-- tests.Blog.BlogMainPageTests -->
@@ -32,21 +29,6 @@
       </class> <!-- tests.LoginPageTests -->
     </classes>
   </test> <!-- Blog single page checking(failed) -->
-  <test name="Contact Us page checking(failed)">
-    <classes>
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="emptyDataChecking"/>
-          <include name="badEmailChecking"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-    </classes>
-  </test> <!-- Contact Us page checking(failed) -->
   <test name="HomePage checking(failed)">
     <classes>
       <class name="tests.LoginPageTests">
@@ -61,24 +43,12 @@
       </class> <!-- tests.HomePageTests -->
     </classes>
   </test> <!-- HomePage checking(failed) -->
-  <test name="Features page checking(failed)">
-    <classes>
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="scrollingToEachSection"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-    </classes>
-  </test> <!-- Features page checking(failed) -->
   <test name="RequestDemoPage page checking(failed)">
     <classes>
       <class name="tests.RequestDemoTests">
         <methods>
+          <include name="phoneNumberFieldValidations"/>
+          <include name="emailFieldValidations"/>
           <include name="requestDemoEmptyRequiredFieldsOpening"/>
         </methods>
       </class> <!-- tests.RequestDemoTests -->
@@ -89,14 +59,4 @@
       </class> <!-- tests.LoginPageTests -->
     </classes>
   </test> <!-- RequestDemoPage page checking(failed) -->
-  <test name="Login page checking(failed)">
-    <classes>
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="forgotPasswordDoenMatchEmails"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-    </classes>
-  </test> <!-- Login page checking(failed) -->
 </suite> <!-- Failed suite [All tests] -->

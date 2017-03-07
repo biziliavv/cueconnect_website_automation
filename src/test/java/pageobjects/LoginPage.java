@@ -73,7 +73,6 @@ public class LoginPage extends BaseObjectPage {
         firstEmail.sendKeys(forgotEmail);
         WebElement confirmEmail = getDriver().findElement(By.id("forgot-email-confirm"));
         confirmEmail.sendKeys(confirmForgotEmail);
-
         WebElement sendResetCode = getDriver().findElement(By.id("forgot-pwd-submit"));
         sendResetCode.click();
         Thread.sleep(2000);

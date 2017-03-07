@@ -35,7 +35,7 @@ public class BlogMainPageTests extends SeleniumBaseTest {
         Assert.assertEquals("Cue Connect Blog", blogPage.getTitle());
         Assert.assertTrue(blogPage.getPageImage("2394", "643"));
         blogPage.fillingInEmailForUpdates("");
-        Assert.assertEquals("Please complete this mandatory field.", blogPage.getValidationMessages());
+        Assert.assertEquals("Email is required", blogPage.getValidationMessages());
 
     }
     @Test

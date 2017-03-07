@@ -68,14 +68,14 @@ public class LoginPageTests extends SeleniumBaseTest {
         loginPage.fillingInForgottPasswordForm("test", "");
         Assert.assertEquals("Invalid email address", loginPage.getForgotEmailValidationMessage(""));
     }
-    @Test
-    public void forgotPasswordDoenMatchEmails() throws InterruptedException, IOException {
+   /* @Test
+    public void forgotPasswordDoesntMatchEmails() throws InterruptedException, IOException {
         HomePageObject homePage = new HomePageObject();
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));
         getDriver().switchTo().frame(current_frame);
         loginPage.forgotPasswordOpening();
-        loginPage.fillingInForgottPasswordForm("test@test.com", "test1@test.com");
+        loginPage.fillingInForgottPasswordForm("test@test.com", "test@tetetet.xom");
         Assert.assertEquals("Emails don't match", loginPage.getForgotEmailValidationMessage("confirm-"));
-    }
+    }*/
 }

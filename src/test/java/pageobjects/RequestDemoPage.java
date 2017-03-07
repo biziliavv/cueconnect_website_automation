@@ -43,7 +43,11 @@ public class RequestDemoPage extends BaseObjectPage {
         return messageAfterSending.getText();
 
     }
+    public String getMessageOfEmptyFields(String fieldName) throws InterruptedException {
+        Thread.sleep(4000);
 
+        return getDriver().findElement(By.xpath("//div[@class='hs_"+fieldName+" field hs-form-field']//ul/li/label[@class='visible']")).getText();
+    }
 
 
 

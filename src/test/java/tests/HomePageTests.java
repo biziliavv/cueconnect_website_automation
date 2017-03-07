@@ -240,4 +240,13 @@ public class HomePageTests extends SeleniumBaseTest {
         Assert.assertEquals("Store Information", homePage.storeInformationPageTitle());
 
     }
+    @Test(groups = "positive")
+    public void videoOpening() throws InterruptedException,  IOException {
+        HomePageObject homePage = new HomePageObject();
+        homePage.openingVideo();
+        Thread.sleep(5000);
+        WebElement frame = getDriver().findElement(By.xpath("//body/div[1]/iframe"));
+        getDriver().switchTo().frame(frame);
+
+    }
 }

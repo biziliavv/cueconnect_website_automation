@@ -208,13 +208,9 @@ public abstract class BaseObjectPage {
 
         return getDriver().findElement(By.xpath("//a[text()='Join our team']")).getAttribute("href");
     }
-    public String getMessageOfEmptyFields(String fieldName) throws InterruptedException {
-        Thread.sleep(4000);
 
-        return getDriver().findElement(By.xpath("//span[@class='wpcf7-form-control-wrap "+fieldName+"']//span[@role='alert']")).getText();
-    }
-    public String getValidEmailMessage() {
-
+    public String getValidEmailMessage() throws InterruptedException {
+        Thread.sleep(3000);
         return getDriver().findElement(By.xpath("//div[@class='submitted-message']")).getText();
     }
     public void fillingInEmailForUpdates(String emailValue) throws InterruptedException {

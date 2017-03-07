@@ -37,6 +37,11 @@ public class Contact extends BaseObjectPage {
         return getDriver().findElement(By.xpath("//div[@role='alert']")).getText();
     }
 
+    public String getMessageOfEmptyFields(String fieldName) throws InterruptedException {
+        Thread.sleep(4000);
+
+        return getDriver().findElement(By.xpath("//span[@class='wpcf7-form-control-wrap "+fieldName+"']//span[@role='alert']")).getText();
+    }
 
 
 

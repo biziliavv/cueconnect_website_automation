@@ -184,6 +184,11 @@ public class HomePageObject extends BaseObjectPage {
 
         return getDriver().findElement(By.xpath("//h1[@class='search-title']")).getText();
     }
+    public void openingVideo(){
+        WebElement video_icon = getDriver().findElement(By.xpath("//a[@href='#video-popup']"));
+        video_icon.click();
+    }
+
 
 }
 
