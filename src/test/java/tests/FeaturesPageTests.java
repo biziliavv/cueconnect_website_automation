@@ -41,7 +41,7 @@ public class FeaturesPageTests extends SeleniumBaseTest {
     public void openingThirdRequestDemoButton() throws InterruptedException, IOException {
         HomePageObject homePage = new HomePageObject();
         FeaturesPage featuresPage = homePage.goToFeaturesPage();
-        WebElement thirdRequestButton = getDriver().findElement(By.xpath("//p/a[text()='REQUEST A DEMO']"));
+        WebElement thirdRequestButton = getDriver().findElement(By.xpath("//div/div/div[2]/a"));
         featuresPage.waitAndClick(thirdRequestButton);
         Assert.assertEquals("Learn How Cue Can Help You Grow Your Business", featuresPage.getTitle());
 

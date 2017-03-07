@@ -29,9 +29,9 @@ public class HomePageObject extends BaseObjectPage {
         inStream = new FileInputStream(new File("properties/BaseProperties.properties"));
         Properties prop = new Properties();
         prop.load(inStream);
-        String qa_env=prop.getProperty("qa_env");
+        String env=prop.getProperty("prod_env");
 
-        getDriver().get(qa_env);
+        getDriver().get(env);
     }
 
 
@@ -90,6 +90,13 @@ public class HomePageObject extends BaseObjectPage {
         Thread.sleep(4000);
         movingToMenuElement("Blog", "Cue Academy");
         return new CueAcademyPage();
+    }
+    public LoginPage goToLoginPage() throws InterruptedException {
+
+
+        WebElement featuresButton = getDriver().findElement(By.xpath("//span[text()='Log In']"));
+        featuresButton.click();
+        return new LoginPage();
     }
 
 

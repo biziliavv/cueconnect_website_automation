@@ -29,7 +29,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void validDataFormChecking() throws IOException, InterruptedException {
+    public void avalidDataFormChecking() throws IOException, InterruptedException {
         HomePageObject homePage = new HomePageObject();
         ResourcesPage resourcesPage = homePage.goToResources();
         Thread.sleep(3000);
@@ -45,7 +45,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void emptyDataFormChecking() throws IOException, InterruptedException {
+    public void aemptyDataFormChecking() throws IOException, InterruptedException {
         HomePageObject homePage = new HomePageObject();
         ResourcesPage resourcesPage = homePage.goToResources();
         Thread.sleep(3000);
@@ -57,8 +57,11 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.donwloadButtonClicking();
         Thread.sleep(2000);
         Assert.assertEquals(resourcesPage.getValidationMessage("firstname"), "Please complete this mandatory field.");
+        Thread.sleep(2000);
         Assert.assertEquals(resourcesPage.getValidationMessage("lastname"), "Please complete this mandatory field.");
+        Thread.sleep(2000);
         Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Please complete this mandatory field.");
+        Thread.sleep(2000);
         Assert.assertEquals(resourcesPage.getValidationMessage("numemployees"), "Please select an option from the dropdown.");
 
     }

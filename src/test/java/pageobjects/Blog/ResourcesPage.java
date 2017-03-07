@@ -47,7 +47,10 @@ public class ResourcesPage extends BaseObjectPage {
         lastNameField.clear();
         WebElement emailField = getDriver().findElement(By.xpath("//input[@name='email']"));
         emailField.clear();
-
+        Select employees_number = new Select(getDriver().findElement(By.xpath("//select[@name='numemployees']")));
+        employees_number.selectByIndex(0);
+        Select platform = new Select(getDriver().findElement(By.xpath("//select[@name='commerce_platform']")));
+        platform.selectByIndex(0);
     }
 
     public void donwloadButtonClicking() throws InterruptedException {
@@ -56,8 +59,9 @@ public class ResourcesPage extends BaseObjectPage {
     }
 
     public String getThankfulMessage() throws InterruptedException {
-        Thread.sleep(2000);
-        return getDriver().findElement(By.xpath("//p[@class='p1']")).getText();
+        WebElement thankful = getDriver().findElement(By.xpath("//p[@class='p1']"));
+        fluentWaitforElement(thankful, 10, 10);
+        return thankful.getText();
     }
     public void downloadYourTemplateButtonClicking() throws InterruptedException {
         Thread.sleep(2000);

@@ -18,7 +18,8 @@ public class RequestDemoPage extends BaseObjectPage {
 
     public void requiredFieldFillingIn(String fieldName, String fieldValue) throws InterruptedException {
         Thread.sleep(2000);
-        WebElement field = getDriver().findElement(By.id(fieldName));
+        //WebElement field = getDriver().findElement(By.id(fieldName));
+        WebElement field = getDriver().findElement(By.xpath("//input[@name='"+fieldName+"']"));
         Thread.sleep(5000);
         field.click();
         fluentWaitforElement(field, 10, 7);
@@ -37,7 +38,7 @@ public class RequestDemoPage extends BaseObjectPage {
 
     public String getValidMessageAfterSendingForm() throws InterruptedException {
         Thread.sleep(4000);
-        WebElement messageAfterSending = getDriver().findElement(By.xpath("//div[@role='alert']"));
+        WebElement messageAfterSending = getDriver().findElement(By.xpath("//div[@class='hbspt-form']/div[@class='submitted-message']"));
         fluentWaitforElement(messageAfterSending, 10, 5);
         return messageAfterSending.getText();
 

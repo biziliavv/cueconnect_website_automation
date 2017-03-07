@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2,531.719" tests="61" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2,276.827" tests="78" errors="0" skipped="0" failures="11">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
@@ -61,95 +61,225 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="checkinReadMoreLink" classname="tests.About.PressTests" time="49.925"/>
-  <testcase name="chekingStyleGuide" classname="tests.About.PressTests" time="39.849"/>
-  <testcase name="downloadLinkCheckingIconBlack" classname="tests.About.PressTests" time="40.357"/>
-  <testcase name="downloadLinkCheckingLogo" classname="tests.About.PressTests" time="40.557"/>
-  <testcase name="downloadLinkCheckingLogoBlack" classname="tests.About.PressTests" time="35.629"/>
-  <testcase name="downloadLinkCheckingLogoVertical" classname="tests.About.PressTests" time="38.153"/>
-  <testcase name="checkSocialNetworkButton" classname="tests.BlogMainPageTests" time="86.305"/>
-  <testcase name="checkSocialNetworkButton" classname="tests.BlogMainPageTests" time="85.648"/>
-  <testcase name="clickingOnAuthorChecking" classname="tests.BlogMainPageTests" time="38.751"/>
-  <testcase name="clickingOnAuthorChecking" classname="tests.BlogMainPageTests" time="44.229"/>
-  <testcase name="clickingOnTagChecking" classname="tests.BlogMainPageTests" time="45.789"/>
-  <testcase name="clickingOnTagChecking" classname="tests.BlogMainPageTests" time="47.65"/>
-  <testcase name="goingToCommentsSectionByClickOnClickHereLink" classname="tests.BlogMainPageTests" time="47.913"/>
-  <testcase name="goingToCommentsSectionByClickOnClickHereLink" classname="tests.BlogMainPageTests" time="42.236"/>
-  <testcase name="openingPostByClickOnReadThisPostBtn" classname="tests.BlogMainPageTests" time="36.055"/>
-  <testcase name="openingPostByClickOnReadThisPostBtn" classname="tests.BlogMainPageTests" time="40.205"/>
-  <testcase name="openingPostByClickOnTitle" classname="tests.BlogMainPageTests" time="34.912"/>
-  <testcase name="openingPostByClickOnTitle" classname="tests.BlogMainPageTests" time="34.146"/>
-  <testcase name="subscribeToEmptyEmail" classname="tests.BlogMainPageTests" time="30.82"/>
-  <testcase name="subscribeToEmptyEmail" classname="tests.BlogMainPageTests" time="29.846"/>
-  <testcase name="subscribeToValidEmail" classname="tests.BlogMainPageTests" time="28.35"/>
-  <testcase name="subscribeToValidEmail" classname="tests.BlogMainPageTests" time="26.901"/>
-  <testcase name="subscribeToWrongEmailWithAt" classname="tests.BlogMainPageTests" time="29.711"/>
-  <testcase name="subscribeToWrongEmailWithAt" classname="tests.BlogMainPageTests" time="30.582"/>
-  <testcase name="subscribeToWrongEmailWithoutAt" classname="tests.BlogMainPageTests" time="31.302"/>
-  <testcase name="subscribeToWrongEmailWithoutAt" classname="tests.BlogMainPageTests" time="29.864"/>
-  <testcase name="checkElementsArePresent" classname="tests.About.CareersTests" time="39.158"/>
-  <testcase name="openingVacancyAndSendingEmptyForm" classname="tests.About.CareersTests" time="34.09"/>
-  <testcase name="badEmailChecking" classname="tests.About.ContactUsPageTests" time="40.413"/>
-  <testcase name="emptyDataChecking" classname="tests.About.ContactUsPageTests" time="46.406"/>
-  <testcase name="checkingOurStoryPageAppears" classname="tests.About.OurStory" time="29.57"/>
-  <testcase name="checkingOurStoryThatElementsArePresent" classname="tests.About.OurStory" time="90.21"/>
-  <testcase name="checkingOfEmployeeQuote" classname="tests.About.TeamTests" time="31.639"/>
-  <testcase name="bottomMenuVerifying" classname="tests.HomePageTests" time="137.077"/>
-  <testcase name="emptyEmailAndClickRequestDemo" classname="tests.HomePageTests" time="18.375"/>
-  <testcase name="getStartedFreeChecking" classname="tests.HomePageTests" time="12.77"/>
-  <testcase name="movingToAboutMenu" classname="tests.HomePageTests" time="103.778"/>
-  <testcase name="movingToBlogMenu" classname="tests.HomePageTests" time="68.914"/>
-  <testcase name="movingToFeaturesFirstHalfMenu" classname="tests.HomePageTests" time="49.867"/>
-  <testcase name="movingToFeaturesSecondHalfMenu" classname="tests.HomePageTests" time="51.118"/>
-  <testcase name="notEmailFormatAndClickRequestDemo" classname="tests.HomePageTests" time="10.511"/>
-  <testcase name="scrollingToCueConnectBlog" classname="tests.HomePageTests" time="27.369"/>
-  <testcase name="scrollingToDriveEcommerce" classname="tests.HomePageTests" time="24.435"/>
-  <testcase name="scrollingToResources" classname="tests.HomePageTests" time="25.329"/>
-  <testcase name="scrollingToRetargetShoppers" classname="tests.HomePageTests" time="25.331"/>
-  <testcase name="scrollingToTransformTraffic" classname="tests.HomePageTests" time="25.58"/>
-  <testcase name="sendingUpdatesEmptyEmail" classname="tests.HomePageTests" time="27.968"/>
-  <testcase name="sendingUpdatesIncorrectEmail" classname="tests.HomePageTests" time="27.672"/>
-  <testcase name="sendingUpdatesIncorrectEmailWithAt" classname="tests.HomePageTests" time="28.357"/>
-  <testcase name="sendingUpdatesToValidEmail" classname="tests.HomePageTests" time="38.736">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;submitted-message&apos;]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.02 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;102.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.YEqmCE}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 0508aa0d0a69da8cb7d667c7fdb345f8&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;submitted-message&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="checkinReadMoreLink" classname="tests.About.PressTests" time="26.306"/>
+  <testcase name="chekingStyleGuide" classname="tests.About.PressTests" time="28.111"/>
+  <testcase name="downloadLinkCheckingIconBlack" classname="tests.About.PressTests" time="29.23"/>
+  <testcase name="downloadLinkCheckingLogo" classname="tests.About.PressTests" time="29.601"/>
+  <testcase name="downloadLinkCheckingLogoBlack" classname="tests.About.PressTests" time="27.656"/>
+  <testcase name="downloadLinkCheckingLogoVertical" classname="tests.About.PressTests" time="29.137"/>
+  <testcase name="openingPageAndClickOnRequestDemo" classname="tests.BenefitsPageTests" time="13.236"/>
+  <testcase name="scrollingDownAndVerifyingPresenceOfElements" classname="tests.BenefitsPageTests" time="92.857"/>
+  <testcase name="aemptyDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="54.767"/>
+  <testcase name="avalidDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="34.904"/>
+  <testcase name="downloadTemplateAndSubscribeForUpdates" classname="tests.Blog.ResourcesPageTests" time="44.651"/>
+  <testcase name="downloadTemplateAndSubscribeForUpdatesEmailWithAt" classname="tests.Blog.ResourcesPageTests" time="42.363"/>
+  <testcase name="downloadTemplateAndSubscribeForUpdatesEmailWithoutAt" classname="tests.Blog.ResourcesPageTests" time="45.133"/>
+  <testcase name="downloadTemplateAndSubscribeForUpdatesEmptyEmail" classname="tests.Blog.ResourcesPageTests" time="45.702"/>
+  <testcase name="templateOpeningChecking" classname="tests.Blog.ResourcesPageTests" time="33.326"/>
+  <testcase name="wrongEmailWithAtDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="37.346"/>
+  <testcase name="wrongEmailWithoutAtDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="37.663"/>
+  <testcase name="checkSocialNetworkButton" classname="tests.Blog.BlogMainPageTests" time="74.367"/>
+  <testcase name="checkSocialNetworkButton" classname="tests.Blog.BlogMainPageTests" time="71.806"/>
+  <testcase name="clickingOnAuthorChecking" classname="tests.Blog.BlogMainPageTests" time="21.795"/>
+  <testcase name="clickingOnAuthorChecking" classname="tests.Blog.BlogMainPageTests" time="21.938"/>
+  <testcase name="clickingOnTagChecking" classname="tests.Blog.BlogMainPageTests" time="21.298"/>
+  <testcase name="clickingOnTagChecking" classname="tests.Blog.BlogMainPageTests" time="21.56"/>
+  <testcase name="goingToCommentsSectionByClickOnClickHereLink" classname="tests.Blog.BlogMainPageTests" time="27.379"/>
+  <testcase name="goingToCommentsSectionByClickOnClickHereLink" classname="tests.Blog.BlogMainPageTests" time="26.674"/>
+  <testcase name="openingPostByClickOnReadThisPostBtn" classname="tests.Blog.BlogMainPageTests" time="19.737"/>
+  <testcase name="openingPostByClickOnReadThisPostBtn" classname="tests.Blog.BlogMainPageTests" time="19.172"/>
+  <testcase name="openingPostByClickOnTitle" classname="tests.Blog.BlogMainPageTests" time="25.034">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class=&apos;post-title&apos;]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.05 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;100.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1beb622eea297e206feeaf9f808e4104&#10;*** Element info: {Using=xpath, value=//h1[@class=&apos;post-title&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='post-title']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '100.lan0.mk.uz.ua', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1beb622eea297e206feeaf9f808e4104
+*** Element info: {Using=xpath, value=//h1[@class='post-title']}
+	at tests.Blog.BlogMainPageTests.openingPostByClickOnTitle(BlogMainPageTests.java:77)
+</failure>
+  </testcase>
+  <testcase name="openingPostByClickOnTitle" classname="tests.Blog.BlogMainPageTests" time="25.521">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class=&apos;post-title&apos;]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.04 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;100.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1beb622eea297e206feeaf9f808e4104&#10;*** Element info: {Using=xpath, value=//h1[@class=&apos;post-title&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='post-title']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '100.lan0.mk.uz.ua', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1beb622eea297e206feeaf9f808e4104
+*** Element info: {Using=xpath, value=//h1[@class='post-title']}
+	at tests.Blog.BlogMainPageTests.openingPostByClickOnTitle(BlogMainPageTests.java:77)
+</failure>
+  </testcase>
+  <testcase name="subscribeToEmptyEmail" classname="tests.Blog.BlogMainPageTests" time="20.106">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@width=1795][@height=482]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.03 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;100.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1beb622eea297e206feeaf9f808e4104&#10;*** Element info: {Using=xpath, value=//img[@width=1795][@height=482]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@width=1795][@height=482]"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '100.lan0.mk.uz.ua', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1beb622eea297e206feeaf9f808e4104
+*** Element info: {Using=xpath, value=//img[@width=1795][@height=482]}
+	at tests.Blog.BlogMainPageTests.subscribeToEmptyEmail(BlogMainPageTests.java:36)
+</failure>
+  </testcase>
+  <testcase name="subscribeToEmptyEmail" classname="tests.Blog.BlogMainPageTests" time="20.53">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@width=1795][@height=482]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.04 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;100.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1beb622eea297e206feeaf9f808e4104&#10;*** Element info: {Using=xpath, value=//img[@width=1795][@height=482]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@width=1795][@height=482]"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '100.lan0.mk.uz.ua', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1beb622eea297e206feeaf9f808e4104
+*** Element info: {Using=xpath, value=//img[@width=1795][@height=482]}
+	at tests.Blog.BlogMainPageTests.subscribeToEmptyEmail(BlogMainPageTests.java:36)
+</failure>
+  </testcase>
+  <testcase name="subscribeToValidEmail" classname="tests.Blog.BlogMainPageTests" time="18.501"/>
+  <testcase name="subscribeToValidEmail" classname="tests.Blog.BlogMainPageTests" time="18.597"/>
+  <testcase name="subscribeToWrongEmailWithAt" classname="tests.Blog.BlogMainPageTests" time="21.234"/>
+  <testcase name="subscribeToWrongEmailWithAt" classname="tests.Blog.BlogMainPageTests" time="20.98">
+    <failure message="expected [] but found [Please enter a valid email address.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [Please enter a valid email address.]
+	at tests.Blog.BlogMainPageTests.subscribeToWrongEmailWithAt(BlogMainPageTests.java:56)
+</failure>
+  </testcase>
+  <testcase name="subscribeToWrongEmailWithoutAt" classname="tests.Blog.BlogMainPageTests" time="21.516"/>
+  <testcase name="subscribeToWrongEmailWithoutAt" classname="tests.Blog.BlogMainPageTests" time="21.186"/>
+  <testcase name="checkElementsArePresent" classname="tests.About.CareersTests" time="28.99"/>
+  <testcase name="openingVacancyAndSendingEmptyForm" classname="tests.About.CareersTests" time="24.357"/>
+  <testcase name="badEmailChecking" classname="tests.About.ContactUsPageTests" time="40.616">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;hs_contact-email field hs-form-field&apos;]//label[@class=&apos;visible&apos;]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.01 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;100.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1beb622eea297e206feeaf9f808e4104&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;hs_contact-email field hs-form-field&apos;]//label[@class=&apos;visible&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_contact-email field hs-form-field']//label[@class='visible']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '100.lan0.mk.uz.ua', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1beb622eea297e206feeaf9f808e4104
+*** Element info: {Using=xpath, value=//div[@class='hs_contact-email field hs-form-field']//label[@class='visible']}
+	at tests.About.ContactUsPageTests.badEmailChecking(ContactUsPageTests.java:53)
+</failure>
+  </testcase>
+  <testcase name="emptyDataChecking" classname="tests.About.ContactUsPageTests" time="38.894">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;hs_contact-name field hs-form-field&apos;]//label[@class=&apos;visible&apos;]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.01 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;100.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1beb622eea297e206feeaf9f808e4104&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;hs_contact-name field hs-form-field&apos;]//label[@class=&apos;visible&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_contact-name field hs-form-field']//label[@class='visible']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '100.lan0.mk.uz.ua', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1beb622eea297e206feeaf9f808e4104
+*** Element info: {Using=xpath, value=//div[@class='hs_contact-name field hs-form-field']//label[@class='visible']}
+	at tests.About.ContactUsPageTests.emptyDataChecking(ContactUsPageTests.java:39)
+</failure>
+  </testcase>
+  <testcase name="checkingOurStoryPageAppears" classname="tests.About.OurStory" time="18.485"/>
+  <testcase name="checkingOurStoryThatElementsArePresent" classname="tests.About.OurStory" time="78.179"/>
+  <testcase name="checkingOfEmployeeQuote" classname="tests.About.TeamTests" time="17.732"/>
+  <testcase name="bottomMenuVerifying" classname="tests.HomePageTests" time="47.381"/>
+  <testcase name="emptyEmailAndClickRequestDemo" classname="tests.HomePageTests" time="9.552"/>
+  <testcase name="getStartedFreeChecking" classname="tests.HomePageTests" time="16.041"/>
+  <testcase name="movingToAboutMenu" classname="tests.HomePageTests" time="174.794"/>
+  <testcase name="movingToBlogMenu" classname="tests.HomePageTests" time="29.883"/>
+  <testcase name="movingToFeaturesFirstHalfMenu" classname="tests.HomePageTests" time="30.867"/>
+  <testcase name="movingToFeaturesSecondHalfMenu" classname="tests.HomePageTests" time="30.62"/>
+  <testcase name="notEmailFormatAndClickRequestDemo" classname="tests.HomePageTests" time="4.215"/>
+  <testcase name="scrollingToCueConnectBlog" classname="tests.HomePageTests" time="14.048"/>
+  <testcase name="scrollingToDriveEcommerce" classname="tests.HomePageTests" time="13.973"/>
+  <testcase name="scrollingToResources" classname="tests.HomePageTests" time="13.567"/>
+  <testcase name="scrollingToRetargetShoppers" classname="tests.HomePageTests" time="14.788"/>
+  <testcase name="scrollingToTransformTraffic" classname="tests.HomePageTests" time="14.018"/>
+  <testcase name="sendingUpdatesEmptyEmail" classname="tests.HomePageTests" time="21.881"/>
+  <testcase name="sendingUpdatesIncorrectEmail" classname="tests.HomePageTests" time="22.237"/>
+  <testcase name="sendingUpdatesIncorrectEmailWithAt" classname="tests.HomePageTests" time="22.907"/>
+  <testcase name="sendingUpdatesToValidEmail" classname="tests.HomePageTests" time="33.132">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;submitted-message&apos;]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.03 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;100.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1beb622eea297e206feeaf9f808e4104&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;submitted-message&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='submitted-message']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '100.lan0.mk.uz.ua', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1beb622eea297e206feeaf9f808e4104
+*** Element info: {Using=xpath, value=//div[@class='submitted-message']}
+	at tests.HomePageTests.sendingUpdatesToValidEmail(HomePageTests.java:193)
+</failure>
+  </testcase>
+  <testcase name="singleClickOnLoginTopMenuItems" classname="tests.HomePageTests" time="22.503"/>
+  <testcase name="singleClickOnTopMenuItems" classname="tests.HomePageTests" time="32.526"/>
+  <testcase name="typingValidEmailAndClickRequestDemo" classname="tests.HomePageTests" time="5.983"/>
+  <testcase name="openingFeaturesPageAndClickOnRequestDemo" classname="tests.FeaturesPageTests" time="4.136"/>
+  <testcase name="openingSecondRequestDemoButton" classname="tests.FeaturesPageTests" time="14.396"/>
+  <testcase name="openingThirdRequestDemoButton" classname="tests.FeaturesPageTests" time="14.855"/>
+  <testcase name="scrollingToEachSection" classname="tests.FeaturesPageTests" time="76.777">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@width=639][@height=412]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.02 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;100.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1beb622eea297e206feeaf9f808e4104&#10;*** Element info: {Using=xpath, value=//img[@width=639][@height=412]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@width=639][@height=412]"}
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 10.02 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: '102.lan0.mk.uz.ua', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+System info: host: '100.lan0.mk.uz.ua', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.YEqmCE}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 0508aa0d0a69da8cb7d667c7fdb345f8
-*** Element info: {Using=xpath, value=//div[@class='submitted-message']}
-	at tests.HomePageTests.sendingUpdatesToValidEmail(HomePageTests.java:193)
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1beb622eea297e206feeaf9f808e4104
+*** Element info: {Using=xpath, value=//img[@width=639][@height=412]}
+	at tests.FeaturesPageTests.scrollingToEachSection(FeaturesPageTests.java:54)
 </failure>
   </testcase>
-  <testcase name="singleClickOnLoginTopMenuItems" classname="tests.HomePageTests" time="31.496"/>
-  <testcase name="singleClickOnTopMenuItems" classname="tests.HomePageTests" time="70.014"/>
-  <testcase name="typingValidEmailAndClickRequestDemo" classname="tests.HomePageTests" time="18.267"/>
-  <testcase name="openingFeaturesPageAndClickOnRequestDemo" classname="tests.FeaturesPageTests" time="21.551"/>
-  <testcase name="openingSecondRequestDemoButton" classname="tests.FeaturesPageTests" time="30.146"/>
-  <testcase name="openingThirdRequestDemoButton" classname="tests.FeaturesPageTests" time="30.399"/>
-  <testcase name="scrollingToEachSection" classname="tests.FeaturesPageTests" time="84.993"/>
-  <testcase name="emailFieldValidations" classname="tests.RequestDemoTests" time="39.945"/>
-  <testcase name="phoneNumberFieldValidations" classname="tests.RequestDemoTests" time="33.35"/>
-  <testcase name="requestDemoEmptyRequiredFieldsOpening" classname="tests.RequestDemoTests" time="36.137">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;wpcf7-form-control-wrap request-email&apos;]/span[@role=&apos;alert&apos;]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.06 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;102.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.YEqmCE}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 0508aa0d0a69da8cb7d667c7fdb345f8&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;wpcf7-form-control-wrap request-email&apos;]/span[@role=&apos;alert&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wpcf7-form-control-wrap request-email']/span[@role='alert']"}
+  <testcase name="emailFieldValidations" classname="tests.RequestDemoTests" time="24.721"/>
+  <testcase name="phoneNumberFieldValidations" classname="tests.RequestDemoTests" time="24.711"/>
+  <testcase name="requestDemoEmptyRequiredFieldsOpening" classname="tests.RequestDemoTests" time="23.667">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;hs_firstname field hs-form-field&apos;]//label[@class=&apos;visible&apos;]&quot;}&#10;  (Session info: chrome=56.0.2924.87)&#10;  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.03 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;100.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1beb622eea297e206feeaf9f808e4104&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;hs_firstname field hs-form-field&apos;]//label[@class=&apos;visible&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_firstname field hs-form-field']//label[@class='visible']"}
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.06 seconds
+Command duration or timeout: 10.03 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: '102.lan0.mk.uz.ua', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+System info: host: '100.lan0.mk.uz.ua', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.YEqmCE}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 0508aa0d0a69da8cb7d667c7fdb345f8
-*** Element info: {Using=xpath, value=//span[@class='wpcf7-form-control-wrap request-email']/span[@role='alert']}
-	at tests.RequestDemoTests.requestDemoEmptyRequiredFieldsOpening(RequestDemoTests.java:24)
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.Sob7iZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1beb622eea297e206feeaf9f808e4104
+*** Element info: {Using=xpath, value=//div[@class='hs_firstname field hs-form-field']//label[@class='visible']}
+	at tests.RequestDemoTests.requestDemoEmptyRequiredFieldsOpening(RequestDemoTests.java:23)
 </failure>
   </testcase>
-  <testcase name="sendingFormWithValidData" classname="tests.RequestDemoTests" time="54.22"/>
+  <testcase name="sendingFormWithValidData" classname="tests.RequestDemoTests" time="44.953"/>
+  <testcase name="correctLogin" classname="tests.LoginPageTests" time="9.174"/>
+  <testcase name="forgotPasswordDoenMatchEmails" classname="tests.LoginPageTests" time="7.178">
+    <failure message="expected [Please confirm your email] but found [Emails don&apos;t match]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Please confirm your email] but found [Emails don't match]
+	at tests.LoginPageTests.forgotPasswordDoenMatchEmails(LoginPageTests.java:79)
+</failure>
+  </testcase>
+  <testcase name="forgotPasswordEmptyFields" classname="tests.LoginPageTests" time="5.444"/>
+  <testcase name="forgotPasswordWrongEmail" classname="tests.LoginPageTests" time="5.642"/>
+  <testcase name="loginCheckEmptyFields" classname="tests.LoginPageTests" time="4.002"/>
+  <testcase name="loginFormCheckingWrongEmail" classname="tests.LoginPageTests" time="2.976"/>
 </testsuite>

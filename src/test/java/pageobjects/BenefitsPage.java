@@ -15,13 +15,13 @@ public class BenefitsPage extends BaseObjectPage {
     }
 
     public void scrollAndVerifyEachElement() throws InterruptedException {
-        String title[] = {"Get Insight Only Cue Can Give You", "Enhance Onsite Marketing", "Retarget Offsite With", "Convert More Shoppers", "Get Higher ROI Results"};
-        String width[] = {"215", "258", "287", "273", "218"};
+        String title[] = {"Get Insight Only Cue Can Give You", "Enhance Your Onsite Marketing", "Retarget Offsite With Laser-Like Focus", "Convert More Online Shoppers", "Get Higher ROI Results"};
+        String width[] = {"215", "258", "222", "273", "218"};
         String height[] = {"220", "225", "218", "217", "221"};
 
 
         for (int j = 0; j < title.length; j++) {
-            Thread.sleep(6000);
+            Thread.sleep(2000);
             WebElement section = getDriver().findElement(By.xpath("//h3[text()='"+title[j]+"']"));
             waitForElementAfterScroll(section);
             Assert.assertTrue(getPageImage(width[j], height[j]));

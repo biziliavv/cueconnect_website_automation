@@ -27,7 +27,7 @@ public class FeaturesPage extends BaseObjectPage {
     }
     public void scrollAndVerifyEachElement() throws InterruptedException {
         String title[] = {"Create A Complete Picture Of Your Shoppers", "Connect Shoppers With Items They Care Most", "Provide a Seamless Sharing Experience", "Create Proximity-Based Engagement"};
-        String width[] = {"738", "567", "639", "551"};
+        String width[] = {"738", "567", "600", "551"};
         String height[] = {"437", "394", "412", "396"};
 
 

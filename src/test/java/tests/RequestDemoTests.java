@@ -20,9 +20,9 @@ public class RequestDemoTests extends SeleniumBaseTest {
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         requestDemoPage.scrollDown();
         requestDemoPage.sendingData();
-        Assert.assertEquals("The field is required.", requestDemoPage.getMessageOfEmptyFields("request-name"));
-        Assert.assertEquals("The field is required.", requestDemoPage.getMessageOfEmptyFields("request-email"));
-        Assert.assertEquals("The field is required.", requestDemoPage.getMessageOfEmptyFields("request-phoneNumber"));
+        Assert.assertEquals("Name is required", requestDemoPage.getMessageOfEmptyFields("firstname"));
+        Assert.assertEquals("Email is required", requestDemoPage.getMessageOfEmptyFields("email"));
+        Assert.assertEquals("Phone Number is required", requestDemoPage.getMessageOfEmptyFields("phone"));
     }
 
     @Test(groups = "negative")
@@ -30,9 +30,9 @@ public class RequestDemoTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking of simple word without @
-        requestDemoPage.requiredFieldFillingIn("request-email", "test");
+        requestDemoPage.requiredFieldFillingIn("email", "test");
         requestDemoPage.sendingData();
-        Assert.assertEquals("The e-mail address entered is invalid.", requestDemoPage.getMessageOfEmptyFields("request-email"));
+        Assert.assertEquals("Email must be formatted correctly.", requestDemoPage.getMessageOfEmptyFields("email"));
 
     }
 
@@ -41,9 +41,9 @@ public class RequestDemoTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking phone number with alphabetical values
-        requestDemoPage.requiredFieldFillingIn("request-phoneNumber", "blablabla");
+        requestDemoPage.requiredFieldFillingIn("phone", "blablabla");
         requestDemoPage.sendingData();
-        Assert.assertEquals("The telephone number is invalid.", requestDemoPage.getMessageOfEmptyFields("request-phoneNumber"));
+        Assert.assertEquals("Must contain only numbers, +()-. and x.", requestDemoPage.getMessageOfEmptyFields("phone"));
 
 
     }
@@ -51,10 +51,10 @@ public class RequestDemoTests extends SeleniumBaseTest {
     public void sendingFormWithValidData() throws InterruptedException,  IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
-        requestDemoPage.requiredFieldFillingIn("request-name", "test");
-        requestDemoPage.requiredFieldFillingIn("request-email", "cuetest@mailinator.com");
+        requestDemoPage.requiredFieldFillingIn("firstname", "test");
+        requestDemoPage.requiredFieldFillingIn("email", "test@test.com");
         requestDemoPage.scrollDown();
-        requestDemoPage.requiredFieldFillingIn("request-phoneNumber", "12345678");
+        requestDemoPage.requiredFieldFillingIn("phone", "12345678");
         requestDemoPage.sendingData();
         Assert.assertEquals("We just received your request for a demo! One of our specialists will reach out to you in the next 48 hours to get it scheduled.", requestDemoPage.getValidMessageAfterSendingForm());
 

@@ -18,8 +18,8 @@ public class TeamTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         homePage.movingToMenuElement("About", "Team");
         homePage.moveToEmployeeAndWaitQuote();
-        Assert.assertEquals("“If you wish to persuade me, you must think my thoughts, feel my feelings, and speak my words.”\n" +
-                "— Cicero", homePage.getEmployeesQuote());
+        Assert.assertEquals("“Great companies are built on great products.”\n" +
+                "— Elon Musk", homePage.getEmployeesQuote());
         Assert.assertTrue(homePage.getPageImage("478", "412"));
         Assert.assertEquals("Join & Build Something Great", homePage.getBigTitle());
         Assert.assertEquals("mailto:jobs@cueconnect.com?subject=Join%20cue", homePage.getJoinOurTeamLink());

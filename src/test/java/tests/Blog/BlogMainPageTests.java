@@ -33,7 +33,7 @@ public class BlogMainPageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
         Assert.assertEquals("Cue Connect Blog", blogPage.getTitle());
-        Assert.assertTrue(blogPage.getPageImage("1795", "482"));
+        Assert.assertTrue(blogPage.getPageImage("2394", "643"));
         blogPage.fillingInEmailForUpdates("");
         Assert.assertEquals("Please complete this mandatory field.", blogPage.getValidationMessages());
 
@@ -107,7 +107,7 @@ public class BlogMainPageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
         Thread.sleep(3000);
-        String tagName = "E-Commerce";
+        String tagName = "Customer Journey";
         blogPage.clickingOnTag(tagName);
         Thread.sleep(3000);
         Assert.assertEquals("Tag: "+tagName+"", blogPage.getTitle());

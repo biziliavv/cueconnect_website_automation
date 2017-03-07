@@ -56,17 +56,19 @@ public class BlogPage extends BaseObjectPage {
         return getDriver().getPageSource().contains(socialNetworkText);
     }
 
-    public void openPostByClickOnTitle() {
+    public void openPostByClickOnTitle() throws InterruptedException {
         WebElement postTitle= getDriver().findElement(By.xpath("//h2[@class='post-title']"));
         postTitle.click();
+        Thread.sleep(4000);
     }
 
     public String getPostTitleOnMainBlog(){
         return getDriver().findElement(By.xpath("//h2[@class='post-title']")).getText();
     }
 
-    public String getPostTitleOnBlogPage(){
-        return getDriver().findElement(By.xpath("//h1[@class='post-title']")).getText();
+    public String getPostTitleOnBlogPage() throws InterruptedException {
+        Thread.sleep(2000);
+        return getDriver().findElement(By.xpath("//*[@id=\"blog-content\"]/h1")).getText();
     }
 
     public void openPostByClickOnReadThisPost() throws InterruptedException {

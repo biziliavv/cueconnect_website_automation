@@ -28,18 +28,18 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
 
         homePage.movingToMenuElement("Features", "Reporting Suite");
-        Assert.assertEquals("https://cueconnect.net/features/#reporting-suite", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/features/#reporting-suite", getDriver().getCurrentUrl());
         homePage.movingToMenuElement("Features", "Share Tools");
-        Assert.assertEquals("https://cueconnect.net/features/#share-tools", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/features/#share-tools", getDriver().getCurrentUrl());
     }
     @Test(groups = "positive")
     public void movingToFeaturesSecondHalfMenu() throws InterruptedException,  IOException {
 
         HomePageObject homePage = new HomePageObject();
         homePage.movingToMenuElement("Features", "My List");
-        Assert.assertEquals("https://cueconnect.net/features/#my-list", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/features/#my-list", getDriver().getCurrentUrl());
         homePage.movingToMenuElement("Features", "Cue Proximity");
-        Assert.assertEquals("https://cueconnect.net/features/#cue-proximity", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/features/#cue-proximity", getDriver().getCurrentUrl());
 
 
     }
@@ -49,16 +49,16 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
 
         homePage.movingToMenuElement("About", "Our Story");
-        Assert.assertEquals("https://cueconnect.net/about/", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/about/", getDriver().getCurrentUrl());
         Assert.assertEquals("Our Story", homePage.getTitle());
         homePage.movingToMenuElement("About", "Press");
-        Assert.assertEquals("https://cueconnect.net/press/", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/press/", getDriver().getCurrentUrl());
         homePage.movingToMenuElement("About", "Team");
-        Assert.assertEquals("https://cueconnect.net/team/", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/team/", getDriver().getCurrentUrl());
         homePage.movingToMenuElement("About", "Careers");
-        Assert.assertEquals("https://cueconnect.net/careers/", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/careers/", getDriver().getCurrentUrl());
         homePage.movingToMenuElement("About", "Contact");
-        Assert.assertEquals("https://cueconnect.net/contactus/", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/contactus/", getDriver().getCurrentUrl());
 
 
     }
@@ -68,12 +68,12 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
 
         homePage.movingToMenuElement("Blog", "Blog");
-        Assert.assertEquals("https://cueconnect.net/blog/", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/blog/", getDriver().getCurrentUrl());
         Assert.assertEquals("Cue Connect Blog", homePage.getTitle());
         homePage.movingToMenuElement("Blog", "Resources");
-        Assert.assertEquals("https://cueconnect.net/resources/", getDriver().getCurrentUrl());
-        homePage.movingToMenuElement("Blog", "Cue Academy");
-        Assert.assertEquals("https://cueconnect.net/cue-academy/", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/resources/", getDriver().getCurrentUrl());
+//        homePage.movingToMenuElement("Blog", "Cue Academy");
+//        Assert.assertEquals("https://cueconnect.com/cue-academy/", getDriver().getCurrentUrl());
     }
 
     @Test(groups = "positive")
@@ -113,7 +113,7 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
         homePage.waitAndClick(el);
-        Assert.assertEquals("https://cueconnect:d5ertf5@cueconnect.net/benefits/#transform-traffic", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/benefits/#transform-traffic", getDriver().getCurrentUrl());
 
     }
 
@@ -123,7 +123,7 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
         homePage.waitAndClick(el);
-        Assert.assertEquals("https://cueconnect:d5ertf5@cueconnect.net/benefits/#retarget-shoppers", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/benefits/#retarget-shoppers", getDriver().getCurrentUrl());
 
     }
 
@@ -133,7 +133,7 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
         homePage.waitAndClick(el);
-        Assert.assertEquals("https://cueconnect:d5ertf5@cueconnect.net/benefits/#drive-ecommerce", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/benefits/#drive-ecommerce", getDriver().getCurrentUrl());
 
     }
 
@@ -143,18 +143,18 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "'][text()='Learn More']"));
         homePage.waitAndClick(el);
-        Assert.assertEquals("https://cueconnect.net/blog/", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/blog/", getDriver().getCurrentUrl());
         Assert.assertEquals("Cue Connect Blog", homePage.getTitle());
 
     }
 
     @Test(groups = "positive")
     public void scrollingToResources() throws  IOException {
-        String link = "https://cueconnect.net/resources/";
+        String link = "https://cueconnect.com/resources/";
         HomePageObject homePage = new HomePageObject();
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "'][text()='Learn More ']"));
         homePage.waitAndClick(el);
-        Assert.assertEquals("https://cueconnect.net/resources/", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/resources/", getDriver().getCurrentUrl());
         Assert.assertEquals("Marketing Guides", homePage.getTitle());
 
     }
@@ -165,7 +165,7 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         homePage.typingEmailAndclickOnRequestDemoButton("test@test.com");
         Assert.assertEquals("Learn How Cue Can Help You Grow Your Business", homePage.getTitle());
-        Assert.assertEquals("https://cueconnect.net/request-a-demo/?merchant_email=test%40test.com", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/request-a-demo/?merchant_email=test%40test.com", getDriver().getCurrentUrl());
 
     }
 
@@ -174,7 +174,7 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         homePage.typingEmailAndclickOnRequestDemoButton("");
         Assert.assertEquals("Learn How Cue Can Help You Grow Your Business", homePage.getTitle());
-        Assert.assertEquals("https://cueconnect.net/request-a-demo/?merchant_email=", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/request-a-demo/?merchant_email=", getDriver().getCurrentUrl());
 
     }
 
@@ -182,7 +182,7 @@ public class HomePageTests extends SeleniumBaseTest {
     public void notEmailFormatAndClickRequestDemo() throws InterruptedException,  IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.typingEmailAndclickOnRequestDemoButton("test");
-        Assert.assertEquals("https://cueconnect:d5ertf5@cueconnect.net/", getDriver().getCurrentUrl());
+        Assert.assertEquals("https://cueconnect.com/", getDriver().getCurrentUrl());
     }
 
     @Test(groups = "positive")

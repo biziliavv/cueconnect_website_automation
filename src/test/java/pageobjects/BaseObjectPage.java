@@ -127,7 +127,7 @@ public abstract class BaseObjectPage {
         builder.moveToElement(el).build().perform();
         WebElement submenuButton = getDriver().findElement(By.xpath("//span[text()='"+submenuElement+"']"));
         Thread.sleep(5000);
-
+        fluentWaitforElement(submenuButton, 10, 5);
         submenuButton.click();
 
         Thread.sleep(7000);
@@ -211,7 +211,7 @@ public abstract class BaseObjectPage {
     public String getMessageOfEmptyFields(String fieldName) throws InterruptedException {
         Thread.sleep(4000);
 
-        return getDriver().findElement(By.xpath("//span[@class='wpcf7-form-control-wrap "+fieldName+"']/span[@role='alert']")).getText();
+        return getDriver().findElement(By.xpath("//span[@class='wpcf7-form-control-wrap "+fieldName+"']//span[@role='alert']")).getText();
     }
     public String getValidEmailMessage() {
 
