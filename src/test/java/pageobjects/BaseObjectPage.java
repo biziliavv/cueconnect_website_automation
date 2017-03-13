@@ -100,6 +100,7 @@ public abstract class BaseObjectPage {
 
         } catch (WebDriverException wde) {
             scrollToElement(el);
+            fluentWaitforElement(el, 5, 5);
             el.click();
         }
     }
@@ -119,18 +120,35 @@ public abstract class BaseObjectPage {
     public void movingToMenuElement(String menuElement, String submenuElement) throws InterruptedException {
 
 
+        String[] dimensions = driver.manage().window().getSize().toString().split("\\D");
+        int screenWidth = Integer.parseInt(dimensions[1]);
+        int screenHeight = Integer.parseInt(dimensions[3]);
+
+        if (screenWidth>=1208 && screenHeight>=680){
 
         Actions builder = new Actions(getDriver());
         WebElement el = getDriver().findElement(By.xpath("//span[text()='"+menuElement+"']"));
 
         fluentWaitforElement(el, 10, 5);
         builder.moveToElement(el).build().perform();
-        WebElement submenuButton = getDriver().findElement(By.xpath("//span[text()='"+submenuElement+"']"));
-        Thread.sleep(5000);
-        fluentWaitforElement(submenuButton, 10, 5);
-        submenuButton.click();
+            WebElement submenuButton = getDriver().findElement(By.xpath("//span[text()='"+submenuElement+"']"));
+            Thread.sleep(5000);
+            fluentWaitforElement(submenuButton, 10, 5);
+            submenuButton.click();
 
-        Thread.sleep(7000);
+            Thread.sleep(7000);
+        }
+
+        else {
+            WebElement hamburgerMenuButton = getDriver().findElement(By.xpath("//div[@class='mobile-navigation-toggle']"));
+            hamburgerMenuButton.click();
+            Thread.sleep(3000);
+            WebElement neededMenu = getDriver().findElement(By.xpath("//a[text()='"+submenuElement.toUpperCase()+"']"));
+            Thread.sleep(4000);
+            neededMenu.click();
+            Thread.sleep(7000);
+        }
+
 
     }
 
@@ -210,7 +228,7 @@ public abstract class BaseObjectPage {
     }
 
     public String getValidEmailMessage() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         return getDriver().findElement(By.xpath("//div[@class='submitted-message']")).getText();
     }
     public void fillingInEmailForUpdates(String emailValue) throws InterruptedException {
@@ -221,6 +239,18 @@ public abstract class BaseObjectPage {
         WebElement sendUpdatesButton = getDriver().findElement(By.xpath("//input[@type='submit']"));
         sendUpdatesButton.click();
         Thread.sleep(5000);
+    }
+    public static void waitFor(Integer seconds){
+        getDriver().manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+    }
+
+    public void hamburgerMenuClicking() throws InterruptedException {
+        Thread.sleep(2000);
+        WebElement hamburgerMenu = getDriver().findElement(By.xpath("//div[@class='mobile-navigation-toggle']"));
+        if (hamburgerMenu.isDisplayed()){
+            hamburgerMenu.click();
+            Thread.sleep(4000);
+        }
     }
 }
 

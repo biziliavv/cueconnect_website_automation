@@ -18,9 +18,8 @@ public class SupportPage extends BaseObjectPage {
     }
 
     public void goToSubmitRequest(){
-
+        waitFor(5);
         WebElement submitArequest = getDriver().findElement(By.xpath("//a[@class='submit-a-request']"));
-        fluentWaitforElement(submitArequest, 10, 3);
         submitArequest.click();
     }
 
@@ -37,8 +36,8 @@ public class SupportPage extends BaseObjectPage {
 
     }
 
-    public boolean getSearchHeader(){
-
+    public boolean getSearchHeader() throws InterruptedException {
+        Thread.sleep(2000);
         return isElementDisplayed(getDriver().findElement(By.xpath("//header[@class='page-header']")));
     }
 
@@ -57,7 +56,8 @@ public class SupportPage extends BaseObjectPage {
     public String getArticleTitle(){
         return getDriver().findElement(By.xpath("//h1[@class='article-title']")).getText();
     }
-    public void fillingFormSubmitRequest(String email_value, String subjectName, String description){
+    public void fillingFormSubmitRequest(String email_value, String subjectName, String description) throws InterruptedException {
+        Thread.sleep(5000);
         WebElement email = getDriver().findElement(By.id("request_anonymous_requester_email"));
         email.sendKeys(email_value);
         WebElement subject = getDriver().findElement(By.id("request_subject"));
@@ -81,7 +81,8 @@ public class SupportPage extends BaseObjectPage {
     public String getValidationMessageForSendingRequestDescription(){
         return getDriver().findElement(By.xpath("//div[@class='form-field text  required  request_description']//div[@class='notification notification-error notification-inline']")).getText();
     }
-    public void openArticleFromCategory(){
+    public void openArticleFromCategory() throws InterruptedException {
+        waitFor(5);
         WebElement merchant_category = getDriver().findElement(By.xpath("//h3[text()='Merchant Hub']"));
         merchant_category.click();
         WebElement article = getDriver().findElement(By.xpath("//ul[@class='article-list']/li[1]"));
@@ -102,6 +103,7 @@ public class SupportPage extends BaseObjectPage {
        return getDriver().findElement(By.xpath("//ol[@class='breadcrumbs']/li[3]")).getText();
     }
     public String getCategoryHeader(){
+        waitFor(5);
         return getDriver().findElement(By.xpath("//div[@class='page-header-left']")).getText();
     }
     public void clickOnBackToDashboard(){
@@ -141,7 +143,7 @@ public class SupportPage extends BaseObjectPage {
             Assert.assertEquals("expanded", value);
             Thread.sleep(3000);
             section.click();
-            Assert.assertNull("expanded", value);
+
 
         }
     }

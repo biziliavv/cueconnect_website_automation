@@ -18,6 +18,7 @@ public class LoginPageTests extends SeleniumBaseTest {
     @Test
     public void correctLogin() throws IOException, InterruptedException {
         HomePageObject homePage = new HomePageObject();
+        Thread.sleep(4000);
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));
         getDriver().switchTo().frame(current_frame);

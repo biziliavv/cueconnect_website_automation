@@ -68,7 +68,7 @@ public class SupportPageTests extends SeleniumBaseTest {
         supportPage.scrollDown();
         Thread.sleep(2000);
         supportPage.sendingRequest();
-        Assert.assertEquals("Requester: Email:  cannot be blank", supportPage.getValidationMessageForSendingRequestEmail());
+        Assert.assertEquals("Requester: Email: cannot be blank", supportPage.getValidationMessageForSendingRequestEmail());
         Assert.assertEquals("Subject: cannot be blank", supportPage.getValidationMessageForSendingRequestSubject());
         Assert.assertEquals("Description: cannot be blank", supportPage.getValidationMessageForSendingRequestDescription());
 

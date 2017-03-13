@@ -11,6 +11,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import static setup.SeleniumDriver.getDriver;
 
@@ -46,10 +47,11 @@ public class LoginPage extends BaseObjectPage {
 
         WebElement signinButton = getDriver().findElement(By.id("signin-submit"));
         signinButton.click();
-        Thread.sleep(5000);
+        getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement log_out_button = getDriver().findElement(By.xpath("//button[text()='LOG OUT']"));
         fluentWaitforElement(log_out_button, 10, 10);
         isElementDisplayed(log_out_button);
+
     }
     public void login_check(String user_email, String user_password){
         WebElement emailField = getDriver().findElement(By.id("signin-email"));
@@ -75,7 +77,7 @@ public class LoginPage extends BaseObjectPage {
         confirmEmail.sendKeys(confirmForgotEmail);
         WebElement sendResetCode = getDriver().findElement(By.id("forgot-pwd-submit"));
         sendResetCode.click();
-        Thread.sleep(2000);
+        getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
     }
     public String getForgotEmailValidationMessage(String fieldName){
         return getDriver().findElement(By.id("forgot-email-"+fieldName+"message")).getText();

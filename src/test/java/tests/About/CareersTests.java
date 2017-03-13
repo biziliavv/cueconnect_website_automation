@@ -30,9 +30,8 @@ public class CareersTests extends SeleniumBaseTest {
         getDriver().switchTo().frame(currentFrame);
         Thread.sleep(2000);
         Assert.assertEquals("Current Job Openings at Cue Connect", careersPage.getCurrentJobsTitle());
-        Assert.assertEquals("Administrative", careersPage.getCategoryTitle(21522));
-        Assert.assertEquals("Sales & Operations", careersPage.getCategoryTitle(21518));
-        Assert.assertEquals("Technology", careersPage.getCategoryTitle(21520));
+        Assert.assertEquals("Marketing", careersPage.getCategoryTitle());
+
 
        // careersPage.waitForElementAfterScroll(getDriver().findElement(By.xpath("//h2[@id='21522']")));
 

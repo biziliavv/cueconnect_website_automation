@@ -3,6 +3,7 @@ package pageobjects.Blog;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import pageobjects.BaseObjectPage;
 
@@ -35,7 +36,9 @@ public class BlogPage extends BaseObjectPage {
 
         for (int j = 0; j < links.length; j++) {
             Thread.sleep(6000);
-            WebElement socialNetwork = getDriver().findElement(By.xpath("//div[@class='social-likes__widget social-likes__widget_" + data[j] + "']"));
+            String str = data[j];
+            String cap = str.substring(0, 1).toUpperCase() + str.substring(1);
+            WebElement socialNetwork = getDriver().findElement(By.xpath("//div[2]/div/div/div[@class='social-likes__widget social-likes__widget_"+data[j]+"']"));
             socialNetwork.click();
             Thread.sleep(3000);
             switchingBetweenTabs(1);
@@ -94,6 +97,7 @@ public class BlogPage extends BaseObjectPage {
     }
 
     public void clickingOnAuthor(String authorName) throws InterruptedException {
+        Thread.sleep(3000);
         WebElement author = getDriver().findElement(By.xpath("//span[@class='post-author']/a[text()=' "+authorName+"']"));
         author.click();
         Thread.sleep(3000);
@@ -141,7 +145,16 @@ public class BlogPage extends BaseObjectPage {
 
 
     }
+    public void closeSendUpdates() {
+        WebElement closeBtn = getDriver().findElement(By.xpath("//a[@class='js-close-subscribe-form']"));
+        if (closeBtn.isDisplayed()) {
+            closeBtn.click();
+        }
+    }
+
+
+    }
 
 
 
-}
+

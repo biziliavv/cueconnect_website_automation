@@ -48,4 +48,44 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         blogPage.openPostByClickOnTitle();
         blogPage.socialNetworksClickOnIcon();
     }
+    @Test
+    public void subscribeToValidEmail() throws IOException, InterruptedException {
+
+        HomePageObject homePage = new HomePageObject();
+        BlogPage blogPage = homePage.goToBlogPage();
+        blogPage.fillingInEmailForUpdates("test@test.com");
+        Assert.assertEquals("Thank you for subscribing!", blogPage.getValidEmailMessage());
+
+
+    }
+
+    @Test
+    public void subscribeToEmptyEmail() throws IOException, InterruptedException {
+
+        HomePageObject homePage = new HomePageObject();
+        BlogPage blogPage = homePage.goToBlogPage();
+        Assert.assertEquals("Cue Connect Blog", blogPage.getTitle());
+        Assert.assertTrue(blogPage.getPageImage("2394", "643"));
+        blogPage.fillingInEmailForUpdates("");
+        Assert.assertEquals("Email is required", blogPage.getValidationMessages());
+
+    }
+    @Test
+    public void subscribeToWrongEmailWithoutAt() throws IOException, InterruptedException {
+
+        HomePageObject homePage = new HomePageObject();
+        BlogPage blogPage = homePage.goToBlogPage();
+        blogPage.fillingInEmailForUpdates("test");
+        Assert.assertEquals("Email must be formatted correctly.", blogPage.getValidationMessages());
+
+    }
+    @Test
+    public void subscribeToWrongEmailWithAt() throws IOException, InterruptedException {
+
+        HomePageObject homePage = new HomePageObject();
+        BlogPage blogPage = homePage.goToBlogPage();
+        blogPage.fillingInEmailForUpdates("test@test");
+        Assert.assertEquals("Please enter a valid email address.", blogPage.getValidationMessages());
+
+    }
 }

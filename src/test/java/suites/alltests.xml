@@ -66,6 +66,11 @@
             <class name="tests.LoginPageTests"/>
         </classes>
     </test>
+    <test name="Support page checking">
+        <classes>
+            <class name="tests.SupportPageTests"/>
+        </classes>
+    </test>
 </suite>
 
 

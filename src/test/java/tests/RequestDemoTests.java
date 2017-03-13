@@ -30,7 +30,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking of simple word without @
-        requestDemoPage.requiredFieldFillingIn("email", "test");
+        requestDemoPage.requiredFieldFillingIn("email", "test", 1);
         requestDemoPage.sendingData();
         Assert.assertEquals("Email must be formatted correctly.", requestDemoPage.getMessageOfEmptyFields("email"));
 
@@ -41,7 +41,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking phone number with alphabetical values
-        requestDemoPage.requiredFieldFillingIn("phone", "blablabla");
+        requestDemoPage.requiredFieldFillingIn("phone", "blablabla", 1);
         requestDemoPage.sendingData();
         Assert.assertEquals("Must contain only numbers, +()-. and x.", requestDemoPage.getMessageOfEmptyFields("phone"));
 
@@ -51,10 +51,10 @@ public class RequestDemoTests extends SeleniumBaseTest {
     public void sendingFormWithValidData() throws InterruptedException,  IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
-        requestDemoPage.requiredFieldFillingIn("firstname", "test");
-        requestDemoPage.requiredFieldFillingIn("email", "test@test.com");
+        requestDemoPage.requiredFieldFillingIn("firstname", "test", 1);
+        requestDemoPage.requiredFieldFillingIn("email", "test@test.com", 1);
         requestDemoPage.scrollDown();
-        requestDemoPage.requiredFieldFillingIn("phone", "12345678");
+        requestDemoPage.requiredFieldFillingIn("phone", "12345678", 1);
         requestDemoPage.sendingData();
         Assert.assertEquals("We just received your request for a demo! One of our specialists will reach out to you in the next 48 hours to get it scheduled.", requestDemoPage.getValidMessageAfterSendingForm());
 

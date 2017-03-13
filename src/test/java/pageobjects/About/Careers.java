@@ -21,9 +21,9 @@ public class Careers extends BaseObjectPage {
 
         return getDriver().findElement(By.xpath("//div[@id='main']//strong")).getText();
     }
-    public String getCategoryTitle(Integer identifier){
+    public String getCategoryTitle(){
 
-        return getDriver().findElement(By.xpath("//section/h2[@id='"+identifier+"']")).getText();
+        return getDriver().findElement(By.xpath("//section/h2")).getText();
     }
 
     public void openingVacancy(){

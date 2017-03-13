@@ -32,18 +32,37 @@ public class HomePageObject extends BaseObjectPage {
         String env=prop.getProperty("prod_env");
 
         getDriver().get(env);
+        String resolution=prop.getProperty("desktop_res");
+        String[] parts = resolution.split("x");
+
+        // Screen resolution
+        Dimension screenRes = new Dimension(Integer.parseInt(parts[0]),Integer.parseInt(parts[1]));
+
+        // Set browser resolution
+        getDriver().manage().window().setSize(screenRes);
     }
 
 
     public RequestDemoPage goToRequestDemoPage() throws InterruptedException {
-        Thread.sleep(3000);
-        getDriver().findElement(By.xpath("//span[text()='Request a Demo']")).click();
+        WebElement requestDemoButton = getDriver().findElement(By.xpath("//span[text()='Request a Demo']"));
+        if (requestDemoButton.isDisplayed()){
+            requestDemoButton.click();}
+        else {
+            hamburgerMenuClicking();
+            Thread.sleep(4000);
+            WebElement requestDemoTab = getDriver().findElement(By.xpath("//li[@class='is-btn menu-item menu-item-type-post_type menu-item-object-page']/a[text()='REQUEST A DEMO']"));
+            requestDemoTab.click();
+            Thread.sleep(2000);
+        }
+
         return new RequestDemoPage();
     }
     public BlogPage goToBlogPage() throws InterruptedException {
         Thread.sleep(3000);
-        getDriver().findElement(By.xpath("//span[text()='Blog']")).click();
+        movingToMenuElement("Blog", "Blog");
         Thread.sleep(3000);
+
+
         return new BlogPage();
     }
 
@@ -57,14 +76,32 @@ public class HomePageObject extends BaseObjectPage {
 
 
         WebElement featuresButton = getDriver().findElement(By.xpath("//span[text()='Features']"));
-        featuresButton.click();
+        if (featuresButton.isDisplayed()){
+        featuresButton.click();}
+        else {
+            hamburgerMenuClicking();
+            Thread.sleep(4000);
+            WebElement featuresTab = getDriver().findElement(By.xpath("//li[@class='menu-item menu-item-type-post_type menu-item-object-page']/a[text()='FEATURES']"));
+            featuresTab.click();
+            Thread.sleep(2000);
+        }
         return new FeaturesPage();
     }
     public BenefitsPage goToBenefitsPage() throws InterruptedException {
 
 
         WebElement benefitsButton = getDriver().findElement(By.xpath("//span[text()='Benefits']"));
-        benefitsButton.click();
+        if (benefitsButton.isDisplayed()){
+            benefitsButton.click();}
+        else {
+            hamburgerMenuClicking();
+            Thread.sleep(4000);
+            WebElement benefitsTab = getDriver().findElement(By.xpath("//li[@class='menu-item menu-item-type-post_type menu-item-object-page']/a[text()='BENEFITS']"));
+            benefitsTab.click();
+            Thread.sleep(2000);
+        }
+
+
         return new BenefitsPage();
     }
 
@@ -94,8 +131,18 @@ public class HomePageObject extends BaseObjectPage {
     public LoginPage goToLoginPage() throws InterruptedException {
 
 
-        WebElement featuresButton = getDriver().findElement(By.xpath("//span[text()='Log In']"));
-        featuresButton.click();
+            WebElement loginButton = getDriver().findElement(By.xpath("//span[text()='Log In']"));
+        if (loginButton.isDisplayed()){
+            loginButton.click();}
+        else if (getDriver().findElement(By.xpath("//div[@class='mobile-navigation-toggle']")).isDisplayed()){
+
+            getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            hamburgerMenuClicking();
+            Thread.sleep(4000);
+            WebElement benefitsTab = getDriver().findElement(By.xpath("//ul[@class='mobile-header-menu']//li/a[text()='LOG IN']"));
+            benefitsTab.click();
+            Thread.sleep(2000);
+        }
         return new LoginPage();
     }
 
@@ -160,15 +207,22 @@ public class HomePageObject extends BaseObjectPage {
     public void singleClickOnTopMenuItem(String buttonName) throws InterruptedException {
 
         WebElement topMenuButton = getDriver().findElement(By.xpath("//span[@class='item-title'][text()='"+buttonName+"']"));
-        topMenuButton.click();
-        Thread.sleep(3000);
+        if (topMenuButton.isDisplayed()) {
+            topMenuButton.click();
+            Thread.sleep(3000);
+        } else {
+            hamburgerMenuClicking();
+            WebElement sideMenuButton = getDriver().findElement(By.xpath("//li/a[text()='"+buttonName.toUpperCase()+"']"));
+            fluentWaitforElement(sideMenuButton, 10,10);
+            sideMenuButton.click();
+        }
 
     }
 
     public void singleClickOnLoginButton() throws InterruptedException {
         Thread.sleep(3000);
         String link = "#cue-merchant-login";
-        WebElement loginButton = getDriver().findElement(By.xpath("//a[@href='"+link+"']/span[@class='item-title']"));
+        WebElement loginButton = getDriver().findElement(By.xpath("//a[@href='"+link+"']"));
         loginButton.click();
         Thread.sleep(5000);
 

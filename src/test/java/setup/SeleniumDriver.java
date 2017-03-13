@@ -1,6 +1,7 @@
 package setup;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -10,7 +11,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import java.awt.*;
-import java.awt.Dimension;
+
 import java.util.HashMap;
 
 /**
@@ -34,15 +35,9 @@ public class SeleniumDriver {
 
 			options.setExperimentalOption("prefs", chromePref);
 			driver = new ChromeDriver(options);
-			Toolkit toolkit = Toolkit.getDefaultToolkit();
-			org.openqa.selenium.Dimension screenResolution = new org.openqa.selenium.Dimension((int)
-					toolkit.getScreenSize().getWidth(), (int)
-					toolkit.getScreenSize().getHeight());
-
-			driver.manage().window().setSize(screenResolution);
 
 
-		}
+					}
 		return driver;
 	}
 
