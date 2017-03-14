@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import pageobjects.BaseObjectPage;
 
+import java.util.concurrent.TimeUnit;
+
 import static setup.SeleniumDriver.getDriver;
 
 /**
@@ -16,16 +18,17 @@ public class Contact extends BaseObjectPage {
 
     }
 
-    public void fillInData(String nameData, String emailData, String textData) throws InterruptedException {
+    public void fillInData(String nameData, String emailData, String textData)  {
         WebElement contact_name = getDriver().findElement(By.id("contact-name"));
         contact_name.sendKeys(nameData);
-        Thread.sleep(1000);
+        waitFor(1);
         WebElement contact_email = getDriver().findElement(By.id("contact-email"));
         contact_email.sendKeys(emailData);
-        Thread.sleep(1000);
+        waitFor(1);
         WebElement contact_message = getDriver().findElement(By.id("contact-message"));
         contact_message.sendKeys(textData);
-        Thread.sleep(3000);
+        waitFor(3);
+
     }
 
     public void sendingData(){
@@ -37,8 +40,8 @@ public class Contact extends BaseObjectPage {
         return getDriver().findElement(By.xpath("//div[@role='alert']")).getText();
     }
 
-    public String getMessageOfEmptyFields(String fieldName) throws InterruptedException {
-        Thread.sleep(4000);
+    public String getMessageOfEmptyFields(String fieldName)  {
+        waitFor(4);
 
         return getDriver().findElement(By.xpath("//span[@class='wpcf7-form-control-wrap "+fieldName+"']//span[@role='alert']")).getText();
     }

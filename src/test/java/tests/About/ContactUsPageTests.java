@@ -16,21 +16,21 @@ import static setup.SeleniumDriver.getDriver;
 public class ContactUsPageTests extends SeleniumBaseTest {
 
    /* @Test
-    public void sendingToValidEmailChecking() throws IOException, InterruptedException {
+    public void sendingToValidEmailChecking() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         Contact contactPage = homePage.goToContact();
         contactPage.fillInData("Test", "cuetest@mailinator.com", "Testing contact us form");
         contactPage.sendingData();
         Assert.assertEquals("Thank you for your message. It has been sent.", contactPage.getMessageAfterSending());
-        Thread.sleep(10000);
+        waitFor(10);
         getDriver().get("https://www.mailinator.com/inbox2.jsp?public_to=cuetest#/#public_maildirdiv");
 
 
     }*/
 
     @Test
-    public void emptyDataChecking() throws IOException, InterruptedException {
+    public void emptyDataChecking() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         Contact contactPage = homePage.goToContact();
@@ -44,7 +44,7 @@ public class ContactUsPageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void badEmailChecking() throws IOException, InterruptedException {
+    public void badEmailChecking() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         Contact contactPage = homePage.goToContact();

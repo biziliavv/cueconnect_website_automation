@@ -16,21 +16,21 @@ import java.io.IOException;
 public class BenefitsPageTests extends SeleniumBaseTest {
 
     @Test
-    public void openingPageAndClickOnRequestDemo() throws IOException, InterruptedException {
+    public void openingPageAndClickOnRequestDemo() throws IOException {
         HomePageObject homePage = new HomePageObject();
         BenefitsPage benefitsPage = homePage.goToBenefitsPage();
         Assert.assertTrue(benefitsPage.getPageImage("548", "360"));
         Assert.assertEquals("Grow Conversions Increase Sales", benefitsPage.getTitle());
         benefitsPage.clickOnFirstRequestDemo();
-        Thread.sleep(5000);
+        waitFor(5);
         Assert.assertEquals("Learn How Cue Can Help You Grow Your Business", benefitsPage.getTitle());
 
     }
     @Test
-    public void scrollingDownAndVerifyingPresenceOfElements() throws InterruptedException, IOException {
+    public void scrollingDownAndVerifyingPresenceOfElements() throws IOException {
         HomePageObject homePage = new HomePageObject();
         BenefitsPage benefitsPage = homePage.goToBenefitsPage();
-        Thread.sleep(3000);
+        waitFor(3);
         benefitsPage.scrollAndVerifyEachElement();
     }
 }

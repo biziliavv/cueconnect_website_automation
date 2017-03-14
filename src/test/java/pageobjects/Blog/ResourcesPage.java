@@ -19,12 +19,12 @@ public class ResourcesPage extends BaseObjectPage {
         WebElement template = getDriver().findElement(By.xpath("//a/p[@class='regular-text']"));
         template.click();
     }
-    public String getLinkTitle() throws InterruptedException {
-        Thread.sleep(3000);
+    public String getLinkTitle()  {
+        waitFor(3);
         return getDriver().findElement(By.xpath("//a/p[@class='regular-text']")).getText();
     }
-    public String getTemplateTitle() throws InterruptedException {
-        Thread.sleep(3000);
+    public String getTemplateTitle()  {
+        waitFor(3);
         return getDriver().findElement(By.xpath("//div/div/span/h1")).getText();
     }
     public void fillingInForm(String firstNameValue, String lastNameValue, String emailValue, Integer selectorValue){
@@ -53,29 +53,29 @@ public class ResourcesPage extends BaseObjectPage {
         platform.selectByIndex(0);
     }
 
-    public void donwloadButtonClicking() throws InterruptedException {
-        Thread.sleep(2000);
+    public void donwloadButtonClicking()  {
+        waitFor(2);
         getDriver().findElement(By.xpath("//input[@type='submit']")).click();
     }
 
-    public String getThankfulMessage() throws InterruptedException {
+    public String getThankfulMessage()  {
         WebElement thankful = getDriver().findElement(By.xpath("//p[@class='p1']"));
         fluentWaitforElement(thankful, 10, 10);
         return thankful.getText();
     }
-    public void downloadYourTemplateButtonClicking() throws InterruptedException {
-        Thread.sleep(2000);
+    public void downloadYourTemplateButtonClicking()  {
+        waitFor(2);
         WebElement downloadBtn = getDriver().findElement(By.xpath("//a[@class='cta_button']"));
         downloadBtn.click();
         }
-    public String getValidationMessage(String fieldName) throws InterruptedException {
-        Thread.sleep(3000);
+    public String getValidationMessage(String fieldName)  {
         WebElement firstName = getDriver().findElement(By.xpath("//div[@class='hs_"+fieldName+" field hs-form-field']//li/label"));
         fluentWaitforElement(firstName, 10, 5);
         return firstName.getText();
     }
-    public String getSubscribeForUpdatesMessage() throws InterruptedException {
-        Thread.sleep(2000);
-        return getDriver().findElement(By.xpath("//span[@data-hs-cos-type='form']//strong")).getText();
+    public String getSubscribeForUpdatesMessage()  {
+        WebElement message = getDriver().findElement(By.xpath("//span[@data-hs-cos-type='form']//strong"));
+        fluentWaitforElement(message, 10, 5);
+        return message.getText();
     }
 }

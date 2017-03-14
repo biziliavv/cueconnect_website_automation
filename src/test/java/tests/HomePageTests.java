@@ -33,52 +33,75 @@ public class HomePageTests extends SeleniumBaseTest {
 
 
     @Test(groups = "mobile")
-    public void scrollingToTransformTraffic() throws  IOException {
+    public void bscrollingToTransformTraffic() throws IOException {
         String link = "/benefits/#transform-traffic";
         HomePageObject homePage = new HomePageObject();
+        waitFor(2);
+        homePage.scrollUp(0, -1800);
+        waitFor(2);
         WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
-        homePage.waitAndClick(el);
+        waitFor(2);
+        el.click();
         Assert.assertEquals("https://cueconnect.com/benefits/#transform-traffic", getDriver().getCurrentUrl());
 
     }
 
     @Test(groups = "mobile")
-    public void scrollingToRetargetShoppers() throws  IOException {
+    public void scrollingToRetargetShoppers() throws IOException {
         String link = "/benefits/#retarget-shoppers";
         HomePageObject homePage = new HomePageObject();
-        WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
-        homePage.waitAndClick(el);
+        waitFor(2);
+        homePage.scrollUp(0, -2);
+        waitFor(2);
+        WebElement el = getDriver().findElement(By.xpath("//a[@class='cta-bottom'][@href='"+link +"']"));
+        waitFor(2);
+        el.click();
         Assert.assertEquals("https://cueconnect.com/benefits/#retarget-shoppers", getDriver().getCurrentUrl());
 
     }
 
     @Test(groups = "mobile")
-    public void scrollingToDriveEcommerce() throws  IOException {
+    public void scrollingToDriveEcommerce() throws IOException {
         String link = "/benefits/#drive-ecommerce";
         HomePageObject homePage = new HomePageObject();
-        WebElement el = getDriver().findElement(By.xpath("//a[@href='" + link + "']"));
-        homePage.waitAndClick(el);
+        waitFor(2);
+        homePage.scrollUp(0, -1900);
+        waitFor(2);
+        WebElement el = getDriver().findElement(By.xpath("//p/a[@class='cta-bottom'][@href='" + link + "']"));
+        waitFor(2);
+        el.click();
         Assert.assertEquals("https://cueconnect.com/benefits/#drive-ecommerce", getDriver().getCurrentUrl());
 
     }
 
     @Test(groups = "mobile")
-    public void scrollingToCueConnectBlog() throws  IOException {
+    public void scrollingToCueConnectBlog() throws IOException {
         String link = "/blog";
         HomePageObject homePage = new HomePageObject();
-        WebElement el = getDriver().findElement(By.xpath("//div/p/a[@href='" + link + "'][text()='Learn More']"));
-        homePage.waitAndClick(el);
+        waitFor(2);
+        homePage.scrollUp(0, -800);
+        waitFor(2);
+       /* WebElement currentFrame = getDriver().findElement(By.xpath("//iframe[@src='about:blank']"));
+        getDriver().switchTo().frame(currentFrame);
+        waitFor(2);*/
+        WebElement el = getDriver().findElement(By.xpath("//div[@id='wrap']//p[@class='call-to-action']/a[@href='"+link+"']"));
+        waitFor(2);
+        el.click();
         Assert.assertEquals("https://cueconnect.com/blog/", getDriver().getCurrentUrl());
         Assert.assertEquals("Cue Connect Blog", homePage.getTitle());
 
     }
 
     @Test(groups = "mobile")
-    public void scrollingToResources() throws  IOException {
+    public void bscrollingToResources() throws IOException {
         String link = "https://cueconnect.com/resources/";
         HomePageObject homePage = new HomePageObject();
-        WebElement el = getDriver().findElement(By.xpath("//div/p/a[@href='" + link + "'][text()='Learn More ']"));
-        homePage.waitAndClick(el);
+        waitFor(2);
+        homePage.scrollUp(0, -500);
+        waitFor(2);
+        WebElement el = getDriver().findElement(By.xpath("//p[@class='call-to-action']/a[@href='"+link+"']"));
+        waitFor(2);
+        el.click();
         Assert.assertEquals("https://cueconnect.com/resources/", getDriver().getCurrentUrl());
         Assert.assertEquals("Marketing Guides", homePage.getTitle());
 
@@ -86,7 +109,7 @@ public class HomePageTests extends SeleniumBaseTest {
 
 
     @Test(groups = "mobile")
-    public void typingValidEmailAndClickRequestDemo() throws InterruptedException,  IOException {
+    public void typingValidEmailAndClickRequestDemo() throws IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.typingEmailAndclickOnRequestDemoButton("test@test.com");
         Assert.assertEquals("Learn How Cue Can Help You Grow Your Business", homePage.getTitle());
@@ -95,7 +118,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "mobile")
-    public void emptyEmailAndClickRequestDemo() throws InterruptedException,  IOException {
+    public void emptyEmailAndClickRequestDemo() throws IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.typingEmailAndclickOnRequestDemoButton("");
         Assert.assertEquals("Learn How Cue Can Help You Grow Your Business", homePage.getTitle());
@@ -104,14 +127,14 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "mobile")
-    public void notEmailFormatAndClickRequestDemo() throws InterruptedException,  IOException {
+    public void notEmailFormatAndClickRequestDemo() throws IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.typingEmailAndclickOnRequestDemoButton("test");
         Assert.assertEquals("https://cueconnect.com/", getDriver().getCurrentUrl());
     }
 
     @Test(groups = "positive")
-    public void sendingUpdatesToValidEmail() throws InterruptedException,  IOException {
+    public void sendingUpdatesToValidEmail() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         homePage.sendMeUpdatesVerifying("test@test.com");
@@ -121,7 +144,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "mobile")
-    public void sendingUpdatesEmptyEmail() throws InterruptedException,  IOException {
+    public void sendingUpdatesEmptyEmail() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         homePage.sendMeUpdatesVerifying("");
@@ -130,7 +153,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "mobile")
-    public void sendingUpdatesIncorrectEmail() throws InterruptedException,  IOException {
+    public void sendingUpdatesIncorrectEmail() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         homePage.sendMeUpdatesVerifying("test");
@@ -138,7 +161,7 @@ public class HomePageTests extends SeleniumBaseTest {
 
     }
     @Test(groups = "negative")
-    public void sendingUpdatesIncorrectEmailWithAt() throws InterruptedException,  IOException {
+    public void sendingUpdatesIncorrectEmailWithAt() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         homePage.sendMeUpdatesVerifying("test@test");
@@ -147,7 +170,7 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "mobile")
-    public void bottomMenuVerifying() throws InterruptedException,  IOException {
+    public void bottomMenuVerifying() throws IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.clickOnBottomMenuElement("Features", "Build Customer Relationships That Last Forever");
         homePage.clickOnBottomMenuElement("Resources", "Marketing Guides");
@@ -159,17 +182,17 @@ public class HomePageTests extends SeleniumBaseTest {
     }
 
     @Test(groups = "mobile")
-    public void getStartedFreeChecking() throws InterruptedException,  IOException {
+    public void getStartedFreeChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.getStartedFree();
         Assert.assertEquals("Store Information", homePage.storeInformationPageTitle());
 
     }
     @Test(groups = "mobile")
-    public void videoOpening() throws InterruptedException,  IOException {
+    public void videoOpening() throws IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.openingVideo();
-        Thread.sleep(5000);
+        waitFor(5);
         WebElement frame = getDriver().findElement(By.xpath("//body/div[1]/iframe"));
         getDriver().switchTo().frame(frame);
 

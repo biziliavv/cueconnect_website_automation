@@ -17,7 +17,7 @@ import static setup.SeleniumDriver.getDriver;
 public class OurStory extends SeleniumBaseTest {
 
     @Test
-    public void checkingOurStoryPageAppears() throws InterruptedException, IOException {
+    public void checkingOurStoryPageAppears() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         homePage.movingToMenuElement("About", "Our Story");
@@ -25,7 +25,7 @@ public class OurStory extends SeleniumBaseTest {
 
     }
     @Test
-    public void checkingOurStoryThatElementsArePresent() throws InterruptedException, IOException {
+    public void checkingOurStoryThatElementsArePresent() throws IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.movingToMenuElement("About", "Our Story");
         Assert.assertTrue(homePage.getPageImage("489", "412"));

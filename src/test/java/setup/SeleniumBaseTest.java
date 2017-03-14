@@ -35,7 +35,7 @@ public class SeleniumBaseTest {
     }
 
     public static void waitFor(Integer seconds) {
-        getDriver().manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+        getDriver().manage().timeouts().setScriptTimeout(seconds, TimeUnit.SECONDS);
     }
 
     }

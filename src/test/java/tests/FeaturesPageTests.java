@@ -18,7 +18,7 @@ import static setup.SeleniumDriver.getDriver;
 public class FeaturesPageTests extends SeleniumBaseTest {
 
     @Test
-    public void openingFeaturesPageAndClickOnRequestDemo() throws  InterruptedException, IOException {
+    public void openingFeaturesPageAndClickOnRequestDemo() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         FeaturesPage featuresPage = homePage.goToFeaturesPage();
@@ -28,7 +28,7 @@ public class FeaturesPageTests extends SeleniumBaseTest {
         Assert.assertEquals("Learn How Cue Can Help You Grow Your Business", featuresPage.getTitle());
     }
     @Test
-    public void openingSecondRequestDemoButton() throws InterruptedException, IOException {
+    public void openingSecondRequestDemoButton() throws IOException {
         HomePageObject homePage = new HomePageObject();
         FeaturesPage featuresPage = homePage.goToFeaturesPage();
         WebElement secondRequestButton = getDriver().findElement(By.xpath("//div[@data-vc-full-width='true']//a[text()='Request a demo']"));
@@ -38,7 +38,7 @@ public class FeaturesPageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void openingThirdRequestDemoButton() throws InterruptedException, IOException {
+    public void openingThirdRequestDemoButton() throws IOException {
         HomePageObject homePage = new HomePageObject();
         FeaturesPage featuresPage = homePage.goToFeaturesPage();
         WebElement thirdRequestButton = getDriver().findElement(By.xpath("//div/div/div[2]/a"));
@@ -47,7 +47,7 @@ public class FeaturesPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void scrollingToEachSection() throws InterruptedException, IOException {
+    public void scrollingToEachSection() throws IOException {
         HomePageObject homePage = new HomePageObject();
         FeaturesPage featuresPage = homePage.goToFeaturesPage();
         Assert.assertTrue(featuresPage.getPageImage("452", "412"));

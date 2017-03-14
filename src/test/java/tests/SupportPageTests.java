@@ -17,7 +17,7 @@ public class SupportPageTests extends SeleniumBaseTest {
 
 
     @Test(groups = {"good"})
-    public void searchWithValidValue() throws InterruptedException,  IOException {
+    public void searchWithValidValue() throws IOException {
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
@@ -27,7 +27,7 @@ public class SupportPageTests extends SeleniumBaseTest {
 
     }
     @Test(groups = {"bad"})
-    public void searchWithTooLongValue() throws InterruptedException,  IOException {
+    public void searchWithTooLongValue() throws IOException {
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
@@ -37,7 +37,7 @@ public class SupportPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void submitRequestPageUploading() throws InterruptedException,  IOException {
+    public void submitRequestPageUploading() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
 
@@ -49,16 +49,16 @@ public class SupportPageTests extends SeleniumBaseTest {
         WebElement fileUpl = getDriver().findElement(By.id("request-attachments"));
         fileUpl.sendKeys(filePath);
         //supportPage.openUploadDialog(filePath);
-        Thread.sleep(7000);
+        waitFor(7);
         Assert.assertTrue(supportPage.getFilePresent());
         supportPage.scrollDown();
-        Thread.sleep(2000);
+        waitFor(2);
         supportPage.sendingRequest();
 
 
     }
     @Test
-    public void submitRequestEmptyFieldsChecking() throws IOException, InterruptedException {
+    public void asubmitRequestEmptyFieldsChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
@@ -66,7 +66,7 @@ public class SupportPageTests extends SeleniumBaseTest {
         supportPage.goToSubmitRequest();
         supportPage.fillingFormSubmitRequest("", "", "");
         supportPage.scrollDown();
-        Thread.sleep(2000);
+        waitFor(2);
         supportPage.sendingRequest();
         Assert.assertEquals("Requester: Email: cannot be blank", supportPage.getValidationMessageForSendingRequestEmail());
         Assert.assertEquals("Subject: cannot be blank", supportPage.getValidationMessageForSendingRequestSubject());
@@ -74,7 +74,7 @@ public class SupportPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void submitRequestEmptyWrongEmailWithoutAt() throws IOException, InterruptedException {
+    public void asubmitRequestEmptyWrongEmailWithoutAt() throws IOException {
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
@@ -83,50 +83,50 @@ public class SupportPageTests extends SeleniumBaseTest {
         String value = "test";
         supportPage.fillingFormSubmitRequest(value, "", "");
         supportPage.scrollDown();
-        Thread.sleep(2000);
+        waitFor(2);
         supportPage.sendingRequest();
         Assert.assertEquals("Requester: Email: "+value+" is not properly formatted", supportPage.getValidationMessageForSendingRequestEmail());
 
 
     }
     @Test
-    public void openingArticleFromPopular() throws InterruptedException,  IOException {
+    public void openingArticleFromPopular() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
         String link_title = supportPage.getLinkText();
         supportPage.openFromPopularTopics();
-        Thread.sleep(2000);
+        waitFor(2);
         Assert.assertEquals(link_title, supportPage.getArticleTitle());
 
     }
     @Test
-    public void openArticleFromCategory() throws InterruptedException, IOException {
+    public void openArticleFromCategory() throws IOException {
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
         supportPage.openArticleFromCategory();
-        Thread.sleep(3000);
+        waitFor(3);
 
     }
     @Test
-    public void openArticleFromSideBarMenu() throws InterruptedException, IOException {
+    public void openArticleFromSideBarMenu() throws IOException {
         HomePageObject homePage = new HomePageObject();
 
         SupportPage supportPage = homePage.goToSupportPage();
         supportPage.openArticleFromCategory();
-        Thread.sleep(3000);
+        waitFor(3);
         String title = supportPage.getArticleTitleSideBar();
         supportPage.openArticleFromSideBarMenu();
         Assert.assertEquals(title, supportPage.getArticleTitle());
     }
     @Test
-    public void breadCrumbsChecking() throws InterruptedException, IOException {
+    public void breadCrumbsChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
         SupportPage supportPage = homePage.goToSupportPage();
         supportPage.openArticleFromCategory();
-        Thread.sleep(3000);
+        waitFor(3);
         String title = supportPage.getBreadcrumbLinkText();
         supportPage.clickOnBradcrumbLink();
         Assert.assertEquals(title, supportPage.getCategoryHeader());
@@ -135,31 +135,25 @@ public class SupportPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void backToDashboardChecking() throws InterruptedException, IOException {
+    public void backToDashboardChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
         SupportPage supportPage = homePage.goToSupportPage();
         supportPage.openArticleFromCategory();
-        Thread.sleep(3000);
+        waitFor(3);
         supportPage.clickOnBackToDashboard();
         Assert.assertEquals(supportPage.getSearchTitle(), "What can we help you with?");
 
     }
 
     @Test
-    public void singInChecking() throws InterruptedException, IOException {
+    public void singInChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
         SupportPage supportPage = homePage.goToSupportPage();
-        Thread.sleep(3000);
+        waitFor(3);
         supportPage.signInToCueConnect();
     }
 
-    @Test
-    public void expandAndCollapseCategories() throws InterruptedException, IOException {
-        HomePageObject homePage = new HomePageObject();
-        SupportPage supportPage = homePage.goToSupportPage();
-        Thread.sleep(3000);
-        supportPage.expandAndCollapseBottomCategories();
-    }
+
 
 
 }

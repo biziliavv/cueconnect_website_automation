@@ -36,8 +36,8 @@ public class SupportPage extends BaseObjectPage {
 
     }
 
-    public boolean getSearchHeader() throws InterruptedException {
-        Thread.sleep(2000);
+    public boolean getSearchHeader()  {
+        waitFor(2);
         return isElementDisplayed(getDriver().findElement(By.xpath("//header[@class='page-header']")));
     }
 
@@ -45,8 +45,8 @@ public class SupportPage extends BaseObjectPage {
 
         return isElementDisplayed(getDriver().findElement(By.xpath("//a[@title='Home']")));
     }
-    public void openFromPopularTopics() throws InterruptedException {
-        Thread.sleep(3000);
+    public void openFromPopularTopics()  {
+        waitFor(3);
         WebElement popularArticle = getDriver().findElement(By.xpath("//ul[@class='article-list']/li/a"));
         popularArticle.click();
     }
@@ -56,9 +56,9 @@ public class SupportPage extends BaseObjectPage {
     public String getArticleTitle(){
         return getDriver().findElement(By.xpath("//h1[@class='article-title']")).getText();
     }
-    public void fillingFormSubmitRequest(String email_value, String subjectName, String description) throws InterruptedException {
-        Thread.sleep(5000);
-        WebElement email = getDriver().findElement(By.id("request_anonymous_requester_email"));
+    public void fillingFormSubmitRequest(String email_value, String subjectName, String description)  {
+        WebElement email = getDriver().findElement(By.xpath("//*[@id=\"request_anonymous_requester_email\"]"));
+        fluentWaitforElement(email, 10, 5);
         email.sendKeys(email_value);
         WebElement subject = getDriver().findElement(By.id("request_subject"));
         subject.sendKeys(subjectName);
@@ -66,8 +66,8 @@ public class SupportPage extends BaseObjectPage {
         descript.sendKeys(description);
 
     }
-    public void sendingRequest() throws InterruptedException {
-        Thread.sleep(3000);
+    public void sendingRequest()  {
+        waitFor(3);
         WebElement submit = getDriver().findElement(By.xpath("//input[@value='Submit']"));
         waitAndClick(submit);
 
@@ -81,7 +81,7 @@ public class SupportPage extends BaseObjectPage {
     public String getValidationMessageForSendingRequestDescription(){
         return getDriver().findElement(By.xpath("//div[@class='form-field text  required  request_description']//div[@class='notification notification-error notification-inline']")).getText();
     }
-    public void openArticleFromCategory() throws InterruptedException {
+    public void openArticleFromCategory()  {
         waitFor(5);
         WebElement merchant_category = getDriver().findElement(By.xpath("//h3[text()='Merchant Hub']"));
         merchant_category.click();
@@ -113,10 +113,10 @@ public class SupportPage extends BaseObjectPage {
     public String getSearchTitle(){
         return getDriver().findElement(By.xpath("//h1[@class='search-title']")).getText();
     }
-    public void signInToCueConnect() throws InterruptedException {
+    public void signInToCueConnect()  {
         WebElement login_button = getDriver().findElement(By.xpath("//a[@class='login']"));
         login_button.click();
-        Thread.sleep(3000);
+        waitFor(3);
         WebElement frame = getDriver().findElement(By.xpath("//iframe[@allowtransparency='true']"));
         getDriver().switchTo().frame(frame);
         WebElement signInTitle = getDriver().findElement(By.xpath("//h2[@class='title']"));
@@ -125,23 +125,23 @@ public class SupportPage extends BaseObjectPage {
         emailField.sendKeys("tester.bizilia@gmail.com");
         WebElement password = getDriver().findElement(By.id("user_password"));
         password.sendKeys("bizilia87");
-        Thread.sleep(3000);
+        waitFor(3);
         WebElement singin_button = getDriver().findElement(By.xpath("//input[@value='Sign in']"));
         singin_button.click();
-        Thread.sleep(3000);
+        waitFor(3);
         WebElement logout = getDriver().findElement(By.id("user-name"));
         Assert.assertTrue(isElementDisplayed(logout));
     }
-    public void expandAndCollapseBottomCategories() throws InterruptedException {
+    public void expandAndCollapseBottomCategories()  {
         Integer counter[] = {1, 2, 3, 4};
         for (int i = 0; i <= counter.length; i++) {
-            Thread.sleep(2000);
+            waitFor(2);
             WebElement section = getDriver().findElement(By.xpath("//li[@class='category']/ul/li["+counter[i]+"]/h3"));
             section.click();
             String value = section.getAttribute("class");
-            Thread.sleep(3000);
+            waitFor(3);
             Assert.assertEquals("expanded", value);
-            Thread.sleep(3000);
+            waitFor(3);
             section.click();
 
 

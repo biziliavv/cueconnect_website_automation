@@ -16,9 +16,9 @@ import java.io.IOException;
 public class LoginPageTests extends SeleniumBaseTest {
 
     @Test
-    public void correctLogin() throws IOException, InterruptedException {
+    public void correctLogin() throws IOException {
         HomePageObject homePage = new HomePageObject();
-        Thread.sleep(4000);
+        waitFor(4);
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));
         getDriver().switchTo().frame(current_frame);
@@ -27,7 +27,7 @@ public class LoginPageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void loginCheckEmptyFields() throws InterruptedException, IOException {
+    public void loginCheckEmptyFields() throws IOException {
         HomePageObject homePage = new HomePageObject();
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));
@@ -39,7 +39,7 @@ public class LoginPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void loginFormCheckingWrongEmail() throws InterruptedException, IOException {
+    public void loginFormCheckingWrongEmail() throws IOException {
         HomePageObject homePage = new HomePageObject();
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));
@@ -49,7 +49,7 @@ public class LoginPageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void forgotPasswordEmptyFields() throws InterruptedException, IOException {
+    public void forgotPasswordEmptyFields() throws IOException {
         HomePageObject homePage = new HomePageObject();
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));
@@ -60,7 +60,7 @@ public class LoginPageTests extends SeleniumBaseTest {
         Assert.assertEquals("Please confirm your email", loginPage.getForgotEmailValidationMessage("confirm-"));
     }
     @Test
-    public void forgotPasswordWrongEmail() throws InterruptedException, IOException {
+    public void forgotPasswordWrongEmail() throws IOException {
         HomePageObject homePage = new HomePageObject();
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));
@@ -70,7 +70,7 @@ public class LoginPageTests extends SeleniumBaseTest {
         Assert.assertEquals("Invalid email address", loginPage.getForgotEmailValidationMessage(""));
     }
    /* @Test
-    public void forgotPasswordDoesntMatchEmails() throws InterruptedException, IOException {
+    public void forgotPasswordDoesntMatchEmails() throws IOException {
         HomePageObject homePage = new HomePageObject();
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));

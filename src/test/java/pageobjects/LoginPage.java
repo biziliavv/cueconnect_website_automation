@@ -22,7 +22,7 @@ public class LoginPage extends BaseObjectPage {
     public LoginPage(){
         super(getDriver());
     }
-    public void loginWithValidCredentials() throws IOException, InterruptedException {
+    public void loginWithValidCredentials() throws IOException {
         String currentLink = getDriver().getCurrentUrl();
         WebElement emailField = getDriver().findElement(By.id("signin-email"));
         WebElement passwordField = getDriver().findElement(By.id("signin-password"));
@@ -70,7 +70,7 @@ public class LoginPage extends BaseObjectPage {
         WebElement forgottPasswordLink = getDriver().findElement(By.id("forgot"));
         forgottPasswordLink.click();
     }
-    public void fillingInForgottPasswordForm(String forgotEmail, String confirmForgotEmail) throws InterruptedException {
+    public void fillingInForgottPasswordForm(String forgotEmail, String confirmForgotEmail)  {
         WebElement firstEmail = getDriver().findElement(By.id("forgot-email"));
         firstEmail.sendKeys(forgotEmail);
         WebElement confirmEmail = getDriver().findElement(By.id("forgot-email-confirm"));

@@ -71,6 +71,11 @@
             <class name="tests.SupportPageTests"/>
         </classes>
     </test>
+    <test name="Top menu checking">
+        <classes>
+            <class name="tests.TopMenuVerifyingTests"/>
+        </classes>
+    </test>
 </suite>
 
 

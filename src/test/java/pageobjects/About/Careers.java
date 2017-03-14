@@ -16,8 +16,8 @@ public class Careers extends BaseObjectPage {
 
     }
 
-    public String getCurrentJobsTitle() throws InterruptedException {
-        Thread.sleep(3000);
+    public String getCurrentJobsTitle() {
+        waitFor(3);
 
         return getDriver().findElement(By.xpath("//div[@id='main']//strong")).getText();
     }

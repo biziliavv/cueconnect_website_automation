@@ -14,24 +14,24 @@ import java.io.IOException;
 public class CueAcademyPageTests extends SeleniumBaseTest {
 
     @Test
-    public void openingItemFromListByClickingOnPicture() throws IOException, InterruptedException {
+    public void openingItemFromListByClickingOnPicture() throws IOException {
         HomePageObject homePage = new HomePageObject();
         CueAcademyPage cueAcademyPage = homePage.goToCueAcademy();
-        Thread.sleep(5000);
+        waitFor(5);
         String itemText = cueAcademyPage.getItemTitle();
         cueAcademyPage.openItemByClickingOnPicture();
-        Thread.sleep(3000);
+        waitFor(3);
         Assert.assertEquals(itemText, cueAcademyPage.getOpenedItemTitle());
 
     }
     @Test
-    public void openingItemFromListByClickingOnReadMore() throws IOException, InterruptedException {
+    public void openingItemFromListByClickingOnReadMore() throws IOException {
         HomePageObject homePage = new HomePageObject();
         CueAcademyPage cueAcademyPage = homePage.goToCueAcademy();
-        Thread.sleep(5000);
+        waitFor(5);
         String itemText = cueAcademyPage.getItemTitle();
         cueAcademyPage.openItemByClickOnReadMoreButton();
-        Thread.sleep(3000);
+        waitFor(3);
         Assert.assertEquals(itemText, cueAcademyPage.getOpenedItemTitle());
 
     }

@@ -19,7 +19,7 @@ import static setup.SeleniumDriver.getDriver;
 public class CareersTests extends SeleniumBaseTest {
 
     @Test
-    public void checkElementsArePresent() throws IOException, InterruptedException {
+    public void checkElementsArePresent() throws IOException {
         HomePageObject homePage = new HomePageObject();
         Careers careersPage = homePage.goToCareers();
         Assert.assertEquals("Join & Build Something Great", careersPage.getBigTitle());
@@ -28,7 +28,7 @@ public class CareersTests extends SeleniumBaseTest {
         careersPage.scrollDown();
         WebElement currentFrame = getDriver().findElement(By.id("grnhse_iframe"));
         getDriver().switchTo().frame(currentFrame);
-        Thread.sleep(2000);
+        waitFor(2);
         Assert.assertEquals("Current Job Openings at Cue Connect", careersPage.getCurrentJobsTitle());
         Assert.assertEquals("Marketing", careersPage.getCategoryTitle());
 
@@ -40,7 +40,7 @@ public class CareersTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void openingVacancyAndSendingEmptyForm() throws IOException, InterruptedException {
+    public void openingVacancyAndSendingEmptyForm() throws IOException {
         HomePageObject homePage = new HomePageObject();
         Careers careersPage = homePage.goToCareers();
         WebElement currentFrame = getDriver().findElement(By.id("grnhse_iframe"));

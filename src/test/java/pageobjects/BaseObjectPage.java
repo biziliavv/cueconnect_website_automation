@@ -1,5 +1,6 @@
 package pageobjects;
 
+import com.google.common.base.Function;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 
@@ -8,6 +9,7 @@ import org.openqa.selenium.remote.LocalFileDetector;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
@@ -108,16 +110,18 @@ public abstract class BaseObjectPage {
  //Custom wait to scrolling to needed element
  public void waitForElementAfterScroll(WebElement el) {
      try {
-         WebDriverWait wait = new WebDriverWait(driver, 5, 200);
+         WebDriverWait wait = new WebDriverWait(driver, 10, 400);
          wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("loader")));
-         wait.until(ExpectedConditions.elementToBeSelected(el));
+         wait.until(ExpectedConditions.elementToBeClickable(el));
 
      } catch (WebDriverException wde) {
          scrollToElement(el);
 
+
      }
  }
-    public void movingToMenuElement(String menuElement, String submenuElement) throws InterruptedException {
+    public void movingToMenuElement(String menuElement, String submenuElement)  {
+
 
 
         String[] dimensions = driver.manage().window().getSize().toString().split("\\D");
@@ -126,27 +130,26 @@ public abstract class BaseObjectPage {
 
         if (screenWidth>=1208 && screenHeight>=680){
 
-        Actions builder = new Actions(getDriver());
-        WebElement el = getDriver().findElement(By.xpath("//span[text()='"+menuElement+"']"));
 
-        fluentWaitforElement(el, 10, 5);
+        Actions builder = new Actions(getDriver());
+        WebElement el = getDriver().findElement(By.xpath("//a/span[text()='"+menuElement+"']"));
         builder.moveToElement(el).build().perform();
-            WebElement submenuButton = getDriver().findElement(By.xpath("//span[text()='"+submenuElement+"']"));
-            Thread.sleep(5000);
-            fluentWaitforElement(submenuButton, 10, 5);
+            waitFor(3);
+            WebElement submenuButton = getDriver().findElement(By.xpath("//ul//span[text()='"+submenuElement+"']"));
+            fluentWaitforElement(submenuButton, 10, 10);
             submenuButton.click();
 
-            Thread.sleep(7000);
+            waitFor(7);
         }
 
         else {
             WebElement hamburgerMenuButton = getDriver().findElement(By.xpath("//div[@class='mobile-navigation-toggle']"));
             hamburgerMenuButton.click();
-            Thread.sleep(3000);
+            waitFor(3);
             WebElement neededMenu = getDriver().findElement(By.xpath("//a[text()='"+submenuElement.toUpperCase()+"']"));
-            Thread.sleep(4000);
+            fluentWaitforElement(neededMenu, 10, 10);
             neededMenu.click();
-            Thread.sleep(7000);
+            waitFor(7);
         }
 
 
@@ -158,9 +161,14 @@ public abstract class BaseObjectPage {
     public void scrollDown(){
 
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
-        jse.executeScript("window.scrollBy(0,450)", "");
+        jse.executeScript("window.scrollBy(0, 250)", "");
     }
 
+    public void scrollUp(Integer startPoint, Integer endPoint){
+
+        JavascriptExecutor jse = (JavascriptExecutor)getDriver();
+        jse.executeScript("window.scrollBy("+startPoint+", "+endPoint+")", "");
+    }
     public String getTitle(){
 
         return getDriver().findElement(By.xpath("//h1[@class='page-title']")).getText();
@@ -227,29 +235,43 @@ public abstract class BaseObjectPage {
         return getDriver().findElement(By.xpath("//a[text()='Join our team']")).getAttribute("href");
     }
 
-    public String getValidEmailMessage() throws InterruptedException {
-        Thread.sleep(5000);
-        return getDriver().findElement(By.xpath("//div[@class='submitted-message']")).getText();
+    public String getValidEmailMessage()  {
+        waitFor(5);
+        WebElement message = getDriver().findElement(By.xpath("//div[@class='submitted-message']"));
+        fluentWaitforElement(message, 10, 5);
+        return message.getText();
     }
-    public void fillingInEmailForUpdates(String emailValue) throws InterruptedException {
+    public void fillingInEmailForUpdates(String emailValue)  {
         WebElement emailField = getDriver().findElement(By.xpath("//input[@name='email']"));
         emailField.clear();
         emailField.sendKeys(emailValue);
-        Thread.sleep(3000);
+        waitFor(3);
         WebElement sendUpdatesButton = getDriver().findElement(By.xpath("//input[@type='submit']"));
         sendUpdatesButton.click();
-        Thread.sleep(5000);
+        waitFor(5);
     }
     public static void waitFor(Integer seconds){
-        getDriver().manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+        getDriver().manage().timeouts().setScriptTimeout(seconds, TimeUnit.SECONDS);
     }
 
-    public void hamburgerMenuClicking() throws InterruptedException {
-        Thread.sleep(2000);
+    public void hamburgerMenuClicking()  {
+        waitFor(2);
         WebElement hamburgerMenu = getDriver().findElement(By.xpath("//div[@class='mobile-navigation-toggle']"));
         if (hamburgerMenu.isDisplayed()){
             hamburgerMenu.click();
-            Thread.sleep(4000);
+            waitFor(4);
+        }
+    }
+
+    public static WebElement getWebElement(String xpath) {
+        WebElement myDynamicElement = null;
+        try {
+            myDynamicElement = (new WebDriverWait(getDriver(), 10))
+                    .until(ExpectedConditions.presenceOfElementLocated(By
+                            .xpath(xpath)));
+            return myDynamicElement;
+        } catch (TimeoutException ex) {
+            return null;
         }
     }
 }

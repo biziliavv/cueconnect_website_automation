@@ -16,7 +16,7 @@ import static setup.SeleniumDriver.getDriver;
 public class BlogSinglePageTests extends SeleniumBaseTest {
 
     @Test
-    public void recentPostChecking() throws IOException, InterruptedException {
+    public void recentPostChecking() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
@@ -27,7 +27,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void findMeOnChecking() throws InterruptedException, IOException {
+    public void findMeOnChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
         blogPage.openPostByClickOnTitle();
@@ -42,14 +42,14 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void socialSharingIconsChecking() throws InterruptedException, IOException {
+    public void socialSharingIconsChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
         blogPage.openPostByClickOnTitle();
         blogPage.socialNetworksClickOnIcon();
     }
     @Test
-    public void subscribeToValidEmail() throws IOException, InterruptedException {
+    public void subscribeToValidEmail() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
@@ -60,7 +60,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     }
 
     @Test
-    public void subscribeToEmptyEmail() throws IOException, InterruptedException {
+    public void subscribeToEmptyEmail() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
@@ -71,7 +71,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void subscribeToWrongEmailWithoutAt() throws IOException, InterruptedException {
+    public void subscribeToWrongEmailWithoutAt() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
@@ -80,12 +80,33 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
 
     }
     @Test
-    public void subscribeToWrongEmailWithAt() throws IOException, InterruptedException {
+    public void subscribeToWrongEmailWithAt() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
         blogPage.fillingInEmailForUpdates("test@test");
         Assert.assertEquals("Please enter a valid email address.", blogPage.getValidationMessages());
+
+    }
+
+    @Test
+    public void checkSocialNetworkButton() throws IOException {
+        HomePageObject homePage = new HomePageObject();
+        BlogPage blogPage = homePage.goToBlogPage();
+        blogPage.scrollDown();
+        blogPage.clickOnSocialNetworkButton();
+
+    }
+
+    @Test
+    public void openingPostByClickOnTitle() throws IOException {
+
+        HomePageObject homePage = new HomePageObject();
+        BlogPage blogPage = homePage.goToBlogPage();
+        String postTitle = blogPage.getPostTitleOnMainBlog();
+        blogPage.openPostByClickOnTitle();
+        waitFor(3);
+        Assert.assertEquals(postTitle, blogPage.getPostTitleOnBlogPage());
 
     }
 }

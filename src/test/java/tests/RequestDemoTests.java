@@ -15,40 +15,49 @@ import java.io.IOException;
 public class RequestDemoTests extends SeleniumBaseTest {
 
     @Test(groups = "negative")
-    public void requestDemoEmptyRequiredFieldsOpening() throws InterruptedException,  IOException {
+    public void requestDemoEmptyRequiredFieldsOpening() throws IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
-        requestDemoPage.scrollDown();
+        waitFor(3);
+        requestDemoPage.requiredFieldFillingIn("firstname", "", 0);
+        requestDemoPage.requiredFieldFillingIn("email", "", 0);
+        requestDemoPage.requiredFieldFillingIn("phone", "", 0);
         requestDemoPage.sendingData();
-        Assert.assertEquals("Name is required", requestDemoPage.getMessageOfEmptyFields("firstname"));
-        Assert.assertEquals("Email is required", requestDemoPage.getMessageOfEmptyFields("email"));
-        Assert.assertEquals("Phone Number is required", requestDemoPage.getMessageOfEmptyFields("phone"));
+        Assert.assertEquals("Name is required", requestDemoPage.getMessageOfEmptyFieldsName());
+        Assert.assertEquals("Email is required", requestDemoPage.getMessageOfEmptyFieldsEmail());
+
     }
 
+
     @Test(groups = "negative")
-    public void emailFieldValidations() throws InterruptedException,  IOException {
+    public void emailFieldValidations() throws IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking of simple word without @
+        requestDemoPage.requiredFieldFillingIn("firstname", "", 1);
         requestDemoPage.requiredFieldFillingIn("email", "test", 1);
+        requestDemoPage.requiredFieldFillingIn("phone", "", 1);
         requestDemoPage.sendingData();
-        Assert.assertEquals("Email must be formatted correctly.", requestDemoPage.getMessageOfEmptyFields("email"));
+        Assert.assertEquals("Email must be formatted correctly.", requestDemoPage.getMessageOfEmptyFieldsEmail());
 
     }
 
     @Test(groups = "negative")
-    public void phoneNumberFieldValidations() throws InterruptedException,  IOException {
+    public void phoneNumberFieldValidations() throws IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking phone number with alphabetical values
         requestDemoPage.requiredFieldFillingIn("phone", "blablabla", 1);
+        requestDemoPage.requiredFieldFillingIn("firstname", "", 1);
+        requestDemoPage.requiredFieldFillingIn("email", "", 1);
         requestDemoPage.sendingData();
-        Assert.assertEquals("Must contain only numbers, +()-. and x.", requestDemoPage.getMessageOfEmptyFields("phone"));
+        waitFor(3);
+        Assert.assertEquals("Must contain only numbers, +()-. and x.", requestDemoPage.getMessageOfEmptyFieldsPhone());
 
 
     }
     @Test(groups = "positive")
-    public void sendingFormWithValidData() throws InterruptedException,  IOException {
+    public void sendingFormWithValidData() throws IOException {
         HomePageObject homePage = new HomePageObject();
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         requestDemoPage.requiredFieldFillingIn("firstname", "test", 1);

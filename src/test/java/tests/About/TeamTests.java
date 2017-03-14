@@ -13,7 +13,7 @@ import java.io.IOException;
 public class TeamTests extends SeleniumBaseTest {
 
     @Test
-    public void checkingOfEmployeeQuote() throws IOException, InterruptedException {
+    public void checkingOfEmployeeQuote() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
         homePage.movingToMenuElement("About", "Team");
