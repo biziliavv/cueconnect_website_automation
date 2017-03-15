@@ -83,6 +83,7 @@ public class SeleniumBaseTest {
                 // Set browser resolution
                 getDriver().manage().window().setSize(screenRes);
             default:
+
                 break;
         }
 
