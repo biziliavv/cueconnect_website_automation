@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Support page tests" parallel="classes" thread-count="1">
-    <test name="File Uploading">
-        <classes>
-            <class name="tests.AboutPageTests"/>
-        </classes>
-    </test>
-</suite>
