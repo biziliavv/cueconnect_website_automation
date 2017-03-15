@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All tests (0)]">
+  <parameter name="myDevice" value="nexus6"/>
+  <test name="HomePage checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="bscrollingToResources"/>
+          <include name="scrollingToCueConnectBlog"/>
+          <include name="sendingUpdatesIncorrectEmail"/>
+          <include name="scrollingToDriveEcommerce"/>
+          <include name="getStartedFreeChecking"/>
+          <include name="bscrollingToTransformTraffic"/>
+          <include name="sendingUpdatesIncorrectEmailWithAt"/>
+          <include name="sendingUpdatesToValidEmail"/>
+          <include name="typingValidEmailAndClickRequestDemo"/>
+          <include name="bottomMenuVerifying"/>
+          <include name="emptyEmailAndClickRequestDemo"/>
+          <include name="scrollingToRetargetShoppers"/>
+          <include name="notEmailFormatAndClickRequestDemo"/>
+          <include name="videoOpening"/>
+          <include name="sendingUpdatesEmptyEmail"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+    </classes>
+  </test> <!-- HomePage checking(failed) -->
+  <test name="Features page checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.FeaturesPageTests">
+        <methods>
+          <include name="openingSecondRequestDemoButton"/>
+          <include name="openingFeaturesPageAndClickOnRequestDemo"/>
+          <include name="scrollingToEachSection"/>
+          <include name="openingThirdRequestDemoButton"/>
+        </methods>
+      </class> <!-- tests.FeaturesPageTests -->
+    </classes>
+  </test> <!-- Features page checking(failed) -->
+  <test name="Benefits page checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="scrollingDownAndVerifyingPresenceOfElements"/>
+          <include name="openingPageAndClickOnRequestDemo"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+    </classes>
+  </test> <!-- Benefits page checking(failed) -->
+  <test name="Our Story page checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.About.OurStory">
+        <methods>
+          <include name="checkingOurStoryThatElementsArePresent"/>
+          <include name="checkingOurStoryPageAppears"/>
+        </methods>
+      </class> <!-- tests.About.OurStory -->
+    </classes>
+  </test> <!-- Our Story page checking(failed) -->
+  <test name="Press page checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.About.PressTests">
+        <methods>
+          <include name="downloadLinkCheckingIconBlack"/>
+          <include name="downloadLinkCheckingLogoBlack"/>
+          <include name="chekingStyleGuide"/>
+          <include name="checkinReadMoreLink"/>
+          <include name="downloadLinkCheckingLogoVertical"/>
+          <include name="downloadLinkCheckingLogo"/>
+        </methods>
+      </class> <!-- tests.About.PressTests -->
+    </classes>
+  </test> <!-- Press page checking(failed) -->
+  <test name="Team page checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.About.TeamTests">
+        <methods>
+          <include name="checkingOfEmployeeQuote"/>
+        </methods>
+      </class> <!-- tests.About.TeamTests -->
+    </classes>
+  </test> <!-- Team page checking(failed) -->
+  <test name="Careers page checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.About.CareersTests">
+        <methods>
+          <include name="openingVacancyAndSendingEmptyForm"/>
+          <include name="checkElementsArePresent"/>
+        </methods>
+      </class> <!-- tests.About.CareersTests -->
+    </classes>
+  </test> <!-- Careers page checking(failed) -->
+  <test name="Contactus page checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="emptyDataChecking"/>
+          <include name="badEmailChecking"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
+    </classes>
+  </test> <!-- Contactus page checking(failed) -->
+  <test name="Blog page checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.Blog.BlogMainPageTests">
+        <methods>
+          <include name="goingToCommentsSectionByClickOnClickHereLink"/>
+          <include name="clickingOnAuthorChecking"/>
+          <include name="clickingOnTagChecking"/>
+          <include name="openingPostByClickOnReadThisPostBtn"/>
+        </methods>
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+    </classes>
+  </test> <!-- Blog page checking(failed) -->
+  <test name="Login page checking(failed)">
+    <classes>
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="loginCheckEmptyFields"/>
+          <include name="forgotPasswordEmptyFields"/>
+          <include name="correctLogin"/>
+          <include name="forgotPasswordWrongEmail"/>
+          <include name="loginFormCheckingWrongEmail"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+    </classes>
+  </test> <!-- Login page checking(failed) -->
+  <test name="Request demo page checking(failed)">
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="phoneNumberFieldValidations"/>
+          <include name="beforeClass"/>
+          <include name="sendingFormWithValidData"/>
+          <include name="emailFieldValidations"/>
+          <include name="requestDemoEmptyRequiredFieldsOpening"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+    </classes>
+  </test> <!-- Request demo page checking(failed) -->
+</suite> <!-- Failed suite [All tests (0)] -->

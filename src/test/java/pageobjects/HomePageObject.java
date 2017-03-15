@@ -32,15 +32,7 @@ public class HomePageObject extends BaseObjectPage {
         String env=prop.getProperty("prod_env");
 
         getDriver().get(env);
-        String resolution=prop.getProperty("desktop_res");
-        String[] parts = resolution.split("x");
-
-        // Screen resolution
-        Dimension screenRes = new Dimension(Integer.parseInt(parts[0]),Integer.parseInt(parts[1]));
-
-        // Set browser resolution
-        getDriver().manage().window().setSize(screenRes);
-    }
+        }
 
 
     public RequestDemoPage goToRequestDemoPage()  {
