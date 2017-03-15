@@ -1,62 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All tests]">
-  <parameter name="myDevice" value="iphone7"/>
-  <test name="HomePage checking(failed)">
-    <classes>
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="sendingUpdatesToValidEmail"/>
-          <include name="videoOpening"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-    </classes>
-  </test> <!-- HomePage checking(failed) -->
+  <parameter name="myDevice" value="desktop"/>
   <test name="Press page checking(failed)">
     <classes>
-      <class name="tests.RequestDemoTests">
+      <class name="tests.TopMenuVerifyingTests">
         <methods>
           <include name="tearDown"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- tests.RequestDemoTests -->
+      </class> <!-- tests.TopMenuVerifyingTests -->
       <class name="tests.About.PressTests">
         <methods>
-          <include name="chekingStyleGuide"/>
+          <include name="checkinReadMoreLink"/>
         </methods>
       </class> <!-- tests.About.PressTests -->
     </classes>
   </test> <!-- Press page checking(failed) -->
-  <test name="Blog page checking(failed)">
+  <test name="Resources page checking(failed)">
     <classes>
-      <class name="tests.RequestDemoTests">
+      <class name="tests.TopMenuVerifyingTests">
         <methods>
           <include name="tearDown"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- tests.RequestDemoTests -->
-      <class name="tests.Blog.BlogMainPageTests">
+      </class> <!-- tests.TopMenuVerifyingTests -->
+      <class name="tests.Blog.ResourcesPageTests">
         <methods>
-          <include name="clickingOnAuthorChecking"/>
+          <include name="avalidDataFormChecking"/>
+          <include name="downloadTemplateAndSubscribeForUpdates"/>
+          <include name="downloadTemplateAndSubscribeForUpdatesEmptyEmail"/>
+          <include name="wrongEmailWithoutAtDataFormChecking"/>
         </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
+      </class> <!-- tests.Blog.ResourcesPageTests -->
     </classes>
-  </test> <!-- Blog page checking(failed) -->
-  <test name="Request demo page checking(failed)">
+  </test> <!-- Resources page checking(failed) -->
+  <test name="HomePage checking(failed)">
     <classes>
-      <class name="tests.RequestDemoTests">
+      <class name="tests.TopMenuVerifyingTests">
         <methods>
           <include name="tearDown"/>
           <include name="beforeClass"/>
-          <include name="emailFieldValidations"/>
         </methods>
-      </class> <!-- tests.RequestDemoTests -->
+      </class> <!-- tests.TopMenuVerifyingTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="sendingUpdatesToValidEmail"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
     </classes>
-  </test> <!-- Request demo page checking(failed) -->
+  </test> <!-- HomePage checking(failed) -->
+  <test name="Support page checking(failed)">
+    <classes>
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+      <class name="tests.SupportPageTests">
+        <methods>
+          <include name="openingArticleFromPopular"/>
+          <include name="backToDashboardChecking"/>
+          <include name="breadCrumbsChecking"/>
+          <include name="asubmitRequestEmptyFieldsChecking"/>
+          <include name="asubmitRequestEmptyWrongEmailWithoutAt"/>
+        </methods>
+      </class> <!-- tests.SupportPageTests -->
+    </classes>
+  </test> <!-- Support page checking(failed) -->
+  <test name="Top menu checking(failed)">
+    <classes>
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="movingToAboutMenu"/>
+          <include name="movingToFeaturesSecondHalfMenu"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="movingToBlogMenu"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+    </classes>
+  </test> <!-- Top menu checking(failed) -->
 </suite> <!-- Failed suite [All tests] -->

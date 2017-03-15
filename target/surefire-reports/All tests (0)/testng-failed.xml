@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All tests (0)]">
-  <parameter name="myDevice" value="nexus6"/>
+  <parameter name="myDevice" value="iphone7"/>
   <test name="HomePage checking(failed)">
     <classes>
       <class name="tests.RequestDemoTests">
@@ -159,6 +159,11 @@
   </test> <!-- Blog page checking(failed) -->
   <test name="Login page checking(failed)">
     <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
       <class name="tests.LoginPageTests">
         <methods>
           <include name="loginCheckEmptyFields"/>
@@ -168,11 +173,6 @@
           <include name="loginFormCheckingWrongEmail"/>
         </methods>
       </class> <!-- tests.LoginPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
     </classes>
   </test> <!-- Login page checking(failed) -->
   <test name="Request demo page checking(failed)">

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My test suite">
+    <suite-files>
+        <suite-file path="desktop.xml"></suite-file>
+        <suite-file path="iphone7.xml"></suite-file>
+        <suite-file path="nexus6.xml"></suite-file>
+    </suite-files>
+</suite>
