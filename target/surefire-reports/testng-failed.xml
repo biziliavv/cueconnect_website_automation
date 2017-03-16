@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All tests]">
+  <parameter name="myDevice" value="desktop"/>
+  <test name="Resources page checking(failed)">
+    <classes>
+      <class name="tests.Blog.ResourcesPageTests">
+        <methods>
+          <include name="downloadTemplateAndSubscribeForUpdates"/>
+          <include name="downloadTemplateAndSubscribeForUpdatesEmptyEmail"/>
+          <include name="wrongEmailWithAtDataFormChecking"/>
+          <include name="wrongEmailWithoutAtDataFormChecking"/>
+        </methods>
+      </class> <!-- tests.Blog.ResourcesPageTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+    </classes>
+  </test> <!-- Resources page checking(failed) -->
+  <test name="Careers page checking(failed)">
+    <classes>
+      <class name="tests.About.CareersTests">
+        <methods>
+          <include name="checkElementsArePresent"/>
+        </methods>
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+    </classes>
+  </test> <!-- Careers page checking(failed) -->
+  <test name="Our Story page checking(failed)">
+    <classes>
+      <class name="tests.About.OurStory">
+        <methods>
+          <include name="checkingOurStoryThatElementsArePresent"/>
+        </methods>
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+    </classes>
+  </test> <!-- Our Story page checking(failed) -->
+  <test name="Team page checking(failed)">
+    <classes>
+      <class name="tests.About.TeamTests">
+        <methods>
+          <include name="checkingOfEmployeeQuote"/>
+        </methods>
+      </class> <!-- tests.About.TeamTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+    </classes>
+  </test> <!-- Team page checking(failed) -->
+  <test name="HomePage checking(failed)">
+    <classes>
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="sendingUpdatesIncorrectEmail"/>
+          <include name="sendingUpdatesToValidEmail"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+    </classes>
+  </test> <!-- HomePage checking(failed) -->
+  <test name="Top menu checking(failed)">
+    <classes>
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="movingToAboutMenu"/>
+          <include name="movingToFeaturesSecondHalfMenu"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="movingToBlogMenu"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+    </classes>
+  </test> <!-- Top menu checking(failed) -->
+</suite> <!-- Failed suite [All tests] -->

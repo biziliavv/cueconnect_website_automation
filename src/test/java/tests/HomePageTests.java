@@ -137,7 +137,9 @@ public class HomePageTests extends SeleniumBaseTest {
     public void sendingUpdatesToValidEmail() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
-        homePage.sendMeUpdatesVerifying("test@test.com");
+        waitFor(4);
+        homePage.sendMeUpdatesVerifying("jsmith@gmail.com");
+        waitFor(4);
         Assert.assertEquals("Thank you for subscribing!", homePage.getValidEmailMessage());
 
 

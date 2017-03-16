@@ -101,6 +101,7 @@ public class BlogPage extends BaseObjectPage {
     public void clickingOnAuthor(String authorName)  {
         waitFor(3);
         WebElement author = getDriver().findElement(By.xpath("//span[@class='post-author']/a[text()=' "+authorName+"']"));
+        fluentWaitforElement(author, 5, 5);
         author.click();
         waitFor(3);
 

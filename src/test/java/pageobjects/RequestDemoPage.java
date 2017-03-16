@@ -35,6 +35,7 @@ public class RequestDemoPage extends BaseObjectPage {
 
     public void sendingData()  {
         WebElement sendButton = getDriver().findElement(By.xpath("//input[@type='submit']"));
+        fluentWaitforElement(sendButton, 10, 5);
         sendButton.click();
         waitFor(3);
     }
