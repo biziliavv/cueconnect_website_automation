@@ -42,10 +42,11 @@ public class SeleniumBaseTest {
         getDriver().manage().timeouts().setScriptTimeout(seconds, TimeUnit.SECONDS);
     }
 
+
     @BeforeSuite
 //Parameter will get browser from testng.xml on which browser test to run
     @Parameters("myDevice")
-    public void beforeClass(String myDevice) throws IOException {
+    public void beforeClass(@Optional("desktop") String myDevice) throws IOException {
         FileInputStream inStream;
         inStream = new FileInputStream(new File("properties/BaseProperties.properties"));
         Properties prop = new Properties();

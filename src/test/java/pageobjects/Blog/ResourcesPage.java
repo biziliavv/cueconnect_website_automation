@@ -59,7 +59,8 @@ public class ResourcesPage extends BaseObjectPage {
     }
 
     public String getThankfulMessage()  {
-        WebElement thankful = getDriver().findElement(By.xpath("//p[@class='p1']"));
+
+        WebElement thankful = getDriver().findElement(By.xpath("//div[@data-hs-cos-type='rich_text']//p[@class='p1']"));
         fluentWaitforElement(thankful, 10, 10);
         return thankful.getText();
     }

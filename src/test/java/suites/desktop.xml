@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All tests">
-    <parameter name="myDevice" value="desktop"/>
+    <parameter name="myDevice" value="desktop" />
     <test name="Press page checking">
         <classes>
             <class name="tests.About.PressTests"/>
