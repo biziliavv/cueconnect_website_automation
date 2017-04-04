@@ -74,7 +74,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         waitFor(2);
         resourcesPage.cleaningForm();
         waitFor(2);
-        resourcesPage.fillingInForm("John", "Smith", "john.smith@test.com", 1);
+        resourcesPage.fillingInForm("John", "Smith", "john.smith", 1);
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Email must be formatted correctly.");
@@ -89,7 +89,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         waitFor(2);
         resourcesPage.cleaningForm();
         waitFor(2);
-        resourcesPage.fillingInForm("John", "Smith", "jsmith@gmail.com", 1);
+        resourcesPage.fillingInForm("John", "Smith", "jsmith@gmail", 1);
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Please enter a valid email address.");
@@ -154,6 +154,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         resourcesPage.fillingInEmailForUpdates("john.smith@test");
+        waitFor(2);
         Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Please enter a valid email address.");
     }
 

@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -36,7 +38,9 @@ public class SeleniumDriver {
 
 			options.setExperimentalOption("prefs", chromePref);
 			driver = new ChromeDriver(options);
-			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+
+
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 
 					}

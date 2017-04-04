@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="My test suite">
-    <test name="checking">
-    <packages>
-        <package name="/suites" />
-    </packages>
-    </test>
-</suite>

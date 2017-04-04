@@ -31,25 +31,7 @@ public abstract class BaseObjectPage {
 
     }
 
-    public WebElement find(By locator) {
-        return driver.findElement(locator);
-    }
 
-    public void type(By inputLocator, String text) {
-        find(inputLocator).sendKeys(text);
-    }
-
-    public void type(WebElement input, String text) {
-        input.sendKeys(text);
-    }
-
-    public void click(By locator) {
-        find(locator).click();
-    }
-
-    public void click(WebElement element) {
-        element.click();
-    }
 
 
     public boolean isElementDisplayed(WebElement element) {
@@ -96,13 +78,13 @@ public abstract class BaseObjectPage {
 
     public void waitAndClick(WebElement el) {
         try {
-            WebDriverWait wait = new WebDriverWait(driver, 5, 200);
+            WebDriverWait wait = new WebDriverWait(driver, 10, 200);
             wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("loader")));
             wait.until(ExpectedConditions.elementToBeClickable(el)).click();
 
         } catch (WebDriverException wde) {
             scrollToElement(el);
-            fluentWaitforElement(el, 5, 5);
+            fluentWaitforElement(el, 15, 3);
             el.click();
         }
     }
@@ -120,34 +102,33 @@ public abstract class BaseObjectPage {
 
      }
  }
-    public void movingToMenuElement(String menuElement, String submenuElement)  {
 
+    public void movingToMenuElement(String menuElement, String submenuElement, String mobileMenuItem) {
 
 
         String[] dimensions = driver.manage().window().getSize().toString().split("\\D");
         int screenWidth = Integer.parseInt(dimensions[1]);
         int screenHeight = Integer.parseInt(dimensions[3]);
 
-        if (screenWidth>=1208 && screenHeight>=680){
+        if (screenWidth >= 1208 && screenHeight >= 680) {
 
 
-        Actions builder = new Actions(getDriver());
-        WebElement el = getDriver().findElement(By.xpath("//a/span[text()='"+menuElement+"']"));
-        builder.moveToElement(el).build().perform();
-            waitFor(3);
-            WebElement submenuButton = getDriver().findElement(By.xpath("//ul//span[text()='"+submenuElement+"']"));
-            fluentWaitforElement(submenuButton, 10, 10);
+            Actions builder = new Actions(getDriver());
+            waitFor(2);
+            WebElement el = getDriver().findElement(By.xpath("//a/span[text()='" + menuElement + "']"));
+            waitFor(4);
+            builder.moveToElement(el).build().perform();
+            WebElement submenuButton = getDriver().findElement(By.xpath("//ul//span[text()='" + submenuElement + "']"));
+            fluentWaitforElement(submenuButton, 20, 4);
             submenuButton.click();
 
             waitFor(7);
-        }
-
-        else {
+        } else {
             WebElement hamburgerMenuButton = getDriver().findElement(By.xpath("//div[@class='mobile-navigation-toggle']"));
             hamburgerMenuButton.click();
             waitFor(3);
-            WebElement neededMenu = getDriver().findElement(By.xpath("//a[text()='"+submenuElement.toUpperCase()+"']"));
-            fluentWaitforElement(neededMenu, 10, 10);
+            WebElement neededMenu = getDriver().findElement(By.xpath("//a[text()='" + mobileMenuItem.toUpperCase() + "']"));
+            fluentWaitforElement(neededMenu, 20, 4);
             neededMenu.click();
             waitFor(7);
         }
@@ -238,22 +219,20 @@ public abstract class BaseObjectPage {
     public String getValidEmailMessage()  {
 
         WebElement message = getDriver().findElement(By.xpath("//div[@class='submitted-message'][@data-reactid='.hbspt-forms-0']"));
-        fluentWaitforElement(message, 10, 5);
+        fluentWaitforElement(message, 20, 3);
         return message.getText();
     }
     public void fillingInEmailForUpdates(String emailValue)  {
         WebElement emailField = getDriver().findElement(By.xpath("//input[@name='email']"));
         emailField.clear();
         emailField.sendKeys(emailValue);
-        waitFor(3);
-        WebElement sendUpdatesButton = getDriver().findElement(By.xpath("//input[@type='submit']"));
+        WebElement sendUpdatesButton = getDriver().findElement(By.xpath("//input[@value='Send me Updates']"));
+        fluentWaitforElement(sendUpdatesButton, 20, 3);
         sendUpdatesButton.click();
-        waitFor(5);
     }
     public static void waitFor(Integer seconds){
         getDriver().manage().timeouts().setScriptTimeout(seconds, TimeUnit.SECONDS);
     }
-
     public void hamburgerMenuClicking()  {
         waitFor(2);
         WebElement hamburgerMenu = getDriver().findElement(By.xpath("//div[@class='mobile-navigation-toggle']"));
@@ -263,16 +242,6 @@ public abstract class BaseObjectPage {
         }
     }
 
-    public static WebElement getWebElement(String xpath) {
-        WebElement myDynamicElement = null;
-        try {
-            myDynamicElement = (new WebDriverWait(getDriver(), 10))
-                    .until(ExpectedConditions.presenceOfElementLocated(By
-                            .xpath(xpath)));
-            return myDynamicElement;
-        } catch (TimeoutException ex) {
-            return null;
-        }
-    }
+
 }
 

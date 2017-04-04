@@ -3,7 +3,6 @@ package pageobjects.Blog;
 
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import pageobjects.BaseObjectPage;
 
@@ -93,18 +92,30 @@ public class BlogPage extends BaseObjectPage {
     }
 
     public void clickingOnTag(String tagName)  {
-        WebElement tag = getDriver().findElement(By.xpath("//a[@rel='tag'][text()='"+tagName+"']"));
+        WebElement tag = getDriver().findElement(By.xpath("//a[@rel='tag']"));
         tag.click();
         waitFor(3);
+
+    }
+    public String getTagName(){
+        waitFor(2);
+        WebElement tag = getDriver().findElement(By.xpath("//a[@rel='tag']"));
+        return tag.getText();
     }
 
     public void clickingOnAuthor(String authorName)  {
         waitFor(3);
-        WebElement author = getDriver().findElement(By.xpath("//span[@class='post-author']/a[text()=' "+authorName+"']"));
+        WebElement author = getDriver().findElement(By.xpath("//span[@class='post-author']/a"));
         fluentWaitforElement(author, 5, 5);
         author.click();
         waitFor(3);
 
+
+    }
+    public String getAuthorName(){
+        waitFor(3);
+        WebElement author = getDriver().findElement(By.xpath("//span[@class='post-author']/a"));
+        return author.getText();
     }
     public void clickOnRecentPostLink()  {
         WebElement recentPost = getDriver().findElement(By.xpath("//div[@id='recent-posts-3'][@class='widget widget_recent_entries']//a"));

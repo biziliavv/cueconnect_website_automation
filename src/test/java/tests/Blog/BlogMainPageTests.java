@@ -48,7 +48,7 @@ public class BlogMainPageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         BlogPage blogPage = homePage.goToBlogPage();
         waitFor(3);
-        String tagName = "Customer Journey";
+        String tagName = blogPage.getTagName();
         blogPage.clickingOnTag(tagName);
         waitFor(3);
         Assert.assertEquals("Tag: "+tagName+"", blogPage.getTitle());
@@ -60,7 +60,7 @@ public class BlogMainPageTests extends SeleniumBaseTest {
         BlogPage blogPage = homePage.goToBlogPage();
         waitFor(3);
         blogPage.closeSendUpdates();
-        String authorName = "Carlos Hernandez";
+        String authorName = blogPage.getAuthorName();
         blogPage.clickingOnAuthor(authorName);
         waitFor(3);
         Assert.assertEquals("Author: "+authorName+"", blogPage.getTitle());

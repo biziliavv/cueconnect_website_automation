@@ -20,17 +20,17 @@ public class OurStory extends SeleniumBaseTest {
     public void checkingOurStoryPageAppears() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
-        homePage.movingToMenuElement("About", "Our Story");
+        homePage.movingToMenuElement("About", "Cue Connect Story", "Our Story");
         Assert.assertEquals("Our Story", homePage.getTitle());
 
     }
     @Test
     public void checkingOurStoryThatElementsArePresent() throws IOException {
         HomePageObject homePage = new HomePageObject();
-        homePage.movingToMenuElement("About", "Our Story");
+        homePage.movingToMenuElement("About", "Cue Connect Story", "Our Story");
         Assert.assertTrue(homePage.getPageImage("489", "412"));
         Assert.assertEquals("Our Story", homePage.getTitle());
-        WebElement buildConnectionsAround = getDriver().findElement(By.xpath("//h1[@class='section-title']"));
+        WebElement buildConnectionsAround = getDriver().findElement(By.xpath("//h2[@class='section-title']"));
         homePage.waitForElementAfterScroll(buildConnectionsAround);
         Assert.assertTrue(homePage.getPageImage("1096", "449"));
         Assert.assertEquals(buildConnectionsAround.getText(), "Build Connections Around\n" +

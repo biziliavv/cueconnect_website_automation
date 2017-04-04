@@ -1,0 +1,230 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All tests" parallel="false">
+
+    <test name="Press page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.About.PressTests"/>
+        </classes>
+    </test>
+    <test name="Benefits page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.BenefitsPageTests"/>
+        </classes>
+    </test>
+    <test name="Resources page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.Blog.ResourcesPageTests"/>
+        </classes>
+    </test>
+    <test name="Blog main page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.Blog.BlogMainPageTests"/>
+        </classes>
+    </test>
+    <test name="Blog single page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.Blog.BlogMainPageTests"/>
+        </classes>
+    </test>
+    <test name="Careers page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.About.CareersTests"/>
+        </classes>
+    </test>
+    <test name="Contact Us page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.About.ContactUsPageTests"/>
+        </classes>
+    </test>
+    <test name="Our Story page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.About.OurStory"/>
+        </classes>
+    </test>
+    <test name="Team page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.About.TeamTests"/>
+        </classes>
+    </test>
+    <test name="HomePage desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.HomePageTests"/>
+        </classes>
+    </test>
+
+    <test name="Features page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.FeaturesPageTests"/>
+        </classes>
+    </test>
+    <test name="RequestDemoPage page desktop checking">
+        <classes>
+            <class name="tests.RequestDemoTests"/>
+        </classes>
+    </test>
+    <test name="Login page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.LoginPageTests"/>
+        </classes>
+    </test>
+    <test name="Support page desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.SupportPageTests"/>
+        </classes>
+    </test>
+    <test name="Top menu desktop checking">
+        <parameter name="myDevice" value="desktop" />
+        <classes>
+            <class name="tests.TopMenuVerifyingTests"/>
+        </classes>
+    </test>
+
+    <test name="HomePage iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.HomePageTests"/>
+        </classes>
+    </test>
+    <test name="Features page iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.FeaturesPageTests"/>
+        </classes>
+    </test>
+    <test name="Benefits page iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.BenefitsPageTests"/>
+        </classes>
+    </test>
+    <test name="Our Story page iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.About.OurStory"/>
+        </classes>
+    </test>
+    <test name="Press page iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.About.PressTests"/>
+        </classes>
+    </test>
+    <test name="Team page iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.About.TeamTests"/>
+        </classes>
+    </test>
+    <test name="Careers page iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.About.CareersTests"/>
+        </classes>
+    </test>
+    <test name="Contactus page iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.About.ContactUsPageTests"/>
+        </classes>
+    </test>
+    <test name="Blog page iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.Blog.BlogMainPageTests"/>
+        </classes>
+    </test>
+    <test name="Login page iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.LoginPageTests"/>
+        </classes>
+    </test>
+    <test name="Request demo page iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.RequestDemoTests"/>
+        </classes>
+    </test>
+
+    <test name="HomePage nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.HomePageTests"/>
+        </classes>
+    </test>
+    <test name="Features page nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.FeaturesPageTests"/>
+        </classes>
+    </test>
+    <test name="Benefits page nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.BenefitsPageTests"/>
+        </classes>
+    </test>
+    <test name="Our Story page nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.About.OurStory"/>
+        </classes>
+    </test>
+    <test name="Press page nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.About.PressTests"/>
+        </classes>
+    </test>
+    <test name="Team page nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.About.TeamTests"/>
+        </classes>
+    </test>
+    <test name="Careers page nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.About.CareersTests"/>
+        </classes>
+    </test>
+    <test name="Contactus page nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.About.ContactUsPageTests"/>
+        </classes>
+    </test>
+    <test name="Blog page nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.Blog.BlogMainPageTests"/>
+        </classes>
+    </test>
+    <test name="Login page nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.LoginPageTests"/>
+        </classes>
+    </test>
+    <test name="Request demo page nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.RequestDemoTests"/>
+        </classes>
+    </test>
+</suite>
+
+

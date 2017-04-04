@@ -70,11 +70,13 @@ public class ResourcesPage extends BaseObjectPage {
         downloadBtn.click();
         }
     public String getValidationMessage(String fieldName)  {
-        WebElement firstName = getDriver().findElement(By.xpath("//div[@class='hs_"+fieldName+" field hs-form-field']//li/label"));
+        waitFor(3);
+        WebElement firstName = getDriver().findElement(By.xpath("//div[@class='hs_"+fieldName+" field hs-form-field']//ul/li/label"));
         fluentWaitforElement(firstName, 10, 5);
         return firstName.getText();
     }
     public String getSubscribeForUpdatesMessage()  {
+        waitFor(2);
         WebElement message = getDriver().findElement(By.xpath("//span[@data-hs-cos-type='form']//strong"));
         fluentWaitforElement(message, 10, 5);
         return message.getText();

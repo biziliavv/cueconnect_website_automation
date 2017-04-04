@@ -16,7 +16,7 @@ public class TeamTests extends SeleniumBaseTest {
     public void checkingOfEmployeeQuote() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
-        homePage.movingToMenuElement("About", "Team");
+        homePage.movingToMenuElement("About", "Cue Connect Team", "Team");
         homePage.moveToEmployeeAndWaitQuote();
         Assert.assertEquals("“Great companies are built on great products.”\n" +
                 "— Elon Musk", homePage.getEmployeesQuote());

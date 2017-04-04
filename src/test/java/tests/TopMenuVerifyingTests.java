@@ -19,23 +19,23 @@ public class TopMenuVerifyingTests extends SeleniumBaseTest {
 
         HomePageObject homePage = new HomePageObject();
 
-        homePage.movingToMenuElement("Features", "Reporting Suite");
+        homePage.movingToMenuElement("Cueconnect Features", "Reporting Suite", "Reporting Suite");
         Assert.assertEquals("https://cueconnect.com/features/#reporting-suite", getDriver().getCurrentUrl());
-        waitFor(2);
-        homePage.movingToMenuElement("Features", "Share Tools");
+        waitFor(3);
+        homePage.movingToMenuElement("Cueconnect Features", "Share Tools", "Share Tools");
         Assert.assertEquals("https://cueconnect.com/features/#share-tools", getDriver().getCurrentUrl());
-        waitFor(2);
+        waitFor(3);
     }
     @Test(groups = "desktop")
     public void movingToFeaturesSecondHalfMenu() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
-        homePage.movingToMenuElement("Features", "My List");
+        homePage.movingToMenuElement("Cueconnect Features", "My List", "My List");
         Assert.assertEquals("https://cueconnect.com/features/#my-list", getDriver().getCurrentUrl());
-        waitFor(2);
-        homePage.movingToMenuElement("Features", "Cue Proximity");
+        waitFor(5);
+        homePage.movingToMenuElement("Cueconnect Features", "Cue Proximity", "Cue Proximity");
         Assert.assertEquals("https://cueconnect.com/features/#cue-proximity", getDriver().getCurrentUrl());
-        waitFor(2);
+        waitFor(3);
 
 
     }
@@ -44,20 +44,20 @@ public class TopMenuVerifyingTests extends SeleniumBaseTest {
 
         HomePageObject homePage = new HomePageObject();
         waitFor(2);
-        homePage.movingToMenuElement("About", "Our Story");
+        homePage.movingToMenuElement("About", "Cue Connect Story","Our Story");
         Assert.assertEquals("https://cueconnect.com/about/", getDriver().getCurrentUrl());
         Assert.assertEquals("Our Story", homePage.getTitle());
-        waitFor(2);
-        homePage.movingToMenuElement("About", "Press");
+        waitFor(3);
+        homePage.movingToMenuElement("About", "Press", "Press");
         Assert.assertEquals("https://cueconnect.com/press/", getDriver().getCurrentUrl());
-        waitFor(4);
-        homePage.movingToMenuElement("About", "Team");
+        waitFor(3);
+        homePage.movingToMenuElement("About", "Cue Connect Team", "Team");
         Assert.assertEquals("https://cueconnect.com/team/", getDriver().getCurrentUrl());
-        waitFor(4);
-        homePage.movingToMenuElement("About", "Careers");
+        waitFor(3);
+        homePage.movingToMenuElement("About", "Careers in Cueconnect", "Careers");
         Assert.assertEquals("https://cueconnect.com/careers/", getDriver().getCurrentUrl());
-        waitFor(6);
-        homePage.movingToMenuElement("About", "Contact");
+        waitFor(3);
+        homePage.movingToMenuElement("About", "Contact Us", "Contact");
         Assert.assertEquals("https://cueconnect.com/contactus/", getDriver().getCurrentUrl());
 
 
@@ -67,13 +67,13 @@ public class TopMenuVerifyingTests extends SeleniumBaseTest {
 
         HomePageObject homePage = new HomePageObject();
 
-        homePage.movingToMenuElement("Blog", "Blog");
+        homePage.movingToMenuElement("Blog", "Blog", "Blog");
         Assert.assertEquals("https://cueconnect.com/blog/", getDriver().getCurrentUrl());
-        waitFor(2);
+        waitFor(5);
         Assert.assertEquals("Cue Connect Blog", homePage.getTitle());
-        homePage.movingToMenuElement("Blog", "Resources");
+        homePage.movingToMenuElement("Blog", "Resources", "Resources");
         Assert.assertEquals("https://cueconnect.com/resources/", getDriver().getCurrentUrl());
-        waitFor(2);
+        waitFor(3);
 //        homePage.movingToMenuElement("Blog", "Cue Academy");
 //        Assert.assertEquals("https://cueconnect.com/cue-academy/", getDriver().getCurrentUrl());
     }
@@ -87,11 +87,11 @@ public class TopMenuVerifyingTests extends SeleniumBaseTest {
     @Test(groups = "desktop")
     public void singleClickOnTopMenuItems() throws IOException {
         HomePageObject homePage = new HomePageObject();
-        homePage.singleClickOnTopMenuItem("Features");
+        homePage.singleClickOnTopMenuItem("Cueconnect Features");
         Assert.assertEquals("Build Customer Relationships That Last Forever", homePage.getTitle());
         homePage.singleClickOnTopMenuItem("About");
         Assert.assertEquals("Our Story", homePage.getTitle());
-        homePage.singleClickOnTopMenuItem("Benefits");
+        homePage.singleClickOnTopMenuItem("Cueconnect Benefits");
         Assert.assertEquals("Grow Conversions Increase Sales", homePage.getTitle());
         homePage.singleClickOnTopMenuItem("Blog");
         Assert.assertEquals("Cue Connect Blog", homePage.getTitle());

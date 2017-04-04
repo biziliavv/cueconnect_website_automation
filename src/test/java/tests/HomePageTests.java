@@ -174,9 +174,9 @@ public class HomePageTests extends SeleniumBaseTest {
     @Test(groups = "mobile")
     public void bottomMenuVerifying() throws IOException {
         HomePageObject homePage = new HomePageObject();
-        homePage.clickOnBottomMenuElement("Features", "Build Customer Relationships That Last Forever");
+        homePage.clickOnBottomMenuElement("Cueconnect Features", "Build Customer Relationships That Last Forever");
         homePage.clickOnBottomMenuElement("Resources", "Marketing Guides");
-        homePage.clickOnBottomMenuElement("Benefits", "Grow Conversions Increase Sales");
+        homePage.clickOnBottomMenuElement("Cueconnect Benefits", "Grow Conversions Increase Sales");
         homePage.clickOnBottomMenuElement("Blog", "Cue Connect Blog");
         homePage.clickOnBottomMenuElement("Privacy", "Privacy Policy");
         homePage.clickOnBottomMenuElement("Terms", "Terms and Conditions");

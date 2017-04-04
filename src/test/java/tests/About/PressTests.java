@@ -22,7 +22,7 @@ public class PressTests extends SeleniumBaseTest {
 
         HomePageObject homePage = new HomePageObject();
         waitFor(2);
-        homePage.movingToMenuElement("About", "Press");
+        homePage.movingToMenuElement("About", "Press", "Press");
         waitFor(3);
         WebElement downloadCueLogoEps = getDriver().findElement(By.xpath("//div[@class='brand_download']/span/a[text()='.eps']"));
         downloadCueLogoEps.click();
@@ -45,7 +45,7 @@ public class PressTests extends SeleniumBaseTest {
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         HomePageObject homePage = new HomePageObject();
-        homePage.movingToMenuElement("About", "Press");
+        homePage.movingToMenuElement("About", "Press", "Press");
         waitFor(3);
         String href_eps = "/assets/files/e-icon-black.eps";
         WebElement downloadCueIconEps = getDriver().findElement(By.xpath("//a[@href='"+href_eps+"']"));
@@ -67,7 +67,7 @@ public class PressTests extends SeleniumBaseTest {
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         HomePageObject homePage = new HomePageObject();
-        homePage.movingToMenuElement("About", "Press");
+        homePage.movingToMenuElement("About", "Press", "Press");
         waitFor(3);
         String href_eps = "/assets/files/cue-connect-logo-black.eps";
         WebElement downloadCueIconEps = getDriver().findElement(By.xpath("//a[@href='"+href_eps+"']"));
@@ -90,7 +90,7 @@ public class PressTests extends SeleniumBaseTest {
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         HomePageObject homePage = new HomePageObject();
-        homePage.movingToMenuElement("About", "Press");
+        homePage.movingToMenuElement("About", "Press", "Press");
         waitFor(3);
         String href_eps = "/assets/files/cue-connect-logo-vertical.eps";
         WebElement downloadCueIconEps = getDriver().findElement(By.xpath("//a[@href='"+href_eps+"']"));
@@ -113,7 +113,7 @@ public class PressTests extends SeleniumBaseTest {
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         HomePageObject homePage = new HomePageObject();
-        homePage.movingToMenuElement("About", "Press");
+        homePage.movingToMenuElement("About", "Press", "Press");
         waitFor(3);
         String href_guide = "/assets/files/press-kit-2017.pdf";
         WebElement downloadCueIconPng = getDriver().findElement(By.xpath("//a[@href='"+href_guide+"']"));
@@ -134,7 +134,7 @@ public class PressTests extends SeleniumBaseTest {
 
         HomePageObject homePage = new HomePageObject();
 
-        homePage.movingToMenuElement("About", "Press");
+        homePage.movingToMenuElement("About", "Press", "Press");
         waitFor(3);
         WebElement readMore = getDriver().findElement(By.xpath("//span[@class='press-article-link']/a[@target='_blank']"));
         readMore.click();
