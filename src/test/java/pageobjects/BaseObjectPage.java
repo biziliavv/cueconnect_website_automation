@@ -217,7 +217,7 @@ public abstract class BaseObjectPage {
     }
 
     public String getValidEmailMessage()  {
-
+        waitFor(3);
         WebElement message = getDriver().findElement(By.xpath("//div[@class='submitted-message'][@data-reactid='.hbspt-forms-0']"));
         fluentWaitforElement(message, 30, 3);
         return message.getText();

@@ -35,6 +35,7 @@ public class SeleniumDriver {
 			HashMap<String, Object> chromePref = new HashMap();
 
 			chromePref.put("download.default_directory", "download");
+			options.setBinary("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome");
 
 			options.setExperimentalOption("prefs", chromePref);
 			driver = new ChromeDriver(options);

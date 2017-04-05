@@ -163,7 +163,7 @@ public class HomePageObject extends BaseObjectPage {
     public void sendMeUpdatesVerifying(String emailValue)  {
 
         WebElement emailForSendUpdateField = getDriver().findElement(By.xpath("//input[@name='email']"));
-        fluentWaitforElement(emailForSendUpdateField, 20, 3);
+        fluentWaitforElement(emailForSendUpdateField, 30, 3);
         waitAndClick(emailForSendUpdateField);
         waitFor(5);
         emailForSendUpdateField.sendKeys(emailValue);
