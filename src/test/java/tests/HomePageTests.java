@@ -100,7 +100,7 @@ public class HomePageTests extends SeleniumBaseTest {
         homePage.scrollUp(0, -500);
         waitFor(2);
         WebElement el = getDriver().findElement(By.xpath("//p[@class='call-to-action']/a[@href='"+link+"']"));
-        waitFor(2);
+        waitFor(4);
         el.click();
         Assert.assertEquals("https://cueconnect.com/resources/", getDriver().getCurrentUrl());
         Assert.assertEquals("Marketing Guides", homePage.getTitle());
@@ -174,11 +174,16 @@ public class HomePageTests extends SeleniumBaseTest {
     @Test(groups = "mobile")
     public void bottomMenuVerifying() throws IOException {
         HomePageObject homePage = new HomePageObject();
-        homePage.clickOnBottomMenuElement("Cueconnect Features", "Build Customer Relationships That Last Forever");
+        homePage.clickOnBottomMenuElement("Features", "Build Customer Relationships That Last Forever");
+        waitFor(2);
         homePage.clickOnBottomMenuElement("Resources", "Marketing Guides");
-        homePage.clickOnBottomMenuElement("Cueconnect Benefits", "Grow Conversions Increase Sales");
+        waitFor(2);
+        homePage.clickOnBottomMenuElement("Benefits", "Grow Conversions Increase Sales");
+        waitFor(2);
         homePage.clickOnBottomMenuElement("Blog", "Cue Connect Blog");
+        waitFor(2);
         homePage.clickOnBottomMenuElement("Privacy", "Privacy Policy");
+        waitFor(2);
         homePage.clickOnBottomMenuElement("Terms", "Terms and Conditions");
 
     }

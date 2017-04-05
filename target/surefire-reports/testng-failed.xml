@@ -1,106 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All tests]">
-  <test name="Press page desktop checking(failed)">
-    <parameter name="myDevice" value="desktop"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="chekingStyleGuide"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- Press page desktop checking(failed) -->
   <test name="Resources page desktop checking(failed)">
     <parameter name="myDevice" value="desktop"/>
     <classes>
@@ -120,10 +20,7 @@
       </class> <!-- tests.BenefitsPageTests -->
       <class name="tests.Blog.ResourcesPageTests">
         <methods>
-          <include name="downloadTemplateAndSubscribeForUpdates"/>
           <include name="beforeClass"/>
-          <include name="downloadTemplateAndSubscribeForUpdatesEmailWithAt"/>
-          <include name="downloadTemplateAndSubscribeForUpdatesEmptyEmail"/>
           <include name="wrongEmailWithAtDataFormChecking"/>
         </methods>
       </class> <!-- tests.Blog.ResourcesPageTests -->
@@ -165,13 +62,6 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
       <class name="tests.About.OurStory">
         <methods>
           <include name="beforeClass"/>
@@ -179,6 +69,13 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
       <class name="tests.Blog.BlogMainPageTests">
         <methods>
           <include name="beforeClass"/>
@@ -204,106 +101,6 @@
       </class> <!-- tests.RequestDemoTests -->
     </classes>
   </test> <!-- Resources page desktop checking(failed) -->
-  <test name="Our Story page desktop checking(failed)">
-    <parameter name="myDevice" value="desktop"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="checkingOurStoryThatElementsArePresent"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- Our Story page desktop checking(failed) -->
   <test name="HomePage desktop checking(failed)">
     <parameter name="myDevice" value="desktop"/>
     <classes>
@@ -366,13 +163,6 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
       <class name="tests.About.OurStory">
         <methods>
           <include name="beforeClass"/>
@@ -380,6 +170,13 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
       <class name="tests.Blog.BlogMainPageTests">
         <methods>
           <include name="beforeClass"/>
@@ -405,212 +202,727 @@
       </class> <!-- tests.RequestDemoTests -->
     </classes>
   </test> <!-- HomePage desktop checking(failed) -->
-  <test name="Login page desktop checking(failed)">
-    <parameter name="myDevice" value="desktop"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="loginCheckEmptyFields"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="loginFormCheckingWrongEmail"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- Login page desktop checking(failed) -->
-  <test name="Top menu desktop checking(failed)">
-    <parameter name="myDevice" value="desktop"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="movingToFeaturesFirstHalfMenu"/>
-          <include name="movingToAboutMenu"/>
-          <include name="movingToFeaturesSecondHalfMenu"/>
-          <include name="beforeClass"/>
-          <include name="movingToBlogMenu"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- Top menu desktop checking(failed) -->
   <test name="HomePage iphone7 checking(failed)">
     <parameter name="myDevice" value="iphone7"/>
+    <classes>
+      <class name="tests.FeaturesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.FeaturesPageTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.Blog.ResourcesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.ResourcesPageTests -->
+      <class name="tests.About.CareersTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.SupportPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.SupportPageTests -->
+      <class name="tests.About.PressTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.PressTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+      <class name="tests.About.TeamTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.TeamTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="scrollingToCueConnectBlog"/>
+          <include name="sendingUpdatesIncorrectEmail"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="getStartedFreeChecking"/>
+          <include name="sendingUpdatesIncorrectEmailWithAt"/>
+          <include name="sendingUpdatesToValidEmail"/>
+          <include name="typingValidEmailAndClickRequestDemo"/>
+          <include name="bottomMenuVerifying"/>
+          <include name="emptyEmailAndClickRequestDemo"/>
+          <include name="notEmailFormatAndClickRequestDemo"/>
+          <include name="videoOpening"/>
+          <include name="sendingUpdatesEmptyEmail"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.About.OurStory">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.Blog.BlogMainPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+    </classes>
+  </test> <!-- HomePage iphone7 checking(failed) -->
+  <test name="Press page iphone7 checking(failed)">
+    <parameter name="myDevice" value="iphone7"/>
+    <classes>
+      <class name="tests.FeaturesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.FeaturesPageTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.Blog.ResourcesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.ResourcesPageTests -->
+      <class name="tests.About.CareersTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.SupportPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.SupportPageTests -->
+      <class name="tests.About.PressTests">
+        <methods>
+          <include name="downloadLinkCheckingLogoBlack"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="downloadLinkCheckingLogoVertical"/>
+          <include name="downloadLinkCheckingLogo"/>
+        </methods>
+      </class> <!-- tests.About.PressTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+      <class name="tests.About.TeamTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.TeamTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.About.OurStory">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.Blog.BlogMainPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+    </classes>
+  </test> <!-- Press page iphone7 checking(failed) -->
+  <test name="Team page iphone7 checking(failed)">
+    <parameter name="myDevice" value="iphone7"/>
+    <classes>
+      <class name="tests.FeaturesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.FeaturesPageTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.Blog.ResourcesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.ResourcesPageTests -->
+      <class name="tests.About.CareersTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.SupportPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.SupportPageTests -->
+      <class name="tests.About.PressTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.PressTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+      <class name="tests.About.TeamTests">
+        <methods>
+          <include name="checkingOfEmployeeQuote"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.TeamTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.About.OurStory">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.Blog.BlogMainPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+    </classes>
+  </test> <!-- Team page iphone7 checking(failed) -->
+  <test name="Careers page iphone7 checking(failed)">
+    <parameter name="myDevice" value="iphone7"/>
+    <classes>
+      <class name="tests.FeaturesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.FeaturesPageTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.About.CareersTests">
+        <methods>
+          <include name="openingVacancyAndSendingEmptyForm"/>
+          <include name="checkElementsArePresent"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.Blog.ResourcesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.ResourcesPageTests -->
+      <class name="tests.SupportPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.SupportPageTests -->
+      <class name="tests.About.PressTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.PressTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+      <class name="tests.About.TeamTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.TeamTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.About.OurStory">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.Blog.BlogMainPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+    </classes>
+  </test> <!-- Careers page iphone7 checking(failed) -->
+  <test name="Contactus page iphone7 checking(failed)">
+    <parameter name="myDevice" value="iphone7"/>
+    <classes>
+      <class name="tests.FeaturesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.FeaturesPageTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.Blog.ResourcesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.ResourcesPageTests -->
+      <class name="tests.About.CareersTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.SupportPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.SupportPageTests -->
+      <class name="tests.About.PressTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.PressTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+      <class name="tests.About.TeamTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.TeamTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.About.OurStory">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.Blog.BlogMainPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="emptyDataChecking"/>
+          <include name="badEmailChecking"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+    </classes>
+  </test> <!-- Contactus page iphone7 checking(failed) -->
+  <test name="Blog page iphone7 checking(failed)">
+    <parameter name="myDevice" value="iphone7"/>
+    <classes>
+      <class name="tests.FeaturesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.FeaturesPageTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.Blog.ResourcesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.ResourcesPageTests -->
+      <class name="tests.About.CareersTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.SupportPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.SupportPageTests -->
+      <class name="tests.About.PressTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.PressTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+      <class name="tests.About.TeamTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.TeamTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.About.OurStory">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.Blog.BlogMainPageTests">
+        <methods>
+          <include name="goingToCommentsSectionByClickOnClickHereLink"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="clickingOnAuthorChecking"/>
+          <include name="clickingOnTagChecking"/>
+          <include name="openingPostByClickOnReadThisPostBtn"/>
+        </methods>
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+    </classes>
+  </test> <!-- Blog page iphone7 checking(failed) -->
+  <test name="Login page iphone7 checking(failed)">
+    <parameter name="myDevice" value="iphone7"/>
+    <classes>
+      <class name="tests.FeaturesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.FeaturesPageTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.Blog.ResourcesPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.ResourcesPageTests -->
+      <class name="tests.About.CareersTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.SupportPageTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.SupportPageTests -->
+      <class name="tests.About.PressTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.PressTests -->
+      <class name="tests.TopMenuVerifyingTests">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TopMenuVerifyingTests -->
+      <class name="tests.About.TeamTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.TeamTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="forgotPasswordEmptyFields"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="correctLogin"/>
+          <include name="forgotPasswordWrongEmail"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.About.OurStory">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.Blog.BlogMainPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+    </classes>
+  </test> <!-- Login page iphone7 checking(failed) -->
+  <test name="HomePage nexus6 checking(failed)">
+    <parameter name="myDevice" value="nexus6"/>
     <classes>
       <class name="tests.FeaturesPageTests">
         <methods>
@@ -674,13 +986,6 @@
           <include name="bscrollingToTransformTraffic"/>
         </methods>
       </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
       <class name="tests.About.OurStory">
         <methods>
           <include name="beforeClass"/>
@@ -688,6 +993,13 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
       <class name="tests.Blog.BlogMainPageTests">
         <methods>
           <include name="beforeClass"/>
@@ -712,19 +1024,17 @@
         </methods>
       </class> <!-- tests.RequestDemoTests -->
     </classes>
-  </test> <!-- HomePage iphone7 checking(failed) -->
-  <test name="Features page iphone7 checking(failed)">
-    <parameter name="myDevice" value="iphone7"/>
+  </test> <!-- HomePage nexus6 checking(failed) -->
+  <test name="Features page nexus6 checking(failed)">
+    <parameter name="myDevice" value="nexus6"/>
     <classes>
       <class name="tests.FeaturesPageTests">
         <methods>
-          <include name="openingSecondRequestDemoButton"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
           <include name="openingFeaturesPageAndClickOnRequestDemo"/>
           <include name="scrollingToEachSection"/>
-          <include name="openingThirdRequestDemoButton"/>
         </methods>
       </class> <!-- tests.FeaturesPageTests -->
       <class name="tests.BenefitsPageTests">
@@ -777,13 +1087,6 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
       <class name="tests.About.OurStory">
         <methods>
           <include name="beforeClass"/>
@@ -791,6 +1094,13 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
       <class name="tests.Blog.BlogMainPageTests">
         <methods>
           <include name="beforeClass"/>
@@ -815,9 +1125,9 @@
         </methods>
       </class> <!-- tests.RequestDemoTests -->
     </classes>
-  </test> <!-- Features page iphone7 checking(failed) -->
-  <test name="Benefits page iphone7 checking(failed)">
-    <parameter name="myDevice" value="iphone7"/>
+  </test> <!-- Features page nexus6 checking(failed) -->
+  <test name="Benefits page nexus6 checking(failed)">
+    <parameter name="myDevice" value="nexus6"/>
     <classes>
       <class name="tests.FeaturesPageTests">
         <methods>
@@ -878,13 +1188,6 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
       <class name="tests.About.OurStory">
         <methods>
           <include name="beforeClass"/>
@@ -892,6 +1195,13 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
       <class name="tests.Blog.BlogMainPageTests">
         <methods>
           <include name="beforeClass"/>
@@ -916,9 +1226,9 @@
         </methods>
       </class> <!-- tests.RequestDemoTests -->
     </classes>
-  </test> <!-- Benefits page iphone7 checking(failed) -->
-  <test name="Our Story page iphone7 checking(failed)">
-    <parameter name="myDevice" value="iphone7"/>
+  </test> <!-- Benefits page nexus6 checking(failed) -->
+  <test name="Our Story page nexus6 checking(failed)">
+    <parameter name="myDevice" value="nexus6"/>
     <classes>
       <class name="tests.FeaturesPageTests">
         <methods>
@@ -1017,311 +1327,6 @@
         </methods>
       </class> <!-- tests.RequestDemoTests -->
     </classes>
-  </test> <!-- Our Story page iphone7 checking(failed) -->
-  <test name="Press page iphone7 checking(failed)">
-    <parameter name="myDevice" value="iphone7"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="downloadLinkCheckingIconBlack"/>
-          <include name="downloadLinkCheckingLogoBlack"/>
-          <include name="chekingStyleGuide"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="checkinReadMoreLink"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- Press page iphone7 checking(failed) -->
-  <test name="HomePage nexus6 checking(failed)">
-    <parameter name="myDevice" value="nexus6"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="sendingUpdatesIncorrectEmail"/>
-          <include name="sendingUpdatesToValidEmail"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="getStartedFreeChecking"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- HomePage nexus6 checking(failed) -->
-  <test name="Our Story page nexus6 checking(failed)">
-    <parameter name="myDevice" value="nexus6"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="checkingOurStoryThatElementsArePresent"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
   </test> <!-- Our Story page nexus6 checking(failed) -->
   <test name="Press page nexus6 checking(failed)">
     <parameter name="myDevice" value="nexus6"/>
@@ -1360,14 +1365,11 @@
       <class name="tests.About.PressTests">
         <methods>
           <include name="downloadLinkCheckingIconBlack"/>
-          <include name="downloadLinkCheckingLogoBlack"/>
           <include name="chekingStyleGuide"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
           <include name="checkinReadMoreLink"/>
-          <include name="downloadLinkCheckingLogoVertical"/>
-          <include name="downloadLinkCheckingLogo"/>
         </methods>
       </class> <!-- tests.About.PressTests -->
       <class name="tests.TopMenuVerifyingTests">
@@ -1389,13 +1391,6 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
       <class name="tests.About.OurStory">
         <methods>
           <include name="beforeClass"/>
@@ -1403,6 +1398,13 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.About.OurStory -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
       <class name="tests.Blog.BlogMainPageTests">
         <methods>
           <include name="beforeClass"/>
@@ -1428,515 +1430,4 @@
       </class> <!-- tests.RequestDemoTests -->
     </classes>
   </test> <!-- Press page nexus6 checking(failed) -->
-  <test name="Careers page nexus6 checking(failed)">
-    <parameter name="myDevice" value="nexus6"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="openingVacancyAndSendingEmptyForm"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- Careers page nexus6 checking(failed) -->
-  <test name="Contactus page nexus6 checking(failed)">
-    <parameter name="myDevice" value="nexus6"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="emptyDataChecking"/>
-          <include name="badEmailChecking"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- Contactus page nexus6 checking(failed) -->
-  <test name="Blog page nexus6 checking(failed)">
-    <parameter name="myDevice" value="nexus6"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="goingToCommentsSectionByClickOnClickHereLink"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="clickingOnAuthorChecking"/>
-          <include name="clickingOnTagChecking"/>
-          <include name="openingPostByClickOnReadThisPostBtn"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- Blog page nexus6 checking(failed) -->
-  <test name="Login page nexus6 checking(failed)">
-    <parameter name="myDevice" value="nexus6"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="loginCheckEmptyFields"/>
-          <include name="forgotPasswordEmptyFields"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="correctLogin"/>
-          <include name="forgotPasswordWrongEmail"/>
-          <include name="loginFormCheckingWrongEmail"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- Login page nexus6 checking(failed) -->
-  <test name="Request demo page nexus6 checking(failed)">
-    <parameter name="myDevice" value="nexus6"/>
-    <classes>
-      <class name="tests.FeaturesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.FeaturesPageTests -->
-      <class name="tests.BenefitsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.BenefitsPageTests -->
-      <class name="tests.Blog.ResourcesPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.ResourcesPageTests -->
-      <class name="tests.About.CareersTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.CareersTests -->
-      <class name="tests.SupportPageTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.SupportPageTests -->
-      <class name="tests.About.PressTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.PressTests -->
-      <class name="tests.TopMenuVerifyingTests">
-        <methods>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.TopMenuVerifyingTests -->
-      <class name="tests.About.TeamTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.TeamTests -->
-      <class name="tests.HomePageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.HomePageTests -->
-      <class name="tests.LoginPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTests -->
-      <class name="tests.About.OurStory">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.OurStory -->
-      <class name="tests.Blog.BlogMainPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.Blog.BlogMainPageTests -->
-      <class name="tests.About.ContactUsPageTests">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- tests.About.ContactUsPageTests -->
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="phoneNumberFieldValidations"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="sendingFormWithValidData"/>
-          <include name="emailFieldValidations"/>
-          <include name="requestDemoEmptyRequiredFieldsOpening"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
-    </classes>
-  </test> <!-- Request demo page nexus6 checking(failed) -->
 </suite> <!-- Failed suite [All tests] -->

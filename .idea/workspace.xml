@@ -2,126 +2,153 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4edb149-1dbd-42b8-8c2c-4745795d3ab7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/suites/master.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog main page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog main page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog single page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog single page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Resources page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Resources page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Support page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Support page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Top menu checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Top menu checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.CareersTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.ContactUsPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.OurStory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.PressTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.TeamTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.BenefitsPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Blog.BlogMainPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Blog.ResourcesPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.FeaturesPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.HomePageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.LoginPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.RequestDemoTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.SupportPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.TopMenuVerifyingTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Benefits page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Blog main page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Blog single page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Careers page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Contact Us page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Features page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/HomePage checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Login page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Our Story page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Press page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/RequestDemoPage page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Resources page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Support page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Team page checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Top menu checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_sikulix_sikulixapi_1_1_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/About/Careers.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/About/Careers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/About/Contact.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/About/Contact.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/About/OurStory.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/About/OurStory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/BaseObjectPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/BaseObjectPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/BenefitsPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/BenefitsPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/Blog/BlogPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/Blog/BlogPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/Blog/CueAcademyPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/Blog/CueAcademyPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/Blog/ResourcesPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/Blog/ResourcesPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/FeaturesPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/FeaturesPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePageObject.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePageObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/RequestDemoPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/RequestDemoPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/SupportPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/SupportPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/setup/PageLoadHelper.class" afterPath="$PROJECT_DIR$/target/test-classes/setup/PageLoadHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/setup/SeleniumBaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/setup/SeleniumBaseTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/setup/SeleniumDriver.class" afterPath="$PROJECT_DIR$/target/test-classes/setup/SeleniumDriver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/About/CareersTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/About/CareersTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/About/ContactUsPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/About/ContactUsPageTests.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/About/OurStory.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/About/OurStory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/About/PressTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/About/PressTests.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/About/TeamTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/About/TeamTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/BenefitsPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/BenefitsPageTests.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/Blog/BlogMainPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/Blog/BlogMainPageTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/Blog/BlogSinglePageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/Blog/BlogSinglePageTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/Blog/CueAcademyPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/Blog/CueAcademyPageTests.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/Blog/ResourcesPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/Blog/ResourcesPageTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/FeaturesPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/FeaturesPageTests.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/HomePageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/HomePageTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginPageTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/RequestDemoTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/RequestDemoTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/SupportPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/SupportPageTests.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/TopMenuVerifyingTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/TopMenuVerifyingTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cueconnect_website_automation.iml" afterPath="$PROJECT_DIR$/cueconnect_website_automation.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/Blog/BlogPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Blog/BlogPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" afterPath="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/suites/nexus6.xml" afterPath="$PROJECT_DIR$/src/test/java/suites/nexus6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/About/CareersTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/About/CareersTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/suites/alltests.xml" afterPath="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/suites/iphone7.xml" afterPath="$PROJECT_DIR$/src/test/java/suites/iphone7.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/About/OurStory.java" afterPath="$PROJECT_DIR$/src/test/java/tests/About/OurStory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/About/PressTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/About/PressTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/About/TeamTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/About/TeamTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/TopMenuVerifyingTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/TopMenuVerifyingTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog main page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog main page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog main page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog main page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog single page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog single page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog single page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog single page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Resources page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Resources page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Resources page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Resources page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Support page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Support page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Support page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Support page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page iphone7 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page iphone7 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page iphone7 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page iphone7 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page nexus6 checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page nexus6 checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page nexus6 checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page nexus6 checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Top menu desktop checking.html" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Top menu desktop checking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Top menu desktop checking.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/Top menu desktop checking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/All tests/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.CareersTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.CareersTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.ContactUsPageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.ContactUsPageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.OurStory.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.OurStory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.PressTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.PressTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.TeamTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.TeamTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.BenefitsPageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.BenefitsPageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Blog.BlogMainPageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Blog.BlogMainPageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Blog.ResourcesPageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Blog.ResourcesPageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.FeaturesPageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.FeaturesPageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.HomePageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.HomePageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.LoginPageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.LoginPageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.RequestDemoTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.RequestDemoTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.SupportPageTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.SupportPageTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.TopMenuVerifyingTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.TopMenuVerifyingTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All tests/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
     </list>
     <ignored path="cueconnect_website_automation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -147,57 +174,27 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="142" column="76" selection-start-line="142" selection-start-column="76" selection-end-line="142" selection-end-column="76" />
+              <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseObjectPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2704">
-              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+            <state relative-caret-position="236">
+              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopMenuVerifyingTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/TopMenuVerifyingTests.java">
+      <file leaf-file-name="alltests.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePageObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-635">
-              <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="desktop.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/suites/desktop.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-930">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="90">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -206,38 +203,68 @@
       <file leaf-file-name="iphone7.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/suites/iphone7.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="317">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PressTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/PressTests.java">
+      <file leaf-file-name="TopMenuVerifyingTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/TopMenuVerifyingTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseObjectPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nexus6.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/suites/nexus6.xml">
+      <file leaf-file-name="Actions.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/interactions/Actions.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="123">
+              <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourcesPageTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java">
+      <file leaf-file-name="OurStory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/OurStory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+            <state relative-caret-position="123">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogMainPageTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -280,7 +307,6 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/Blog/CueAcademyPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/About/Careers.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/About/Contact.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BenefitsPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java" />
@@ -290,30 +316,31 @@
         <option value="$PROJECT_DIR$/src/test/java/suites/mobileVersion.xml" />
         <option value="$PROJECT_DIR$/src/test/java/suites/master-suite.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/suites/master.xml" />
         <option value="$PROJECT_DIR$/phantomjsdriver.log" />
         <option value="$PROJECT_DIR$/src/test/java/suites/superSuite.xml" />
         <option value="$PROJECT_DIR$/src/test/java/suites/mysuite.xml" />
         <option value="$PROJECT_DIR$/src/test/java/suites/desktop.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/suites/iphone7.xml" />
         <option value="$PROJECT_DIR$/mysuite.xml" />
         <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/About/PressTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/About/TeamTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/About/CareersTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/Blog/BlogPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/About/OurStory.java" />
         <option value="$PROJECT_DIR$/src/test/java/suites/nexus6.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/TopMenuVerifyingTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/About/OurStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/suites/iphone7.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -354,7 +381,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -597,6 +623,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
@@ -607,30 +634,30 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/drivers" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/test/java/setup" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.TopMenuVerifyingTests">
-    <configuration default="false" name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/desktop.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml">
+    <configuration default="false" name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="cueconnect_website_automation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/suites/desktop.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/suites/iphone7.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -653,10 +680,10 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="BenefitsPageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="OurStory" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.About.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -664,8 +691,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BenefitsPageTests" />
+      <option name="PACKAGE_NAME" value="tests.About" />
+      <option name="MAIN_CLASS_NAME" value="tests.About.OurStory" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -686,17 +713,22 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="false" name="ResourcesPageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.Blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="cueconnect_website_automation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/suites/iphone7.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests.Blog" />
+      <option name="MAIN_CLASS_NAME" value="tests.Blog.ResourcesPageTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -742,22 +774,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="TopMenuVerifyingTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="false" name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="cueconnect_website_automation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TopMenuVerifyingTests" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1049,19 +1076,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/desktop.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.BenefitsPageTests" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.OurStory" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ResourcesPageTests" />
       <item index="3" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/nexus6.xml" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TopMenuVerifyingTests" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TopMenuVerifyingTests" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/desktop.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/nexus6.xml" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.BenefitsPageTests" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/nexus6.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG./Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ResourcesPageTests" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.OurStory" />
       </list>
     </recent_temporary>
   </component>
@@ -1082,34 +1109,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TopMenuVerifyingTests - 2017.04.04 at 21h 20m 27s.xml">
-      <configuration name="TopMenuVerifyingTests" configurationId="TestNG" />
+    <history-entry file="ResourcesPageTests - 2017.04.05 at 15h 26m 25s.xml">
+      <configuration name="ResourcesPageTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TopMenuVerifyingTests - 2017.04.04 at 21h 23m 05s.xml">
-      <configuration name="TopMenuVerifyingTests" configurationId="TestNG" />
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.04.05 at 16h 49m 20s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TopMenuVerifyingTests - 2017.04.04 at 21h 24m 50s.xml">
-      <configuration name="TopMenuVerifyingTests" configurationId="TestNG" />
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.04.05 at 16h 51m 03s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_desktop_xml - 2017.04.04 at 21h 17m 10s.xml">
-      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/desktop.xml" configurationId="TestNG" />
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_iphone7_xml - 2017.04.05 at 16h 23m 55s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_nexus6_xml - 2017.04.04 at 20h 38m 47s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_iphone7_xml - 2017.04.05 at 16h 37m 27s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_iphone7_xml - 2017.04.05 at 16h 41m 36s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_iphone7_xml - 2017.04.05 at 16h 42m 53s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_iphone7_xml - 2017.04.05 at 16h 48m 00s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_nexus6_xml - 2017.04.05 at 16h 41m 09s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/nexus6.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_nexus6_xml - 2017.04.04 at 20h 43m 44s.xml">
-      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/nexus6.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_nexus6_xml - 2017.04.04 at 20h 48m 51s.xml">
-      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/nexus6.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_nexus6_xml - 2017.04.04 at 21h 02m 04s.xml">
-      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/nexus6.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_nexus6_xml - 2017.04.04 at 21h 04m 54s.xml">
-      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/nexus6.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_nexus6_xml - 2017.04.04 at 21h 05m 07s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_nexus6_xml - 2017.04.05 at 16h 49m 00s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/nexus6.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1124,7 +1151,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="687" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1133,12 +1160,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5030211" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26386556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26386556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1149,7 +1177,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1200,13 +1227,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/guava-19.0.jar!/com/google/common/collect/RegularImmutableMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/guava-19.0.jar!/com/google/common/collect/ImmutableMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1242,20 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/FeaturesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/setup/PageLoadHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
@@ -1280,24 +1286,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1309,36 +1301,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BenefitsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="167" selection-start-line="17" selection-start-column="167" selection-end-line="17" selection-end-column="167" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phantomjsdriver.log" />
     <entry file="file://$PROJECT_DIR$/src/test/java/suites/superSuite.xml" />
-    <entry file="file://$PROJECT_DIR$/alltests.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/mysuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/alltests.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/mysuite.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1350,30 +1320,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/About/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/About/OurStory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mysuite.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/TeamTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1390,38 +1337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Blog/BlogPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/OurStory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/ContactUsPageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/CareersTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -1430,50 +1345,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/PressTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/setup/PageLoadHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/RequestDemoPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="222" column="51" selection-start-line="222" selection-start-column="51" selection-end-line="222" selection-end-column="51" />
+        <state relative-caret-position="495">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/desktop.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/About/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BenefitsPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="180">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BenefitsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/iphone7.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="555">
+          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/FeaturesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/CareersTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/About/OurStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/ContactUsPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Blog/BlogPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1486,26 +1483,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/PressTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/iphone7.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="317">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/desktop.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-930">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="-60">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TopMenuVerifyingTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1513,39 +1534,31 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="142" column="76" selection-start-line="142" selection-start-column="76" selection-end-line="142" selection-end-column="76" />
+          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TopMenuVerifyingTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/OurStory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        <state relative-caret-position="123">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java">
+    <entry file="jar://$PROJECT_DIR$/lib/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/interactions/Actions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-635">
-          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+        <state relative-caret-position="123">
+          <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2704">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+        <state relative-caret-position="115">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1607,7 +1620,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1627,7 +1639,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>com.sikulix:sikulixapi:1.1.0</last-edited>
+          <last-edited>Maven: cglib:cglib-nodep:3.2.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

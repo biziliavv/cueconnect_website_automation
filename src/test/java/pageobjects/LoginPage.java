@@ -49,7 +49,7 @@ public class LoginPage extends BaseObjectPage {
         signinButton.click();
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement log_out_button = getDriver().findElement(By.xpath("//button[text()='LOG OUT']"));
-        fluentWaitforElement(log_out_button, 10, 10);
+        fluentWaitforElement(log_out_button, 30, 3);
         isElementDisplayed(log_out_button);
 
     }

@@ -25,8 +25,8 @@
         <module name="cueconnect_website_automation" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cueconnect_website_automation" target="1.7" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="cueconnect_website_automation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -92,7 +92,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.fillingInForm("John", "Smith", "jsmith@gmail", 1);
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
-        Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Please enter a valid email address.");
+        Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Email must be formatted correctly.");
 
     }
     @Test
@@ -107,7 +107,8 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.fillingInForm("John", "Smith", "jsmith@gmail.com", 1);
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
-        resourcesPage.fillingInEmailForUpdates("john.smith@test.com");
+        resourcesPage.fillingInEmailForUpdates("jsmith@gmail.com");
+        waitFor(5);
         Assert.assertEquals("Thanks for signing up!", resourcesPage.getSubscribeForUpdatesMessage());
     }
 
@@ -130,6 +131,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
     @Test
     public void downloadTemplateAndSubscribeForUpdatesEmailWithoutAt() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(2);
         ResourcesPage resourcesPage = homePage.goToResources();
         waitFor(3);
         resourcesPage.templateOpening();
@@ -154,8 +156,8 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         resourcesPage.fillingInEmailForUpdates("john.smith@test");
-        waitFor(2);
-        Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Please enter a valid email address.");
+        waitFor(4);
+        Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Email must be formatted correctly.");
     }
 
 

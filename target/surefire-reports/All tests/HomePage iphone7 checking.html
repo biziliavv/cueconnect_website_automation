@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>HomePage iphone7 checking</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/5/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/11/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 04 21:37:08 EEST 2017</td>
+<td>Started on:</td><td>Wed Apr 05 15:37:58 EEST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>60 seconds (60649 ms)</td>
+<tr><td>Total time:</td><td>58 seconds (58307 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,42 +75,53 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HomePageTests.bscrollingToResources()'><b>bscrollingToResources</b><br>Test class: tests.HomePageTests</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;https://cueconnect.com/resources/&quot;&gt;...&lt;/a&gt; is not clickable at point (198, 69). Other element would receive the click: &lt;a href=&quot;https://cueconnect.com&quot; class=&quot;navbar-brand header-logo&quot;&gt;...&lt;/a&gt;
+<td title='tests.HomePageTests.bottomMenuVerifying()'><b>bottomMenuVerifying</b><br>Test class: tests.HomePageTests</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class=&apos;page-title&apos;]&quot;}
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 59 milliseconds
+Command duration or timeout: 2.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.RJ4wkY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 1ac5d161c817a3c650a08d5317be6426
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+*** Element info: {Using=xpath, value=//h1[@class=&apos;page-title&apos;]}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at tests.HomePageTests.bscrollingToResources(HomePageTests.java:104)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2014563089", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2014563089'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;https://cueconnect.com/resources/&quot;&gt;...&lt;/a&gt; is not clickable at point (198, 69). Other element would receive the click: &lt;a href=&quot;https://cueconnect.com&quot; class=&quot;navbar-brand header-logo&quot;&gt;...&lt;/a&gt;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at pageobjects.BaseObjectPage.getTitle(BaseObjectPage.java:155)
+	at pageobjects.HomePageObject.clickOnBottomMenuElement(HomePageObject.java:188)
+	at tests.HomePageTests.bottomMenuVerifying(HomePageTests.java:180)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1878700101", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1878700101'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class=&apos;page-title&apos;]&quot;}
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 59 milliseconds
+Command duration or timeout: 2.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.RJ4wkY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 1ac5d161c817a3c650a08d5317be6426
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+*** Element info: {Using=xpath, value=//h1[@class=&apos;page-title&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at tests.HomePageTests.bscrollingToResources(HomePageTests.java:104)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at pageobjects.BaseObjectPage.getTitle(BaseObjectPage.java:155)
+	at pageobjects.HomePageObject.clickOnBottomMenuElement(HomePageObject.java:188)
+	at tests.HomePageTests.bottomMenuVerifying(HomePageTests.java:180)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -140,45 +151,54 @@ Session ID: 1ac5d161c817a3c650a08d5317be6426
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
-<td>1</td>
+<td>10</td>
 <td>tests.HomePageTests@573f2bb1</td></tr>
 <tr>
-<td title='tests.HomePageTests.bscrollingToTransformTraffic()'><b>bscrollingToTransformTraffic</b><br>Test class: tests.HomePageTests</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;/benefits/#transform-traffic&quot;&gt;...&lt;/a&gt; is not clickable at point (93, 9). Other element would receive the click: &lt;a href=&quot;https://cueconnect.com&quot; class=&quot;navbar-brand header-logo&quot;&gt;...&lt;/a&gt;
+<td title='tests.HomePageTests.emptyEmailAndClickRequestDemo()'><b>emptyEmailAndClickRequestDemo</b><br>Test class: tests.HomePageTests</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class=&apos;page-title&apos;]&quot;}
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 64 milliseconds
+Command duration or timeout: 2.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.RJ4wkY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 1ac5d161c817a3c650a08d5317be6426
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+*** Element info: {Using=xpath, value=//h1[@class=&apos;page-title&apos;]}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at tests.HomePageTests.bscrollingToTransformTraffic(HomePageTests.java:44)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace73698537", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace73698537'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;/benefits/#transform-traffic&quot;&gt;...&lt;/a&gt; is not clickable at point (93, 9). Other element would receive the click: &lt;a href=&quot;https://cueconnect.com&quot; class=&quot;navbar-brand header-logo&quot;&gt;...&lt;/a&gt;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at pageobjects.BaseObjectPage.getTitle(BaseObjectPage.java:155)
+	at tests.HomePageTests.emptyEmailAndClickRequestDemo(HomePageTests.java:124)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2044825144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2044825144'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class=&apos;page-title&apos;]&quot;}
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 64 milliseconds
+Command duration or timeout: 2.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.RJ4wkY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 1ac5d161c817a3c650a08d5317be6426
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+*** Element info: {Using=xpath, value=//h1[@class=&apos;page-title&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at tests.HomePageTests.bscrollingToTransformTraffic(HomePageTests.java:44)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at pageobjects.BaseObjectPage.getTitle(BaseObjectPage.java:155)
+	at tests.HomePageTests.emptyEmailAndClickRequestDemo(HomePageTests.java:124)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -208,54 +228,49 @@ Session ID: 1ac5d161c817a3c650a08d5317be6426
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
-<td>1</td>
+<td>4</td>
 <td>tests.HomePageTests@573f2bb1</td></tr>
 <tr>
 <td title='tests.HomePageTests.getStartedFreeChecking()'><b>getStartedFreeChecking</b><br>Test class: tests.HomePageTests</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;cue-ro-title&apos;]&quot;}
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a class=&quot;cue-main-footer-link white&quot; href=&quot;https://business.cueconnect.com/partner/register?plan=build&quot;&gt;...&lt;/a&gt; is not clickable at point (199, 259). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 34 milliseconds
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.RJ4wkY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 1ac5d161c817a3c650a08d5317be6426
-*** Element info: {Using=xpath, value=//div[@class=&apos;cue-ro-title&apos;]}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at pageobjects.HomePageObject.storeInformationPageTitle(HomePageObject.java:202)
-	at tests.HomePageTests.getStartedFreeChecking(HomePageTests.java:190)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1846982837", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1846982837'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;cue-ro-title&apos;]&quot;}
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.waitAndClick(BaseObjectPage.java:88)
+	at pageobjects.HomePageObject.getStartedFree(HomePageObject.java:198)
+	at tests.HomePageTests.getStartedFreeChecking(HomePageTests.java:189)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace727250772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace727250772'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a class=&quot;cue-main-footer-link white&quot; href=&quot;https://business.cueconnect.com/partner/register?plan=build&quot;&gt;...&lt;/a&gt; is not clickable at point (199, 259). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 34 milliseconds
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.RJ4wkY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 1ac5d161c817a3c650a08d5317be6426
-*** Element info: {Using=xpath, value=//div[@class=&apos;cue-ro-title&apos;]}
-	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at pageobjects.HomePageObject.storeInformationPageTitle(HomePageObject.java:202)
-	at tests.HomePageTests.getStartedFreeChecking(HomePageTests.java:190)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.waitAndClick(BaseObjectPage.java:88)
+	at pageobjects.HomePageObject.getStartedFree(HomePageObject.java:198)
+	at tests.HomePageTests.getStartedFreeChecking(HomePageTests.java:189)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -285,54 +300,473 @@ Session ID: 1ac5d161c817a3c650a08d5317be6426
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
-<td>7</td>
+<td>4</td>
 <td>tests.HomePageTests@573f2bb1</td></tr>
 <tr>
-<td title='tests.HomePageTests.sendingUpdatesIncorrectEmail()'><b>sendingUpdatesIncorrectEmail</b><br>Test class: tests.HomePageTests</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;email&apos;]&quot;}
+<td title='tests.HomePageTests.notEmailFormatAndClickRequestDemo()'><b>notEmailFormatAndClickRequestDemo</b><br>Test class: tests.HomePageTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type=&quot;submit&quot; class=&quot;btn btn-primary btn48&quot; value=&quot;Request a demo&quot;&gt; is not clickable at point (199, 319). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 71 milliseconds
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.RJ4wkY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 1ac5d161c817a3c650a08d5317be6426
-*** Element info: {Using=xpath, value=//input[@name=&apos;email&apos;]}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at pageobjects.HomePageObject.sendMeUpdatesVerifying(HomePageObject.java:165)
-	at tests.HomePageTests.sendingUpdatesIncorrectEmail(HomePageTests.java:161)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1407324654", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1407324654'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;email&apos;]&quot;}
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.HomePageObject.typingEmailAndclickOnRequestDemoButton(HomePageObject.java:158)
+	at tests.HomePageTests.notEmailFormatAndClickRequestDemo(HomePageTests.java:132)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace908384914", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace908384914'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type=&quot;submit&quot; class=&quot;btn btn-primary btn48&quot; value=&quot;Request a demo&quot;&gt; is not clickable at point (199, 319). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 71 milliseconds
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.RJ4wkY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 1ac5d161c817a3c650a08d5317be6426
-*** Element info: {Using=xpath, value=//input[@name=&apos;email&apos;]}
-	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at pageobjects.HomePageObject.sendMeUpdatesVerifying(HomePageObject.java:165)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.HomePageObject.typingEmailAndclickOnRequestDemoButton(HomePageObject.java:158)
+	at tests.HomePageTests.notEmailFormatAndClickRequestDemo(HomePageTests.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>1</td>
+<td>tests.HomePageTests@573f2bb1</td></tr>
+<tr>
+<td title='tests.HomePageTests.scrollingToCueConnectBlog()'><b>scrollingToCueConnectBlog</b><br>Test class: tests.HomePageTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;/blog&quot;&gt;...&lt;/a&gt; is not clickable at point (199, 499). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 88 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at tests.HomePageTests.scrollingToCueConnectBlog(HomePageTests.java:89)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace130166095", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace130166095'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;/blog&quot;&gt;...&lt;/a&gt; is not clickable at point (199, 499). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 88 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at tests.HomePageTests.scrollingToCueConnectBlog(HomePageTests.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>1</td>
+<td>tests.HomePageTests@573f2bb1</td></tr>
+<tr>
+<td title='tests.HomePageTests.sendingUpdatesEmptyEmail()'><b>sendingUpdatesEmptyEmail</b><br>Test class: tests.HomePageTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input id=&quot;email-2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; class=&quot;hs-input&quot; type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;Email&quot; value=&quot;jsmith@gmail.com&quot; data-reactid=&quot;.hbspt-forms-0.0:$0.$email.0&quot;&gt; is not clickable at point (200, 320). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.waitAndClick(BaseObjectPage.java:88)
+	at pageobjects.HomePageObject.sendMeUpdatesVerifying(HomePageObject.java:167)
+	at tests.HomePageTests.sendingUpdatesEmptyEmail(HomePageTests.java:152)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1636178473", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1636178473'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input id=&quot;email-2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; class=&quot;hs-input&quot; type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;Email&quot; value=&quot;jsmith@gmail.com&quot; data-reactid=&quot;.hbspt-forms-0.0:$0.$email.0&quot;&gt; is not clickable at point (200, 320). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.waitAndClick(BaseObjectPage.java:88)
+	at pageobjects.HomePageObject.sendMeUpdatesVerifying(HomePageObject.java:167)
+	at tests.HomePageTests.sendingUpdatesEmptyEmail(HomePageTests.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>3</td>
+<td>tests.HomePageTests@573f2bb1</td></tr>
+<tr>
+<td title='tests.HomePageTests.sendingUpdatesIncorrectEmail()'><b>sendingUpdatesIncorrectEmail</b><br>Test class: tests.HomePageTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input id=&quot;email-2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; class=&quot;hs-input&quot; type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;Email&quot; value=&quot;jsmith@gmail.com&quot; data-reactid=&quot;.hbspt-forms-0.0:$0.$email.0&quot;&gt; is not clickable at point (200, 320). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.waitAndClick(BaseObjectPage.java:88)
+	at pageobjects.HomePageObject.sendMeUpdatesVerifying(HomePageObject.java:167)
 	at tests.HomePageTests.sendingUpdatesIncorrectEmail(HomePageTests.java:161)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace216376974", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace216376974'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input id=&quot;email-2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; class=&quot;hs-input&quot; type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;Email&quot; value=&quot;jsmith@gmail.com&quot; data-reactid=&quot;.hbspt-forms-0.0:$0.$email.0&quot;&gt; is not clickable at point (200, 320). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.waitAndClick(BaseObjectPage.java:88)
+	at pageobjects.HomePageObject.sendMeUpdatesVerifying(HomePageObject.java:167)
+	at tests.HomePageTests.sendingUpdatesIncorrectEmail(HomePageTests.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>3</td>
+<td>tests.HomePageTests@573f2bb1</td></tr>
+<tr>
+<td title='tests.HomePageTests.sendingUpdatesIncorrectEmailWithAt()'><b>sendingUpdatesIncorrectEmailWithAt</b><br>Test class: tests.HomePageTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input id=&quot;email-2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; class=&quot;hs-input&quot; type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;Email&quot; value=&quot;jsmith@gmail.com&quot; data-reactid=&quot;.hbspt-forms-0.0:$0.$email.0&quot;&gt; is not clickable at point (200, 320). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.waitAndClick(BaseObjectPage.java:88)
+	at pageobjects.HomePageObject.sendMeUpdatesVerifying(HomePageObject.java:167)
+	at tests.HomePageTests.sendingUpdatesIncorrectEmailWithAt(HomePageTests.java:169)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace363397863", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace363397863'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input id=&quot;email-2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; class=&quot;hs-input&quot; type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;Email&quot; value=&quot;jsmith@gmail.com&quot; data-reactid=&quot;.hbspt-forms-0.0:$0.$email.0&quot;&gt; is not clickable at point (200, 320). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.waitAndClick(BaseObjectPage.java:88)
+	at pageobjects.HomePageObject.sendMeUpdatesVerifying(HomePageObject.java:167)
+	at tests.HomePageTests.sendingUpdatesIncorrectEmailWithAt(HomePageTests.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>3</td>
+<td>tests.HomePageTests@573f2bb1</td></tr>
+<tr>
+<td title='tests.HomePageTests.sendingUpdatesToValidEmail()'><b>sendingUpdatesToValidEmail</b><br>Test class: tests.HomePageTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input id=&quot;email-2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; class=&quot;hs-input&quot; type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;Email&quot; value=&quot;jsmith@gmail.com&quot; data-reactid=&quot;.hbspt-forms-0.0:$0.$email.0&quot;&gt; is not clickable at point (200, 320). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.waitAndClick(BaseObjectPage.java:88)
+	at pageobjects.HomePageObject.sendMeUpdatesVerifying(HomePageObject.java:167)
+	at tests.HomePageTests.sendingUpdatesToValidEmail(HomePageTests.java:141)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace532677950", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace532677950'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input id=&quot;email-2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; class=&quot;hs-input&quot; type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;Email&quot; value=&quot;jsmith@gmail.com&quot; data-reactid=&quot;.hbspt-forms-0.0:$0.$email.0&quot;&gt; is not clickable at point (200, 320). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.waitAndClick(BaseObjectPage.java:88)
+	at pageobjects.HomePageObject.sendMeUpdatesVerifying(HomePageObject.java:167)
+	at tests.HomePageTests.sendingUpdatesToValidEmail(HomePageTests.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>4</td>
+<td>tests.HomePageTests@573f2bb1</td></tr>
+<tr>
+<td title='tests.HomePageTests.typingValidEmailAndClickRequestDemo()'><b>typingValidEmailAndClickRequestDemo</b><br>Test class: tests.HomePageTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type=&quot;submit&quot; class=&quot;btn btn-primary btn48&quot; value=&quot;Request a demo&quot;&gt; is not clickable at point (199, 319). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.HomePageObject.typingEmailAndclickOnRequestDemoButton(HomePageObject.java:158)
+	at tests.HomePageTests.typingValidEmailAndClickRequestDemo(HomePageTests.java:114)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace417797183", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace417797183'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type=&quot;submit&quot; class=&quot;btn btn-primary btn48&quot; value=&quot;Request a demo&quot;&gt; is not clickable at point (199, 319). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.HomePageObject.typingEmailAndclickOnRequestDemoButton(HomePageObject.java:158)
+	at tests.HomePageTests.typingValidEmailAndClickRequestDemo(HomePageTests.java:114)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -365,51 +799,44 @@ Session ID: 1ac5d161c817a3c650a08d5317be6426
 <td>2</td>
 <td>tests.HomePageTests@573f2bb1</td></tr>
 <tr>
-<td title='tests.HomePageTests.sendingUpdatesToValidEmail()'><b>sendingUpdatesToValidEmail</b><br>Test class: tests.HomePageTests</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;submitted-message&apos;][@data-reactid=&apos;.hbspt-forms-0&apos;]&quot;}
+<td title='tests.HomePageTests.videoOpening()'><b>videoOpening</b><br>Test class: tests.HomePageTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;#video-popup&quot; data-toggle=&quot;modal&quot; data-target=&quot;#hero-video&quot;&gt;...&lt;/a&gt; is not clickable at point (199, 409). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 111 milliseconds
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.RJ4wkY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 1ac5d161c817a3c650a08d5317be6426
-*** Element info: {Using=xpath, value=//div[@class=&apos;submitted-message&apos;][@data-reactid=&apos;.hbspt-forms-0&apos;]}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at pageobjects.BaseObjectPage.getValidEmailMessage(BaseObjectPage.java:221)
-	at tests.HomePageTests.sendingUpdatesToValidEmail(HomePageTests.java:143)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1541046463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1541046463'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;submitted-message&apos;][@data-reactid=&apos;.hbspt-forms-0&apos;]&quot;}
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.HomePageObject.openingVideo(HomePageObject.java:243)
+	at tests.HomePageTests.videoOpening(HomePageTests.java:196)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace467632528", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace467632528'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;#video-popup&quot; data-toggle=&quot;modal&quot; data-target=&quot;#hero-video&quot;&gt;...&lt;/a&gt; is not clickable at point (199, 409). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 111 milliseconds
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;101.lan0.mk.uz.ua&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.RJ4wkY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 1ac5d161c817a3c650a08d5317be6426
-*** Element info: {Using=xpath, value=//div[@class=&apos;submitted-message&apos;][@data-reactid=&apos;.hbspt-forms-0&apos;]}
-	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.HJgV73}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 07740cd47c3fecacb889f08591f22d03
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at pageobjects.BaseObjectPage.getValidEmailMessage(BaseObjectPage.java:221)
-	at tests.HomePageTests.sendingUpdatesToValidEmail(HomePageTests.java:143)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.HomePageObject.openingVideo(HomePageObject.java:243)
+	at tests.HomePageTests.videoOpening(HomePageTests.java:196)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -439,7 +866,7 @@ Session ID: 1ac5d161c817a3c650a08d5317be6426
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </pre></div></td>
-<td>6</td>
+<td>1</td>
 <td>tests.HomePageTests@573f2bb1</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -450,54 +877,24 @@ Session ID: 1ac5d161c817a3c650a08d5317be6426
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HomePageTests.bottomMenuVerifying()'><b>bottomMenuVerifying</b><br>Test class: tests.HomePageTests</td>
+<td title='tests.HomePageTests.bscrollingToResources()'><b>bscrollingToResources</b><br>Test class: tests.HomePageTests</td>
 <td></td>
-<td>13</td>
+<td>3</td>
 <td>tests.HomePageTests@573f2bb1</td></tr>
 <tr>
-<td title='tests.HomePageTests.emptyEmailAndClickRequestDemo()'><b>emptyEmailAndClickRequestDemo</b><br>Test class: tests.HomePageTests</td>
-<td></td>
-<td>2</td>
-<td>tests.HomePageTests@573f2bb1</td></tr>
-<tr>
-<td title='tests.HomePageTests.notEmailFormatAndClickRequestDemo()'><b>notEmailFormatAndClickRequestDemo</b><br>Test class: tests.HomePageTests</td>
-<td></td>
-<td>2</td>
-<td>tests.HomePageTests@573f2bb1</td></tr>
-<tr>
-<td title='tests.HomePageTests.scrollingToCueConnectBlog()'><b>scrollingToCueConnectBlog</b><br>Test class: tests.HomePageTests</td>
+<td title='tests.HomePageTests.bscrollingToTransformTraffic()'><b>bscrollingToTransformTraffic</b><br>Test class: tests.HomePageTests</td>
 <td></td>
 <td>3</td>
 <td>tests.HomePageTests@573f2bb1</td></tr>
 <tr>
 <td title='tests.HomePageTests.scrollingToDriveEcommerce()'><b>scrollingToDriveEcommerce</b><br>Test class: tests.HomePageTests</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>tests.HomePageTests@573f2bb1</td></tr>
 <tr>
 <td title='tests.HomePageTests.scrollingToRetargetShoppers()'><b>scrollingToRetargetShoppers</b><br>Test class: tests.HomePageTests</td>
 <td></td>
 <td>2</td>
-<td>tests.HomePageTests@573f2bb1</td></tr>
-<tr>
-<td title='tests.HomePageTests.sendingUpdatesEmptyEmail()'><b>sendingUpdatesEmptyEmail</b><br>Test class: tests.HomePageTests</td>
-<td></td>
-<td>3</td>
-<td>tests.HomePageTests@573f2bb1</td></tr>
-<tr>
-<td title='tests.HomePageTests.sendingUpdatesIncorrectEmailWithAt()'><b>sendingUpdatesIncorrectEmailWithAt</b><br>Test class: tests.HomePageTests</td>
-<td></td>
-<td>4</td>
-<td>tests.HomePageTests@573f2bb1</td></tr>
-<tr>
-<td title='tests.HomePageTests.typingValidEmailAndClickRequestDemo()'><b>typingValidEmailAndClickRequestDemo</b><br>Test class: tests.HomePageTests</td>
-<td></td>
-<td>3</td>
-<td>tests.HomePageTests@573f2bb1</td></tr>
-<tr>
-<td title='tests.HomePageTests.videoOpening()'><b>videoOpening</b><br>Test class: tests.HomePageTests</td>
-<td></td>
-<td>3</td>
 <td>tests.HomePageTests@573f2bb1</td></tr>
 </table><p>
 </body>

@@ -1,6 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All tests">
     <parameter name="myDevice" value="iphone7"/>
+    <test name="Blog page checking">
+        <classes>
+            <class name="tests.Blog.BlogMainPageTests"/>
+        </classes>
+    </test>
     <test name="HomePage checking">
         <classes>
             <class name="tests.HomePageTests"/>
@@ -41,11 +46,7 @@
             <class name="tests.About.ContactUsPageTests"/>
         </classes>
     </test>
-    <test name="Blog page checking">
-        <classes>
-            <class name="tests.Blog.BlogMainPageTests"/>
-        </classes>
-    </test>
+
     <test name="Login page checking">
         <classes>
             <class name="tests.LoginPageTests"/>

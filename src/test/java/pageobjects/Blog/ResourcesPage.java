@@ -72,13 +72,13 @@ public class ResourcesPage extends BaseObjectPage {
     public String getValidationMessage(String fieldName)  {
         waitFor(3);
         WebElement firstName = getDriver().findElement(By.xpath("//div[@class='hs_"+fieldName+" field hs-form-field']//ul/li/label"));
-        fluentWaitforElement(firstName, 10, 5);
+        fluentWaitforElement(firstName, 30, 4);
         return firstName.getText();
     }
     public String getSubscribeForUpdatesMessage()  {
         waitFor(2);
         WebElement message = getDriver().findElement(By.xpath("//span[@data-hs-cos-type='form']//strong"));
-        fluentWaitforElement(message, 10, 5);
+        fluentWaitforElement(message, 30, 4);
         return message.getText();
     }
 }

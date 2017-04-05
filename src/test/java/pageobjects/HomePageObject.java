@@ -45,7 +45,7 @@ public class HomePageObject extends BaseObjectPage {
             waitFor(2);
             hamburgerMenuClicking();
             WebElement requestDemoTab = getDriver().findElement(By.xpath("//li[@class='is-btn menu-item menu-item-type-post_type menu-item-object-page']/a[text()='REQUEST A DEMO']"));
-            fluentWaitforElement(requestDemoTab, 15, 2);
+            fluentWaitforElement(requestDemoTab, 30, 4);
             requestDemoTab.click();
             waitFor(8);
         }
@@ -70,14 +70,14 @@ public class HomePageObject extends BaseObjectPage {
     public FeaturesPage goToFeaturesPage()  {
 
 
-        WebElement featuresButton = getDriver().findElement(By.xpath("//span[text()='Cueconnect Features']"));
+        WebElement featuresButton = getDriver().findElement(By.xpath("//span[text()='Features']"));
         if (featuresButton.isDisplayed()){
         featuresButton.click();}
         else {
             hamburgerMenuClicking();
             waitFor(4);
             WebElement featuresTab = getDriver().findElement(By.xpath("//li[@class='menu-item menu-item-type-post_type menu-item-object-page']/a[text()='FEATURES']"));
-            fluentWaitforElement(featuresTab, 20, 4);
+            fluentWaitforElement(featuresTab, 30, 4);
             featuresTab.click();
             waitFor(2);
         }
@@ -86,14 +86,14 @@ public class HomePageObject extends BaseObjectPage {
     public BenefitsPage goToBenefitsPage()  {
 
 
-        WebElement benefitsButton = getDriver().findElement(By.xpath("//span[text()='Cueconnect Benefits']"));
+        WebElement benefitsButton = getDriver().findElement(By.xpath("//span[text()='Benefits']"));
         if (benefitsButton.isDisplayed()){
             benefitsButton.click();}
         else {
             hamburgerMenuClicking();
             waitFor(4);
             WebElement benefitsTab = getDriver().findElement(By.xpath("//li[@class='menu-item menu-item-type-post_type menu-item-object-page']/a[text()='BENEFITS']"));
-            fluentWaitforElement(benefitsTab, 20, 4);
+            fluentWaitforElement(benefitsTab, 30, 4);
             benefitsTab.click();
             waitFor(2);
         }
@@ -105,7 +105,7 @@ public class HomePageObject extends BaseObjectPage {
     public Careers goToCareers()  {
         waitFor(3);
 
-        movingToMenuElement("About", "Careers in Cueconnect", "Careers");
+        movingToMenuElement("About", "Careers", "Careers");
         return new Careers();
     }
 
@@ -116,7 +116,7 @@ public class HomePageObject extends BaseObjectPage {
     }
     public ResourcesPage goToResources()  {
         waitFor(6);
-        movingToMenuElement("Blog", "Resources", "Recources");
+        movingToMenuElement("Blog", "Resources", "Resources");
         return new ResourcesPage();
     }
 
@@ -137,7 +137,7 @@ public class HomePageObject extends BaseObjectPage {
             hamburgerMenuClicking();
             waitFor(4);
             WebElement benefitsTab = getDriver().findElement(By.xpath("//ul[@class='mobile-header-menu']//li/a[text()='LOG IN']"));
-            fluentWaitforElement(benefitsTab, 20, 4);
+            fluentWaitforElement(benefitsTab, 30, 4);
             benefitsTab.click();
             waitFor(2);
         }
@@ -161,8 +161,9 @@ public class HomePageObject extends BaseObjectPage {
 
 
     public void sendMeUpdatesVerifying(String emailValue)  {
-        waitFor(3);
+
         WebElement emailForSendUpdateField = getDriver().findElement(By.xpath("//input[@name='email']"));
+        fluentWaitforElement(emailForSendUpdateField, 20, 3);
         waitAndClick(emailForSendUpdateField);
         waitFor(5);
         emailForSendUpdateField.sendKeys(emailValue);
@@ -181,7 +182,7 @@ public class HomePageObject extends BaseObjectPage {
     }
 
     public void clickOnBottomMenuElement(String el, String title)  {
-
+        waitFor(3);
         WebElement bottomElement = getDriver().findElement(By.xpath("//a[@class='cue-main-footer-link white'][text()='"+el+"']"));
         bottomElement.click();
         Assert.assertEquals(this.getTitle(), title);
@@ -209,9 +210,10 @@ public class HomePageObject extends BaseObjectPage {
             topMenuButton.click();
             waitFor(3);
         } else {
+            waitFor(3);
             hamburgerMenuClicking();
             WebElement sideMenuButton = getDriver().findElement(By.xpath("//li/a[text()='"+buttonName.toUpperCase()+"']"));
-            waitFor(10);
+            fluentWaitforElement(sideMenuButton, 30, 4);
             sideMenuButton.click();
         }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All tests" parallel="false">
+<suite name="All tests">
 
     <test name="Press page desktop checking">
         <parameter name="myDevice" value="desktop" />

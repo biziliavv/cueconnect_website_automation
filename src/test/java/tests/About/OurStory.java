@@ -42,7 +42,7 @@ public class OurStory extends SeleniumBaseTest {
         Assert.assertTrue(homePage.getPageImage("134", "138"));
         Assert.assertTrue(homePage.getPageImage("121", "139"));
         Assert.assertTrue(homePage.getPageImage("148", "138"));
-        WebElement meetCue = getDriver().findElement(By.xpath("//h2[@class='section-title']"));
+        WebElement meetCue = getDriver().findElement(By.xpath("//h2[@class='section-title'][text()='Meet Cue']"));
         homePage.waitForElementAfterScroll(meetCue);
         Assert.assertTrue(homePage.getPageImage("738", "437"));
         Assert.assertEquals(meetCue.getText(), "Meet Cue");
