@@ -17,6 +17,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
     @Test(groups = "negative")
     public void requestDemoEmptyRequiredFieldsOpening() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         waitFor(3);
         requestDemoPage.requiredFieldFillingIn("firstname", "", 0);
@@ -32,6 +33,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
     @Test(groups = "negative")
     public void emailFieldValidations() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking of simple word without @
         requestDemoPage.requiredFieldFillingIn("firstname", "", 1);
@@ -45,6 +47,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
     @Test(groups = "negative")
     public void phoneNumberFieldValidations() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         //checking phone number with alphabetical values
         requestDemoPage.requiredFieldFillingIn("phone", "blablabla", 1);
@@ -59,6 +62,7 @@ public class RequestDemoTests extends SeleniumBaseTest {
     @Test(groups = "positive")
     public void sendingFormWithValidData() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         RequestDemoPage requestDemoPage = homePage.goToRequestDemoPage();
         requestDemoPage.requiredFieldFillingIn("firstname", "test", 1);
         requestDemoPage.requiredFieldFillingIn("email", "test@test.com", 1);

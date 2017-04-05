@@ -18,6 +18,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
     public void templateOpeningChecking() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         ResourcesPage resourcesPage = homePage.goToResources();
         waitFor(3);
         Assert.assertEquals("Marketing Guides", resourcesPage.getTitle());
@@ -31,6 +32,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
     @Test
     public void avalidDataFormChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         ResourcesPage resourcesPage = homePage.goToResources();
         waitFor(3);
         resourcesPage.templateOpening();
@@ -47,6 +49,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
     @Test
     public void aemptyDataFormChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         ResourcesPage resourcesPage = homePage.goToResources();
         waitFor(3);
         resourcesPage.templateOpening();
@@ -68,6 +71,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
     @Test
     public void wrongEmailWithoutAtDataFormChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         ResourcesPage resourcesPage = homePage.goToResources();
         waitFor(3);
         resourcesPage.templateOpening();
@@ -83,6 +87,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
     @Test
     public void wrongEmailWithAtDataFormChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         ResourcesPage resourcesPage = homePage.goToResources();
         waitFor(3);
         resourcesPage.templateOpening();
@@ -115,6 +120,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
     @Test
     public void downloadTemplateAndSubscribeForUpdatesEmptyEmail() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         ResourcesPage resourcesPage = homePage.goToResources();
         waitFor(3);
         resourcesPage.templateOpening();
@@ -148,6 +154,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
     @Test
     public void downloadTemplateAndSubscribeForUpdatesEmailWithAt() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         ResourcesPage resourcesPage = homePage.goToResources();
         waitFor(3);
         resourcesPage.templateOpening();

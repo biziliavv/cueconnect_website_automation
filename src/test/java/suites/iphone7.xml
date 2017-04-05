@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All tests">
+<suite name="All tests" parallel = "false">
     <parameter name="myDevice" value="iphone7"/>
     <test name="Blog page checking">
         <classes>

@@ -17,7 +17,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/java/suites/alltests.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/java/suites/suite.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -36,6 +36,8 @@
     </build>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <threads>2</threads>
+        <file>src/test/java/suites/suite.xml</file>
     </properties>
 
     <dependencies>

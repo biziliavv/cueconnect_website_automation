@@ -20,6 +20,7 @@ public class OurStory extends SeleniumBaseTest {
     public void checkingOurStoryPageAppears() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         homePage.movingToMenuElement("About", "Cue Connect Story", "Our Story");
         Assert.assertEquals("Our Story", homePage.getTitle());
 
@@ -27,6 +28,7 @@ public class OurStory extends SeleniumBaseTest {
     @Test
     public void checkingOurStoryThatElementsArePresent() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         homePage.movingToMenuElement("About", "Cue Connect Story", "Our Story");
         Assert.assertTrue(homePage.getPageImage("489", "412"));
         Assert.assertEquals("Our Story", homePage.getTitle());

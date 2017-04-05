@@ -21,6 +21,7 @@ public class CareersTests extends SeleniumBaseTest {
     @Test
     public void checkElementsArePresent() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         Careers careersPage = homePage.goToCareers();
         Assert.assertEquals("Join & Build Something Great", careersPage.getBigTitle());
         Assert.assertTrue(careersPage.getPageImage("1064", "412"));
@@ -42,6 +43,7 @@ public class CareersTests extends SeleniumBaseTest {
     @Test
     public void openingVacancyAndSendingEmptyForm() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         Careers careersPage = homePage.goToCareers();
         WebElement currentFrame = getDriver().findElement(By.id("grnhse_iframe"));
         getDriver().switchTo().frame(currentFrame);

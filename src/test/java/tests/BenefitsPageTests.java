@@ -18,6 +18,7 @@ public class BenefitsPageTests extends SeleniumBaseTest {
     @Test
     public void openingPageAndClickOnRequestDemo() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BenefitsPage benefitsPage = homePage.goToBenefitsPage();
         Assert.assertTrue(benefitsPage.getPageImage("548", "360"));
         Assert.assertEquals("Grow Conversions Increase Sales", benefitsPage.getTitle());
@@ -29,6 +30,7 @@ public class BenefitsPageTests extends SeleniumBaseTest {
     @Test
     public void scrollingDownAndVerifyingPresenceOfElements() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BenefitsPage benefitsPage = homePage.goToBenefitsPage();
         waitFor(3);
         benefitsPage.scrollAndVerifyEachElement();

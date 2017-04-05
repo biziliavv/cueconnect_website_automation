@@ -33,6 +33,7 @@ public class ContactUsPageTests extends SeleniumBaseTest {
     public void emptyDataChecking() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         Contact contactPage = homePage.goToContact();
         contactPage.fillInData("", "", "");
         contactPage.sendingData();
@@ -47,6 +48,7 @@ public class ContactUsPageTests extends SeleniumBaseTest {
     public void badEmailChecking() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         Contact contactPage = homePage.goToContact();
         contactPage.fillInData("Test", "test", "Test Contact Us");
         contactPage.sendingData();

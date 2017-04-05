@@ -23,6 +23,7 @@ public class BlogMainPageTests extends SeleniumBaseTest {
     public void openingPostByClickOnReadThisPostBtn() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         String postTitle = blogPage.getPostTitleOnMainBlog();
         blogPage.openPostByClickOnReadThisPost();
@@ -35,7 +36,9 @@ public class BlogMainPageTests extends SeleniumBaseTest {
     public void goingToCommentsSectionByClickOnClickHereLink() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
+        waitFor(2);
         blogPage.clickOnClickHereLink();
         waitFor(3);
         WebElement newFrame = getDriver().findElement(By.id("dsq-app1"));
@@ -46,6 +49,7 @@ public class BlogMainPageTests extends SeleniumBaseTest {
     @Test
     public void clickingOnTagChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         waitFor(3);
         String tagName = blogPage.getTagName();
@@ -57,6 +61,7 @@ public class BlogMainPageTests extends SeleniumBaseTest {
     @Test
     public void clickingOnAuthorChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         waitFor(3);
         blogPage.closeSendUpdates();

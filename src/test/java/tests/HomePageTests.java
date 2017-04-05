@@ -120,6 +120,7 @@ public class HomePageTests extends SeleniumBaseTest {
     @Test(groups = "mobile")
     public void emptyEmailAndClickRequestDemo() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         homePage.typingEmailAndclickOnRequestDemoButton("");
         Assert.assertEquals("Learn How Cue Can Help You Grow Your Business", homePage.getTitle());
         Assert.assertEquals("https://cueconnect.com/request-a-demo/?merchant_email=", getDriver().getCurrentUrl());
@@ -129,6 +130,7 @@ public class HomePageTests extends SeleniumBaseTest {
     @Test(groups = "mobile")
     public void notEmailFormatAndClickRequestDemo() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         homePage.typingEmailAndclickOnRequestDemoButton("test");
         Assert.assertEquals("https://cueconnect.com/", getDriver().getCurrentUrl());
     }
@@ -149,6 +151,7 @@ public class HomePageTests extends SeleniumBaseTest {
     public void sendingUpdatesEmptyEmail() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(2);
         homePage.sendMeUpdatesVerifying("");
         //Assert.assertEquals("Email is required", homePage.getEmptyEmailMessage());
 
@@ -158,6 +161,7 @@ public class HomePageTests extends SeleniumBaseTest {
     public void sendingUpdatesIncorrectEmail() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(2);
         homePage.sendMeUpdatesVerifying("test");
        // Assert.assertEquals("Email must be formatted correctly.", homePage.getEmptyEmailMessage());
 
@@ -166,6 +170,7 @@ public class HomePageTests extends SeleniumBaseTest {
     public void sendingUpdatesIncorrectEmailWithAt() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(2);
         homePage.sendMeUpdatesVerifying("test@test");
        // Assert.assertEquals("Please enter a valid email address.", homePage.getEmptyEmailMessage());
 
@@ -175,22 +180,23 @@ public class HomePageTests extends SeleniumBaseTest {
     public void bottomMenuVerifying() throws IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.clickOnBottomMenuElement("Features", "Build Customer Relationships That Last Forever");
-        waitFor(2);
+        waitFor(4);
         homePage.clickOnBottomMenuElement("Resources", "Marketing Guides");
-        waitFor(2);
+        waitFor(4);
         homePage.clickOnBottomMenuElement("Benefits", "Grow Conversions Increase Sales");
-        waitFor(2);
+        waitFor(4);
         homePage.clickOnBottomMenuElement("Blog", "Cue Connect Blog");
-        waitFor(2);
+        waitFor(4);
         homePage.clickOnBottomMenuElement("Privacy", "Privacy Policy");
-        waitFor(2);
+        waitFor(4);
         homePage.clickOnBottomMenuElement("Terms", "Terms and Conditions");
-
+        waitFor(4);
     }
 
     @Test(groups = "mobile")
     public void getStartedFreeChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         homePage.getStartedFree();
         Assert.assertEquals("Store Information", homePage.storeInformationPageTitle());
 
@@ -198,6 +204,7 @@ public class HomePageTests extends SeleniumBaseTest {
     @Test(groups = "mobile")
     public void videoOpening() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         homePage.openingVideo();
         waitFor(5);
         WebElement frame = getDriver().findElement(By.xpath("//body/div[1]/iframe"));

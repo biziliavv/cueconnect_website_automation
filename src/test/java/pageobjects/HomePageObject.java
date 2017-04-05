@@ -68,12 +68,13 @@ public class HomePageObject extends BaseObjectPage {
         return new SupportPage();
     }
     public FeaturesPage goToFeaturesPage()  {
-
+        waitFor(3);
 
         WebElement featuresButton = getDriver().findElement(By.xpath("//span[text()='Features']"));
         if (featuresButton.isDisplayed()){
         featuresButton.click();}
         else {
+            waitFor(3);
             hamburgerMenuClicking();
             waitFor(4);
             WebElement featuresTab = getDriver().findElement(By.xpath("//li[@class='menu-item menu-item-type-post_type menu-item-object-page']/a[text()='FEATURES']"));
@@ -85,11 +86,12 @@ public class HomePageObject extends BaseObjectPage {
     }
     public BenefitsPage goToBenefitsPage()  {
 
-
+        waitFor(3);
         WebElement benefitsButton = getDriver().findElement(By.xpath("//span[text()='Benefits']"));
         if (benefitsButton.isDisplayed()){
             benefitsButton.click();}
         else {
+            waitFor(3);
             hamburgerMenuClicking();
             waitFor(4);
             WebElement benefitsTab = getDriver().findElement(By.xpath("//li[@class='menu-item menu-item-type-post_type menu-item-object-page']/a[text()='BENEFITS']"));
@@ -188,12 +190,12 @@ public class HomePageObject extends BaseObjectPage {
         Assert.assertEquals(this.getTitle(), title);
         waitFor(2);
         getDriver().navigate().back();
-        waitFor(2);
+        waitFor(4);
 
     }
 
     public void getStartedFree()  {
-
+        waitFor(2);
         WebElement getStartedFree = getDriver().findElement(By.xpath("//a[@class='cue-main-footer-link white'][text()='Get Started Free']"));
         waitAndClick(getStartedFree);
         waitFor(3);

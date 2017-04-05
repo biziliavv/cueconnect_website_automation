@@ -124,9 +124,10 @@ public abstract class BaseObjectPage {
 
             waitFor(7);
         } else {
+            waitFor(3);
             WebElement hamburgerMenuButton = getDriver().findElement(By.xpath("//div[@class='mobile-navigation-toggle']"));
             hamburgerMenuButton.click();
-            waitFor(3);
+            waitFor(5);
             WebElement neededMenu = getDriver().findElement(By.xpath("//a[text()='" + mobileMenuItem.toUpperCase() + "']"));
             fluentWaitforElement(neededMenu, 30, 4);
             neededMenu.click();

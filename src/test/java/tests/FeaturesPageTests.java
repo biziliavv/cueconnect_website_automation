@@ -21,6 +21,7 @@ public class FeaturesPageTests extends SeleniumBaseTest {
     public void openingFeaturesPageAndClickOnRequestDemo() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         FeaturesPage featuresPage = homePage.goToFeaturesPage();
         Assert.assertTrue(featuresPage.getPageImage("452", "412"));
         Assert.assertEquals("Build Customer Relationships That Last Forever", featuresPage.getTitle());
@@ -30,6 +31,7 @@ public class FeaturesPageTests extends SeleniumBaseTest {
     @Test
     public void openingSecondRequestDemoButton() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         FeaturesPage featuresPage = homePage.goToFeaturesPage();
         WebElement secondRequestButton = getDriver().findElement(By.xpath("//div[@data-vc-full-width='true']//a[text()='Request a demo']"));
         featuresPage.waitAndClick(secondRequestButton);
@@ -40,6 +42,7 @@ public class FeaturesPageTests extends SeleniumBaseTest {
     @Test
     public void openingThirdRequestDemoButton() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         FeaturesPage featuresPage = homePage.goToFeaturesPage();
         WebElement thirdRequestButton = getDriver().findElement(By.xpath("//div/div/div[2]/a"));
         featuresPage.waitAndClick(thirdRequestButton);
@@ -49,6 +52,7 @@ public class FeaturesPageTests extends SeleniumBaseTest {
     @Test
     public void scrollingToEachSection() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         FeaturesPage featuresPage = homePage.goToFeaturesPage();
         Assert.assertTrue(featuresPage.getPageImage("452", "412"));
         featuresPage.scrollAndVerifyEachElement();

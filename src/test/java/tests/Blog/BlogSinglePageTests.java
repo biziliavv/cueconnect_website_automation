@@ -19,6 +19,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     public void recentPostChecking() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         blogPage.openPostByClickOnTitle();
         String postTitle = blogPage.getTitleOfRecentOfPost();
@@ -29,6 +30,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     @Test
     public void findMeOnChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         blogPage.openPostByClickOnTitle();
         blogPage.findMeOnClicking();
@@ -44,6 +46,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     @Test
     public void socialSharingIconsChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         blogPage.openPostByClickOnTitle();
         blogPage.socialNetworksClickOnIcon();
@@ -52,6 +55,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     public void subscribeToValidEmail() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         blogPage.fillingInEmailForUpdates("test@test.com");
         Assert.assertEquals("Thank you for subscribing!", blogPage.getValidEmailMessage());
@@ -63,6 +67,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     public void subscribeToEmptyEmail() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         Assert.assertEquals("Cue Connect Blog", blogPage.getTitle());
         Assert.assertTrue(blogPage.getPageImage("2394", "643"));
@@ -74,6 +79,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     public void subscribeToWrongEmailWithoutAt() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         blogPage.fillingInEmailForUpdates("test");
         Assert.assertEquals("Email must be formatted correctly.", blogPage.getValidationMessages());
@@ -83,6 +89,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     public void subscribeToWrongEmailWithAt() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         blogPage.fillingInEmailForUpdates("test@test");
         Assert.assertEquals("Please enter a valid email address.", blogPage.getValidationMessages());
@@ -92,6 +99,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     @Test
     public void checkSocialNetworkButton() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         blogPage.scrollDown();
         blogPage.clickOnSocialNetworkButton();
@@ -102,6 +110,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
     public void openingPostByClickOnTitle() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
         String postTitle = blogPage.getPostTitleOnMainBlog();
         blogPage.openPostByClickOnTitle();

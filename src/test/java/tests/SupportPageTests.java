@@ -29,7 +29,7 @@ public class SupportPageTests extends SeleniumBaseTest {
     @Test(groups = {"bad"})
     public void searchWithTooLongValue() throws IOException {
         HomePageObject homePage = new HomePageObject();
-
+        waitFor(3);
         SupportPage supportPage = homePage.goToSupportPage();
         supportPage.searchOnPage("testtesttest");
         Assert.assertTrue(supportPage.getSearchHeader());
@@ -40,7 +40,7 @@ public class SupportPageTests extends SeleniumBaseTest {
     public void submitRequestPageUploading() throws IOException {
 
         HomePageObject homePage = new HomePageObject();
-
+        waitFor(3);
         SupportPage supportPage = homePage.goToSupportPage();
 
         supportPage.goToSubmitRequest();
@@ -60,7 +60,7 @@ public class SupportPageTests extends SeleniumBaseTest {
     @Test
     public void asubmitRequestEmptyFieldsChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
-
+        waitFor(3);
         SupportPage supportPage = homePage.goToSupportPage();
 
         supportPage.goToSubmitRequest();

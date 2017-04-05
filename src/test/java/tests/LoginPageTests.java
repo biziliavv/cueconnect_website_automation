@@ -29,6 +29,7 @@ public class LoginPageTests extends SeleniumBaseTest {
     @Test
     public void loginCheckEmptyFields() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));
         getDriver().switchTo().frame(current_frame);
@@ -41,6 +42,7 @@ public class LoginPageTests extends SeleniumBaseTest {
     @Test
     public void loginFormCheckingWrongEmail() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));
         getDriver().switchTo().frame(current_frame);
@@ -51,6 +53,7 @@ public class LoginPageTests extends SeleniumBaseTest {
     @Test
     public void forgotPasswordEmptyFields() throws IOException {
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         LoginPage loginPage = homePage.goToLoginPage();
         WebElement current_frame = getDriver().findElement(By.id("cue-app"));
         getDriver().switchTo().frame(current_frame);

@@ -1,0 +1,57 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All tests">
+    <test name="nexus6 checking">
+        <parameter name="myDevice" value="nexus6"/>
+        <classes>
+            <class name="tests.HomePageTests"/>
+            <class name="tests.FeaturesPageTests"/>
+            <class name="tests.BenefitsPageTests"/>
+            <class name="tests.About.OurStory"/>
+            <class name="tests.About.PressTests"/>
+            <class name="tests.About.TeamTests"/>
+            <class name="tests.About.CareersTests"/>
+            <class name="tests.About.ContactUsPageTests"/>
+            <class name="tests.Blog.BlogMainPageTests"/>
+            <class name="tests.LoginPageTests"/>
+            <class name="tests.RequestDemoTests"/>
+        </classes>
+    </test>
+    <test name="iphone7 checking">
+        <parameter name="myDevice" value="iphone7"/>
+        <classes>
+            <class name="tests.HomePageTests"/>
+            <class name="tests.FeaturesPageTests"/>
+            <class name="tests.BenefitsPageTests"/>
+            <class name="tests.About.OurStory"/>
+            <class name="tests.About.PressTests"/>
+            <class name="tests.About.TeamTests"/>
+            <class name="tests.About.CareersTests"/>
+            <class name="tests.About.ContactUsPageTests"/>
+            <class name="tests.Blog.BlogMainPageTests"/>
+            <class name="tests.LoginPageTests"/>
+            <class name="tests.RequestDemoTests"/>
+        </classes>
+    </test>
+    <test name="Desktop checking">
+        <parameter name="myDevice" value="desktop"/>
+        <classes>
+            <class name="tests.About.PressTests"/>
+            <class name="tests.BenefitsPageTests"/>
+            <class name="tests.Blog.ResourcesPageTests"/>
+            <class name="tests.Blog.BlogMainPageTests"/>
+            <class name="tests.Blog.BlogSinglePageTests"/>
+            <class name="tests.About.CareersTests"/>
+            <class name="tests.About.ContactUsPageTests"/>
+            <class name="tests.About.OurStory"/>
+            <class name="tests.About.TeamTests"/>
+            <class name="tests.HomePageTests"/>
+            <class name="tests.FeaturesPageTests"/>
+            <class name="tests.RequestDemoTests"/>
+            <class name="tests.LoginPageTests"/>
+            <class name="tests.SupportPageTests"/>
+        </classes>
+    </test>
+
+</suite>
+
+
