@@ -68,6 +68,7 @@ public class PressTests extends SeleniumBaseTest {
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         HomePageObject homePage = new HomePageObject();
+        waitFor(3);
         homePage.movingToMenuElement("About", "Press", "Press");
         waitFor(3);
         String href_eps = "/assets/files/cue-connect-logo-black.eps";

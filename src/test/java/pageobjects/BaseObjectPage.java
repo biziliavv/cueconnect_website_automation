@@ -118,8 +118,9 @@ public abstract class BaseObjectPage {
             WebElement el = getDriver().findElement(By.xpath("//a/span[text()='" + menuElement + "']"));
             waitFor(4);
             builder.moveToElement(el).build().perform();
+            waitFor(4);
             WebElement submenuButton = getDriver().findElement(By.xpath("//ul//span[text()='" + submenuElement + "']"));
-            fluentWaitforElement(submenuButton, 25, 4);
+            fluentWaitforElement(submenuButton, 50, 4);
             submenuButton.click();
 
             waitFor(7);

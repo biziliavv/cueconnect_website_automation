@@ -39,18 +39,19 @@ public class SeleniumDriver {
 		if (driver == null) {
 
 
-			/*System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 
-			driver = new ChromeDriver();
 
-			/*ChromeOptions options = new ChromeOptions();
+
+			ChromeOptions options = new ChromeOptions();
 
 			HashMap<String, Object> chromePref = new HashMap();
 
 			chromePref.put("download.default_directory", "download");
-			options.setBinary("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome");
 
-			options.setExperimentalOption("prefs", chromePref);*/
+
+			options.setExperimentalOption("prefs", chromePref);
+			driver = new ChromeDriver(options);
 
 			/*DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setCapability("browser", "Chrome");
@@ -65,7 +66,7 @@ public class SeleniumDriver {
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}*/
-			driver = new ChromeDriver();
+
 
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
