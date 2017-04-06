@@ -1,0 +1,70 @@
+[INFO  - 2017-04-06T10:27:22.725Z] GhostDriver - Main - running on port 21990
+[INFO  - 2017-04-06T10:27:23.124Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-06T10:27:23.124Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.customHeaders:  - {}
+[INFO  - 2017-04-06T10:27:23.124Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-06T10:27:23.124Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9f3db8e0-1ab3-11e7-a58b-b32fc6799489
+[ERROR - 2017-04-06T10:27:34.426Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.onError - msg: ReferenceError: Can't find variable: $zopim
+[ERROR - 2017-04-06T10:27:34.429Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.onError - stack:
+  global code (https://cueconnect.com/resources/:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:64)
+  Vh (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:66)
+  uf (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:36)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:94)
+  Ck (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:90)
+  Pk (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:100)
+  bg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:101)
+  kg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
+  lg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
+[ERROR - 2017-04-06T10:27:40.794Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.onError - msg: ReferenceError: Can't find variable: $zopim
+[ERROR - 2017-04-06T10:27:40.794Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.onError - stack:
+  global code (https://cueconnect.com/blog/:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:64)
+  Vh (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:66)
+  uf (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:36)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:94)
+  Ck (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:90)
+  Pk (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:100)
+  bg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:101)
+  kg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
+  lg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
+[ERROR - 2017-04-06T10:27:44.396Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.onError - msg: ReferenceError: Can't find variable: $zopim
+[ERROR - 2017-04-06T10:27:44.397Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.onError - stack:
+  global code (https://cueconnect.com/privacy/:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:64)
+  Vh (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:66)
+  uf (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:36)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:94)
+  Ck (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:90)
+  Pk (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:100)
+  bg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:101)
+  kg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
+  lg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
+[ERROR - 2017-04-06T10:27:47.597Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.onError - msg: ReferenceError: Can't find variable: $zopim
+[ERROR - 2017-04-06T10:27:47.597Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.onError - stack:
+  global code (https://cueconnect.com/terms/:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:64)
+  Vh (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:66)
+  uf (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:36)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:94)
+  Ck (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:90)
+  Pk (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:100)
+  bg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:101)
+  kg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
+  lg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
+[ERROR - 2017-04-06T10:27:51.883Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.onError - msg: ReferenceError: Can't find variable: $zopim
+[ERROR - 2017-04-06T10:27:51.883Z] Session [9f3db8e0-1ab3-11e7-a58b-b32fc6799489] - page.onError - stack:
+  global code (https://cueconnect.com/resources/:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:64)
+  Vh (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:66)
+  uf (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:36)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:94)
+  Ck (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:90)
+  Pk (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:100)
+  bg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:101)
+  kg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
+  lg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
