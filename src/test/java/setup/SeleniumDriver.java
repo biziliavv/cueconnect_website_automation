@@ -40,7 +40,8 @@ public class SeleniumDriver {
 
 
 			/*System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
-			driver = new ChromeDriver();*/
+
+			driver = new ChromeDriver();
 
 			/*ChromeOptions options = new ChromeOptions();
 
@@ -51,7 +52,7 @@ public class SeleniumDriver {
 
 			options.setExperimentalOption("prefs", chromePref);*/
 
-			DesiredCapabilities caps = new DesiredCapabilities();
+			/*DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setCapability("browser", "Chrome");
 			caps.setCapability("browser_version", "57.0");
 			caps.setCapability("os", "OS X");
@@ -63,7 +64,8 @@ public class SeleniumDriver {
 				driver = new RemoteWebDriver(new URL(URL), caps);
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
-			}
+			}*/
+			driver = new ChromeDriver();
 
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
