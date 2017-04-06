@@ -15,6 +15,8 @@ import org.testng.annotations.BeforeMethod;
 
 import java.awt.*;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
@@ -27,11 +29,15 @@ public class SeleniumDriver {
 
 	public static WebDriver driver;
 
+	public static final String USERNAME = "cueconnect1";
+	public static final String AUTOMATE_KEY = "ySePmTqAPesNaqv4CxYa";
+	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
-	public static WebDriver getDriver() {
+	public static WebDriver getDriver(){
 		if (driver == null) {
 
-			System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+
+			//System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 
 			/*ChromeOptions options = new ChromeOptions();
 
@@ -43,7 +49,19 @@ public class SeleniumDriver {
 			options.setExperimentalOption("prefs", chromePref);
 			driver = new ChromeDriver(options);*/
 
-			driver = new ChromeDriver();
+			DesiredCapabilities caps = new DesiredCapabilities();
+			caps.setCapability("browser", "Chrome");
+			caps.setCapability("browser_version", "57.0");
+			caps.setCapability("os", "OS X");
+			caps.setCapability("os_version", "El Capitan");
+			caps.setCapability("resolution", "1280x960");
+
+
+			try {
+				driver = new RemoteWebDriver(new URL(URL), caps);
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
 
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
