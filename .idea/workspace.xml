@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c4edb149-1dbd-42b8-8c2c-4745795d3ab7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" afterPath="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" />
     </list>
     <ignored path="cueconnect_website_automation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogMainPageTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BlogMainPageTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="228">
               <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
               <folding />
             </state>
@@ -105,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeleniumDriver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SeleniumDriver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
@@ -971,8 +970,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 17h 56m 44s.xml">
-      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_iphone7_xml - 2017.04.06 at 18h 55m 33s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/iphone7.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 17h 57m 22s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
@@ -1022,9 +1021,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5030211" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26386556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26386556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49" order="0" side_tool="false" content_ui="combo" />
@@ -1390,16 +1389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/suites/iphone7.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1410,9 +1399,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="228">
           <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
