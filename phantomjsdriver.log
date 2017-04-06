@@ -68,3 +68,8 @@
   bg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:101)
   kg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
   lg (https://www.googletagmanager.com/gtm.js?id=GTM-MGLVFQH:47)
+[INFO  - 2017-04-06T10:35:25.160Z] GhostDriver - Main - running on port 33632
+[INFO  - 2017-04-06T10:35:25.425Z] Session [beb703b0-1ab4-11e7-9b99-f51c964b6f8e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-06T10:35:25.425Z] Session [beb703b0-1ab4-11e7-9b99-f51c964b6f8e] - page.customHeaders:  - {}
+[INFO  - 2017-04-06T10:35:25.425Z] Session [beb703b0-1ab4-11e7-9b99-f51c964b6f8e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-06T10:35:25.426Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: beb703b0-1ab4-11e7-9b99-f51c964b6f8e

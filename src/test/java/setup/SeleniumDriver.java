@@ -44,7 +44,7 @@ public class SeleniumDriver {
 			driver = new ChromeDriver(options);*/
 			DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setJavascriptEnabled(true);
-			caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "drivers/phantomjs");
+			caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "/drivers/phantomjs");
 			driver = new PhantomJSDriver();
 
 
