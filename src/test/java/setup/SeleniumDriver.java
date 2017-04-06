@@ -29,7 +29,7 @@ public class SeleniumDriver {
 
 	public static WebDriver getDriver() {
 		if (driver == null) {
-			System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+			//System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 			/*ChromeOptions options = new ChromeOptions();
 
 			HashMap<String, Object> chromePref = new HashMap();
