@@ -27,13 +27,13 @@ import java.util.concurrent.TimeUnit;
  */
 public class SeleniumDriver {
 
-	public static WebDriver driver;
+	public static RemoteWebDriver driver;
 
 	public static final String USERNAME = "cueconnect1";
 	public static final String AUTOMATE_KEY = "ySePmTqAPesNaqv4CxYa";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
-	public static WebDriver getDriver(){
+	public static RemoteWebDriver getDriver(){
 		if (driver == null) {
 
 
@@ -47,7 +47,13 @@ public class SeleniumDriver {
 			options.setBinary("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome");
 
 			options.setExperimentalOption("prefs", chromePref);*/
-			driver = new ChromeDriver();
+
+			try {
+				DesiredCapabilities capability = DesiredCapabilities.chrome();
+				driver = new RemoteWebDriver(new URL("http://74.80.249.25:4444/wd/hub"), capability);
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
 
 			/*DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setCapability("browser", "Chrome");
