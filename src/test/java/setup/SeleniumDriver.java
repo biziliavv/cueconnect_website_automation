@@ -50,18 +50,7 @@ public class SeleniumDriver {
 
 			options.setExperimentalOption("prefs", chromePref);*/
 
-			try {
-				ChromeOptions options = new ChromeOptions();
-				options.addArguments("disable-infobars");
-				DesiredCapabilities capabilities = new DesiredCapabilities();
-
-
-				 driver = new RemoteWebDriver(new URL("http://74.80.249.25:4444/wd/hub"), capabilities);
-			} catch (MalformedURLException e) {
-				e.printStackTrace();
-			}
-
-			/*DesiredCapabilities caps = new DesiredCapabilities();
+			DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setCapability("browser", "Chrome");
 			caps.setCapability("browser_version", "57.0");
 			caps.setCapability("os", "OS X");
@@ -73,7 +62,7 @@ public class SeleniumDriver {
 				driver = new RemoteWebDriver(new URL(URL), caps);
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
-			}*/
+			}
 
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
