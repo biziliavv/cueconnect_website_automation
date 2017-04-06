@@ -54,8 +54,7 @@ public class SeleniumDriver {
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("disable-infobars");
 				DesiredCapabilities capabilities = new DesiredCapabilities();
-				capabilities.setBrowserName("Chrome");
-				capabilities.setCapability("browser_version", "57.0.2987.98");
+
 
 				 driver = new RemoteWebDriver(new URL("http://74.80.249.25:4445/wd/hub"), capabilities);
 			} catch (MalformedURLException e) {
