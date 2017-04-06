@@ -56,7 +56,7 @@ public class SeleniumDriver {
 				DesiredCapabilities capabilities = new DesiredCapabilities();
 
 
-				 driver = new RemoteWebDriver(new URL("http://74.80.249.25:4445/wd/hub"), capabilities);
+				 driver = new RemoteWebDriver(new URL("http://74.80.249.25:4444/wd/hub"), capabilities);
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
