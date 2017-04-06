@@ -3,6 +3,7 @@ package pageobjects.Blog;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import pageobjects.BaseObjectPage;
 
@@ -160,10 +161,17 @@ public class BlogPage extends BaseObjectPage {
 
     }
     public void closeSendUpdates() {
-        WebElement closeBtn = getDriver().findElement(By.xpath("//a[@class='js-close-subscribe-form']"));
-        if (closeBtn.isDisplayed()) {
+
+        waitFor(5);
+        try {
+            WebElement closeBtn = getDriver().findElement(By.xpath("//a[@class='js-close-subscribe-form']"));
+            fluentWaitforElement(closeBtn, 20, 4);
             closeBtn.click();
+        } catch (NoSuchElementException e) {
+
+            System.out.println("No such element");
         }
+
     }
 
 

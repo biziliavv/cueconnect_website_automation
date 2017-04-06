@@ -28,11 +28,17 @@ public class ResourcesPage extends BaseObjectPage {
         return getDriver().findElement(By.xpath("//div/div/span/h1")).getText();
     }
     public void fillingInForm(String firstNameValue, String lastNameValue, String emailValue, Integer selectorValue){
+        waitFor(2);
         WebElement firstNameField = getDriver().findElement(By.xpath("//input[@name='firstname']"));
+        firstNameField.clear();
         firstNameField.sendKeys(firstNameValue);
+        waitFor(2);
         WebElement lastNameField = getDriver().findElement(By.xpath("//input[@name='lastname']"));
+        lastNameField.clear();
         lastNameField.sendKeys(lastNameValue);
+        waitFor(2);
         WebElement emailField = getDriver().findElement(By.xpath("//input[@name='email']"));
+        emailField.clear();
         emailField.sendKeys(emailValue);
         Select employees_number = new Select(getDriver().findElement(By.xpath("//select[@name='numemployees']")));
         employees_number.selectByIndex(selectorValue);
@@ -59,9 +65,9 @@ public class ResourcesPage extends BaseObjectPage {
     }
 
     public String getThankfulMessage()  {
-
+        waitFor(3);
         WebElement thankful = getDriver().findElement(By.xpath("//div[@data-hs-cos-type='rich_text']//p[@class='p1']"));
-        fluentWaitforElement(thankful, 10, 10);
+        fluentWaitforElement(thankful, 25, 4);
         return thankful.getText();
     }
     public void downloadYourTemplateButtonClicking()  {

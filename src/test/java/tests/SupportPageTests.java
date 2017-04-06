@@ -47,6 +47,7 @@ public class SupportPageTests extends SeleniumBaseTest {
         //supportPage.fillingFormSubmitRequest("Test", "Test description");
         String filePath = System.getProperty("user.dir") + "/src/example.jpg";
         WebElement fileUpl = getDriver().findElement(By.id("request-attachments"));
+        fileUpl.clear();
         fileUpl.sendKeys(filePath);
         //supportPage.openUploadDialog(filePath);
         waitFor(7);

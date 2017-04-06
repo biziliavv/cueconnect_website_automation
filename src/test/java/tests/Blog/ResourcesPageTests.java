@@ -131,6 +131,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         resourcesPage.fillingInEmailForUpdates("");
+        waitFor(4);
         Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Please complete this mandatory field.");
     }
 
@@ -146,8 +147,9 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         waitFor(2);
         resourcesPage.fillingInForm("John", "Smith", "jsmith@gmail.com", 1);
         resourcesPage.donwloadButtonClicking();
-        waitFor(2);
+        waitFor(4);
         resourcesPage.fillingInEmailForUpdates("jsmith");
+        waitFor(4);
         Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Email must be formatted correctly.");
     }
 
@@ -160,6 +162,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.templateOpening();
         waitFor(2);
         resourcesPage.fillingInForm("John", "Smith", "jsmith@gmail.com", 1);
+        waitFor(4);
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         resourcesPage.fillingInEmailForUpdates("john.smith@test");

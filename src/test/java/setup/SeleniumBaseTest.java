@@ -43,7 +43,7 @@ public class SeleniumBaseTest {
     }
 
 
-    @BeforeSuite
+    @BeforeTest
 //Parameter will get browser from testng.xml on which browser test to run
     @Parameters("myDevice")
     public void beforeClass(@Optional("desktop") String myDevice) throws IOException {

@@ -32,8 +32,11 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
+        waitFor(3);
         blogPage.openPostByClickOnTitle();
+        waitFor(3);
         blogPage.findMeOnClicking();
+        waitFor(3);
         blogPage.switchingBetweenTabs(1);
         String openedUrl = getDriver().getCurrentUrl();
         Assert.assertTrue(openedUrl.contains("twitter.com"));
@@ -91,6 +94,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
+        waitFor(3);
         blogPage.fillingInEmailForUpdates("test@test");
         Assert.assertEquals("Please enter a valid email address.", blogPage.getValidationMessages());
 

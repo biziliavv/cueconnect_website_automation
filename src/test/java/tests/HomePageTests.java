@@ -180,7 +180,7 @@ public class HomePageTests extends SeleniumBaseTest {
     public void bottomMenuVerifying() throws IOException {
         HomePageObject homePage = new HomePageObject();
         homePage.clickOnBottomMenuElement("Features", "Build Customer Relationships That Last Forever");
-        waitFor(4);
+        waitFor(6);
         homePage.clickOnBottomMenuElement("Resources", "Marketing Guides");
         waitFor(4);
         homePage.clickOnBottomMenuElement("Benefits", "Grow Conversions Increase Sales");
@@ -198,6 +198,7 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         homePage.getStartedFree();
+        waitFor(5);
         Assert.assertEquals("Store Information", homePage.storeInformationPageTitle());
 
     }

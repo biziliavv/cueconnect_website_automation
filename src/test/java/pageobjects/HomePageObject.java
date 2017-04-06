@@ -117,7 +117,7 @@ public class HomePageObject extends BaseObjectPage {
         return new Contact();
     }
     public ResourcesPage goToResources()  {
-        waitFor(6);
+        waitFor(4);
         movingToMenuElement("Blog", "Resources", "Resources");
         return new ResourcesPage();
     }
@@ -163,11 +163,12 @@ public class HomePageObject extends BaseObjectPage {
 
 
     public void sendMeUpdatesVerifying(String emailValue)  {
-
+        waitFor(3);
         WebElement emailForSendUpdateField = getDriver().findElement(By.xpath("//input[@name='email']"));
         fluentWaitforElement(emailForSendUpdateField, 30, 3);
         waitAndClick(emailForSendUpdateField);
         waitFor(5);
+        emailForSendUpdateField.clear();
         emailForSendUpdateField.sendKeys(emailValue);
 
         scrollDown();
