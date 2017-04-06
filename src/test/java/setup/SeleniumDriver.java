@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
+import org.openqa.selenium.remote.CapabilityType;
+
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -27,13 +29,13 @@ import java.util.concurrent.TimeUnit;
  */
 public class SeleniumDriver {
 
-	public static RemoteWebDriver driver;
+	public static WebDriver driver;
 
 	public static final String USERNAME = "cueconnect1";
 	public static final String AUTOMATE_KEY = "ySePmTqAPesNaqv4CxYa";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
-	public static RemoteWebDriver getDriver(){
+	public static WebDriver getDriver(){
 		if (driver == null) {
 
 
@@ -49,8 +51,13 @@ public class SeleniumDriver {
 			options.setExperimentalOption("prefs", chromePref);*/
 
 			try {
-				DesiredCapabilities capability = DesiredCapabilities.chrome();
-				driver = new RemoteWebDriver(new URL("http://74.80.249.25:4444/wd/hub"), capability);
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("disable-infobars");
+				DesiredCapabilities capabilities = new DesiredCapabilities();
+				capabilities.setBrowserName("Chrome");
+				capabilities.setCapability("browser_version", "57.0.2987.98");
+
+				 driver = new RemoteWebDriver(new URL("http://74.80.249.25:4445/wd/hub"), capabilities);
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}

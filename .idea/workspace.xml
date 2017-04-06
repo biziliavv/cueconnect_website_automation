@@ -98,9 +98,11 @@
       <file leaf-file-name="SeleniumDriver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="45">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="63" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -974,34 +976,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_alltests_xml - 2017.04.05 at 18h 04m 02s.xml">
-      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/alltests.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.05 at 18h 06m 36s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 17h 50m 44s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.05 at 18h 07m 09s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 17h 54m 47s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.05 at 18h 08m 26s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 17h 56m 44s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.05 at 18h 26m 00s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 17h 57m 22s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 15h 46m 24s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 18h 00m 30s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 16h 06m 56s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 18h 01m 09s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 16h 32m 43s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 18h 04m 57s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 16h 34m 28s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 18h 10m 49s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 17h 15m 21s.xml">
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 18h 11m 36s.xml">
+      <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vitaliybizilia_Desktop_cueconnect_website_automation_src_test_java_suites_suite_xml - 2017.04.06 at 18h 15m 08s.xml">
       <configuration name="/Users/vitaliybizilia/Desktop/cueconnect_website_automation/src/test/java/suites/suite.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1016,7 +1018,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="687" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1025,9 +1027,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5030211" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26386556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26386556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49" order="0" side_tool="false" content_ui="combo" />
@@ -1411,9 +1413,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="45">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="63" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
