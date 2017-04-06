@@ -21,6 +21,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
+        waitFor(3);
         blogPage.openPostByClickOnTitle();
         String postTitle = blogPage.getTitleOfRecentOfPost();
         blogPage.clickOnRecentPostLink();
@@ -51,6 +52,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
+        waitFor(3);
         blogPage.openPostByClickOnTitle();
         blogPage.socialNetworksClickOnIcon();
     }
@@ -60,6 +62,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
+        waitFor(3);
         blogPage.fillingInEmailForUpdates("test@test.com");
         Assert.assertEquals("Thank you for subscribing!", blogPage.getValidEmailMessage());
 
@@ -72,9 +75,12 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
+        waitFor(3);
         Assert.assertEquals("Cue Connect Blog", blogPage.getTitle());
         Assert.assertTrue(blogPage.getPageImage("2394", "643"));
-        blogPage.fillingInEmailForUpdates("");
+        waitFor(3);
+        blogPage.leavinEmptyAndClickSendUpdates("");
+        waitFor(15);
         Assert.assertEquals("Email is required", blogPage.getValidationMessages());
 
     }
@@ -84,6 +90,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
+        waitFor(3);
         blogPage.fillingInEmailForUpdates("test");
         Assert.assertEquals("Email must be formatted correctly.", blogPage.getValidationMessages());
 
@@ -105,6 +112,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
+        waitFor(3);
         blogPage.scrollDown();
         blogPage.clickOnSocialNetworkButton();
 
@@ -116,6 +124,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         BlogPage blogPage = homePage.goToBlogPage();
+        waitFor(3);
         String postTitle = blogPage.getPostTitleOnMainBlog();
         blogPage.openPostByClickOnTitle();
         waitFor(3);

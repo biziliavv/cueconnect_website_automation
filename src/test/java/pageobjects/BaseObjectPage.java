@@ -227,11 +227,22 @@ public abstract class BaseObjectPage {
     public void fillingInEmailForUpdates(String emailValue)  {
         waitFor(3);
         WebElement emailField = getDriver().findElement(By.xpath("//input[@name='email']"));
-        emailField.clear();
+        fluentWaitforElement(emailField, 25, 4);
         emailField.sendKeys(emailValue);
         waitFor(3);
         WebElement sendUpdatesButton = getDriver().findElement(By.xpath("//input[@value='Send me Updates']"));
-        fluentWaitforElement(sendUpdatesButton, 20, 3);
+        waitFor(3);
+        sendUpdatesButton.click();
+    }
+    public void leavinEmptyAndClickSendUpdates(String emailValue)  {
+        waitFor(3);
+        scrollDown();
+        waitFor(3);
+        WebElement emailField = getDriver().findElement(By.xpath("//input[@name='email']"));
+        waitFor(2);
+        emailField.clear();
+        waitFor(5);
+        WebElement sendUpdatesButton = getDriver().findElement(By.xpath("//input[@value='Send me Updates']"));
         sendUpdatesButton.click();
     }
     public static void waitFor(Integer seconds){

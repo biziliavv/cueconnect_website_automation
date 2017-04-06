@@ -191,7 +191,6 @@ public class HomePageObject extends BaseObjectPage {
         Assert.assertEquals(this.getTitle(), title);
         waitFor(2);
         getDriver().navigate().back();
-        waitFor(4);
 
     }
 

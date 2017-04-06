@@ -80,12 +80,12 @@ public class HomePageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(2);
         homePage.scrollUp(0, -800);
-        waitFor(2);
+        waitFor(6);
        /* WebElement currentFrame = getDriver().findElement(By.xpath("//iframe[@src='about:blank']"));
         getDriver().switchTo().frame(currentFrame);
         waitFor(2);*/
         WebElement el = getDriver().findElement(By.xpath("//div[@id='wrap']//p[@class='call-to-action']/a[@href='"+link+"']"));
-        waitFor(2);
+        waitFor(4);
         el.click();
         Assert.assertEquals("https://cueconnect.com/blog/", getDriver().getCurrentUrl());
         Assert.assertEquals("Cue Connect Blog", homePage.getTitle());

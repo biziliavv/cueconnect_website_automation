@@ -65,7 +65,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         waitFor(2);
         Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Please complete this mandatory field.");
         waitFor(2);
-        Assert.assertEquals(resourcesPage.getValidationMessage("numemployees"), "Please select an option from the dropdown.");
+        //Assert.assertEquals(resourcesPage.getValidationMessage("numemployees"), "Please select an option from the dropdown.");
 
     }
     @Test
