@@ -30,7 +30,7 @@ public class SeleniumDriver {
 	public static WebDriver getDriver() {
 		if (driver == null) {
 			System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
-			ChromeOptions options = new ChromeOptions();
+			/*ChromeOptions options = new ChromeOptions();
 
 			HashMap<String, Object> chromePref = new HashMap();
 
@@ -38,7 +38,8 @@ public class SeleniumDriver {
 			options.setBinary("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome");
 
 			options.setExperimentalOption("prefs", chromePref);
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriver(options);*/
+			driver = new ChromeDriver();
 
 
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

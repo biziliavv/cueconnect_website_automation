@@ -112,7 +112,7 @@ public abstract class BaseObjectPage {
 
         if (screenWidth >= 1208 && screenHeight >= 680) {
 
-
+            waitFor(3);
             Actions builder = new Actions(getDriver());
             waitFor(2);
             WebElement el = getDriver().findElement(By.xpath("//a/span[text()='" + menuElement + "']"));

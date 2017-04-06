@@ -2,190 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4edb149-1dbd-42b8-8c2c-4745795d3ab7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Benefits page nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog main page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog main page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog page nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog single page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Blog single page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Careers page nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contact Us page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Contactus page nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Features page nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/HomePage nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Login page nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Our Story page nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Press page nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Request demo page nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/RequestDemoPage page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Resources page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Resources page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Support page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Support page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page iphone7 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page iphone7 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page nexus6 checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Team page nexus6 checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Top menu desktop checking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/Top menu desktop checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/All tests/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.CareersTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.ContactUsPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.OurStory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.PressTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.About.TeamTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.BenefitsPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Blog.BlogMainPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Blog.ResourcesPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.FeaturesPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.HomePageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.LoginPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.RequestDemoTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.SupportPageTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.TopMenuVerifyingTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Benefits page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Benefits page iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Benefits page nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Blog main page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Blog page iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Blog page nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Blog single page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Careers page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Careers page iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Careers page nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Contact Us page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Contactus page iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Contactus page nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Features page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Features page iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Features page nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/HomePage desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/HomePage iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/HomePage nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Login page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Login page iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Login page nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Our Story page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Our Story page iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Our Story page nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Press page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Press page iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Press page nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Request demo page iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Request demo page nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/RequestDemoPage page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Resources page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Support page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Team page desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Team page iphone7 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Team page nexus6 checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/Top menu desktop checking.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/All tests/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/BaseObjectPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/BaseObjectPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePageObject.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePageObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/About/OurStory.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/About/OurStory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/About/PressTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/About/PressTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/Blog/BlogMainPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/Blog/BlogMainPageTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/Blog/BlogSinglePageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/Blog/BlogSinglePageTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/Blog/ResourcesPageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/Blog/ResourcesPageTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/HomePageTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/HomePageTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/TopMenuVerifyingTests.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/TopMenuVerifyingTests.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/suites/iphone7.xml" afterPath="$PROJECT_DIR$/src/test/java/suites/iphone7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/suites/nexus6.xml" afterPath="$PROJECT_DIR$/src/test/java/suites/nexus6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/About/CareersTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/About/CareersTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/About/ContactUsPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/About/ContactUsPageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/About/OurStory.java" afterPath="$PROJECT_DIR$/src/test/java/tests/About/OurStory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/About/PressTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/About/PressTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/About/TeamTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/About/TeamTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/BenefitsPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/BenefitsPageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/Blog/BlogSinglePageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/Blog/BlogSinglePageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/FeaturesPageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/TopMenuVerifyingTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/TopMenuVerifyingTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" afterPath="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/suites/suite.xml" afterPath="$PROJECT_DIR$/src/test/java/suites/suite.xml" />
     </list>
     <ignored path="cueconnect_website_automation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -207,51 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ResourcesPageTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+            <state relative-caret-position="2235">
+              <caret line="156" column="17" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iphone7.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/suites/iphone7.xml">
+      <file leaf-file-name="CueAcademyPageTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/CueAcademyPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nexus6.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/suites/nexus6.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPageTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogSinglePageTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogSinglePageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+            <state relative-caret-position="405">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -260,7 +50,7 @@
       <file leaf-file-name="RequestDemoTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="870">
               <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
               <folding />
             </state>
@@ -280,7 +70,7 @@
       <file leaf-file-name="BlogMainPageTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="810">
               <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
               <folding />
             </state>
@@ -290,8 +80,38 @@
       <file leaf-file-name="PressTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/PressTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="1935">
+              <caret line="139" column="27" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseObjectPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeleniumDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suite.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/suites/suite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -300,7 +120,7 @@
       <file leaf-file-name="TeamTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/TeamTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="195">
               <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
@@ -355,8 +175,6 @@
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/Blog/ResourcesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/suites/alltests.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/About/OurStory.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" />
@@ -364,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/About/PressTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/TopMenuVerifyingTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/suites/suite.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/HomePageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/About/CareersTests.java" />
@@ -375,9 +192,12 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SupportPageTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/suites/nexus6.xml" />
         <option value="$PROJECT_DIR$/src/test/java/suites/iphone7.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/suites/suite.xml" />
       </list>
     </option>
   </component>
@@ -418,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -662,7 +483,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -678,14 +498,14 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/drivers" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/test/java/setup" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TopMenuVerifyingTests">
@@ -1283,13 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/CueAcademyPageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/SupportPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -1339,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1382,14 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/suites/alltests.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1402,7 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,26 +1217,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2490">
           <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="156" column="17" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1458,7 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1470,19 +1256,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1490,7 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,7 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1526,17 +1301,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/iphone7.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/nexus6.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
+        <state relative-caret-position="705">
           <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogSinglePageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/RequestDemoTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="870">
           <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
           <folding />
         </state>
@@ -1552,56 +1361,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogMainPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="810">
           <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/BlogSinglePageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/TeamTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="195">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/ResourcesPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="156" column="17" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Blog/CueAcademyPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/About/PressTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="1935">
+          <caret line="139" column="27" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BaseObjectPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+        <state relative-caret-position="180">
+          <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/nexus6.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/setup/SeleniumDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        <state relative-caret-position="200">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/iphone7.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/suite.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        <state relative-caret-position="75">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
           <folding />
         </state>
       </provider>

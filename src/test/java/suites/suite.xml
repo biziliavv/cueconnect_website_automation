@@ -7,7 +7,6 @@
             <class name="tests.FeaturesPageTests"/>
             <class name="tests.BenefitsPageTests"/>
             <class name="tests.About.OurStory"/>
-            <class name="tests.About.PressTests"/>
             <class name="tests.About.TeamTests"/>
             <class name="tests.About.CareersTests"/>
             <class name="tests.About.ContactUsPageTests"/>
@@ -23,7 +22,6 @@
             <class name="tests.FeaturesPageTests"/>
             <class name="tests.BenefitsPageTests"/>
             <class name="tests.About.OurStory"/>
-            <class name="tests.About.PressTests"/>
             <class name="tests.About.TeamTests"/>
             <class name="tests.About.CareersTests"/>
             <class name="tests.About.ContactUsPageTests"/>
@@ -35,7 +33,6 @@
     <test name="Desktop checking">
         <parameter name="myDevice" value="desktop"/>
         <classes>
-            <class name="tests.About.PressTests"/>
             <class name="tests.BenefitsPageTests"/>
             <class name="tests.Blog.ResourcesPageTests"/>
             <class name="tests.Blog.BlogMainPageTests"/>
