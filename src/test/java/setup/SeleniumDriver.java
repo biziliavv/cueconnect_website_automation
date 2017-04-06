@@ -46,10 +46,10 @@ public class SeleniumDriver {
 			chromePref.put("download.default_directory", "download");
 			options.setBinary("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome");
 
-			options.setExperimentalOption("prefs", chromePref);
-			driver = new ChromeDriver(options);*/
+			options.setExperimentalOption("prefs", chromePref);*/
+			driver = new ChromeDriver();
 
-			DesiredCapabilities caps = new DesiredCapabilities();
+			/*DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setCapability("browser", "Chrome");
 			caps.setCapability("browser_version", "57.0");
 			caps.setCapability("os", "OS X");
@@ -61,7 +61,7 @@ public class SeleniumDriver {
 				driver = new RemoteWebDriver(new URL(URL), caps);
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
-			}
+			}*/
 
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
