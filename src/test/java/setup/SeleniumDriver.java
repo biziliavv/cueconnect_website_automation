@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -31,6 +32,7 @@ public class SeleniumDriver {
 		if (driver == null) {
 
 			//System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+
 			/*ChromeOptions options = new ChromeOptions();
 
 			HashMap<String, Object> chromePref = new HashMap();
@@ -40,6 +42,9 @@ public class SeleniumDriver {
 
 			options.setExperimentalOption("prefs", chromePref);
 			driver = new ChromeDriver(options);*/
+			DesiredCapabilities caps = new DesiredCapabilities();
+			caps.setJavascriptEnabled(true);
+			caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "drivers/phantomjs");
 			driver = new PhantomJSDriver();
 
 
