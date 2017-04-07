@@ -64,6 +64,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         BlogPage blogPage = homePage.goToBlogPage();
         waitFor(3);
         blogPage.fillingInEmailForUpdates("test@test.com");
+        waitFor(3);
         Assert.assertEquals("Thank you for subscribing!", blogPage.getValidEmailMessage());
 
 
@@ -79,8 +80,8 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         Assert.assertEquals("Cue Connect Blog", blogPage.getTitle());
         Assert.assertTrue(blogPage.getPageImage("2394", "643"));
         waitFor(3);
-        blogPage.leavinEmptyAndClickSendUpdates("");
-        waitFor(15);
+        blogPage.fillingInEmailForUpdates("");
+        waitFor(2);
         Assert.assertEquals("Email is required", blogPage.getValidationMessages());
 
     }
@@ -103,7 +104,7 @@ public class BlogSinglePageTests extends SeleniumBaseTest {
         BlogPage blogPage = homePage.goToBlogPage();
         waitFor(3);
         blogPage.fillingInEmailForUpdates("test@test");
-        Assert.assertEquals("Please enter a valid email address.", blogPage.getValidationMessages());
+        Assert.assertEquals("Email must be formatted correctly.", blogPage.getValidationMessages());
 
     }
 

@@ -202,7 +202,7 @@ public class HomePageObject extends BaseObjectPage {
     }
 
     public String storeInformationPageTitle(){
-        return getDriver().findElement(By.xpath("//div[@class='cue-ro-title']")).getText();
+        return getDriver().findElement(By.xpath("//div/div[@class='cue-ro-title']")).getText();
     }
 
     public void singleClickOnTopMenuItem(String buttonName)  {

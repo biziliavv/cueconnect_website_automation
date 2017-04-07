@@ -23,7 +23,7 @@ public class BlogPage extends BaseObjectPage {
 
     public String getValidationMessages()  {
         waitFor(3);
-        return getDriver().findElement(By.xpath("//li/label")).getText();
+        return getDriver().findElement(By.xpath("//label[@class='visible']")).getText();
     }
 
 
@@ -130,8 +130,8 @@ public class BlogPage extends BaseObjectPage {
     }
 
     public void findMeOnClicking()  {
-        waitFor(2);
-        WebElement findMeOn = getDriver().findElement(By.xpath("//p[text()='Find me on ']/span/a[@class='icon-twitter']"));
+        waitFor(4);
+        WebElement findMeOn = getDriver().findElement(By.xpath("//a[@class='icon-twitter']"));
         findMeOn.click();
 
     }

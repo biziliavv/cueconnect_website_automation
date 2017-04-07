@@ -220,7 +220,7 @@ public abstract class BaseObjectPage {
 
     public String getValidEmailMessage()  {
         waitFor(5);
-        WebElement message = getDriver().findElement(By.xpath("//div[@class='submitted-message'][@data-reactid='.hbspt-forms-0']"));
+        WebElement message = getDriver().findElement(By.xpath("//div/div[@class='submitted-message']"));
         fluentWaitforElement(message, 30, 3);
         return message.getText();
     }
@@ -228,6 +228,8 @@ public abstract class BaseObjectPage {
         waitFor(3);
         WebElement emailField = getDriver().findElement(By.xpath("//input[@name='email']"));
         fluentWaitforElement(emailField, 25, 4);
+        emailField.clear();
+        waitFor(2);
         emailField.sendKeys(emailValue);
         waitFor(3);
         WebElement sendUpdatesButton = getDriver().findElement(By.xpath("//input[@value='Send me Updates']"));
