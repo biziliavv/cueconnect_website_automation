@@ -121,6 +121,7 @@ public abstract class BaseObjectPage {
             waitFor(4);
             WebElement submenuButton = getDriver().findElement(By.xpath("//ul//span[text()='" + submenuElement + "']"));
             fluentWaitforElement(submenuButton, 50, 4);
+            waitFor(3);
             submenuButton.click();
 
             waitFor(7);
@@ -221,15 +222,15 @@ public abstract class BaseObjectPage {
     public String getValidEmailMessage()  {
         waitFor(5);
         WebElement message = getDriver().findElement(By.xpath("//div/div[@class='submitted-message']"));
-        fluentWaitforElement(message, 30, 3);
+        fluentWaitforElement(message, 50, 3);
         return message.getText();
     }
     public void fillingInEmailForUpdates(String emailValue)  {
-        waitFor(3);
+        waitFor(8);
         WebElement emailField = getDriver().findElement(By.xpath("//input[@name='email']"));
-        fluentWaitforElement(emailField, 25, 4);
+        fluentWaitforElement(emailField, 50, 4);
         emailField.clear();
-        waitFor(2);
+        waitFor(4);
         emailField.sendKeys(emailValue);
         waitFor(3);
         WebElement sendUpdatesButton = getDriver().findElement(By.xpath("//input[@value='Send me Updates']"));
@@ -256,6 +257,20 @@ public abstract class BaseObjectPage {
         if (hamburgerMenu.isDisplayed()){
             hamburgerMenu.click();
             waitFor(4);
+        }
+    }
+
+    public void hideOnlineChat(){
+
+        try {
+            waitFor(3);
+            WebElement hideButton = getDriver().findElement(By.xpath("/html/body/div/div/div/div[2]/div/div[2]/div[3]/div[2]/div/div"));
+            fluentWaitforElement(hideButton, 40, 5);
+            hideButton.click();
+            waitFor(5);
+        } catch (NoSuchElementException el){
+            waitFor(3);
+            System.out.println("No such element");
         }
     }
 

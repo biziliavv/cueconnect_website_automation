@@ -36,7 +36,9 @@ public class ContactUsPageTests extends SeleniumBaseTest {
         waitFor(3);
         Contact contactPage = homePage.goToContact();
         contactPage.fillInData("", "", "");
+        waitFor(2);
         contactPage.sendingData();
+        waitFor(3);
         Assert.assertEquals("The field is required.", contactPage.getMessageOfEmptyFields("contact-name"));
         Assert.assertEquals("The field is required.", contactPage.getMessageOfEmptyFields("contact-email"));
         Assert.assertEquals("The field is required.", contactPage.getMessageOfEmptyFields("contact-message"));
@@ -51,7 +53,9 @@ public class ContactUsPageTests extends SeleniumBaseTest {
         waitFor(3);
         Contact contactPage = homePage.goToContact();
         contactPage.fillInData("Test", "test", "Test Contact Us");
+        waitFor(2);
         contactPage.sendingData();
+        waitFor(3);
         Assert.assertEquals("The e-mail address entered is invalid.", contactPage.getMessageOfEmptyFields("contact-email"));
         Assert.assertEquals("One or more fields have an error. Please check and try again.", contactPage.getMessageAfterSending());
     }

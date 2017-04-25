@@ -67,7 +67,7 @@ public class ResourcesPage extends BaseObjectPage {
     public String getThankfulMessage()  {
         waitFor(3);
         WebElement thankful = getDriver().findElement(By.xpath("//div[@data-hs-cos-type='rich_text']//p[@class='p1']"));
-        fluentWaitforElement(thankful, 25, 4);
+        fluentWaitforElement(thankful, 50, 3);
         return thankful.getText();
     }
     public void downloadYourTemplateButtonClicking()  {
@@ -78,13 +78,13 @@ public class ResourcesPage extends BaseObjectPage {
     public String getValidationMessage(String fieldName)  {
         waitFor(3);
         WebElement firstName = getDriver().findElement(By.xpath("//div[@class='hs_"+fieldName+" field hs-form-field']//ul/li/label"));
-        fluentWaitforElement(firstName, 30, 4);
+        fluentWaitforElement(firstName, 50, 4);
         return firstName.getText();
     }
     public String getSubscribeForUpdatesMessage()  {
         waitFor(2);
         WebElement message = getDriver().findElement(By.xpath("//span[@data-hs-cos-type='form']//strong"));
-        fluentWaitforElement(message, 30, 4);
+        fluentWaitforElement(message, 50, 4);
         return message.getText();
     }
 }

@@ -32,7 +32,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
     @Test
     public void avalidDataFormChecking() throws IOException {
         HomePageObject homePage = new HomePageObject();
-        waitFor(3);
+        waitFor(5);
         ResourcesPage resourcesPage = homePage.goToResources();
         waitFor(3);
         resourcesPage.templateOpening();
@@ -57,6 +57,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.cleaningForm();
         waitFor(2);
         resourcesPage.fillingInForm("", "", "", 0);
+        waitFor(3);
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         Assert.assertEquals(resourcesPage.getValidationMessage("firstname"), "Please complete this mandatory field.");
@@ -79,6 +80,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.cleaningForm();
         waitFor(2);
         resourcesPage.fillingInForm("John", "Smith", "john.smith", 1);
+        waitFor(3);
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Email must be formatted correctly.");
@@ -110,6 +112,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.cleaningForm();
         waitFor(2);
         resourcesPage.fillingInForm("John", "Smith", "jsmith@gmail.com", 1);
+        waitFor(3);
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         resourcesPage.fillingInEmailForUpdates("jsmith@gmail.com");
@@ -128,6 +131,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.cleaningForm();
         waitFor(2);
         resourcesPage.fillingInForm("John", "Smith", "jsmith@gmail.com", 1);
+        waitFor(3);
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         resourcesPage.fillingInEmailForUpdates("");
@@ -146,6 +150,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.cleaningForm();
         waitFor(2);
         resourcesPage.fillingInForm("John", "Smith", "jsmith@gmail.com", 1);
+        waitFor(3);
         resourcesPage.donwloadButtonClicking();
         waitFor(4);
         resourcesPage.fillingInEmailForUpdates("jsmith");
@@ -166,7 +171,7 @@ public class ResourcesPageTests extends SeleniumBaseTest {
         resourcesPage.donwloadButtonClicking();
         waitFor(2);
         resourcesPage.fillingInEmailForUpdates("john.smith@test");
-        waitFor(4);
+        waitFor(6);
         Assert.assertEquals(resourcesPage.getValidationMessage("email"), "Email must be formatted correctly.");
     }
 

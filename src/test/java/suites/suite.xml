@@ -7,7 +7,6 @@
             <class name="tests.FeaturesPageTests"/>
             <class name="tests.BenefitsPageTests"/>
             <class name="tests.About.OurStory"/>
-            <class name="tests.About.PressTests"/>
             <class name="tests.About.TeamTests"/>
             <class name="tests.About.CareersTests"/>
             <class name="tests.About.ContactUsPageTests"/>
@@ -23,7 +22,6 @@
             <class name="tests.FeaturesPageTests"/>
             <class name="tests.BenefitsPageTests"/>
             <class name="tests.About.OurStory"/>
-            <class name="tests.About.PressTests"/>
             <class name="tests.About.TeamTests"/>
             <class name="tests.About.CareersTests"/>
             <class name="tests.About.ContactUsPageTests"/>
@@ -42,7 +40,6 @@
             <class name="tests.About.CareersTests"/>
             <class name="tests.About.ContactUsPageTests"/>
             <class name="tests.About.OurStory"/>
-            <class name="tests.About.PressTests"/>
             <class name="tests.About.TeamTests"/>
             <class name="tests.HomePageTests"/>
             <class name="tests.FeaturesPageTests"/>

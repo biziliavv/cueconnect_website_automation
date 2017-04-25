@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="15" ignored="60" total="212" passed="137">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All tests" duration-ms="2287187" started-at="2017-04-25T11:40:06Z" finished-at="2017-04-25T12:18:14Z">
+    <groups>
+      <group name="negative">
+        <method signature="HomePageTests.sendingUpdatesIncorrectEmailWithAt()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="sendingUpdatesIncorrectEmailWithAt" class="tests.HomePageTests"/>
+        <method signature="RequestDemoTests.emailFieldValidations()[pri:0, instance:tests.RequestDemoTests@42d3bd8b]" name="emailFieldValidations" class="tests.RequestDemoTests"/>
+        <method signature="RequestDemoTests.phoneNumberFieldValidations()[pri:0, instance:tests.RequestDemoTests@42d3bd8b]" name="phoneNumberFieldValidations" class="tests.RequestDemoTests"/>
+        <method signature="RequestDemoTests.requestDemoEmptyRequiredFieldsOpening()[pri:0, instance:tests.RequestDemoTests@42d3bd8b]" name="requestDemoEmptyRequiredFieldsOpening" class="tests.RequestDemoTests"/>
+        <method signature="HomePageTests.sendingUpdatesIncorrectEmailWithAt()[pri:0, instance:tests.HomePageTests@77b52d12]" name="sendingUpdatesIncorrectEmailWithAt" class="tests.HomePageTests"/>
+        <method signature="RequestDemoTests.emailFieldValidations()[pri:0, instance:tests.RequestDemoTests@15975490]" name="emailFieldValidations" class="tests.RequestDemoTests"/>
+        <method signature="RequestDemoTests.phoneNumberFieldValidations()[pri:0, instance:tests.RequestDemoTests@15975490]" name="phoneNumberFieldValidations" class="tests.RequestDemoTests"/>
+        <method signature="RequestDemoTests.requestDemoEmptyRequiredFieldsOpening()[pri:0, instance:tests.RequestDemoTests@15975490]" name="requestDemoEmptyRequiredFieldsOpening" class="tests.RequestDemoTests"/>
+        <method signature="HomePageTests.sendingUpdatesIncorrectEmailWithAt()[pri:0, instance:tests.HomePageTests@36f6e879]" name="sendingUpdatesIncorrectEmailWithAt" class="tests.HomePageTests"/>
+        <method signature="RequestDemoTests.emailFieldValidations()[pri:0, instance:tests.RequestDemoTests@3551a94]" name="emailFieldValidations" class="tests.RequestDemoTests"/>
+        <method signature="RequestDemoTests.phoneNumberFieldValidations()[pri:0, instance:tests.RequestDemoTests@3551a94]" name="phoneNumberFieldValidations" class="tests.RequestDemoTests"/>
+        <method signature="RequestDemoTests.requestDemoEmptyRequiredFieldsOpening()[pri:0, instance:tests.RequestDemoTests@3551a94]" name="requestDemoEmptyRequiredFieldsOpening" class="tests.RequestDemoTests"/>
+      </group> <!-- negative -->
+      <group name="bad">
+        <method signature="SupportPageTests.searchWithTooLongValue()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="searchWithTooLongValue" class="tests.SupportPageTests"/>
+      </group> <!-- bad -->
+      <group name="mobile">
+        <method signature="HomePageTests.bottomMenuVerifying()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="bottomMenuVerifying" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.bscrollingToResources()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="bscrollingToResources" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.bscrollingToTransformTraffic()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="bscrollingToTransformTraffic" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.emptyEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="emptyEmailAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.getStartedFreeChecking()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="getStartedFreeChecking" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.notEmailFormatAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="notEmailFormatAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToCueConnectBlog()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="scrollingToCueConnectBlog" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToDriveEcommerce()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="scrollingToDriveEcommerce" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToRetargetShoppers()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="scrollingToRetargetShoppers" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.sendingUpdatesEmptyEmail()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="sendingUpdatesEmptyEmail" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.sendingUpdatesIncorrectEmail()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="sendingUpdatesIncorrectEmail" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.typingValidEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="typingValidEmailAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.videoOpening()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="videoOpening" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.bottomMenuVerifying()[pri:0, instance:tests.HomePageTests@77b52d12]" name="bottomMenuVerifying" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.bscrollingToResources()[pri:0, instance:tests.HomePageTests@77b52d12]" name="bscrollingToResources" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.bscrollingToTransformTraffic()[pri:0, instance:tests.HomePageTests@77b52d12]" name="bscrollingToTransformTraffic" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.emptyEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@77b52d12]" name="emptyEmailAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.getStartedFreeChecking()[pri:0, instance:tests.HomePageTests@77b52d12]" name="getStartedFreeChecking" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.notEmailFormatAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@77b52d12]" name="notEmailFormatAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToCueConnectBlog()[pri:0, instance:tests.HomePageTests@77b52d12]" name="scrollingToCueConnectBlog" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToDriveEcommerce()[pri:0, instance:tests.HomePageTests@77b52d12]" name="scrollingToDriveEcommerce" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToRetargetShoppers()[pri:0, instance:tests.HomePageTests@77b52d12]" name="scrollingToRetargetShoppers" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.sendingUpdatesEmptyEmail()[pri:0, instance:tests.HomePageTests@77b52d12]" name="sendingUpdatesEmptyEmail" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.sendingUpdatesIncorrectEmail()[pri:0, instance:tests.HomePageTests@77b52d12]" name="sendingUpdatesIncorrectEmail" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.typingValidEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@77b52d12]" name="typingValidEmailAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.videoOpening()[pri:0, instance:tests.HomePageTests@77b52d12]" name="videoOpening" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.bottomMenuVerifying()[pri:0, instance:tests.HomePageTests@36f6e879]" name="bottomMenuVerifying" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.bscrollingToResources()[pri:0, instance:tests.HomePageTests@36f6e879]" name="bscrollingToResources" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.bscrollingToTransformTraffic()[pri:0, instance:tests.HomePageTests@36f6e879]" name="bscrollingToTransformTraffic" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.emptyEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@36f6e879]" name="emptyEmailAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.getStartedFreeChecking()[pri:0, instance:tests.HomePageTests@36f6e879]" name="getStartedFreeChecking" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.notEmailFormatAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@36f6e879]" name="notEmailFormatAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToCueConnectBlog()[pri:0, instance:tests.HomePageTests@36f6e879]" name="scrollingToCueConnectBlog" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToDriveEcommerce()[pri:0, instance:tests.HomePageTests@36f6e879]" name="scrollingToDriveEcommerce" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.scrollingToRetargetShoppers()[pri:0, instance:tests.HomePageTests@36f6e879]" name="scrollingToRetargetShoppers" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.sendingUpdatesEmptyEmail()[pri:0, instance:tests.HomePageTests@36f6e879]" name="sendingUpdatesEmptyEmail" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.sendingUpdatesIncorrectEmail()[pri:0, instance:tests.HomePageTests@36f6e879]" name="sendingUpdatesIncorrectEmail" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.typingValidEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@36f6e879]" name="typingValidEmailAndClickRequestDemo" class="tests.HomePageTests"/>
+        <method signature="HomePageTests.videoOpening()[pri:0, instance:tests.HomePageTests@36f6e879]" name="videoOpening" class="tests.HomePageTests"/>
+      </group> <!-- mobile -->
+      <group name="positive">
+        <method signature="HomePageTests.sendingUpdatesToValidEmail()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="sendingUpdatesToValidEmail" class="tests.HomePageTests"/>
+        <method signature="RequestDemoTests.sendingFormWithValidData()[pri:0, instance:tests.RequestDemoTests@42d3bd8b]" name="sendingFormWithValidData" class="tests.RequestDemoTests"/>
+        <method signature="HomePageTests.sendingUpdatesToValidEmail()[pri:0, instance:tests.HomePageTests@77b52d12]" name="sendingUpdatesToValidEmail" class="tests.HomePageTests"/>
+        <method signature="RequestDemoTests.sendingFormWithValidData()[pri:0, instance:tests.RequestDemoTests@15975490]" name="sendingFormWithValidData" class="tests.RequestDemoTests"/>
+        <method signature="HomePageTests.sendingUpdatesToValidEmail()[pri:0, instance:tests.HomePageTests@36f6e879]" name="sendingUpdatesToValidEmail" class="tests.HomePageTests"/>
+        <method signature="RequestDemoTests.sendingFormWithValidData()[pri:0, instance:tests.RequestDemoTests@3551a94]" name="sendingFormWithValidData" class="tests.RequestDemoTests"/>
+      </group> <!-- positive -->
+      <group name="good">
+        <method signature="SupportPageTests.searchWithValidValue()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="searchWithValidValue" class="tests.SupportPageTests"/>
+      </group> <!-- good -->
+    </groups>
+    <test name="nexus6 checking" duration-ms="1024900" started-at="2017-04-25T11:40:06Z" finished-at="2017-04-25T11:57:11Z">
+      <class name="tests.Blog.BlogMainPageTests">
+        <test-method status="PASS" signature="clickingOnAuthorChecking()[pri:0, instance:tests.Blog.BlogMainPageTests@38082d64]" name="clickingOnAuthorChecking" duration-ms="55057" started-at="2017-04-25T14:52:37Z" finished-at="2017-04-25T14:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnAuthorChecking -->
+        <test-method status="PASS" signature="clickingOnTagChecking()[pri:0, instance:tests.Blog.BlogMainPageTests@38082d64]" name="clickingOnTagChecking" duration-ms="32263" started-at="2017-04-25T14:53:32Z" finished-at="2017-04-25T14:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnTagChecking -->
+        <test-method status="PASS" signature="goingToCommentsSectionByClickOnClickHereLink()[pri:0, instance:tests.Blog.BlogMainPageTests@38082d64]" name="goingToCommentsSectionByClickOnClickHereLink" duration-ms="43984" started-at="2017-04-25T14:54:04Z" finished-at="2017-04-25T14:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goingToCommentsSectionByClickOnClickHereLink -->
+        <test-method status="PASS" signature="openingPostByClickOnReadThisPostBtn()[pri:0, instance:tests.Blog.BlogMainPageTests@38082d64]" name="openingPostByClickOnReadThisPostBtn" duration-ms="32570" started-at="2017-04-25T14:54:48Z" finished-at="2017-04-25T14:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingPostByClickOnReadThisPostBtn -->
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+      <class name="tests.About.CareersTests">
+        <test-method status="PASS" signature="checkElementsArePresent()[pri:0, instance:tests.About.CareersTests@73f792cf]" name="checkElementsArePresent" duration-ms="33954" started-at="2017-04-25T14:50:25Z" finished-at="2017-04-25T14:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkElementsArePresent -->
+        <test-method status="PASS" signature="openingVacancyAndSendingEmptyForm()[pri:0, instance:tests.About.CareersTests@73f792cf]" name="openingVacancyAndSendingEmptyForm" duration-ms="34817" started-at="2017-04-25T14:50:59Z" finished-at="2017-04-25T14:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingVacancyAndSendingEmptyForm -->
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.About.OurStory">
+        <test-method status="PASS" signature="checkingOurStoryPageAppears()[pri:0, instance:tests.About.OurStory@6b2fad11]" name="checkingOurStoryPageAppears" duration-ms="11530" started-at="2017-04-25T14:48:30Z" finished-at="2017-04-25T14:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOurStoryPageAppears -->
+        <test-method status="PASS" signature="checkingOurStoryThatElementsArePresent()[pri:0, instance:tests.About.OurStory@6b2fad11]" name="checkingOurStoryThatElementsArePresent" duration-ms="91931" started-at="2017-04-25T14:48:42Z" finished-at="2017-04-25T14:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOurStoryThatElementsArePresent -->
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.FeaturesPageTests">
+        <test-method status="PASS" signature="openingFeaturesPageAndClickOnRequestDemo()[pri:0, instance:tests.FeaturesPageTests@3fb6a447]" name="openingFeaturesPageAndClickOnRequestDemo" duration-ms="12000" started-at="2017-04-25T14:43:10Z" finished-at="2017-04-25T14:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingFeaturesPageAndClickOnRequestDemo -->
+        <test-method status="PASS" signature="openingSecondRequestDemoButton()[pri:0, instance:tests.FeaturesPageTests@3fb6a447]" name="openingSecondRequestDemoButton" duration-ms="32430" started-at="2017-04-25T14:43:22Z" finished-at="2017-04-25T14:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingSecondRequestDemoButton -->
+        <test-method status="PASS" signature="openingThirdRequestDemoButton()[pri:0, instance:tests.FeaturesPageTests@3fb6a447]" name="openingThirdRequestDemoButton" duration-ms="28599" started-at="2017-04-25T14:43:54Z" finished-at="2017-04-25T14:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingThirdRequestDemoButton -->
+        <test-method status="PASS" signature="scrollingToEachSection()[pri:0, instance:tests.FeaturesPageTests@3fb6a447]" name="scrollingToEachSection" duration-ms="90858" started-at="2017-04-25T14:44:23Z" finished-at="2017-04-25T14:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToEachSection -->
+      </class> <!-- tests.FeaturesPageTests -->
+      <class name="tests.HomePageTests">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.HomePageTests@7a5d012c]" name="beforeClass" is-config="true" duration-ms="2216" started-at="2017-04-25T14:40:06Z" finished-at="2017-04-25T14:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nexus6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="bottomMenuVerifying()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="bottomMenuVerifying" duration-ms="25284" started-at="2017-04-25T14:40:09Z" finished-at="2017-04-25T14:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottomMenuVerifying -->
+        <test-method status="PASS" signature="bscrollingToResources()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="bscrollingToResources" duration-ms="3132" started-at="2017-04-25T14:40:34Z" finished-at="2017-04-25T14:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bscrollingToResources -->
+        <test-method status="PASS" signature="bscrollingToTransformTraffic()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="bscrollingToTransformTraffic" duration-ms="3046" started-at="2017-04-25T14:40:37Z" finished-at="2017-04-25T14:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bscrollingToTransformTraffic -->
+        <test-method status="PASS" signature="emptyEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="emptyEmailAndClickRequestDemo" duration-ms="1897" started-at="2017-04-25T14:40:40Z" finished-at="2017-04-25T14:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailAndClickRequestDemo -->
+        <test-method status="PASS" signature="getStartedFreeChecking()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="getStartedFreeChecking" duration-ms="25759" started-at="2017-04-25T14:40:42Z" finished-at="2017-04-25T14:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedFreeChecking -->
+        <test-method status="PASS" signature="notEmailFormatAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="notEmailFormatAndClickRequestDemo" duration-ms="2316" started-at="2017-04-25T14:41:08Z" finished-at="2017-04-25T14:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notEmailFormatAndClickRequestDemo -->
+        <test-method status="PASS" signature="scrollingToCueConnectBlog()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="scrollingToCueConnectBlog" duration-ms="3901" started-at="2017-04-25T14:41:10Z" finished-at="2017-04-25T14:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToCueConnectBlog -->
+        <test-method status="PASS" signature="scrollingToDriveEcommerce()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="scrollingToDriveEcommerce" duration-ms="3152" started-at="2017-04-25T14:41:14Z" finished-at="2017-04-25T14:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToDriveEcommerce -->
+        <test-method status="PASS" signature="scrollingToRetargetShoppers()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="scrollingToRetargetShoppers" duration-ms="3117" started-at="2017-04-25T14:41:17Z" finished-at="2017-04-25T14:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToRetargetShoppers -->
+        <test-method status="PASS" signature="sendingUpdatesEmptyEmail()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="sendingUpdatesEmptyEmail" duration-ms="22309" started-at="2017-04-25T14:41:20Z" finished-at="2017-04-25T14:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesEmptyEmail -->
+        <test-method status="PASS" signature="sendingUpdatesIncorrectEmail()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="sendingUpdatesIncorrectEmail" duration-ms="22759" started-at="2017-04-25T14:41:43Z" finished-at="2017-04-25T14:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesIncorrectEmail -->
+        <test-method status="PASS" signature="sendingUpdatesIncorrectEmailWithAt()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="sendingUpdatesIncorrectEmailWithAt" duration-ms="25107" started-at="2017-04-25T14:42:05Z" finished-at="2017-04-25T14:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesIncorrectEmailWithAt -->
+        <test-method status="PASS" signature="sendingUpdatesToValidEmail()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="sendingUpdatesToValidEmail" duration-ms="25889" started-at="2017-04-25T14:42:31Z" finished-at="2017-04-25T14:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesToValidEmail -->
+        <test-method status="PASS" signature="typingValidEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="typingValidEmailAndClickRequestDemo" duration-ms="6866" started-at="2017-04-25T14:42:56Z" finished-at="2017-04-25T14:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typingValidEmailAndClickRequestDemo -->
+        <test-method status="PASS" signature="videoOpening()[pri:0, instance:tests.HomePageTests@7a5d012c]" name="videoOpening" duration-ms="6274" started-at="2017-04-25T14:43:03Z" finished-at="2017-04-25T14:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoOpening -->
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.LoginPageTests">
+        <test-method status="PASS" signature="correctLogin()[pri:0, instance:tests.LoginPageTests@dfd3711]" name="correctLogin" duration-ms="15426" started-at="2017-04-25T14:55:21Z" finished-at="2017-04-25T14:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLogin -->
+        <test-method status="PASS" signature="forgotPasswordEmptyFields()[pri:0, instance:tests.LoginPageTests@dfd3711]" name="forgotPasswordEmptyFields" duration-ms="11628" started-at="2017-04-25T14:55:36Z" finished-at="2017-04-25T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordEmptyFields -->
+        <test-method status="PASS" signature="forgotPasswordWrongEmail()[pri:0, instance:tests.LoginPageTests@dfd3711]" name="forgotPasswordWrongEmail" duration-ms="11072" started-at="2017-04-25T14:55:48Z" finished-at="2017-04-25T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordWrongEmail -->
+        <test-method status="PASS" signature="loginCheckEmptyFields()[pri:0, instance:tests.LoginPageTests@dfd3711]" name="loginCheckEmptyFields" duration-ms="10816" started-at="2017-04-25T14:55:59Z" finished-at="2017-04-25T14:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheckEmptyFields -->
+        <test-method status="PASS" signature="loginFormCheckingWrongEmail()[pri:0, instance:tests.LoginPageTests@dfd3711]" name="loginFormCheckingWrongEmail" duration-ms="10927" started-at="2017-04-25T14:56:10Z" finished-at="2017-04-25T14:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFormCheckingWrongEmail -->
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <test-method status="FAIL" signature="badEmailChecking()[pri:0, instance:tests.About.ContactUsPageTests@2ed94a8b]" name="badEmailChecking" duration-ms="31281" started-at="2017-04-25T14:51:33Z" finished-at="2017-04-25T14:52:05Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <input type="submit" value="Contact us" class="wpcf7-form-control wpcf7-submit"> is not clickable at point (205, 557). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Contact us" class="wpcf7-form-control wpcf7-submit"> is not clickable at point (205, 557). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.About.Contact.sendingData(Contact.java:36)
+	at tests.About.ContactUsPageTests.badEmailChecking(ContactUsPageTests.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- badEmailChecking -->
+        <test-method status="PASS" signature="emptyDataChecking()[pri:0, instance:tests.About.ContactUsPageTests@2ed94a8b]" name="emptyDataChecking" duration-ms="32152" started-at="2017-04-25T14:52:05Z" finished-at="2017-04-25T14:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyDataChecking -->
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.RequestDemoTests">
+        <test-method status="FAIL" signature="emailFieldValidations()[pri:0, instance:tests.RequestDemoTests@42d3bd8b]" name="emailFieldValidations" duration-ms="12166" started-at="2017-04-25T14:56:21Z" finished-at="2017-04-25T14:56:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Email must be formatted correctly.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Email must be formatted correctly.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at tests.RequestDemoTests.emailFieldValidations(RequestDemoTests.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFieldValidations -->
+        <test-method status="FAIL" signature="phoneNumberFieldValidations()[pri:0, instance:tests.RequestDemoTests@42d3bd8b]" name="phoneNumberFieldValidations" duration-ms="12111" started-at="2017-04-25T14:56:33Z" finished-at="2017-04-25T14:56:45Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <input type="submit" value="Request a demo" class="hs-button primary large" data-reactid=".hbspt-forms-0.2.1.0"> is not clickable at point (89, 464). Other element would receive the click: <div class="input" data-reactid=".hbspt-forms-0.0:$5.$website">...</div>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Request a demo" class="hs-button primary large" data-reactid=".hbspt-forms-0.2.1.0"> is not clickable at point (89, 464). Other element would receive the click: <div class="input" data-reactid=".hbspt-forms-0.0:$5.$website">...</div>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.RequestDemoPage.sendingData(RequestDemoPage.java:39)
+	at tests.RequestDemoTests.phoneNumberFieldValidations(RequestDemoTests.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneNumberFieldValidations -->
+        <test-method status="FAIL" signature="requestDemoEmptyRequiredFieldsOpening()[pri:0, instance:tests.RequestDemoTests@42d3bd8b]" name="requestDemoEmptyRequiredFieldsOpening" duration-ms="12551" started-at="2017-04-25T14:56:45Z" finished-at="2017-04-25T14:56:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Name is required]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Name is required]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at tests.RequestDemoTests.requestDemoEmptyRequiredFieldsOpening(RequestDemoTests.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestDemoEmptyRequiredFieldsOpening -->
+        <test-method status="PASS" signature="sendingFormWithValidData()[pri:0, instance:tests.RequestDemoTests@42d3bd8b]" name="sendingFormWithValidData" duration-ms="13366" started-at="2017-04-25T14:56:58Z" finished-at="2017-04-25T14:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingFormWithValidData -->
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.BenefitsPageTests">
+        <test-method status="PASS" signature="openingPageAndClickOnRequestDemo()[pri:0, instance:tests.BenefitsPageTests@79b4d0f]" name="openingPageAndClickOnRequestDemo" duration-ms="28745" started-at="2017-04-25T14:45:53Z" finished-at="2017-04-25T14:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingPageAndClickOnRequestDemo -->
+        <test-method status="PASS" signature="scrollingDownAndVerifyingPresenceOfElements()[pri:0, instance:tests.BenefitsPageTests@79b4d0f]" name="scrollingDownAndVerifyingPresenceOfElements" duration-ms="127858" started-at="2017-04-25T14:46:22Z" finished-at="2017-04-25T14:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingDownAndVerifyingPresenceOfElements -->
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.About.TeamTests">
+        <test-method status="PASS" signature="checkingOfEmployeeQuote()[pri:0, instance:tests.About.TeamTests@79698539]" name="checkingOfEmployeeQuote" duration-ms="11110" started-at="2017-04-25T14:50:13Z" finished-at="2017-04-25T14:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOfEmployeeQuote -->
+      </class> <!-- tests.About.TeamTests -->
+    </test> <!-- nexus6 checking -->
+    <test name="iphone7 checking" duration-ms="559324" started-at="2017-04-25T11:57:11Z" finished-at="2017-04-25T12:06:31Z">
+      <class name="tests.Blog.BlogMainPageTests">
+        <test-method status="PASS" signature="clickingOnAuthorChecking()[pri:0, instance:tests.Blog.BlogMainPageTests@90f6bfd]" name="clickingOnAuthorChecking" duration-ms="24148" started-at="2017-04-25T15:03:18Z" finished-at="2017-04-25T15:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnAuthorChecking -->
+        <test-method status="PASS" signature="clickingOnTagChecking()[pri:0, instance:tests.Blog.BlogMainPageTests@90f6bfd]" name="clickingOnTagChecking" duration-ms="17512" started-at="2017-04-25T15:03:42Z" finished-at="2017-04-25T15:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnTagChecking -->
+        <test-method status="PASS" signature="goingToCommentsSectionByClickOnClickHereLink()[pri:0, instance:tests.Blog.BlogMainPageTests@90f6bfd]" name="goingToCommentsSectionByClickOnClickHereLink" duration-ms="30212" started-at="2017-04-25T15:04:00Z" finished-at="2017-04-25T15:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goingToCommentsSectionByClickOnClickHereLink -->
+        <test-method status="PASS" signature="openingPostByClickOnReadThisPostBtn()[pri:0, instance:tests.Blog.BlogMainPageTests@90f6bfd]" name="openingPostByClickOnReadThisPostBtn" duration-ms="14759" started-at="2017-04-25T15:04:30Z" finished-at="2017-04-25T15:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingPostByClickOnReadThisPostBtn -->
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+      <class name="tests.About.CareersTests">
+        <test-method status="PASS" signature="checkElementsArePresent()[pri:0, instance:tests.About.CareersTests@327471b5]" name="checkElementsArePresent" duration-ms="17199" started-at="2017-04-25T15:02:08Z" finished-at="2017-04-25T15:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkElementsArePresent -->
+        <test-method status="PASS" signature="openingVacancyAndSendingEmptyForm()[pri:0, instance:tests.About.CareersTests@327471b5]" name="openingVacancyAndSendingEmptyForm" duration-ms="19685" started-at="2017-04-25T15:02:26Z" finished-at="2017-04-25T15:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingVacancyAndSendingEmptyForm -->
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.About.OurStory">
+        <test-method status="PASS" signature="checkingOurStoryPageAppears()[pri:0, instance:tests.About.OurStory@6be46e8f]" name="checkingOurStoryPageAppears" duration-ms="10617" started-at="2017-04-25T15:01:16Z" finished-at="2017-04-25T15:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOurStoryPageAppears -->
+        <test-method status="PASS" signature="checkingOurStoryThatElementsArePresent()[pri:0, instance:tests.About.OurStory@6be46e8f]" name="checkingOurStoryThatElementsArePresent" duration-ms="30984" started-at="2017-04-25T15:01:26Z" finished-at="2017-04-25T15:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOurStoryThatElementsArePresent -->
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.FeaturesPageTests">
+        <test-method status="PASS" signature="openingFeaturesPageAndClickOnRequestDemo()[pri:0, instance:tests.FeaturesPageTests@2d554825]" name="openingFeaturesPageAndClickOnRequestDemo" duration-ms="11442" started-at="2017-04-25T14:59:07Z" finished-at="2017-04-25T14:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingFeaturesPageAndClickOnRequestDemo -->
+        <test-method status="PASS" signature="openingSecondRequestDemoButton()[pri:0, instance:tests.FeaturesPageTests@2d554825]" name="openingSecondRequestDemoButton" duration-ms="16805" started-at="2017-04-25T14:59:19Z" finished-at="2017-04-25T14:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingSecondRequestDemoButton -->
+        <test-method status="PASS" signature="openingThirdRequestDemoButton()[pri:0, instance:tests.FeaturesPageTests@2d554825]" name="openingThirdRequestDemoButton" duration-ms="17597" started-at="2017-04-25T14:59:36Z" finished-at="2017-04-25T14:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingThirdRequestDemoButton -->
+        <test-method status="PASS" signature="scrollingToEachSection()[pri:0, instance:tests.FeaturesPageTests@2d554825]" name="scrollingToEachSection" duration-ms="32041" started-at="2017-04-25T14:59:53Z" finished-at="2017-04-25T15:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToEachSection -->
+      </class> <!-- tests.FeaturesPageTests -->
+      <class name="tests.HomePageTests">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.HomePageTests@77b52d12]" name="beforeClass" is-config="true" duration-ms="148" started-at="2017-04-25T14:57:11Z" finished-at="2017-04-25T14:57:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="bottomMenuVerifying()[pri:0, instance:tests.HomePageTests@77b52d12]" name="bottomMenuVerifying" duration-ms="9334" started-at="2017-04-25T14:57:12Z" finished-at="2017-04-25T14:57:21Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <a class="cue-main-footer-link white" href="https://cueconnect.com/resources/">...</a> is not clickable at point (202, 537). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <a class="cue-main-footer-link white" href="https://cueconnect.com/resources/">...</a> is not clickable at point (202, 537). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.HomePageObject.clickOnBottomMenuElement(HomePageObject.java:204)
+	at tests.HomePageTests.bottomMenuVerifying(HomePageTests.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottomMenuVerifying -->
+        <test-method status="PASS" signature="bscrollingToResources()[pri:0, instance:tests.HomePageTests@77b52d12]" name="bscrollingToResources" duration-ms="5858" started-at="2017-04-25T14:57:21Z" finished-at="2017-04-25T14:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bscrollingToResources -->
+        <test-method status="PASS" signature="bscrollingToTransformTraffic()[pri:0, instance:tests.HomePageTests@77b52d12]" name="bscrollingToTransformTraffic" duration-ms="5754" started-at="2017-04-25T14:57:27Z" finished-at="2017-04-25T14:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bscrollingToTransformTraffic -->
+        <test-method status="PASS" signature="emptyEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@77b52d12]" name="emptyEmailAndClickRequestDemo" duration-ms="4473" started-at="2017-04-25T14:57:33Z" finished-at="2017-04-25T14:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailAndClickRequestDemo -->
+        <test-method status="FAIL" signature="getStartedFreeChecking()[pri:0, instance:tests.HomePageTests@77b52d12]" name="getStartedFreeChecking" duration-ms="16640" started-at="2017-04-25T14:57:37Z" finished-at="2017-04-25T14:57:54Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div/div[@class='cue-ro-title']"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+*** Element info: {Using=xpath, value=//div/div[@class='cue-ro-title']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div/div[@class='cue-ro-title']"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+*** Element info: {Using=xpath, value=//div/div[@class='cue-ro-title']}
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at pageobjects.HomePageObject.storeInformationPageTitle(HomePageObject.java:219)
+	at tests.HomePageTests.getStartedFreeChecking(HomePageTests.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedFreeChecking -->
+        <test-method status="PASS" signature="notEmailFormatAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@77b52d12]" name="notEmailFormatAndClickRequestDemo" duration-ms="4790" started-at="2017-04-25T14:57:54Z" finished-at="2017-04-25T14:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notEmailFormatAndClickRequestDemo -->
+        <test-method status="PASS" signature="scrollingToCueConnectBlog()[pri:0, instance:tests.HomePageTests@77b52d12]" name="scrollingToCueConnectBlog" duration-ms="6431" started-at="2017-04-25T14:57:58Z" finished-at="2017-04-25T14:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToCueConnectBlog -->
+        <test-method status="PASS" signature="scrollingToDriveEcommerce()[pri:0, instance:tests.HomePageTests@77b52d12]" name="scrollingToDriveEcommerce" duration-ms="5782" started-at="2017-04-25T14:58:05Z" finished-at="2017-04-25T14:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToDriveEcommerce -->
+        <test-method status="PASS" signature="scrollingToRetargetShoppers()[pri:0, instance:tests.HomePageTests@77b52d12]" name="scrollingToRetargetShoppers" duration-ms="5854" started-at="2017-04-25T14:58:11Z" finished-at="2017-04-25T14:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToRetargetShoppers -->
+        <test-method status="PASS" signature="sendingUpdatesEmptyEmail()[pri:0, instance:tests.HomePageTests@77b52d12]" name="sendingUpdatesEmptyEmail" duration-ms="9884" started-at="2017-04-25T14:58:17Z" finished-at="2017-04-25T14:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesEmptyEmail -->
+        <test-method status="PASS" signature="sendingUpdatesIncorrectEmail()[pri:0, instance:tests.HomePageTests@77b52d12]" name="sendingUpdatesIncorrectEmail" duration-ms="9859" started-at="2017-04-25T14:58:26Z" finished-at="2017-04-25T14:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesIncorrectEmail -->
+        <test-method status="PASS" signature="sendingUpdatesIncorrectEmailWithAt()[pri:0, instance:tests.HomePageTests@77b52d12]" name="sendingUpdatesIncorrectEmailWithAt" duration-ms="9860" started-at="2017-04-25T14:58:36Z" finished-at="2017-04-25T14:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesIncorrectEmailWithAt -->
+        <test-method status="PASS" signature="sendingUpdatesToValidEmail()[pri:0, instance:tests.HomePageTests@77b52d12]" name="sendingUpdatesToValidEmail" duration-ms="10232" started-at="2017-04-25T14:58:46Z" finished-at="2017-04-25T14:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesToValidEmail -->
+        <test-method status="PASS" signature="typingValidEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@77b52d12]" name="typingValidEmailAndClickRequestDemo" duration-ms="5845" started-at="2017-04-25T14:58:56Z" finished-at="2017-04-25T14:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typingValidEmailAndClickRequestDemo -->
+        <test-method status="PASS" signature="videoOpening()[pri:0, instance:tests.HomePageTests@77b52d12]" name="videoOpening" duration-ms="5224" started-at="2017-04-25T14:59:02Z" finished-at="2017-04-25T14:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoOpening -->
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.LoginPageTests">
+        <test-method status="PASS" signature="correctLogin()[pri:0, instance:tests.LoginPageTests@47f6473]" name="correctLogin" duration-ms="12056" started-at="2017-04-25T15:04:45Z" finished-at="2017-04-25T15:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLogin -->
+        <test-method status="PASS" signature="forgotPasswordEmptyFields()[pri:0, instance:tests.LoginPageTests@47f6473]" name="forgotPasswordEmptyFields" duration-ms="11079" started-at="2017-04-25T15:04:57Z" finished-at="2017-04-25T15:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordEmptyFields -->
+        <test-method status="PASS" signature="forgotPasswordWrongEmail()[pri:0, instance:tests.LoginPageTests@47f6473]" name="forgotPasswordWrongEmail" duration-ms="11004" started-at="2017-04-25T15:05:08Z" finished-at="2017-04-25T15:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordWrongEmail -->
+        <test-method status="PASS" signature="loginCheckEmptyFields()[pri:0, instance:tests.LoginPageTests@47f6473]" name="loginCheckEmptyFields" duration-ms="10838" started-at="2017-04-25T15:05:19Z" finished-at="2017-04-25T15:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheckEmptyFields -->
+        <test-method status="PASS" signature="loginFormCheckingWrongEmail()[pri:0, instance:tests.LoginPageTests@47f6473]" name="loginFormCheckingWrongEmail" duration-ms="10855" started-at="2017-04-25T15:05:30Z" finished-at="2017-04-25T15:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFormCheckingWrongEmail -->
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <test-method status="PASS" signature="badEmailChecking()[pri:0, instance:tests.About.ContactUsPageTests@4157f54e]" name="badEmailChecking" duration-ms="16879" started-at="2017-04-25T15:02:45Z" finished-at="2017-04-25T15:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- badEmailChecking -->
+        <test-method status="FAIL" signature="emptyDataChecking()[pri:0, instance:tests.About.ContactUsPageTests@4157f54e]" name="emptyDataChecking" duration-ms="15823" started-at="2017-04-25T15:03:02Z" finished-at="2017-04-25T15:03:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <input type="submit" value="Contact us" class="wpcf7-form-control wpcf7-submit"> is not clickable at point (199, 537). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Contact us" class="wpcf7-form-control wpcf7-submit"> is not clickable at point (199, 537). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.About.Contact.sendingData(Contact.java:36)
+	at tests.About.ContactUsPageTests.emptyDataChecking(ContactUsPageTests.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyDataChecking -->
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.RequestDemoTests">
+        <test-method status="FAIL" signature="emailFieldValidations()[pri:0, instance:tests.RequestDemoTests@15975490]" name="emailFieldValidations" duration-ms="12156" started-at="2017-04-25T15:05:41Z" finished-at="2017-04-25T15:05:53Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Email must be formatted correctly.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Email must be formatted correctly.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at tests.RequestDemoTests.emailFieldValidations(RequestDemoTests.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFieldValidations -->
+        <test-method status="FAIL" signature="phoneNumberFieldValidations()[pri:0, instance:tests.RequestDemoTests@15975490]" name="phoneNumberFieldValidations" duration-ms="12357" started-at="2017-04-25T15:05:53Z" finished-at="2017-04-25T15:06:05Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Must contain only numbers, +()-. and x.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Must contain only numbers, +()-. and x.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at tests.RequestDemoTests.phoneNumberFieldValidations(RequestDemoTests.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneNumberFieldValidations -->
+        <test-method status="PASS" signature="requestDemoEmptyRequiredFieldsOpening()[pri:0, instance:tests.RequestDemoTests@15975490]" name="requestDemoEmptyRequiredFieldsOpening" duration-ms="12587" started-at="2017-04-25T15:06:05Z" finished-at="2017-04-25T15:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestDemoEmptyRequiredFieldsOpening -->
+        <test-method status="PASS" signature="sendingFormWithValidData()[pri:0, instance:tests.RequestDemoTests@15975490]" name="sendingFormWithValidData" duration-ms="13023" started-at="2017-04-25T15:06:18Z" finished-at="2017-04-25T15:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingFormWithValidData -->
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.BenefitsPageTests">
+        <test-method status="PASS" signature="openingPageAndClickOnRequestDemo()[pri:0, instance:tests.BenefitsPageTests@68837a77]" name="openingPageAndClickOnRequestDemo" duration-ms="13387" started-at="2017-04-25T15:00:25Z" finished-at="2017-04-25T15:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingPageAndClickOnRequestDemo -->
+        <test-method status="PASS" signature="scrollingDownAndVerifyingPresenceOfElements()[pri:0, instance:tests.BenefitsPageTests@68837a77]" name="scrollingDownAndVerifyingPresenceOfElements" duration-ms="36968" started-at="2017-04-25T15:00:39Z" finished-at="2017-04-25T15:01:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingDownAndVerifyingPresenceOfElements -->
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.About.TeamTests">
+        <test-method status="PASS" signature="checkingOfEmployeeQuote()[pri:0, instance:tests.About.TeamTests@3567135c]" name="checkingOfEmployeeQuote" duration-ms="11014" started-at="2017-04-25T15:01:57Z" finished-at="2017-04-25T15:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOfEmployeeQuote -->
+      </class> <!-- tests.About.TeamTests -->
+    </test> <!-- iphone7 checking -->
+    <test name="Desktop checking" duration-ms="702436" started-at="2017-04-25T12:06:31Z" finished-at="2017-04-25T12:18:14Z">
+      <class name="tests.About.CareersTests">
+        <test-method status="PASS" signature="checkElementsArePresent()[pri:0, instance:tests.About.CareersTests@3cbbc1e0]" name="checkElementsArePresent" duration-ms="14125" started-at="2017-04-25T15:12:36Z" finished-at="2017-04-25T15:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkElementsArePresent -->
+        <test-method status="PASS" signature="openingVacancyAndSendingEmptyForm()[pri:0, instance:tests.About.CareersTests@3cbbc1e0]" name="openingVacancyAndSendingEmptyForm" duration-ms="15942" started-at="2017-04-25T15:12:50Z" finished-at="2017-04-25T15:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingVacancyAndSendingEmptyForm -->
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.HomePageTests">
+        <test-method status="PASS" signature="bottomMenuVerifying()[pri:0, instance:tests.HomePageTests@36f6e879]" name="bottomMenuVerifying" duration-ms="15829" started-at="2017-04-25T15:14:13Z" finished-at="2017-04-25T15:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottomMenuVerifying -->
+        <test-method status="PASS" signature="bscrollingToResources()[pri:0, instance:tests.HomePageTests@36f6e879]" name="bscrollingToResources" duration-ms="3076" started-at="2017-04-25T15:14:28Z" finished-at="2017-04-25T15:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bscrollingToResources -->
+        <test-method status="PASS" signature="bscrollingToTransformTraffic()[pri:0, instance:tests.HomePageTests@36f6e879]" name="bscrollingToTransformTraffic" duration-ms="3118" started-at="2017-04-25T15:14:31Z" finished-at="2017-04-25T15:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bscrollingToTransformTraffic -->
+        <test-method status="PASS" signature="emptyEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@36f6e879]" name="emptyEmailAndClickRequestDemo" duration-ms="1878" started-at="2017-04-25T15:14:35Z" finished-at="2017-04-25T15:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailAndClickRequestDemo -->
+        <test-method status="FAIL" signature="getStartedFreeChecking()[pri:0, instance:tests.HomePageTests@36f6e879]" name="getStartedFreeChecking" duration-ms="14352" started-at="2017-04-25T15:14:36Z" finished-at="2017-04-25T15:14:51Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div/div[@class='cue-ro-title']"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+*** Element info: {Using=xpath, value=//div/div[@class='cue-ro-title']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div/div[@class='cue-ro-title']"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+*** Element info: {Using=xpath, value=//div/div[@class='cue-ro-title']}
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at pageobjects.HomePageObject.storeInformationPageTitle(HomePageObject.java:219)
+	at tests.HomePageTests.getStartedFreeChecking(HomePageTests.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedFreeChecking -->
+        <test-method status="PASS" signature="notEmailFormatAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@36f6e879]" name="notEmailFormatAndClickRequestDemo" duration-ms="2336" started-at="2017-04-25T15:14:51Z" finished-at="2017-04-25T15:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notEmailFormatAndClickRequestDemo -->
+        <test-method status="PASS" signature="scrollingToCueConnectBlog()[pri:0, instance:tests.HomePageTests@36f6e879]" name="scrollingToCueConnectBlog" duration-ms="3240" started-at="2017-04-25T15:14:53Z" finished-at="2017-04-25T15:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToCueConnectBlog -->
+        <test-method status="PASS" signature="scrollingToDriveEcommerce()[pri:0, instance:tests.HomePageTests@36f6e879]" name="scrollingToDriveEcommerce" duration-ms="3111" started-at="2017-04-25T15:14:57Z" finished-at="2017-04-25T15:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToDriveEcommerce -->
+        <test-method status="PASS" signature="scrollingToRetargetShoppers()[pri:0, instance:tests.HomePageTests@36f6e879]" name="scrollingToRetargetShoppers" duration-ms="3272" started-at="2017-04-25T15:15:00Z" finished-at="2017-04-25T15:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToRetargetShoppers -->
+        <test-method status="PASS" signature="sendingUpdatesEmptyEmail()[pri:0, instance:tests.HomePageTests@36f6e879]" name="sendingUpdatesEmptyEmail" duration-ms="7256" started-at="2017-04-25T15:15:03Z" finished-at="2017-04-25T15:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesEmptyEmail -->
+        <test-method status="PASS" signature="sendingUpdatesIncorrectEmail()[pri:0, instance:tests.HomePageTests@36f6e879]" name="sendingUpdatesIncorrectEmail" duration-ms="7197" started-at="2017-04-25T15:15:10Z" finished-at="2017-04-25T15:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesIncorrectEmail -->
+        <test-method status="PASS" signature="sendingUpdatesIncorrectEmailWithAt()[pri:0, instance:tests.HomePageTests@36f6e879]" name="sendingUpdatesIncorrectEmailWithAt" duration-ms="7193" started-at="2017-04-25T15:15:18Z" finished-at="2017-04-25T15:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesIncorrectEmailWithAt -->
+        <test-method status="PASS" signature="sendingUpdatesToValidEmail()[pri:0, instance:tests.HomePageTests@36f6e879]" name="sendingUpdatesToValidEmail" duration-ms="7818" started-at="2017-04-25T15:15:25Z" finished-at="2017-04-25T15:15:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingUpdatesToValidEmail -->
+        <test-method status="PASS" signature="typingValidEmailAndClickRequestDemo()[pri:0, instance:tests.HomePageTests@36f6e879]" name="typingValidEmailAndClickRequestDemo" duration-ms="3157" started-at="2017-04-25T15:15:33Z" finished-at="2017-04-25T15:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typingValidEmailAndClickRequestDemo -->
+        <test-method status="PASS" signature="videoOpening()[pri:0, instance:tests.HomePageTests@36f6e879]" name="videoOpening" duration-ms="3787" started-at="2017-04-25T15:15:36Z" finished-at="2017-04-25T15:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoOpening -->
+      </class> <!-- tests.HomePageTests -->
+      <class name="tests.LoginPageTests">
+        <test-method status="PASS" signature="correctLogin()[pri:0, instance:tests.LoginPageTests@531be3c5]" name="correctLogin" duration-ms="6291" started-at="2017-04-25T15:16:44Z" finished-at="2017-04-25T15:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLogin -->
+        <test-method status="PASS" signature="forgotPasswordEmptyFields()[pri:0, instance:tests.LoginPageTests@531be3c5]" name="forgotPasswordEmptyFields" duration-ms="3116" started-at="2017-04-25T15:16:51Z" finished-at="2017-04-25T15:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordEmptyFields -->
+        <test-method status="PASS" signature="forgotPasswordWrongEmail()[pri:0, instance:tests.LoginPageTests@531be3c5]" name="forgotPasswordWrongEmail" duration-ms="2909" started-at="2017-04-25T15:16:54Z" finished-at="2017-04-25T15:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordWrongEmail -->
+        <test-method status="PASS" signature="loginCheckEmptyFields()[pri:0, instance:tests.LoginPageTests@531be3c5]" name="loginCheckEmptyFields" duration-ms="2924" started-at="2017-04-25T15:16:57Z" finished-at="2017-04-25T15:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheckEmptyFields -->
+        <test-method status="PASS" signature="loginFormCheckingWrongEmail()[pri:0, instance:tests.LoginPageTests@531be3c5]" name="loginFormCheckingWrongEmail" duration-ms="2835" started-at="2017-04-25T15:17:00Z" finished-at="2017-04-25T15:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFormCheckingWrongEmail -->
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.SupportPageTests">
+        <test-method status="PASS" signature="asubmitRequestEmptyFieldsChecking()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="asubmitRequestEmptyFieldsChecking" duration-ms="11279" started-at="2017-04-25T15:17:02Z" finished-at="2017-04-25T15:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asubmitRequestEmptyFieldsChecking -->
+        <test-method status="PASS" signature="asubmitRequestEmptyWrongEmailWithoutAt()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="asubmitRequestEmptyWrongEmailWithoutAt" duration-ms="8588" started-at="2017-04-25T15:17:14Z" finished-at="2017-04-25T15:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asubmitRequestEmptyWrongEmailWithoutAt -->
+        <test-method status="PASS" signature="backToDashboardChecking()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="backToDashboardChecking" duration-ms="6886" started-at="2017-04-25T15:17:22Z" finished-at="2017-04-25T15:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToDashboardChecking -->
+        <test-method status="PASS" signature="breadCrumbsChecking()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="breadCrumbsChecking" duration-ms="5543" started-at="2017-04-25T15:17:29Z" finished-at="2017-04-25T15:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- breadCrumbsChecking -->
+        <test-method status="PASS" signature="openArticleFromCategory()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="openArticleFromCategory" duration-ms="4091" started-at="2017-04-25T15:17:35Z" finished-at="2017-04-25T15:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openArticleFromCategory -->
+        <test-method status="PASS" signature="openArticleFromSideBarMenu()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="openArticleFromSideBarMenu" duration-ms="6399" started-at="2017-04-25T15:17:39Z" finished-at="2017-04-25T15:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openArticleFromSideBarMenu -->
+        <test-method status="PASS" signature="openingArticleFromPopular()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="openingArticleFromPopular" duration-ms="4649" started-at="2017-04-25T15:17:45Z" finished-at="2017-04-25T15:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingArticleFromPopular -->
+        <test-method status="PASS" signature="searchWithTooLongValue()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="searchWithTooLongValue" duration-ms="4924" started-at="2017-04-25T15:17:50Z" finished-at="2017-04-25T15:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithTooLongValue -->
+        <test-method status="PASS" signature="searchWithValidValue()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="searchWithValidValue" duration-ms="4141" started-at="2017-04-25T15:17:55Z" finished-at="2017-04-25T15:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidValue -->
+        <test-method status="PASS" signature="singInChecking()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="singInChecking" duration-ms="6426" started-at="2017-04-25T15:17:59Z" finished-at="2017-04-25T15:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singInChecking -->
+        <test-method status="PASS" signature="submitRequestPageUploading()[pri:0, instance:tests.SupportPageTests@52af6cff]" name="submitRequestPageUploading" duration-ms="8296" started-at="2017-04-25T15:18:05Z" finished-at="2017-04-25T15:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitRequestPageUploading -->
+      </class> <!-- tests.SupportPageTests -->
+      <class name="tests.RequestDemoTests">
+        <test-method status="PASS" signature="emailFieldValidations()[pri:0, instance:tests.RequestDemoTests@3551a94]" name="emailFieldValidations" duration-ms="4740" started-at="2017-04-25T15:16:27Z" finished-at="2017-04-25T15:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFieldValidations -->
+        <test-method status="PASS" signature="phoneNumberFieldValidations()[pri:0, instance:tests.RequestDemoTests@3551a94]" name="phoneNumberFieldValidations" duration-ms="3903" started-at="2017-04-25T15:16:32Z" finished-at="2017-04-25T15:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneNumberFieldValidations -->
+        <test-method status="PASS" signature="requestDemoEmptyRequiredFieldsOpening()[pri:0, instance:tests.RequestDemoTests@3551a94]" name="requestDemoEmptyRequiredFieldsOpening" duration-ms="4237" started-at="2017-04-25T15:16:36Z" finished-at="2017-04-25T15:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestDemoEmptyRequiredFieldsOpening -->
+        <test-method status="PASS" signature="sendingFormWithValidData()[pri:0, instance:tests.RequestDemoTests@3551a94]" name="sendingFormWithValidData" duration-ms="4469" started-at="2017-04-25T15:16:40Z" finished-at="2017-04-25T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingFormWithValidData -->
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.Blog.BlogSinglePageTests">
+        <test-method status="PASS" signature="checkSocialNetworkButton()[pri:0, instance:tests.Blog.BlogSinglePageTests@6df97b55]" name="checkSocialNetworkButton" duration-ms="22761" started-at="2017-04-25T15:10:42Z" finished-at="2017-04-25T15:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSocialNetworkButton -->
+        <test-method status="PASS" signature="findMeOnChecking()[pri:0, instance:tests.Blog.BlogSinglePageTests@6df97b55]" name="findMeOnChecking" duration-ms="15221" started-at="2017-04-25T15:11:05Z" finished-at="2017-04-25T15:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMeOnChecking -->
+        <test-method status="PASS" signature="openingPostByClickOnTitle()[pri:0, instance:tests.Blog.BlogSinglePageTests@6df97b55]" name="openingPostByClickOnTitle" duration-ms="10720" started-at="2017-04-25T15:11:20Z" finished-at="2017-04-25T15:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingPostByClickOnTitle -->
+        <test-method status="PASS" signature="recentPostChecking()[pri:0, instance:tests.Blog.BlogSinglePageTests@6df97b55]" name="recentPostChecking" duration-ms="12758" started-at="2017-04-25T15:11:31Z" finished-at="2017-04-25T15:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recentPostChecking -->
+        <test-method status="FAIL" signature="socialSharingIconsChecking()[pri:0, instance:tests.Blog.BlogSinglePageTests@6df97b55]" name="socialSharingIconsChecking" duration-ms="15195" started-at="2017-04-25T15:11:43Z" finished-at="2017-04-25T15:11:59Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <div data-service="linkedin" title="Share link on LinkedIn" class="social-likes__widget social-likes__widget_linkedin social-likes__widget_notext" tabindex="0" role="button">...</div> is not clickable at point (1196, 548). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <div data-service="linkedin" title="Share link on LinkedIn" class="social-likes__widget social-likes__widget_linkedin social-likes__widget_notext" tabindex="0" role="button">...</div> is not clickable at point (1196, 548). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.Blog.BlogPage.socialNetworksClickOnIcon(BlogPage.java:149)
+	at tests.Blog.BlogSinglePageTests.socialSharingIconsChecking(BlogSinglePageTests.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- socialSharingIconsChecking -->
+        <test-method status="PASS" signature="subscribeToEmptyEmail()[pri:0, instance:tests.Blog.BlogSinglePageTests@6df97b55]" name="subscribeToEmptyEmail" duration-ms="9312" started-at="2017-04-25T15:11:59Z" finished-at="2017-04-25T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribeToEmptyEmail -->
+        <test-method status="PASS" signature="subscribeToValidEmail()[pri:0, instance:tests.Blog.BlogSinglePageTests@6df97b55]" name="subscribeToValidEmail" duration-ms="9591" started-at="2017-04-25T15:12:08Z" finished-at="2017-04-25T15:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribeToValidEmail -->
+        <test-method status="PASS" signature="subscribeToWrongEmailWithAt()[pri:0, instance:tests.Blog.BlogSinglePageTests@6df97b55]" name="subscribeToWrongEmailWithAt" duration-ms="9262" started-at="2017-04-25T15:12:18Z" finished-at="2017-04-25T15:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribeToWrongEmailWithAt -->
+        <test-method status="PASS" signature="subscribeToWrongEmailWithoutAt()[pri:0, instance:tests.Blog.BlogSinglePageTests@6df97b55]" name="subscribeToWrongEmailWithoutAt" duration-ms="9052" started-at="2017-04-25T15:12:27Z" finished-at="2017-04-25T15:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribeToWrongEmailWithoutAt -->
+      </class> <!-- tests.Blog.BlogSinglePageTests -->
+      <class name="tests.About.TeamTests">
+        <test-method status="PASS" signature="checkingOfEmployeeQuote()[pri:0, instance:tests.About.TeamTests@54a097cc]" name="checkingOfEmployeeQuote" duration-ms="8200" started-at="2017-04-25T15:14:04Z" finished-at="2017-04-25T15:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOfEmployeeQuote -->
+      </class> <!-- tests.About.TeamTests -->
+      <class name="tests.Blog.BlogMainPageTests">
+        <test-method status="PASS" signature="clickingOnAuthorChecking()[pri:0, instance:tests.Blog.BlogMainPageTests@366e2eef]" name="clickingOnAuthorChecking" duration-ms="16464" started-at="2017-04-25T15:09:52Z" finished-at="2017-04-25T15:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnAuthorChecking -->
+        <test-method status="PASS" signature="clickingOnTagChecking()[pri:0, instance:tests.Blog.BlogMainPageTests@366e2eef]" name="clickingOnTagChecking" duration-ms="10099" started-at="2017-04-25T15:10:08Z" finished-at="2017-04-25T15:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnTagChecking -->
+        <test-method status="PASS" signature="goingToCommentsSectionByClickOnClickHereLink()[pri:0, instance:tests.Blog.BlogMainPageTests@366e2eef]" name="goingToCommentsSectionByClickOnClickHereLink" duration-ms="12969" started-at="2017-04-25T15:10:18Z" finished-at="2017-04-25T15:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goingToCommentsSectionByClickOnClickHereLink -->
+        <test-method status="PASS" signature="openingPostByClickOnReadThisPostBtn()[pri:0, instance:tests.Blog.BlogMainPageTests@366e2eef]" name="openingPostByClickOnReadThisPostBtn" duration-ms="10460" started-at="2017-04-25T15:10:31Z" finished-at="2017-04-25T15:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingPostByClickOnReadThisPostBtn -->
+      </class> <!-- tests.Blog.BlogMainPageTests -->
+      <class name="tests.About.OurStory">
+        <test-method status="FAIL" signature="checkingOurStoryPageAppears()[pri:0, instance:tests.About.OurStory@7225790e]" name="checkingOurStoryPageAppears" duration-ms="1934" started-at="2017-04-25T15:13:34Z" finished-at="2017-04-25T15:13:36Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <span class="item-title">...</span> is not clickable at point (213, 179). Other element would receive the click: <a href="https://cueconnect.com/about/">...</a>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 82 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span class="item-title">...</span> is not clickable at point (213, 179). Other element would receive the click: <a href="https://cueconnect.com/about/">...</a>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 82 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageobjects.BaseObjectPage.movingToMenuElement(BaseObjectPage.java:125)
+	at tests.About.OurStory.checkingOurStoryPageAppears(OurStory.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOurStoryPageAppears -->
+        <test-method status="PASS" signature="checkingOurStoryThatElementsArePresent()[pri:0, instance:tests.About.OurStory@7225790e]" name="checkingOurStoryThatElementsArePresent" duration-ms="28452" started-at="2017-04-25T15:13:36Z" finished-at="2017-04-25T15:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOurStoryThatElementsArePresent -->
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.FeaturesPageTests">
+        <test-method status="PASS" signature="openingFeaturesPageAndClickOnRequestDemo()[pri:0, instance:tests.FeaturesPageTests@5a61f5df]" name="openingFeaturesPageAndClickOnRequestDemo" duration-ms="4683" started-at="2017-04-25T15:15:39Z" finished-at="2017-04-25T15:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingFeaturesPageAndClickOnRequestDemo -->
+        <test-method status="PASS" signature="openingSecondRequestDemoButton()[pri:0, instance:tests.FeaturesPageTests@5a61f5df]" name="openingSecondRequestDemoButton" duration-ms="9393" started-at="2017-04-25T15:15:44Z" finished-at="2017-04-25T15:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingSecondRequestDemoButton -->
+        <test-method status="PASS" signature="openingThirdRequestDemoButton()[pri:0, instance:tests.FeaturesPageTests@5a61f5df]" name="openingThirdRequestDemoButton" duration-ms="9663" started-at="2017-04-25T15:15:54Z" finished-at="2017-04-25T15:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingThirdRequestDemoButton -->
+        <test-method status="PASS" signature="scrollingToEachSection()[pri:0, instance:tests.FeaturesPageTests@5a61f5df]" name="scrollingToEachSection" duration-ms="23802" started-at="2017-04-25T15:16:03Z" finished-at="2017-04-25T15:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToEachSection -->
+      </class> <!-- tests.FeaturesPageTests -->
+      <class name="tests.Blog.ResourcesPageTests">
+        <test-method status="PASS" signature="aemptyDataFormChecking()[pri:0, instance:tests.Blog.ResourcesPageTests@34b7bfc0]" name="aemptyDataFormChecking" duration-ms="18304" started-at="2017-04-25T15:07:05Z" finished-at="2017-04-25T15:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aemptyDataFormChecking -->
+        <test-method status="PASS" signature="avalidDataFormChecking()[pri:0, instance:tests.Blog.ResourcesPageTests@34b7bfc0]" name="avalidDataFormChecking" duration-ms="17422" started-at="2017-04-25T15:07:23Z" finished-at="2017-04-25T15:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avalidDataFormChecking -->
+        <test-method status="PASS" signature="downloadTemplateAndSubscribeForUpdates()[pri:0, instance:tests.Blog.ResourcesPageTests@34b7bfc0]" name="downloadTemplateAndSubscribeForUpdates" duration-ms="18565" started-at="2017-04-25T15:07:40Z" finished-at="2017-04-25T15:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadTemplateAndSubscribeForUpdates -->
+        <test-method status="FAIL" signature="downloadTemplateAndSubscribeForUpdatesEmailWithAt()[pri:0, instance:tests.Blog.ResourcesPageTests@34b7bfc0]" name="downloadTemplateAndSubscribeForUpdatesEmailWithAt" duration-ms="21838" started-at="2017-04-25T15:07:59Z" finished-at="2017-04-25T15:08:21Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_email field hs-form-field']//ul/li/label"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+*** Element info: {Using=xpath, value=//div[@class='hs_email field hs-form-field']//ul/li/label}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_email field hs-form-field']//ul/li/label"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+*** Element info: {Using=xpath, value=//div[@class='hs_email field hs-form-field']//ul/li/label}
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at pageobjects.Blog.ResourcesPage.getValidationMessage(ResourcesPage.java:80)
+	at tests.Blog.ResourcesPageTests.downloadTemplateAndSubscribeForUpdatesEmailWithAt(ResourcesPageTests.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadTemplateAndSubscribeForUpdatesEmailWithAt -->
+        <test-method status="FAIL" signature="downloadTemplateAndSubscribeForUpdatesEmailWithoutAt()[pri:0, instance:tests.Blog.ResourcesPageTests@34b7bfc0]" name="downloadTemplateAndSubscribeForUpdatesEmailWithoutAt" duration-ms="21728" started-at="2017-04-25T15:08:21Z" finished-at="2017-04-25T15:08:43Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_email field hs-form-field']//ul/li/label"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+*** Element info: {Using=xpath, value=//div[@class='hs_email field hs-form-field']//ul/li/label}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_email field hs-form-field']//ul/li/label"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+*** Element info: {Using=xpath, value=//div[@class='hs_email field hs-form-field']//ul/li/label}
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at pageobjects.Blog.ResourcesPage.getValidationMessage(ResourcesPage.java:80)
+	at tests.Blog.ResourcesPageTests.downloadTemplateAndSubscribeForUpdatesEmailWithoutAt(ResourcesPageTests.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadTemplateAndSubscribeForUpdatesEmailWithoutAt -->
+        <test-method status="FAIL" signature="downloadTemplateAndSubscribeForUpdatesEmptyEmail()[pri:0, instance:tests.Blog.ResourcesPageTests@34b7bfc0]" name="downloadTemplateAndSubscribeForUpdatesEmptyEmail" duration-ms="23733" started-at="2017-04-25T15:08:43Z" finished-at="2017-04-25T15:09:06Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_email field hs-form-field']//ul/li/label"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+*** Element info: {Using=xpath, value=//div[@class='hs_email field hs-form-field']//ul/li/label}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_email field hs-form-field']//ul/li/label"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19cf801db539763cd038823b8c0511ec
+*** Element info: {Using=xpath, value=//div[@class='hs_email field hs-form-field']//ul/li/label}
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at pageobjects.Blog.ResourcesPage.getValidationMessage(ResourcesPage.java:80)
+	at tests.Blog.ResourcesPageTests.downloadTemplateAndSubscribeForUpdatesEmptyEmail(ResourcesPageTests.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadTemplateAndSubscribeForUpdatesEmptyEmail -->
+        <test-method status="PASS" signature="templateOpeningChecking()[pri:0, instance:tests.Blog.ResourcesPageTests@34b7bfc0]" name="templateOpeningChecking" duration-ms="14392" started-at="2017-04-25T15:09:06Z" finished-at="2017-04-25T15:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- templateOpeningChecking -->
+        <test-method status="PASS" signature="wrongEmailWithAtDataFormChecking()[pri:0, instance:tests.Blog.ResourcesPageTests@34b7bfc0]" name="wrongEmailWithAtDataFormChecking" duration-ms="15717" started-at="2017-04-25T15:09:21Z" finished-at="2017-04-25T15:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongEmailWithAtDataFormChecking -->
+        <test-method status="PASS" signature="wrongEmailWithoutAtDataFormChecking()[pri:0, instance:tests.Blog.ResourcesPageTests@34b7bfc0]" name="wrongEmailWithoutAtDataFormChecking" duration-ms="15461" started-at="2017-04-25T15:09:36Z" finished-at="2017-04-25T15:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongEmailWithoutAtDataFormChecking -->
+      </class> <!-- tests.Blog.ResourcesPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <test-method status="PASS" signature="badEmailChecking()[pri:0, instance:tests.About.ContactUsPageTests@35fb3008]" name="badEmailChecking" duration-ms="14161" started-at="2017-04-25T15:13:06Z" finished-at="2017-04-25T15:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- badEmailChecking -->
+        <test-method status="PASS" signature="emptyDataChecking()[pri:0, instance:tests.About.ContactUsPageTests@35fb3008]" name="emptyDataChecking" duration-ms="13723" started-at="2017-04-25T15:13:20Z" finished-at="2017-04-25T15:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyDataChecking -->
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.BenefitsPageTests">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.BenefitsPageTests@67b6d4ae]" name="beforeClass" is-config="true" duration-ms="148" started-at="2017-04-25T15:06:31Z" finished-at="2017-04-25T15:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openingPageAndClickOnRequestDemo()[pri:0, instance:tests.BenefitsPageTests@67b6d4ae]" name="openingPageAndClickOnRequestDemo" duration-ms="4584" started-at="2017-04-25T15:06:31Z" finished-at="2017-04-25T15:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingPageAndClickOnRequestDemo -->
+        <test-method status="PASS" signature="scrollingDownAndVerifyingPresenceOfElements()[pri:0, instance:tests.BenefitsPageTests@67b6d4ae]" name="scrollingDownAndVerifyingPresenceOfElements" duration-ms="28777" started-at="2017-04-25T15:06:36Z" finished-at="2017-04-25T15:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingDownAndVerifyingPresenceOfElements -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.BenefitsPageTests@67b6d4ae]" name="tearDown" is-config="true" duration-ms="157" started-at="2017-04-25T15:18:14Z" finished-at="2017-04-25T15:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BenefitsPageTests -->
+    </test> <!-- Desktop checking -->
+  </suite> <!-- All tests -->
+</testng-results>

@@ -22,7 +22,7 @@ public class RequestDemoPage extends BaseObjectPage {
         //WebElement field = getDriver().findElement(By.id(fieldName));
         scrollDown();
         WebElement field = getDriver().findElement(By.xpath("//input[@name='"+fieldName+"']"));
-        fluentWaitforElement(field, 10, 4);
+        fluentWaitforElement(field, 40, 4);
         field.clear();
         field.sendKeys(fieldValue);
         Select platform = new Select(getDriver().findElement(By.xpath("//select[@name='ecomm_platform__c']")));
@@ -35,7 +35,7 @@ public class RequestDemoPage extends BaseObjectPage {
 
     public void sendingData()  {
         WebElement sendButton = getDriver().findElement(By.xpath("//input[@type='submit']"));
-        fluentWaitforElement(sendButton, 10, 5);
+        fluentWaitforElement(sendButton, 40, 4);
         sendButton.click();
         waitFor(3);
     }
@@ -43,7 +43,7 @@ public class RequestDemoPage extends BaseObjectPage {
     public String getValidMessageAfterSendingForm()  {
         waitFor(4);
         WebElement messageAfterSending = getDriver().findElement(By.xpath("//div[@class='hbspt-form']/div[@class='submitted-message']"));
-        fluentWaitforElement(messageAfterSending, 10, 5);
+        fluentWaitforElement(messageAfterSending, 40, 4);
         return messageAfterSending.getText();
 
     }

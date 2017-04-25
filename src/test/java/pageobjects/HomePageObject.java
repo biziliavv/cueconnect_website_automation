@@ -44,6 +44,9 @@ public class HomePageObject extends BaseObjectPage {
         else {
             waitFor(2);
             hamburgerMenuClicking();
+            waitFor(4);
+            hideOnlineChat();
+            waitFor(4);
             WebElement requestDemoTab = getDriver().findElement(By.xpath("//li[@class='is-btn menu-item menu-item-type-post_type menu-item-object-page']/a[text()='REQUEST A DEMO']"));
             fluentWaitforElement(requestDemoTab, 30, 4);
             requestDemoTab.click();
@@ -54,6 +57,8 @@ public class HomePageObject extends BaseObjectPage {
     }
     public BlogPage goToBlogPage()  {
         waitFor(3);
+        hideOnlineChat();
+        waitFor(4);
         movingToMenuElement("Blog", "Blog", "Blog");
         waitFor(3);
 
@@ -93,6 +98,8 @@ public class HomePageObject extends BaseObjectPage {
         else {
             waitFor(3);
             hamburgerMenuClicking();
+            waitFor(3);
+            hideOnlineChat();
             waitFor(4);
             WebElement benefitsTab = getDriver().findElement(By.xpath("//li[@class='menu-item menu-item-type-post_type menu-item-object-page']/a[text()='BENEFITS']"));
             fluentWaitforElement(benefitsTab, 30, 4);
@@ -106,17 +113,22 @@ public class HomePageObject extends BaseObjectPage {
 
     public Careers goToCareers()  {
         waitFor(3);
-
+        hideOnlineChat();
+        waitFor(4);
         movingToMenuElement("About", "Careers", "Careers");
         return new Careers();
     }
 
     public Contact goToContact()  {
         waitFor(3);
+        hideOnlineChat();
+        waitFor(4);
         movingToMenuElement("About", "Contact Us", "Contact");
         return new Contact();
     }
     public ResourcesPage goToResources()  {
+        waitFor(5);
+        hideOnlineChat();
         waitFor(4);
         movingToMenuElement("Blog", "Resources", "Resources");
         return new ResourcesPage();
@@ -137,6 +149,8 @@ public class HomePageObject extends BaseObjectPage {
 
             getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             hamburgerMenuClicking();
+            waitFor(4);
+            hideOnlineChat();
             waitFor(4);
             WebElement benefitsTab = getDriver().findElement(By.xpath("//ul[@class='mobile-header-menu']//li/a[text()='LOG IN']"));
             fluentWaitforElement(benefitsTab, 30, 4);

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All tests]">
+  <test name="nexus6 checking(failed)">
+    <parameter name="myDevice" value="nexus6"/>
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="phoneNumberFieldValidations"/>
+          <include name="emailFieldValidations"/>
+          <include name="requestDemoEmptyRequiredFieldsOpening"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="badEmailChecking"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+    </classes>
+  </test> <!-- nexus6 checking(failed) -->
+  <test name="iphone7 checking(failed)">
+    <parameter name="myDevice" value="iphone7"/>
+    <classes>
+      <class name="tests.RequestDemoTests">
+        <methods>
+          <include name="phoneNumberFieldValidations"/>
+          <include name="emailFieldValidations"/>
+        </methods>
+      </class> <!-- tests.RequestDemoTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="emptyDataChecking"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="bottomMenuVerifying"/>
+          <include name="getStartedFreeChecking"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+    </classes>
+  </test> <!-- iphone7 checking(failed) -->
+  <test name="Desktop checking(failed)">
+    <parameter name="myDevice" value="desktop"/>
+    <classes>
+      <class name="tests.About.OurStory">
+        <methods>
+          <include name="checkingOurStoryPageAppears"/>
+        </methods>
+      </class> <!-- tests.About.OurStory -->
+      <class name="tests.Blog.ResourcesPageTests">
+        <methods>
+          <include name="downloadTemplateAndSubscribeForUpdatesEmailWithoutAt"/>
+          <include name="downloadTemplateAndSubscribeForUpdatesEmailWithAt"/>
+          <include name="downloadTemplateAndSubscribeForUpdatesEmptyEmail"/>
+        </methods>
+      </class> <!-- tests.Blog.ResourcesPageTests -->
+      <class name="tests.BenefitsPageTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.Blog.BlogSinglePageTests">
+        <methods>
+          <include name="socialSharingIconsChecking"/>
+        </methods>
+      </class> <!-- tests.Blog.BlogSinglePageTests -->
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="getStartedFreeChecking"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+    </classes>
+  </test> <!-- Desktop checking(failed) -->
+</suite> <!-- Failed suite [All tests] -->
