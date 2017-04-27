@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2,288.803" tests="152" errors="0" skipped="0" failures="15">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2,100.684" tests="152" errors="0" skipped="0" failures="23">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
@@ -61,50 +61,34 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="bottomMenuVerifying" classname="tests.HomePageTests" time="25.284"/>
-  <testcase name="bottomMenuVerifying" classname="tests.HomePageTests" time="9.334">
-    <failure message="unknown error: Element &lt;a class=&quot;cue-main-footer-link white&quot; href=&quot;https://cueconnect.com/resources/&quot;&gt;...&lt;/a&gt; is not clickable at point (202, 537). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 67 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+  <testcase name="bottomMenuVerifying" classname="tests.HomePageTests" time="20.054"/>
+  <testcase name="bottomMenuVerifying" classname="tests.HomePageTests" time="4.278">
+    <failure message="unknown error: Element &lt;a class=&quot;cue-main-footer-link white&quot; href=&quot;https://cueconnect.com/resources/&quot;&gt;...&lt;/a&gt; is not clickable at point (202, 537). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 82 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
 unknown error: Element <a class="cue-main-footer-link white" href="https://cueconnect.com/resources/">...</a> is not clickable at point (202, 537). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 67 milliseconds
+Command duration or timeout: 82 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
 	at tests.HomePageTests.bottomMenuVerifying(HomePageTests.java:184)
 ]]></failure>
   </testcase>
-  <testcase name="bottomMenuVerifying" classname="tests.HomePageTests" time="15.83"/>
-  <testcase name="bscrollingToResources" classname="tests.HomePageTests" time="3.13"/>
-  <testcase name="bscrollingToResources" classname="tests.HomePageTests" time="5.858"/>
-  <testcase name="bscrollingToResources" classname="tests.HomePageTests" time="3.075"/>
-  <testcase name="bscrollingToTransformTraffic" classname="tests.HomePageTests" time="3.046"/>
-  <testcase name="bscrollingToTransformTraffic" classname="tests.HomePageTests" time="5.753"/>
-  <testcase name="bscrollingToTransformTraffic" classname="tests.HomePageTests" time="3.119"/>
-  <testcase name="emptyEmailAndClickRequestDemo" classname="tests.HomePageTests" time="1.897"/>
-  <testcase name="emptyEmailAndClickRequestDemo" classname="tests.HomePageTests" time="4.473"/>
-  <testcase name="emptyEmailAndClickRequestDemo" classname="tests.HomePageTests" time="1.878"/>
-  <testcase name="getStartedFreeChecking" classname="tests.HomePageTests" time="25.759"/>
-  <testcase name="getStartedFreeChecking" classname="tests.HomePageTests" time="16.642">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/div[@class=&apos;cue-ro-title&apos;]&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.06 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec&#10;*** Element info: {Using=xpath, value=//div/div[@class=&apos;cue-ro-title&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div/div[@class='cue-ro-title']"}
-  (Session info: chrome=57.0.2987.98)
-  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
-*** Element info: {Using=xpath, value=//div/div[@class='cue-ro-title']}
-	at tests.HomePageTests.getStartedFreeChecking(HomePageTests.java:202)
-</failure>
-  </testcase>
-  <testcase name="getStartedFreeChecking" classname="tests.HomePageTests" time="14.697">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/div[@class=&apos;cue-ro-title&apos;]&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.03 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec&#10;*** Element info: {Using=xpath, value=//div/div[@class=&apos;cue-ro-title&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="bottomMenuVerifying" classname="tests.HomePageTests" time="17.21"/>
+  <testcase name="bscrollingToResources" classname="tests.HomePageTests" time="3.086"/>
+  <testcase name="bscrollingToResources" classname="tests.HomePageTests" time="3.116"/>
+  <testcase name="bscrollingToResources" classname="tests.HomePageTests" time="3.286"/>
+  <testcase name="bscrollingToTransformTraffic" classname="tests.HomePageTests" time="3.115"/>
+  <testcase name="bscrollingToTransformTraffic" classname="tests.HomePageTests" time="3.101"/>
+  <testcase name="bscrollingToTransformTraffic" classname="tests.HomePageTests" time="3.185"/>
+  <testcase name="emptyEmailAndClickRequestDemo" classname="tests.HomePageTests" time="1.854"/>
+  <testcase name="emptyEmailAndClickRequestDemo" classname="tests.HomePageTests" time="1.934"/>
+  <testcase name="emptyEmailAndClickRequestDemo" classname="tests.HomePageTests" time="1.891"/>
+  <testcase name="getStartedFreeChecking" classname="tests.HomePageTests" time="25.341"/>
+  <testcase name="getStartedFreeChecking" classname="tests.HomePageTests" time="14.102">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/div[@class=&apos;cue-ro-title&apos;]&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.03 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847&#10;*** Element info: {Using=xpath, value=//div/div[@class=&apos;cue-ro-title&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div/div[@class='cue-ro-title']"}
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -113,304 +97,446 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
 *** Element info: {Using=xpath, value=//div/div[@class='cue-ro-title']}
 	at tests.HomePageTests.getStartedFreeChecking(HomePageTests.java:202)
 </failure>
   </testcase>
-  <testcase name="notEmailFormatAndClickRequestDemo" classname="tests.HomePageTests" time="2.316"/>
-  <testcase name="notEmailFormatAndClickRequestDemo" classname="tests.HomePageTests" time="4.789"/>
-  <testcase name="notEmailFormatAndClickRequestDemo" classname="tests.HomePageTests" time="2.335"/>
-  <testcase name="scrollingToCueConnectBlog" classname="tests.HomePageTests" time="3.9"/>
-  <testcase name="scrollingToCueConnectBlog" classname="tests.HomePageTests" time="6.431"/>
-  <testcase name="scrollingToCueConnectBlog" classname="tests.HomePageTests" time="3.241"/>
-  <testcase name="scrollingToDriveEcommerce" classname="tests.HomePageTests" time="3.152"/>
-  <testcase name="scrollingToDriveEcommerce" classname="tests.HomePageTests" time="5.782"/>
-  <testcase name="scrollingToDriveEcommerce" classname="tests.HomePageTests" time="3.112"/>
-  <testcase name="scrollingToRetargetShoppers" classname="tests.HomePageTests" time="3.118"/>
-  <testcase name="scrollingToRetargetShoppers" classname="tests.HomePageTests" time="5.855"/>
-  <testcase name="scrollingToRetargetShoppers" classname="tests.HomePageTests" time="3.271"/>
-  <testcase name="sendingUpdatesEmptyEmail" classname="tests.HomePageTests" time="22.311"/>
-  <testcase name="sendingUpdatesEmptyEmail" classname="tests.HomePageTests" time="9.884"/>
-  <testcase name="sendingUpdatesEmptyEmail" classname="tests.HomePageTests" time="7.256"/>
-  <testcase name="sendingUpdatesIncorrectEmail" classname="tests.HomePageTests" time="22.757"/>
-  <testcase name="sendingUpdatesIncorrectEmail" classname="tests.HomePageTests" time="9.858"/>
-  <testcase name="sendingUpdatesIncorrectEmail" classname="tests.HomePageTests" time="7.197"/>
-  <testcase name="sendingUpdatesIncorrectEmailWithAt" classname="tests.HomePageTests" time="25.105"/>
-  <testcase name="sendingUpdatesIncorrectEmailWithAt" classname="tests.HomePageTests" time="9.86"/>
-  <testcase name="sendingUpdatesIncorrectEmailWithAt" classname="tests.HomePageTests" time="7.192"/>
-  <testcase name="sendingUpdatesToValidEmail" classname="tests.HomePageTests" time="25.889"/>
-  <testcase name="sendingUpdatesToValidEmail" classname="tests.HomePageTests" time="10.232"/>
-  <testcase name="sendingUpdatesToValidEmail" classname="tests.HomePageTests" time="7.819"/>
-  <testcase name="typingValidEmailAndClickRequestDemo" classname="tests.HomePageTests" time="6.866"/>
-  <testcase name="typingValidEmailAndClickRequestDemo" classname="tests.HomePageTests" time="5.845"/>
-  <testcase name="typingValidEmailAndClickRequestDemo" classname="tests.HomePageTests" time="3.157"/>
-  <testcase name="videoOpening" classname="tests.HomePageTests" time="6.273"/>
-  <testcase name="videoOpening" classname="tests.HomePageTests" time="5.224"/>
-  <testcase name="videoOpening" classname="tests.HomePageTests" time="3.786"/>
-  <testcase name="openingFeaturesPageAndClickOnRequestDemo" classname="tests.FeaturesPageTests" time="12"/>
-  <testcase name="openingFeaturesPageAndClickOnRequestDemo" classname="tests.FeaturesPageTests" time="11.442"/>
-  <testcase name="openingFeaturesPageAndClickOnRequestDemo" classname="tests.FeaturesPageTests" time="4.683"/>
-  <testcase name="openingSecondRequestDemoButton" classname="tests.FeaturesPageTests" time="32.43"/>
-  <testcase name="openingSecondRequestDemoButton" classname="tests.FeaturesPageTests" time="16.806"/>
-  <testcase name="openingSecondRequestDemoButton" classname="tests.FeaturesPageTests" time="9.393"/>
-  <testcase name="openingThirdRequestDemoButton" classname="tests.FeaturesPageTests" time="28.6"/>
-  <testcase name="openingThirdRequestDemoButton" classname="tests.FeaturesPageTests" time="17.597"/>
-  <testcase name="openingThirdRequestDemoButton" classname="tests.FeaturesPageTests" time="9.663"/>
-  <testcase name="scrollingToEachSection" classname="tests.FeaturesPageTests" time="90.859"/>
-  <testcase name="scrollingToEachSection" classname="tests.FeaturesPageTests" time="32.042"/>
-  <testcase name="scrollingToEachSection" classname="tests.FeaturesPageTests" time="23.801"/>
-  <testcase name="openingPageAndClickOnRequestDemo" classname="tests.BenefitsPageTests" time="28.745"/>
-  <testcase name="openingPageAndClickOnRequestDemo" classname="tests.BenefitsPageTests" time="13.387"/>
-  <testcase name="openingPageAndClickOnRequestDemo" classname="tests.BenefitsPageTests" time="4.582"/>
-  <testcase name="scrollingDownAndVerifyingPresenceOfElements" classname="tests.BenefitsPageTests" time="127.858"/>
-  <testcase name="scrollingDownAndVerifyingPresenceOfElements" classname="tests.BenefitsPageTests" time="36.969"/>
-  <testcase name="scrollingDownAndVerifyingPresenceOfElements" classname="tests.BenefitsPageTests" time="28.777"/>
-  <testcase name="checkingOurStoryPageAppears" classname="tests.About.OurStory" time="11.53"/>
-  <testcase name="checkingOurStoryPageAppears" classname="tests.About.OurStory" time="10.617"/>
-  <testcase name="checkingOurStoryPageAppears" classname="tests.About.OurStory" time="1.935">
-    <failure message="unknown error: Element &lt;span class=&quot;item-title&quot;&gt;...&lt;/span&gt; is not clickable at point (213, 179). Other element would receive the click: &lt;a href=&quot;https://cueconnect.com/about/&quot;&gt;...&lt;/a&gt;&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 82 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: Element <span class="item-title">...</span> is not clickable at point (213, 179). Other element would receive the click: <a href="https://cueconnect.com/about/">...</a>
+  <testcase name="getStartedFreeChecking" classname="tests.HomePageTests" time="14.357">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/div[@class=&apos;cue-ro-title&apos;]&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.06 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847&#10;*** Element info: {Using=xpath, value=//div/div[@class=&apos;cue-ro-title&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div/div[@class='cue-ro-title']"}
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 82 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
-	at tests.About.OurStory.checkingOurStoryPageAppears(OurStory.java:24)
-]]></failure>
-  </testcase>
-  <testcase name="checkingOurStoryThatElementsArePresent" classname="tests.About.OurStory" time="91.931"/>
-  <testcase name="checkingOurStoryThatElementsArePresent" classname="tests.About.OurStory" time="30.984"/>
-  <testcase name="checkingOurStoryThatElementsArePresent" classname="tests.About.OurStory" time="28.452"/>
-  <testcase name="checkingOfEmployeeQuote" classname="tests.About.TeamTests" time="11.11"/>
-  <testcase name="checkingOfEmployeeQuote" classname="tests.About.TeamTests" time="11.014"/>
-  <testcase name="checkingOfEmployeeQuote" classname="tests.About.TeamTests" time="8.199"/>
-  <testcase name="checkElementsArePresent" classname="tests.About.CareersTests" time="33.954"/>
-  <testcase name="checkElementsArePresent" classname="tests.About.CareersTests" time="17.199"/>
-  <testcase name="checkElementsArePresent" classname="tests.About.CareersTests" time="14.125"/>
-  <testcase name="openingVacancyAndSendingEmptyForm" classname="tests.About.CareersTests" time="34.817"/>
-  <testcase name="openingVacancyAndSendingEmptyForm" classname="tests.About.CareersTests" time="19.685"/>
-  <testcase name="openingVacancyAndSendingEmptyForm" classname="tests.About.CareersTests" time="15.942"/>
-  <testcase name="badEmailChecking" classname="tests.About.ContactUsPageTests" time="31.645">
-    <failure message="unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Contact us&quot; class=&quot;wpcf7-form-control wpcf7-submit&quot;&gt; is not clickable at point (205, 557). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 73 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: Element <input type="submit" value="Contact us" class="wpcf7-form-control wpcf7-submit"> is not clickable at point (205, 557). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
-  (Session info: chrome=57.0.2987.98)
-  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 73 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
-	at tests.About.ContactUsPageTests.badEmailChecking(ContactUsPageTests.java:57)
-]]></failure>
-    <system-out><![CDATA[No such element
-]]></system-out>
-  </testcase>
-  <testcase name="badEmailChecking" classname="tests.About.ContactUsPageTests" time="16.879"/>
-  <testcase name="badEmailChecking" classname="tests.About.ContactUsPageTests" time="14.161"/>
-  <testcase name="emptyDataChecking" classname="tests.About.ContactUsPageTests" time="32.151"/>
-  <testcase name="emptyDataChecking" classname="tests.About.ContactUsPageTests" time="16.135">
-    <failure message="unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Contact us&quot; class=&quot;wpcf7-form-control wpcf7-submit&quot;&gt; is not clickable at point (199, 537). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 66 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: Element <input type="submit" value="Contact us" class="wpcf7-form-control wpcf7-submit"> is not clickable at point (199, 537). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
-  (Session info: chrome=57.0.2987.98)
-  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 66 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
-	at tests.About.ContactUsPageTests.emptyDataChecking(ContactUsPageTests.java:40)
-]]></failure>
-    <system-out><![CDATA[No such element
-]]></system-out>
-  </testcase>
-  <testcase name="emptyDataChecking" classname="tests.About.ContactUsPageTests" time="13.723"/>
-  <testcase name="clickingOnAuthorChecking" classname="tests.Blog.BlogMainPageTests" time="55.057"/>
-  <testcase name="clickingOnAuthorChecking" classname="tests.Blog.BlogMainPageTests" time="24.147"/>
-  <testcase name="clickingOnAuthorChecking" classname="tests.Blog.BlogMainPageTests" time="16.464"/>
-  <testcase name="clickingOnTagChecking" classname="tests.Blog.BlogMainPageTests" time="32.264"/>
-  <testcase name="clickingOnTagChecking" classname="tests.Blog.BlogMainPageTests" time="17.512"/>
-  <testcase name="clickingOnTagChecking" classname="tests.Blog.BlogMainPageTests" time="10.099"/>
-  <testcase name="goingToCommentsSectionByClickOnClickHereLink" classname="tests.Blog.BlogMainPageTests" time="43.984"/>
-  <testcase name="goingToCommentsSectionByClickOnClickHereLink" classname="tests.Blog.BlogMainPageTests" time="30.212"/>
-  <testcase name="goingToCommentsSectionByClickOnClickHereLink" classname="tests.Blog.BlogMainPageTests" time="12.969"/>
-  <testcase name="openingPostByClickOnReadThisPostBtn" classname="tests.Blog.BlogMainPageTests" time="32.57"/>
-  <testcase name="openingPostByClickOnReadThisPostBtn" classname="tests.Blog.BlogMainPageTests" time="14.759"/>
-  <testcase name="openingPostByClickOnReadThisPostBtn" classname="tests.Blog.BlogMainPageTests" time="10.461"/>
-  <testcase name="correctLogin" classname="tests.LoginPageTests" time="15.425"/>
-  <testcase name="correctLogin" classname="tests.LoginPageTests" time="12.057"/>
-  <testcase name="correctLogin" classname="tests.LoginPageTests" time="6.291"/>
-  <testcase name="forgotPasswordEmptyFields" classname="tests.LoginPageTests" time="11.628"/>
-  <testcase name="forgotPasswordEmptyFields" classname="tests.LoginPageTests" time="11.079"/>
-  <testcase name="forgotPasswordEmptyFields" classname="tests.LoginPageTests" time="3.116"/>
-  <testcase name="forgotPasswordWrongEmail" classname="tests.LoginPageTests" time="11.072"/>
-  <testcase name="forgotPasswordWrongEmail" classname="tests.LoginPageTests" time="11.005"/>
-  <testcase name="forgotPasswordWrongEmail" classname="tests.LoginPageTests" time="2.91"/>
-  <testcase name="loginCheckEmptyFields" classname="tests.LoginPageTests" time="10.817"/>
-  <testcase name="loginCheckEmptyFields" classname="tests.LoginPageTests" time="10.838"/>
-  <testcase name="loginCheckEmptyFields" classname="tests.LoginPageTests" time="2.924"/>
-  <testcase name="loginFormCheckingWrongEmail" classname="tests.LoginPageTests" time="10.927"/>
-  <testcase name="loginFormCheckingWrongEmail" classname="tests.LoginPageTests" time="10.855"/>
-  <testcase name="loginFormCheckingWrongEmail" classname="tests.LoginPageTests" time="2.835"/>
-  <testcase name="emailFieldValidations" classname="tests.RequestDemoTests" time="12.166">
-    <failure message="expected [] but found [Email must be formatted correctly.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [Email must be formatted correctly.]
-	at tests.RequestDemoTests.emailFieldValidations(RequestDemoTests.java:43)
-</failure>
-    <system-out><![CDATA[No such element
-]]></system-out>
-  </testcase>
-  <testcase name="emailFieldValidations" classname="tests.RequestDemoTests" time="12.156">
-    <failure message="expected [] but found [Email must be formatted correctly.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [Email must be formatted correctly.]
-	at tests.RequestDemoTests.emailFieldValidations(RequestDemoTests.java:43)
-</failure>
-    <system-out><![CDATA[No such element
-]]></system-out>
-  </testcase>
-  <testcase name="emailFieldValidations" classname="tests.RequestDemoTests" time="4.74"/>
-  <testcase name="phoneNumberFieldValidations" classname="tests.RequestDemoTests" time="12.38">
-    <failure message="unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Request a demo&quot; class=&quot;hs-button primary large&quot; data-reactid=&quot;.hbspt-forms-0.2.1.0&quot;&gt; is not clickable at point (89, 464). Other element would receive the click: &lt;div class=&quot;input&quot; data-reactid=&quot;.hbspt-forms-0.0:$5.$website&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 73 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: Element <input type="submit" value="Request a demo" class="hs-button primary large" data-reactid=".hbspt-forms-0.2.1.0"> is not clickable at point (89, 464). Other element would receive the click: <div class="input" data-reactid=".hbspt-forms-0.0:$5.$website">...</div>
-  (Session info: chrome=57.0.2987.98)
-  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 73 milliseconds
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
-	at tests.RequestDemoTests.phoneNumberFieldValidations(RequestDemoTests.java:56)
-]]></failure>
-    <system-out><![CDATA[No such element
-]]></system-out>
-  </testcase>
-  <testcase name="phoneNumberFieldValidations" classname="tests.RequestDemoTests" time="12.358">
-    <failure message="expected [] but found [Must contain only numbers, +()-. and x.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [Must contain only numbers, +()-. and x.]
-	at tests.RequestDemoTests.phoneNumberFieldValidations(RequestDemoTests.java:58)
-</failure>
-    <system-out><![CDATA[No such element
-]]></system-out>
-  </testcase>
-  <testcase name="phoneNumberFieldValidations" classname="tests.RequestDemoTests" time="3.904"/>
-  <testcase name="requestDemoEmptyRequiredFieldsOpening" classname="tests.RequestDemoTests" time="12.552">
-    <failure message="expected [] but found [Name is required]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [Name is required]
-	at tests.RequestDemoTests.requestDemoEmptyRequiredFieldsOpening(RequestDemoTests.java:27)
-</failure>
-    <system-out><![CDATA[No such element
-]]></system-out>
-  </testcase>
-  <testcase name="requestDemoEmptyRequiredFieldsOpening" classname="tests.RequestDemoTests" time="12.588"/>
-  <testcase name="requestDemoEmptyRequiredFieldsOpening" classname="tests.RequestDemoTests" time="4.237"/>
-  <testcase name="sendingFormWithValidData" classname="tests.RequestDemoTests" time="13.366"/>
-  <testcase name="sendingFormWithValidData" classname="tests.RequestDemoTests" time="13.023"/>
-  <testcase name="sendingFormWithValidData" classname="tests.RequestDemoTests" time="4.469"/>
-  <testcase name="aemptyDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="18.305"/>
-  <testcase name="avalidDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="17.422"/>
-  <testcase name="downloadTemplateAndSubscribeForUpdates" classname="tests.Blog.ResourcesPageTests" time="18.566"/>
-  <testcase name="downloadTemplateAndSubscribeForUpdatesEmailWithAt" classname="tests.Blog.ResourcesPageTests" time="21.839">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.01 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_email field hs-form-field']//ul/li/label"}
-  (Session info: chrome=57.0.2987.98)
-  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.01 seconds
+Command duration or timeout: 5.06 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+*** Element info: {Using=xpath, value=//div/div[@class='cue-ro-title']}
+	at tests.HomePageTests.getStartedFreeChecking(HomePageTests.java:202)
+</failure>
+  </testcase>
+  <testcase name="notEmailFormatAndClickRequestDemo" classname="tests.HomePageTests" time="4.719"/>
+  <testcase name="notEmailFormatAndClickRequestDemo" classname="tests.HomePageTests" time="2.309"/>
+  <testcase name="notEmailFormatAndClickRequestDemo" classname="tests.HomePageTests" time="2.51"/>
+  <testcase name="scrollingToCueConnectBlog" classname="tests.HomePageTests" time="6.498"/>
+  <testcase name="scrollingToCueConnectBlog" classname="tests.HomePageTests" time="3.393"/>
+  <testcase name="scrollingToCueConnectBlog" classname="tests.HomePageTests" time="4.443"/>
+  <testcase name="scrollingToDriveEcommerce" classname="tests.HomePageTests" time="5.87"/>
+  <testcase name="scrollingToDriveEcommerce" classname="tests.HomePageTests" time="3.053"/>
+  <testcase name="scrollingToDriveEcommerce" classname="tests.HomePageTests" time="3.406"/>
+  <testcase name="scrollingToRetargetShoppers" classname="tests.HomePageTests" time="5.839"/>
+  <testcase name="scrollingToRetargetShoppers" classname="tests.HomePageTests" time="3.601"/>
+  <testcase name="scrollingToRetargetShoppers" classname="tests.HomePageTests" time="3.259"/>
+  <testcase name="sendingUpdatesEmptyEmail" classname="tests.HomePageTests" time="24.74"/>
+  <testcase name="sendingUpdatesEmptyEmail" classname="tests.HomePageTests" time="7.254"/>
+  <testcase name="sendingUpdatesEmptyEmail" classname="tests.HomePageTests" time="7.368"/>
+  <testcase name="sendingUpdatesIncorrectEmail" classname="tests.HomePageTests" time="25.173"/>
+  <testcase name="sendingUpdatesIncorrectEmail" classname="tests.HomePageTests" time="7.163"/>
+  <testcase name="sendingUpdatesIncorrectEmail" classname="tests.HomePageTests" time="7.135"/>
+  <testcase name="sendingUpdatesIncorrectEmailWithAt" classname="tests.HomePageTests" time="25.057"/>
+  <testcase name="sendingUpdatesIncorrectEmailWithAt" classname="tests.HomePageTests" time="7.184"/>
+  <testcase name="sendingUpdatesIncorrectEmailWithAt" classname="tests.HomePageTests" time="7.62">
+    <failure message="unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Send me Updates&quot; class=&quot;hs-button primary large&quot; data-reactid=&quot;.hbspt-forms-0.2.1.0&quot;&gt; is not clickable at point (1175, 451). Other element would receive the click: &lt;form novalidate=&quot;&quot; accept-charset=&quot;UTF-8&quot; action=&quot;https://forms.hubspot.com/uploads/form/v2/722999/2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; enctype=&quot;multipart/form-data&quot; id=&quot;hsForm_2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; method=&quot;POST&quot; class=&quot;hs-form stacked hs-form-private hs-form-2e572096-eea9-4a54-84ca-90f8b26fbe95_c7a5179c-6e4a-4575-9677-03541a00a375&quot; data-form-id=&quot;2e572096-eea9-4a54-84ca-90f8b26fbe95&quot; data-portal-id=&quot;722999&quot; data-reactid=&quot;.hbspt-forms-0&quot;&gt;...&lt;/form&gt;&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 79 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Element <input type="submit" value="Send me Updates" class="hs-button primary large" data-reactid=".hbspt-forms-0.2.1.0"> is not clickable at point (1175, 451). Other element would receive the click: <form novalidate="" accept-charset="UTF-8" action="https://forms.hubspot.com/uploads/form/v2/722999/2e572096-eea9-4a54-84ca-90f8b26fbe95" enctype="multipart/form-data" id="hsForm_2e572096-eea9-4a54-84ca-90f8b26fbe95" method="POST" class="hs-form stacked hs-form-private hs-form-2e572096-eea9-4a54-84ca-90f8b26fbe95_c7a5179c-6e4a-4575-9677-03541a00a375" data-form-id="2e572096-eea9-4a54-84ca-90f8b26fbe95" data-portal-id="722999" data-reactid=".hbspt-forms-0">...</form>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 79 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.HomePageTests.sendingUpdatesIncorrectEmailWithAt(HomePageTests.java:174)
+]]></failure>
+  </testcase>
+  <testcase name="sendingUpdatesToValidEmail" classname="tests.HomePageTests" time="25.75"/>
+  <testcase name="sendingUpdatesToValidEmail" classname="tests.HomePageTests" time="7.956"/>
+  <testcase name="sendingUpdatesToValidEmail" classname="tests.HomePageTests" time="8.298"/>
+  <testcase name="typingValidEmailAndClickRequestDemo" classname="tests.HomePageTests" time="6.836"/>
+  <testcase name="typingValidEmailAndClickRequestDemo" classname="tests.HomePageTests" time="3.241"/>
+  <testcase name="typingValidEmailAndClickRequestDemo" classname="tests.HomePageTests" time="3.7"/>
+  <testcase name="videoOpening" classname="tests.HomePageTests" time="6.163"/>
+  <testcase name="videoOpening" classname="tests.HomePageTests" time="3.598"/>
+  <testcase name="videoOpening" classname="tests.HomePageTests" time="2.938"/>
+  <testcase name="openingFeaturesPageAndClickOnRequestDemo" classname="tests.FeaturesPageTests" time="12.204"/>
+  <testcase name="openingFeaturesPageAndClickOnRequestDemo" classname="tests.FeaturesPageTests" time="4.732"/>
+  <testcase name="openingFeaturesPageAndClickOnRequestDemo" classname="tests.FeaturesPageTests" time="4.539"/>
+  <testcase name="openingSecondRequestDemoButton" classname="tests.FeaturesPageTests" time="32.232"/>
+  <testcase name="openingSecondRequestDemoButton" classname="tests.FeaturesPageTests" time="14.071"/>
+  <testcase name="openingSecondRequestDemoButton" classname="tests.FeaturesPageTests" time="9.478"/>
+  <testcase name="openingThirdRequestDemoButton" classname="tests.FeaturesPageTests" time="32.131"/>
+  <testcase name="openingThirdRequestDemoButton" classname="tests.FeaturesPageTests" time="14.059"/>
+  <testcase name="openingThirdRequestDemoButton" classname="tests.FeaturesPageTests" time="9.418"/>
+  <testcase name="scrollingToEachSection" classname="tests.FeaturesPageTests" time="86.979"/>
+  <testcase name="scrollingToEachSection" classname="tests.FeaturesPageTests" time="28.08"/>
+  <testcase name="scrollingToEachSection" classname="tests.FeaturesPageTests" time="24.027"/>
+  <testcase name="openingPageAndClickOnRequestDemo" classname="tests.BenefitsPageTests" time="27.268"/>
+  <testcase name="openingPageAndClickOnRequestDemo" classname="tests.BenefitsPageTests" time="10.809"/>
+  <testcase name="openingPageAndClickOnRequestDemo" classname="tests.BenefitsPageTests" time="4.562"/>
+  <testcase name="scrollingDownAndVerifyingPresenceOfElements" classname="tests.BenefitsPageTests" time="128.23"/>
+  <testcase name="scrollingDownAndVerifyingPresenceOfElements" classname="tests.BenefitsPageTests" time="34.066"/>
+  <testcase name="scrollingDownAndVerifyingPresenceOfElements" classname="tests.BenefitsPageTests" time="28.75"/>
+  <testcase name="checkingOurStoryPageAppears" classname="tests.About.OurStory" time="7.322"/>
+  <testcase name="checkingOurStoryPageAppears" classname="tests.About.OurStory" time="8.475"/>
+  <testcase name="checkingOurStoryPageAppears" classname="tests.About.OurStory" time="1.787">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 32 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.About.OurStory.checkingOurStoryPageAppears(OurStory.java:24)
+</failure>
+  </testcase>
+  <testcase name="checkingOurStoryThatElementsArePresent" classname="tests.About.OurStory" time="91.032"/>
+  <testcase name="checkingOurStoryThatElementsArePresent" classname="tests.About.OurStory" time="28.248"/>
+  <testcase name="checkingOurStoryThatElementsArePresent" classname="tests.About.OurStory" time="1.711">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 24 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.About.OurStory.checkingOurStoryThatElementsArePresent(OurStory.java:32)
+</failure>
+  </testcase>
+  <testcase name="checkingOfEmployeeQuote" classname="tests.About.TeamTests" time="11.077"/>
+  <testcase name="checkingOfEmployeeQuote" classname="tests.About.TeamTests" time="8.983"/>
+  <testcase name="checkingOfEmployeeQuote" classname="tests.About.TeamTests" time="1.761">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 25 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.About.TeamTests.checkingOfEmployeeQuote(TeamTests.java:20)
+</failure>
+  </testcase>
+  <testcase name="checkElementsArePresent" classname="tests.About.CareersTests" time="33.831"/>
+  <testcase name="checkElementsArePresent" classname="tests.About.CareersTests" time="14.217"/>
+  <testcase name="checkElementsArePresent" classname="tests.About.CareersTests" time="6.787">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 31 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.About.CareersTests.checkElementsArePresent(CareersTests.java:25)
+</failure>
+    <system-out><![CDATA[No such element
+]]></system-out>
+  </testcase>
+  <testcase name="openingVacancyAndSendingEmptyForm" classname="tests.About.CareersTests" time="36.438"/>
+  <testcase name="openingVacancyAndSendingEmptyForm" classname="tests.About.CareersTests" time="16.229"/>
+  <testcase name="openingVacancyAndSendingEmptyForm" classname="tests.About.CareersTests" time="6.892">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 29 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.About.CareersTests.openingVacancyAndSendingEmptyForm(CareersTests.java:47)
+</failure>
+    <system-out><![CDATA[No such element
+]]></system-out>
+  </testcase>
+  <testcase name="badEmailChecking" classname="tests.About.ContactUsPageTests" time="31.969">
+    <failure message="unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Contact us&quot; class=&quot;wpcf7-form-control wpcf7-submit&quot;&gt; is not clickable at point (205, 557). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 107 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Element <input type="submit" value="Contact us" class="wpcf7-form-control wpcf7-submit"> is not clickable at point (205, 557). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 107 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.About.ContactUsPageTests.badEmailChecking(ContactUsPageTests.java:59)
+]]></failure>
+    <system-out><![CDATA[No such element
+]]></system-out>
+  </testcase>
+  <testcase name="badEmailChecking" classname="tests.About.ContactUsPageTests" time="13.392">
+    <failure message="unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Contact us&quot; class=&quot;wpcf7-form-control wpcf7-submit&quot;&gt; is not clickable at point (199, 537). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 70 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Element <input type="submit" value="Contact us" class="wpcf7-form-control wpcf7-submit"> is not clickable at point (199, 537). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 70 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.About.ContactUsPageTests.badEmailChecking(ContactUsPageTests.java:59)
+]]></failure>
+    <system-out><![CDATA[No such element
+]]></system-out>
+  </testcase>
+  <testcase name="badEmailChecking" classname="tests.About.ContactUsPageTests" time="6.784">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 26 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.About.ContactUsPageTests.badEmailChecking(ContactUsPageTests.java:55)
+</failure>
+    <system-out><![CDATA[No such element
+]]></system-out>
+  </testcase>
+  <testcase name="emptyDataChecking" classname="tests.About.ContactUsPageTests" time="31.821"/>
+  <testcase name="emptyDataChecking" classname="tests.About.ContactUsPageTests" time="14.068"/>
+  <testcase name="emptyDataChecking" classname="tests.About.ContactUsPageTests" time="6.859">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 41 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.About.ContactUsPageTests.emptyDataChecking(ContactUsPageTests.java:37)
+</failure>
+    <system-out><![CDATA[No such element
+]]></system-out>
+  </testcase>
+  <testcase name="clickingOnAuthorChecking" classname="tests.Blog.BlogMainPageTests" time="50.056"/>
+  <testcase name="clickingOnAuthorChecking" classname="tests.Blog.BlogMainPageTests" time="15.921"/>
+  <testcase name="clickingOnAuthorChecking" classname="tests.Blog.BlogMainPageTests" time="15.667"/>
+  <testcase name="clickingOnTagChecking" classname="tests.Blog.BlogMainPageTests" time="33.408"/>
+  <testcase name="clickingOnTagChecking" classname="tests.Blog.BlogMainPageTests" time="13.146"/>
+  <testcase name="clickingOnTagChecking" classname="tests.Blog.BlogMainPageTests" time="9.91"/>
+  <testcase name="goingToCommentsSectionByClickOnClickHereLink" classname="tests.Blog.BlogMainPageTests" time="44.789"/>
+  <testcase name="goingToCommentsSectionByClickOnClickHereLink" classname="tests.Blog.BlogMainPageTests" time="19.109"/>
+  <testcase name="goingToCommentsSectionByClickOnClickHereLink" classname="tests.Blog.BlogMainPageTests" time="12.314"/>
+  <testcase name="openingPostByClickOnReadThisPostBtn" classname="tests.Blog.BlogMainPageTests" time="33.27"/>
+  <testcase name="openingPostByClickOnReadThisPostBtn" classname="tests.Blog.BlogMainPageTests" time="18.084"/>
+  <testcase name="openingPostByClickOnReadThisPostBtn" classname="tests.Blog.BlogMainPageTests" time="11.408"/>
+  <testcase name="correctLogin" classname="tests.LoginPageTests" time="14.891"/>
+  <testcase name="correctLogin" classname="tests.LoginPageTests" time="14.917"/>
+  <testcase name="correctLogin" classname="tests.LoginPageTests" time="6.368"/>
+  <testcase name="forgotPasswordEmptyFields" classname="tests.LoginPageTests" time="8.51"/>
+  <testcase name="forgotPasswordEmptyFields" classname="tests.LoginPageTests" time="11.309"/>
+  <testcase name="forgotPasswordEmptyFields" classname="tests.LoginPageTests" time="3.18"/>
+  <testcase name="forgotPasswordWrongEmail" classname="tests.LoginPageTests" time="8.229"/>
+  <testcase name="forgotPasswordWrongEmail" classname="tests.LoginPageTests" time="11.111"/>
+  <testcase name="forgotPasswordWrongEmail" classname="tests.LoginPageTests" time="3.707"/>
+  <testcase name="loginCheckEmptyFields" classname="tests.LoginPageTests" time="8.395"/>
+  <testcase name="loginCheckEmptyFields" classname="tests.LoginPageTests" time="10.919"/>
+  <testcase name="loginCheckEmptyFields" classname="tests.LoginPageTests" time="3.154"/>
+  <testcase name="loginFormCheckingWrongEmail" classname="tests.LoginPageTests" time="8.188"/>
+  <testcase name="loginFormCheckingWrongEmail" classname="tests.LoginPageTests" time="10.947"/>
+  <testcase name="loginFormCheckingWrongEmail" classname="tests.LoginPageTests" time="3.122"/>
+  <testcase name="emailFieldValidations" classname="tests.RequestDemoTests" time="9.463"/>
+  <testcase name="emailFieldValidations" classname="tests.RequestDemoTests" time="12.157"/>
+  <testcase name="emailFieldValidations" classname="tests.RequestDemoTests" time="5.103"/>
+  <testcase name="phoneNumberFieldValidations" classname="tests.RequestDemoTests" time="9.392"/>
+  <testcase name="phoneNumberFieldValidations" classname="tests.RequestDemoTests" time="12.174"/>
+  <testcase name="phoneNumberFieldValidations" classname="tests.RequestDemoTests" time="4.218"/>
+  <testcase name="requestDemoEmptyRequiredFieldsOpening" classname="tests.RequestDemoTests" time="9.547"/>
+  <testcase name="requestDemoEmptyRequiredFieldsOpening" classname="tests.RequestDemoTests" time="12.338"/>
+  <testcase name="requestDemoEmptyRequiredFieldsOpening" classname="tests.RequestDemoTests" time="4.295"/>
+  <testcase name="sendingFormWithValidData" classname="tests.RequestDemoTests" time="9.705"/>
+  <testcase name="sendingFormWithValidData" classname="tests.RequestDemoTests" time="13.325"/>
+  <testcase name="sendingFormWithValidData" classname="tests.RequestDemoTests" time="5.606"/>
+  <testcase name="aemptyDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="18.624"/>
+  <testcase name="avalidDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="17.506"/>
+  <testcase name="downloadTemplateAndSubscribeForUpdates" classname="tests.Blog.ResourcesPageTests" time="17.829"/>
+  <testcase name="downloadTemplateAndSubscribeForUpdatesEmailWithAt" classname="tests.Blog.ResourcesPageTests" time="21.409">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.06 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_email field hs-form-field']//ul/li/label"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
 *** Element info: {Using=xpath, value=//div[@class='hs_email field hs-form-field']//ul/li/label}
 	at tests.Blog.ResourcesPageTests.downloadTemplateAndSubscribeForUpdatesEmailWithAt(ResourcesPageTests.java:175)
 </failure>
     <system-out><![CDATA[No such element
 ]]></system-out>
   </testcase>
-  <testcase name="downloadTemplateAndSubscribeForUpdatesEmailWithoutAt" classname="tests.Blog.ResourcesPageTests" time="21.73">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.02 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="downloadTemplateAndSubscribeForUpdatesEmailWithoutAt" classname="tests.Blog.ResourcesPageTests" time="21.94">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.05 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_email field hs-form-field']//ul/li/label"}
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.02 seconds
+Command duration or timeout: 5.05 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
 *** Element info: {Using=xpath, value=//div[@class='hs_email field hs-form-field']//ul/li/label}
 	at tests.Blog.ResourcesPageTests.downloadTemplateAndSubscribeForUpdatesEmailWithoutAt(ResourcesPageTests.java:158)
 </failure>
     <system-out><![CDATA[No such element
 ]]></system-out>
   </testcase>
-  <testcase name="downloadTemplateAndSubscribeForUpdatesEmptyEmail" classname="tests.Blog.ResourcesPageTests" time="23.735">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.04 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="downloadTemplateAndSubscribeForUpdatesEmptyEmail" classname="tests.Blog.ResourcesPageTests" time="21.987">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.03 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;hs_email field hs-form-field&apos;]//ul/li/label}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='hs_email field hs-form-field']//ul/li/label"}
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.04 seconds
+Command duration or timeout: 5.03 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
 *** Element info: {Using=xpath, value=//div[@class='hs_email field hs-form-field']//ul/li/label}
 	at tests.Blog.ResourcesPageTests.downloadTemplateAndSubscribeForUpdatesEmptyEmail(ResourcesPageTests.java:139)
 </failure>
     <system-out><![CDATA[No such element
 ]]></system-out>
   </testcase>
-  <testcase name="templateOpeningChecking" classname="tests.Blog.ResourcesPageTests" time="14.392"/>
-  <testcase name="wrongEmailWithAtDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="15.716"/>
-  <testcase name="wrongEmailWithoutAtDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="15.462"/>
-  <testcase name="checkSocialNetworkButton" classname="tests.Blog.BlogSinglePageTests" time="22.76"/>
-  <testcase name="findMeOnChecking" classname="tests.Blog.BlogSinglePageTests" time="15.222"/>
-  <testcase name="openingPostByClickOnTitle" classname="tests.Blog.BlogSinglePageTests" time="10.72"/>
-  <testcase name="recentPostChecking" classname="tests.Blog.BlogSinglePageTests" time="12.759"/>
-  <testcase name="socialSharingIconsChecking" classname="tests.Blog.BlogSinglePageTests" time="15.371">
-    <failure message="unknown error: Element &lt;div data-service=&quot;linkedin&quot; title=&quot;Share link on LinkedIn&quot; class=&quot;social-likes__widget social-likes__widget_linkedin social-likes__widget_notext&quot; tabindex=&quot;0&quot; role=&quot;button&quot;&gt;...&lt;/div&gt; is not clickable at point (1196, 548). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;about:blank&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot;&gt;&lt;/iframe&gt;&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 61 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 19cf801db539763cd038823b8c0511ec" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: Element <div data-service="linkedin" title="Share link on LinkedIn" class="social-likes__widget social-likes__widget_linkedin social-likes__widget_notext" tabindex="0" role="button">...</div> is not clickable at point (1196, 548). Other element would receive the click: <iframe frameborder="0" src="about:blank" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe>
+  <testcase name="templateOpeningChecking" classname="tests.Blog.ResourcesPageTests" time="14.163"/>
+  <testcase name="wrongEmailWithAtDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="15.358"/>
+  <testcase name="wrongEmailWithoutAtDataFormChecking" classname="tests.Blog.ResourcesPageTests" time="14.605"/>
+  <testcase name="checkSocialNetworkButton" classname="tests.Blog.BlogSinglePageTests" time="29.655"/>
+  <testcase name="findMeOnChecking" classname="tests.Blog.BlogSinglePageTests" time="11.506">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at tests.Blog.BlogSinglePageTests.findMeOnChecking(BlogSinglePageTests.java:43)
+</failure>
+    <system-out><![CDATA[No such element
+2
+]]></system-out>
+  </testcase>
+  <testcase name="openingPostByClickOnTitle" classname="tests.Blog.BlogSinglePageTests" time="10.308"/>
+  <testcase name="recentPostChecking" classname="tests.Blog.BlogSinglePageTests" time="12.74"/>
+  <testcase name="socialSharingIconsChecking" classname="tests.Blog.BlogSinglePageTests" time="14.385">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at tests.Blog.BlogSinglePageTests.socialSharingIconsChecking(BlogSinglePageTests.java:57)
+</failure>
+    <system-out><![CDATA[No such element
+3
+facebook.com
+]]></system-out>
+  </testcase>
+  <testcase name="subscribeToEmptyEmail" classname="tests.Blog.BlogSinglePageTests" time="6.77">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 24 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
   (Session info: chrome=57.0.2987.98)
   (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 61 milliseconds
+Command duration or timeout: 24 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.kkJFOZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 19cf801db539763cd038823b8c0511ec
-	at tests.Blog.BlogSinglePageTests.socialSharingIconsChecking(BlogSinglePageTests.java:57)
-]]></failure>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.Blog.BlogSinglePageTests.subscribeToEmptyEmail(BlogSinglePageTests.java:78)
+</failure>
     <system-out><![CDATA[No such element
-2
-facebook.com
-1
-2
-twitter.com
-1
-2
-plus.google.com
-1
 ]]></system-out>
   </testcase>
-  <testcase name="subscribeToEmptyEmail" classname="tests.Blog.BlogSinglePageTests" time="9.313"/>
-  <testcase name="subscribeToValidEmail" classname="tests.Blog.BlogSinglePageTests" time="9.592"/>
-  <testcase name="subscribeToWrongEmailWithAt" classname="tests.Blog.BlogSinglePageTests" time="9.262"/>
-  <testcase name="subscribeToWrongEmailWithoutAt" classname="tests.Blog.BlogSinglePageTests" time="9.052"/>
-  <testcase name="asubmitRequestEmptyFieldsChecking" classname="tests.SupportPageTests" time="11.279"/>
-  <testcase name="asubmitRequestEmptyWrongEmailWithoutAt" classname="tests.SupportPageTests" time="8.589"/>
-  <testcase name="backToDashboardChecking" classname="tests.SupportPageTests" time="6.886"/>
-  <testcase name="breadCrumbsChecking" classname="tests.SupportPageTests" time="5.543"/>
-  <testcase name="openArticleFromCategory" classname="tests.SupportPageTests" time="4.09"/>
-  <testcase name="openArticleFromSideBarMenu" classname="tests.SupportPageTests" time="6.399"/>
-  <testcase name="openingArticleFromPopular" classname="tests.SupportPageTests" time="4.649"/>
-  <testcase name="searchWithTooLongValue" classname="tests.SupportPageTests" time="4.924"/>
-  <testcase name="searchWithValidValue" classname="tests.SupportPageTests" time="4.141"/>
-  <testcase name="singInChecking" classname="tests.SupportPageTests" time="6.427"/>
-  <testcase name="submitRequestPageUploading" classname="tests.SupportPageTests" time="8.296"/>
+  <testcase name="subscribeToValidEmail" classname="tests.Blog.BlogSinglePageTests" time="6.8">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 34 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.Blog.BlogSinglePageTests.subscribeToValidEmail(BlogSinglePageTests.java:64)
+</failure>
+    <system-out><![CDATA[No such element
+]]></system-out>
+  </testcase>
+  <testcase name="subscribeToWrongEmailWithAt" classname="tests.Blog.BlogSinglePageTests" time="6.836">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 26 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.Blog.BlogSinglePageTests.subscribeToWrongEmailWithAt(BlogSinglePageTests.java:104)
+</failure>
+    <system-out><![CDATA[No such element
+]]></system-out>
+  </testcase>
+  <testcase name="subscribeToWrongEmailWithoutAt" classname="tests.Blog.BlogSinglePageTests" time="6.842">
+    <failure message="element not visible&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 29 milliseconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+	at tests.Blog.BlogSinglePageTests.subscribeToWrongEmailWithoutAt(BlogSinglePageTests.java:93)
+</failure>
+    <system-out><![CDATA[No such element
+]]></system-out>
+  </testcase>
+  <testcase name="asubmitRequestEmptyFieldsChecking" classname="tests.SupportPageTests" time="11.115"/>
+  <testcase name="asubmitRequestEmptyWrongEmailWithoutAt" classname="tests.SupportPageTests" time="8.801"/>
+  <testcase name="backToDashboardChecking" classname="tests.SupportPageTests" time="8.769">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;back-link&apos;]&quot;}&#10;  (Session info: chrome=57.0.2987.98)&#10;  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.03 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vitaliys-MacBook-Pro.local&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: bb624285c04a369682a6881140a50847&#10;*** Element info: {Using=xpath, value=//a[@class=&apos;back-link&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='back-link']"}
+  (Session info: chrome=57.0.2987.98)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vitaliys-MacBook-Pro.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/xp/hq6y__313mvbnpb2n5x7bzq00000gn/T/.org.chromium.Chromium.I82dOg}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bb624285c04a369682a6881140a50847
+*** Element info: {Using=xpath, value=//a[@class='back-link']}
+	at tests.SupportPageTests.backToDashboardChecking(SupportPageTests.java:144)
+</failure>
+  </testcase>
+  <testcase name="breadCrumbsChecking" classname="tests.SupportPageTests" time="5.953"/>
+  <testcase name="openArticleFromCategory" classname="tests.SupportPageTests" time="4.195"/>
+  <testcase name="openArticleFromSideBarMenu" classname="tests.SupportPageTests" time="7.66"/>
+  <testcase name="openingArticleFromPopular" classname="tests.SupportPageTests" time="4.895"/>
+  <testcase name="searchWithTooLongValue" classname="tests.SupportPageTests" time="4.888"/>
+  <testcase name="searchWithValidValue" classname="tests.SupportPageTests" time="4.498"/>
+  <testcase name="singInChecking" classname="tests.SupportPageTests" time="7.108"/>
+  <testcase name="submitRequestPageUploading" classname="tests.SupportPageTests" time="6.563"/>
 </testsuite>

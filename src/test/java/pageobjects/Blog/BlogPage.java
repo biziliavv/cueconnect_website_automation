@@ -144,7 +144,7 @@ public class BlogPage extends BaseObjectPage {
 
 
             for (int j = 0; j < links.length; j++) {
-                waitFor(4);
+                waitFor(6);
                 WebElement socialNetwork = getDriver().findElement(By.xpath("//div[@data-service='" + data[j] + "']"));
                 socialNetwork.click();
                 waitFor(3);

@@ -4,13 +4,6 @@
   <test name="nexus6 checking(failed)">
     <parameter name="myDevice" value="nexus6"/>
     <classes>
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="phoneNumberFieldValidations"/>
-          <include name="emailFieldValidations"/>
-          <include name="requestDemoEmptyRequiredFieldsOpening"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
       <class name="tests.BenefitsPageTests">
         <methods>
           <include name="tearDown"/>
@@ -33,12 +26,6 @@
   <test name="iphone7 checking(failed)">
     <parameter name="myDevice" value="iphone7"/>
     <classes>
-      <class name="tests.RequestDemoTests">
-        <methods>
-          <include name="phoneNumberFieldValidations"/>
-          <include name="emailFieldValidations"/>
-        </methods>
-      </class> <!-- tests.RequestDemoTests -->
       <class name="tests.BenefitsPageTests">
         <methods>
           <include name="tearDown"/>
@@ -47,7 +34,7 @@
       </class> <!-- tests.BenefitsPageTests -->
       <class name="tests.About.ContactUsPageTests">
         <methods>
-          <include name="emptyDataChecking"/>
+          <include name="badEmailChecking"/>
         </methods>
       </class> <!-- tests.About.ContactUsPageTests -->
       <class name="tests.HomePageTests">
@@ -65,6 +52,7 @@
     <classes>
       <class name="tests.About.OurStory">
         <methods>
+          <include name="checkingOurStoryThatElementsArePresent"/>
           <include name="checkingOurStoryPageAppears"/>
         </methods>
       </class> <!-- tests.About.OurStory -->
@@ -81,18 +69,46 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- tests.BenefitsPageTests -->
+      <class name="tests.About.TeamTests">
+        <methods>
+          <include name="checkingOfEmployeeQuote"/>
+        </methods>
+      </class> <!-- tests.About.TeamTests -->
       <class name="tests.Blog.BlogSinglePageTests">
         <methods>
+          <include name="subscribeToValidEmail"/>
+          <include name="subscribeToEmptyEmail"/>
+          <include name="subscribeToWrongEmailWithoutAt"/>
+          <include name="subscribeToWrongEmailWithAt"/>
+          <include name="findMeOnChecking"/>
           <include name="socialSharingIconsChecking"/>
         </methods>
       </class> <!-- tests.Blog.BlogSinglePageTests -->
+      <class name="tests.About.CareersTests">
+        <methods>
+          <include name="openingVacancyAndSendingEmptyForm"/>
+          <include name="checkElementsArePresent"/>
+        </methods>
+      </class> <!-- tests.About.CareersTests -->
+      <class name="tests.About.ContactUsPageTests">
+        <methods>
+          <include name="emptyDataChecking"/>
+          <include name="badEmailChecking"/>
+        </methods>
+      </class> <!-- tests.About.ContactUsPageTests -->
       <class name="tests.HomePageTests">
         <methods>
+          <include name="sendingUpdatesIncorrectEmailWithAt"/>
           <include name="beforeClass"/>
           <include name="beforeClass"/>
           <include name="getStartedFreeChecking"/>
         </methods>
       </class> <!-- tests.HomePageTests -->
+      <class name="tests.SupportPageTests">
+        <methods>
+          <include name="backToDashboardChecking"/>
+        </methods>
+      </class> <!-- tests.SupportPageTests -->
     </classes>
   </test> <!-- Desktop checking(failed) -->
 </suite> <!-- Failed suite [All tests] -->

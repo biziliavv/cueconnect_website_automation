@@ -35,6 +35,7 @@ public class ContactUsPageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         Contact contactPage = homePage.goToContact();
+        waitFor(4);
         contactPage.fillInData("", "", "");
         waitFor(2);
         contactPage.sendingData();
@@ -52,6 +53,7 @@ public class ContactUsPageTests extends SeleniumBaseTest {
         HomePageObject homePage = new HomePageObject();
         waitFor(3);
         Contact contactPage = homePage.goToContact();
+        waitFor(4);
         contactPage.fillInData("Test", "test", "Test Contact Us");
         waitFor(2);
         contactPage.sendingData();

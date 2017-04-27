@@ -32,6 +32,7 @@ public class Contact extends BaseObjectPage {
     }
 
     public void sendingData(){
+        waitFor(3);
         WebElement contactUsButton = getDriver().findElement(By.xpath("//input[@value='Contact us']"));
         contactUsButton.click();
     }

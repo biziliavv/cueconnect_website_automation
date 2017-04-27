@@ -184,8 +184,7 @@ public class HomePageObject extends BaseObjectPage {
         waitFor(5);
         emailForSendUpdateField.clear();
         emailForSendUpdateField.sendKeys(emailValue);
-
-        scrollDown();
+        waitFor(5);
         WebElement sendButton = getDriver().findElement(By.xpath("//input[@value='Send me Updates'][@type='submit']"));
         sendButton.click();
         waitFor(5);
@@ -216,6 +215,7 @@ public class HomePageObject extends BaseObjectPage {
     }
 
     public String storeInformationPageTitle(){
+        waitFor(5);
         return getDriver().findElement(By.xpath("//div/div[@class='cue-ro-title']")).getText();
     }
 
